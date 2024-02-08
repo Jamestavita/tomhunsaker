@@ -1739,9 +1739,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className=" bg-Yellow500 overflow-hidden">
-        <div className="flex pl-4 md:pl-12 lg:pl-32 bg-Yellow500 h-[480px]">
-          <div className="grid gap-12 pt-12 pb-16 w-[min(584px,100%)] shrink-0 my-auto">
+      <section className=" bg-Yellow500 overflow-x-hidden">
+        <div className="grid lg:flex bg-Yellow500 h-[unset] lg:h-[480px]">
+          <div className="grid gap-12 pl-4 md:pl-12 lg:pl-32 pt-12 pb-16 w-[min(584px,100%)] shrink-0 my-auto">
             <p className="text-[56px] font:medium">Speaking</p>
             <div className="grid gap-6">
               <p className="text-[18px]">
