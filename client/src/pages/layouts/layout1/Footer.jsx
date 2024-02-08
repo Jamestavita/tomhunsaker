@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="bg-[#111111] text-white">
-      <div className="w-[min(90rem,100%)]  mx-auto px-4 md:px-12 lg:px-32 pt-12 pb-16 grid md:grid-cols-[1fr_1.5fr] lg:grid-cols-[1fr_1.2fr_1fr] gap-12 md:justify-between">
+      <div className="w-[min(90rem,100%)] mx-auto px-4 md:px-12 lg:px-32 pt-12 pb-16 grid md:grid-cols-[1fr_1.5fr] lg:grid-cols-[1fr_1.2fr_1fr] gap-12 md:justify-between">
         <div className="">
           <svg
             width="73"

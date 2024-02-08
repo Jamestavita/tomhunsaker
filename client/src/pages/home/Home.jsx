@@ -1,11 +1,14 @@
 import React from "react";
 import AppButton100 from "../../components/reuseable/AppButtons";
 import tom from "../../assets/tom.png";
+import harvard from "../../assets/harvard.png";
+import MIT from "../../assets/MIT.png";
+import speech from "../../assets/speech.jpeg";
 
 export default function Home() {
   return (
-    <div className="w-[min(90rem,100%)] bg-Greyscale mx-auto">
-      <section className="px-4 md:px-12 lg:px-32 pt-12 pb-16 grid gap-12">
+    <div className=" bg-Greyscale mx-auto">
+      <section className="w-[min(90rem,100%)] mx-auto px-4 md:px-12 lg:px-32 pt-12 pb-16 grid gap-12">
         <p className="font-medium text-[44px] md:text-[56px] lg:text-[74px]">
           What do world-class managers and teams do{" "}
           <span className="bg-[#d7d7d7] px-2">differently</span>?
@@ -1531,7 +1534,7 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-Greyscale200">
-        <div className="px-4 md:px-12 lg:px-32 pt-12 pb-16 grid gap-12">
+        <div className="w-[min(90rem,100%)] mx-auto px-4 md:px-12 lg:px-32 pt-12 pb-16 grid gap-12">
           <p className="text-[44px] lg:text-[56px] font-bold lg:font-medium">
             About Dr Tom
           </p>
@@ -1599,7 +1602,7 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-Blue700 text-Greyscale">
-        <div className="px-4 md:px-12 lg:px-32 pt-12 pb-16 grid gap-12">
+        <div className="w-[min(90rem,100%)] mx-auto px-4 md:px-12 lg:px-32 pt-12 pb-16 grid gap-12">
           <p className="text-[44px] font-bold">
             The Difference is in the Research
           </p>
@@ -1609,21 +1612,19 @@ export default function Home() {
             practices sets the standard.
           </p>
           <div className="grid">
-            <div className="grid gap-6 border-y-[1px] border-y-Greyscale700 py-10">
+            <div className="grid lg:flex justify-between gap-6 border-y-[1px] border-y-Greyscale700 py-10">
               <div className="">
                 <p className="text-[14px] leading-tight">GEOGRAPHY</p>
                 <p className="text-[80px] leading-tight">5</p>
                 <p className="text-[16px] leading-tight">5 continents</p>
               </div>
-              <div className="flex gap-[8.11px]">
-                <div className="w-[62px] h-[62px] bg-Red700 rounded-full"></div>
-                <div className="w-[62px] h-[62px] bg-Red700 rounded-full"></div>
-                <div className="w-[62px] h-[62px] bg-Red700 rounded-full"></div>
-                <div className="w-[62px] h-[62px] bg-Red700 rounded-full"></div>
-                <div className="w-[62px] h-[62px] bg-Red700 rounded-full"></div>
+              <div className="flex gap-[8.11px] lg:gap-4">
+                {[...Array(5)].map((val) => (
+                  <div className="w-[62px] md:w-[127] h-[62px] md:h-[127] lg:w-[144px] lg:h-[144px] bg-Red700 rounded-full"></div>
+                ))}
               </div>
             </div>
-            <div className="grid gap-6 border-y-[1px] border-y-Greyscale700 py-10">
+            <div className="grid  lg:flex justify-between gap-6 border-y-[1px] border-y-Greyscale700 py-10">
               <div className="">
                 <p className="text-[14px] leading-tight">DURATION</p>
                 <p className="text-[80px] leading-tight">10</p>
@@ -1631,13 +1632,13 @@ export default function Home() {
                   Over 10years (and counting)
                 </p>
               </div>
-              <div className="grid gap-[8.11px] grid-cols-6 mr-auto">
+              <div className="grid gap-[8.11px] md:gap-[4.046px] lg:gap-[8px] grid-cols-5 md:grid-cols-10 ">
                 {[...Array(10).keys()].map((val) => (
-                  <div className="w-[62px] h-[62px] bg-Yellow700 rounded-full"></div>
+                  <div className="w-[62px] md:w-[63px] lg:w-[71px] h-[62px] md:h-[63px] lg:h-[71px] bg-Yellow700 rounded-full"></div>
                 ))}
               </div>
             </div>
-            <div className="grid gap-6 border-y-[1px] border-y-Greyscale700 py-10">
+            <div className="grid  lg:flex justify-between gap-6 border-y-[1px] border-y-Greyscale700 py-10">
               <div className="">
                 <p className="text-[14px] leading-tight">PERIOD</p>
                 <p className="text-[80px] leading-tight">100</p>
@@ -1645,13 +1646,13 @@ export default function Home() {
                   Over 100years of practice
                 </p>
               </div>
-              <div className="grid gap-[1.2px] [grid-template-columns:repeat(13,minmax(0,1fr))] mr-auto">
+              <div className="grid gap-[1.2px] md:gap-[1.011px] lg:gap-[2px] [grid-template-columns:repeat(13,minmax(0,1fr))] md:[grid-template-columns:repeat(26,minmax(0,1fr))]">
                 {[...Array(100).keys()].map((val) => (
-                  <div className="w-[25px] h-[25px] bg-Green500 rounded-full"></div>
+                  <div className="w-[25px] md:w-[24px] lg:w-[28px] h-[25px] md:h-[24px] lg:h-[28px] bg-Green500 rounded-full"></div>
                 ))}
               </div>
             </div>
-            <div className="grid gap-6 border-y-[1px] border-y-Greyscale700 py-10">
+            <div className="grid  lg:flex justify-between gap-6 border-y-[1px] border-y-Greyscale700 py-10">
               <div className="">
                 <p className="text-[14px] leading-tight">BREADTH</p>
                 <p className="text-[80px] leading-tight">1,000</p>
@@ -1659,13 +1660,13 @@ export default function Home() {
                   1,000s of enterprises
                 </p>
               </div>
-              <div className="grid gap-[1.1px] [grid-template-columns:repeat(48,minmax(0,1fr))] mr-auto">
+              <div className="grid gap-[1.1px] lg:gap-[2px] [grid-template-columns:repeat(48,minmax(0,1fr))] md:[grid-template-columns:repeat(95,minmax(0,1fr))] lg:[grid-template-columns:repeat(77,minmax(0,1fr))]">
                 {[...Array(1000).keys()].map((val) => (
-                  <div className="w-[6px] h-[6px] bg-Blue500 rounded-full"></div>
+                  <div className="w-[6px] lg:w-[8px] h-[6px] lg:h-[8px] bg-Blue500 rounded-full"></div>
                 ))}
               </div>
             </div>
-            <div className="grid gap-6 border-y-[1px] border-y-Greyscale700 py-10">
+            <div className="grid  lg:flex justify-between gap-6 border-y-[1px] border-y-Greyscale700 py-10">
               <div className="">
                 <p className="text-[14px] leading-tight">BREADTH</p>
                 <p className="text-[80px] leading-tight">10,000</p>
@@ -1673,13 +1674,112 @@ export default function Home() {
                   1,000s of enterprises
                 </p>
               </div>
-              <div className="grid gap-[1px] [grid-template-columns:repeat(114,minmax(0,1fr))] mr-auto">
+              <div className="grid gap-[1px] [grid-template-columns:repeat(114,minmax(0,1fr))] md:[grid-template-columns:repeat(224,minmax(0,1fr))] lg:[grid-template-columns:repeat(258,minmax(0,1fr))]">
                 {[...Array(10000).keys()].map((val) => (
                   <div className="w-[2px] h-[2px] bg-Greyscale400 rounded-full"></div>
                 ))}
               </div>
             </div>
           </div>
+          <div className="grid gap-8 py-8">
+            <div className="grid gap-8 lg:flex lg:justify-between">
+              <div className="grid gap-8 lg:self-start">
+                <p
+                  className="text-[30px] font-bold h-min
+                "
+                >
+                  Impact
+                </p>
+                <p className="text-[18px]">
+                  Dozens of dedicated features and cases in Harvard Business
+                  Review and MIT Sloan Management Review and multiple
+                  bestselling books.
+                </p>
+              </div>
+              <div className="flex gap-4">
+                <div className="py-12 px-4 bg-Greyscale rounded-[20px] w-full grid justify-center items-center">
+                  <img src={harvard} alt="Harvard" className="w-full" />
+                </div>
+                <div className="py-12 px-4 bg-Greyscale rounded-[20px] w-full grid place-items-center">
+                  <img src={MIT} alt="MIT" className="w-full" />
+                </div>
+              </div>
+            </div>
+            <div className="grid gap-8 mt-16">
+              <p
+                className="text-[24px] font-bold
+            "
+              >
+                Standard-setting practices in the four sustainable growth
+                pillars:
+              </p>
+              <div className="grid lg:flex lg:gap-0 gap-6 md:gap-5 w-full mt-2">
+                <div className="w-full h-36 [background:linear-gradient(88deg,#CB4A22_2.1%,#672713_97.98%),#CB4A22] grid place-items-center md:place-items-start md:items-center md:pl-10 skew-y-2 lg:-skew-y-2 z-[4]">
+                  <p className="text-[24px] md:text-[30px] font-bold mb-4 -skew-y-2 lg:skew-y-2">
+                    Mindset & Culture
+                  </p>
+                </div>
+                <div className="w-full h-36 [background:linear-gradient(272deg,#425740_1.72%,#202F1E_98.26%),#425740] grid place-items-center md:place-items-start md:items-center md:pl-10 -skew-y-2 lg:skew-y-2 z-[3] -mt-4 lg:-mt-0">
+                  <p className="text-[24px] md:text-[30px] font-bold mb-4 skew-y-2 lg:-skew-y-2">
+                    Strategy & Change
+                  </p>
+                </div>
+                <div className="w-full h-36 [background:linear-gradient(86deg,#325D92_2.34%,#172B43_97.03%),#325D92] grid place-items-center md:place-items-start md:items-center md:pl-10 skew-y-2 lg:-skew-y-2 z-[2] -mt-4 lg:-mt-0">
+                  <p className="text-[24px] md:text-[30px] font-bold mb-4 -skew-y-2 lg:skew-y-2">
+                    Innovation & Analytics
+                  </p>
+                </div>
+                <div className="w-full h-36 [background:linear-gradient(93deg,#7B6A1F_2.47%,#DFBF34_97.9%),#DFBF34] grid place-items-center md:place-items-start md:items-center md:pl-10 -skew-y-2 lg:skew-y-2 z-[1] -mt-4 lg:-mt-0">
+                  <p className="text-[24px] md:text-[30px] font-bold mb-4 skew-y-2 lg:-skew-y-2">
+                    Execution & Agility
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className=" bg-Yellow500 overflow-hidden">
+        <div className="flex pl-4 md:pl-12 lg:pl-32 bg-Yellow500 h-[480px]">
+          <div className="grid gap-12 pt-12 pb-16 w-[min(584px,100%)] shrink-0 my-auto">
+            <p className="text-[56px] font:medium">Speaking</p>
+            <div className="grid gap-6">
+              <p className="text-[18px]">
+                Organizations around the world ranging from rapid-growth
+                privately held and top-tier professional service firms through
+                Fortune 500 companies and industry associations have benefited
+                from Dr Tom's dynamic and instructive keynote engagements.
+              </p>
+              <div className="grid gap-2">
+                <p className="text-[18px]">
+                  To inquire about availability and start a conversation email
+                </p>
+                <div className="text-[18px] flex gap-1 font-bold items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M4 6L10.1076 10.6123L10.1097 10.614C10.7878 11.1113 11.1271 11.3601 11.4988 11.4562C11.8272 11.5412 12.1725 11.5412 12.501 11.4562C12.8729 11.36 13.2132 11.1105 13.8926 10.6123C13.8926 10.6123 17.8101 7.60594 20 6M3 15.8002V8.2002C3 7.08009 3 6.51962 3.21799 6.0918C3.40973 5.71547 3.71547 5.40973 4.0918 5.21799C4.51962 5 5.08009 5 6.2002 5H17.8002C18.9203 5 19.4796 5 19.9074 5.21799C20.2837 5.40973 20.5905 5.71547 20.7822 6.0918C21 6.5192 21 7.07899 21 8.19691V15.8036C21 16.9215 21 17.4805 20.7822 17.9079C20.5905 18.2842 20.2837 18.5905 19.9074 18.7822C19.48 19 18.921 19 17.8031 19H6.19691C5.07899 19 4.5192 19 4.0918 18.7822C3.71547 18.5905 3.40973 18.2842 3.21799 17.9079C3 17.4801 3 16.9203 3 15.8002Z"
+                      stroke="#1C1C1C"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  info@tomhunsaker.com
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            src={speech}
+            alt="Speech"
+            className="w-full h-full object-cover mix-blend-luminosity"
+          />
         </div>
       </section>
     </div>
