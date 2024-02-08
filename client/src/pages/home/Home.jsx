@@ -1598,6 +1598,90 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="bg-Blue700 text-Greyscale">
+        <div className="px-4 md:px-12 lg:px-32 pt-12 pb-16 grid gap-12">
+          <p className="text-[44px] font-bold">
+            The Difference is in the Research
+          </p>
+          <p className="text-[18px] font-bold">
+            Concepts that stand the test of time are grounded in rigorous
+            research. Dr. Tom Hunsaker's research into sustainable growth
+            practices sets the standard.
+          </p>
+          <div className="grid">
+            <div className="grid gap-6 border-y-[1px] border-y-Greyscale700 py-10">
+              <div className="">
+                <p className="text-[14px] leading-tight">GEOGRAPHY</p>
+                <p className="text-[80px] leading-tight">5</p>
+                <p className="text-[16px] leading-tight">5 continents</p>
+              </div>
+              <div className="flex gap-[8.11px]">
+                <div className="w-[62px] h-[62px] bg-Red700 rounded-full"></div>
+                <div className="w-[62px] h-[62px] bg-Red700 rounded-full"></div>
+                <div className="w-[62px] h-[62px] bg-Red700 rounded-full"></div>
+                <div className="w-[62px] h-[62px] bg-Red700 rounded-full"></div>
+                <div className="w-[62px] h-[62px] bg-Red700 rounded-full"></div>
+              </div>
+            </div>
+            <div className="grid gap-6 border-y-[1px] border-y-Greyscale700 py-10">
+              <div className="">
+                <p className="text-[14px] leading-tight">DURATION</p>
+                <p className="text-[80px] leading-tight">10</p>
+                <p className="text-[16px] leading-tight">
+                  Over 10years (and counting)
+                </p>
+              </div>
+              <div className="grid gap-[8.11px] grid-cols-6 mr-auto">
+                {[...Array(10).keys()].map((val) => (
+                  <div className="w-[62px] h-[62px] bg-Yellow700 rounded-full"></div>
+                ))}
+              </div>
+            </div>
+            <div className="grid gap-6 border-y-[1px] border-y-Greyscale700 py-10">
+              <div className="">
+                <p className="text-[14px] leading-tight">PERIOD</p>
+                <p className="text-[80px] leading-tight">100</p>
+                <p className="text-[16px] leading-tight">
+                  Over 100years of practice
+                </p>
+              </div>
+              <div className="grid gap-[1.2px] [grid-template-columns:repeat(13,minmax(0,1fr))] mr-auto">
+                {[...Array(100).keys()].map((val) => (
+                  <div className="w-[25px] h-[25px] bg-Green500 rounded-full"></div>
+                ))}
+              </div>
+            </div>
+            <div className="grid gap-6 border-y-[1px] border-y-Greyscale700 py-10">
+              <div className="">
+                <p className="text-[14px] leading-tight">BREADTH</p>
+                <p className="text-[80px] leading-tight">1,000</p>
+                <p className="text-[16px] leading-tight">
+                  1,000s of enterprises
+                </p>
+              </div>
+              <div className="grid gap-[1.1px] [grid-template-columns:repeat(48,minmax(0,1fr))] mr-auto">
+                {[...Array(1000).keys()].map((val) => (
+                  <div className="w-[6px] h-[6px] bg-Blue500 rounded-full"></div>
+                ))}
+              </div>
+            </div>
+            <div className="grid gap-6 border-y-[1px] border-y-Greyscale700 py-10">
+              <div className="">
+                <p className="text-[14px] leading-tight">BREADTH</p>
+                <p className="text-[80px] leading-tight">10,000</p>
+                <p className="text-[16px] leading-tight">
+                  1,000s of enterprises
+                </p>
+              </div>
+              <div className="grid gap-[1px] [grid-template-columns:repeat(114,minmax(0,1fr))] mr-auto">
+                {[...Array(10000).keys()].map((val) => (
+                  <div className="w-[2px] h-[2px] bg-Greyscale400 rounded-full"></div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
