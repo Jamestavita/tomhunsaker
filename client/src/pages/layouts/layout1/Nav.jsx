@@ -74,11 +74,11 @@ export default function Nav() {
           <div className="px-3 py-2">
             <input
               type="checkbox"
-              id="expertise"
+              id="expertise1"
               className="hidden peer/accordion"
             />
             <label
-              htmlFor="expertise"
+              htmlFor="expertise1"
               className="flex items-center cursor-pointer peer-checked/accordion:[&>*:last-child]:rotate-[180deg] text-Dark"
             >
               <p className="text-[18px]">Expertise</p>
@@ -172,12 +172,12 @@ export default function Nav() {
           <div className="py-4">
             <input
               type="checkbox"
-              id="expertise"
+              id="expertise2"
               defaultChecked={true}
               className="hidden peer/accordion"
             />
             <label
-              htmlFor="expertise"
+              htmlFor="expertise2"
               className="grid grid-cols-[1fr_1.5fr] items-center cursor-pointer peer-checked/accordion:[&>*:last-child]:rotate-[180deg] text-Dark"
             >
               <p className="font-semibold text-xl">Expertise</p>
