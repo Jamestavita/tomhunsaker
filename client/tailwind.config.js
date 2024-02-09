@@ -13,6 +13,7 @@ export default {
         Red700: "#9D391A",
         Green100: "#DAE3D9",
         Green500: "#425740",
+        Green700: "#2D3B2B",
         Blue100: "#DAE4F1",
         Blue500: "#315C90",
         Blue700: "#111F31",
