@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 export default function Layout() {
   return (
-    <div className="h-full">
+    <div className="h-full lg:grid">
       <Nav />
       <div className="mt-[56px]">
         <Outlet />

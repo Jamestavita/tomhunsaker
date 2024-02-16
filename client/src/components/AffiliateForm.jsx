@@ -5,6 +5,7 @@ import SelectField from "./reuseable/SelectField";
 import axios from "axios";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import { AppButton900 } from "./reuseable/AppButtons";
 
 export default function AffiliateForm() {
   const [affiliateFormValues, setAffiliateFormValues] = useState({});
@@ -116,9 +117,9 @@ export default function AffiliateForm() {
 
   console.log(affiliateFormValues);
   return (
-    <div className="grid gap-6 z-[1] bg-Greyscale pt-8 pb-16 px-4 rounded-t-[20px]">
+    <div className="grid gap-6 z-[1] bg-Greyscale pt-8 pb-16 px-4 md:px-6 lg:px-10 rounded-t-[20px] md:rounded-[20px] w-[min(984px,100%)]">
       <p className="font-bold text-[30px]">Get started here</p>
-      <div className="grid gap-6">
+      <div className="grid gap-6 md:grid-cols-2 md:items-center">
         <InputField
           id="Name"
           label="Name"
@@ -253,6 +254,11 @@ export default function AffiliateForm() {
             placeholder="Select range"
           />
         </div>
+        <AppButton900
+          className="bg-Greyscale900 text-white"
+          onChange={() => {}}
+          label="Become an affiliate"
+        />
       </div>
     </div>
   );
