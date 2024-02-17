@@ -2042,7 +2042,7 @@ export default function Home() {
             <div className="mt-10 relative grid">
               <div className="grid">
                 <div className="[clip-path:polygon(50%_0%,0%_100%,100%_100%)] w-full h-[140px] md:h-[500px] lg:h-[200px] bg-Red900 rounded-[20px] -mb-4"></div>
-                <div className="w-[90%] mx-auto h-[260px] lg:h-[444px] bg-Red100 rounded-[6px] absolute z-[1] justify-self-center p-5 md:hidden lg:grid">
+                <div className="w-[90%] mx-auto h-[260px] lg:h-[444px] bg-Red100 rounded-[6px] absolute z-[1] -translate-x-[50%] left-1/2 p-5 md:hidden lg:grid">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="53"
