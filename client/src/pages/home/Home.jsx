@@ -1993,7 +1993,7 @@ export default function Home() {
         <div className="w-[min(90rem,100%)] mx-auto px-4 md:px-12 lg:px-32 pt-12 pb-16 grid lg:grid-cols-[1fr,0.8fr] text-Greyscale relative lg:[position:unset] lg:gap-8 lg:overflow-y-hidden">
           <div className="grid gap-10 text-Greyscale lg:relative">
             <div
-              className="bg-Red900 w-[calc(100%-6rem)] lg:w-full h-[61%] lg:h-[65%] absolute top-0 lg:-top-20 justify-self-center hidden md:grid rounded-b-[20px] [clip-path:polygon(0%_0%,100%_0,100%_100%,50%_50%,0%_100%)] lg:[clip-path:polygon(0%_0%,100%_0,100%_100%,50%_75%,0%_100%)]
+              className="bg-Red900 w-[calc(100%-6rem)] lg:w-full h-[61%] lg:h-[65%] absolute top-0 lg:-top-20 justify-self-center hidden md:grid rounded-b-[20px] [clip-path:polygon(0%_0%,100%_0,100%_100%,50%_60%,0%_100%)] lg:[clip-path:polygon(0%_0%,100%_0,100%_100%,50%_75%,0%_100%)]
           "
             ></div>
             <div className="grid z-[1] gap-10 w-[90%] mx-auto">
@@ -2041,7 +2041,7 @@ export default function Home() {
             </div>
             <div className="mt-10 relative grid">
               <div className="grid">
-                <div className="[clip-path:polygon(50%_0%,0%_100%,100%_100%)] w-full h-[140px] md:h-[500px] lg:h-[200px] bg-Red900 rounded-[20px] -mb-4"></div>
+                <div className="[clip-path:polygon(50%_0%,0%_100%,100%_100%)] w-full h-[140px] md:h-[510px] lg:h-[200px] bg-Red900 rounded-[20px] -mb-4"></div>
                 <div className="w-[90%] mx-auto h-[260px] lg:h-[444px] bg-Red100 rounded-[6px] absolute z-[1] -translate-x-[50%] left-1/2 p-5 md:hidden lg:grid">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -2074,7 +2074,7 @@ export default function Home() {
                     />
                   </svg>
                 </div>
-                <SubscriberForm className="absolute w-[90%] mx-auto justify-self-center hidden md:grid lg:hidden z-[1] pb-[250px]" />
+                <SubscriberForm className="absolute w-[90%] mx-auto justify-self-center hidden md:grid lg:hidden z-[1] pb-[250px] -translate-x-[50%] left-1/2" />
                 <div className="w-full h-[270px] md:h-[512px] lg:h-[465px] bg-Red900 rounded-[20px] relative grid grid-cols-2 py-3 overflow-hidden">
                   <div className="[clip-path:polygon(100%_50%,0_0,0_100%)] w-full h-full bg-Red500 justify-self-start self-center rounded-[5px] z-[2]"></div>
                   <div className="[clip-path:polygon(0%_50%,100%_0,100%_100%)] w-full h-full bg-Red500 justify-self-start self-center rounded-[5px] z-[2]"></div>
