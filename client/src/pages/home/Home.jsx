@@ -2041,8 +2041,8 @@ export default function Home() {
             </div>
             <div className="mt-10 relative grid">
               <div className="grid">
-                <div className="[clip-path:polygon(50%_0%,0%_100%,100%_100%)] w-full h-[140px] md:h-[500px] lg:h-[200px] bg-Red900 rounded-[20px] -mb-3"></div>
-                <div className="w-[90%] h-[260px]  lg:h-[444px] bg-Red100 rounded-[6px] absolute z-[1] justify-self-center p-5 md:hidden lg:grid">
+                <div className="[clip-path:polygon(50%_0%,0%_100%,100%_100%)] w-full h-[140px] md:h-[500px] lg:h-[200px] bg-Red900 rounded-[20px] -mb-4"></div>
+                <div className="w-[90%] mx-auto h-[260px] lg:h-[444px] bg-Red100 rounded-[6px] absolute z-[1] justify-self-center p-5 md:hidden lg:grid">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="53"
@@ -2074,7 +2074,7 @@ export default function Home() {
                     />
                   </svg>
                 </div>
-                <SubscriberForm className="absolute w-[90%] justify-self-center hidden md:grid lg:hidden z-[1] pb-[250px]" />
+                <SubscriberForm className="absolute w-[90%] mx-auto justify-self-center hidden md:grid lg:hidden z-[1] pb-[250px]" />
                 <div className="w-full h-[270px] md:h-[512px] lg:h-[465px] bg-Red900 rounded-[20px] relative grid grid-cols-2 py-3 overflow-hidden">
                   <div className="[clip-path:polygon(100%_50%,0_0,0_100%)] w-full h-full bg-Red500 justify-self-start self-center rounded-[5px] z-[2]"></div>
                   <div className="[clip-path:polygon(0%_50%,100%_0,100%_100%)] w-full h-full bg-Red500 justify-self-start self-center rounded-[5px] z-[2]"></div>
