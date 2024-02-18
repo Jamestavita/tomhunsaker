@@ -22,10 +22,12 @@ import AffiliateForm from "../../components/AffiliateForm";
 import sharperRed from "../../assets/sharper red.png";
 import ArticlesList from "../../components/ArticlesList";
 import SubscriberForm from "../../components/SubscriberForm";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate();
   return (
-    <div className=" bg-Greyscale mx-auto grid lg:overflow-y-hidden">
+    <div className="bg-Greyscale mx-auto grid lg:overflow-y-hidden">
       <section className="w-[min(90rem,100%)] mx-auto px-4 md:px-12 lg:px-32 pt-12 pb-16 grid gap-12">
         <p className="font-medium text-[44px] md:text-[56px] lg:text-[74px]">
           What do world-class managers and teams do{" "}
@@ -547,7 +549,7 @@ export default function Home() {
           </div>
           <div
             className="w-full h-[444px] bg-Green500 rounded-[40px] relative grid cursor-pointer"
-            onClick={() => navigate("concepts/strategy_change")}
+            onClick={() => navigate("concepts/strategy")}
           >
             <div className="w-[60px] h-[60px] bg-Greyscale absolute -top-1 -right-[0.03rem] rounded-bl-[40px]">
               <svg
@@ -766,7 +768,7 @@ export default function Home() {
           </div>
           <div
             className="w-full h-[444px] bg-Blue500 rounded-[40px] relative grid cursor-pointer"
-            onClick={() => navigate("concepts/innovation_analytics")}
+            onClick={() => navigate("concepts/innovation#innovation")}
           >
             <div className="w-[60px] h-[60px] bg-Greyscale absolute -top-1 -right-[0.03rem] rounded-bl-[40px]">
               <svg
@@ -1036,7 +1038,7 @@ export default function Home() {
           </div>
           <div
             className="w-full h-[444px] bg-Yellow500 rounded-[40px] relative grid cursor-pointer"
-            onClick={() => navigate("concepts/execution_agility")}
+            onClick={() => navigate("concepts/execution")}
           >
             <div className="w-[60px] h-[60px] bg-Greyscale absolute -top-1 -right-[0.03rem] rounded-bl-[40px]">
               <svg

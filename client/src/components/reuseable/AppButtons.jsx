@@ -1,11 +1,12 @@
 import React from "react";
 
-export default function AppButton100({ label, onClick, className }) {
+export default function AppButton100({ label, onClick, className, icon }) {
   return (
     <button
-      className={`py-3 ${className} rounded-[32px] font-bold`}
+      className={`py-3 ${className} rounded-[32px] font-bold flex gap-2 justify-center`}
       onClick={onClick}
     >
+      {icon}
       {label}
     </button>
   );
