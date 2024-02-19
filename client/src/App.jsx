@@ -11,6 +11,8 @@ import Mindset from "./pages/concepts/Mindset";
 import Strategy from "./pages/concepts/Strategy";
 import Execution from "./pages/concepts/Execution";
 import Innovation from "./pages/concepts/Innovation";
+import Affiliate from "./pages/other pages/Affiliate";
+import StayUpdated from "./pages/other pages/StayUpdated";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -26,6 +28,8 @@ export default function App() {
           <Route path="/speaking" element={<Speaking />}></Route>
           <Route path="/advisory" element={<Advisory />}></Route>
           <Route path="/library" element={<Library />}></Route>
+          <Route path="/affiliate" element={<Affiliate />}></Route>
+          <Route path="/stay_updated" element={<StayUpdated />}></Route>
           <Route path="/concepts" element={<Concepts />}>
             <Route index element={<Mindset />}></Route>
             <Route path="strategy" element={<Strategy />}></Route>
