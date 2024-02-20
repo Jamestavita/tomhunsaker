@@ -1,9 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 
 export default function Nav() {
   const { pathname } = useLocation();
   const navigate = useNavigate();
+  const [mobileMenuShown, setMobileMenuShown] = useState(false);
+  const [isChecked, setIsChecked] = useState(false);
+
+  useEffect(() => {
+    setIsChecked(false);
+    setMobileMenuShown(false);
+  }, [pathname]);
+  
   function matchRoute(route) {
     if (pathname === route) {
       return true;
@@ -12,7 +20,6 @@ export default function Nav() {
     }
   }
 
-  const [mobileMenuShown, setMobileMenuShown] = useState(false);
   return (
     <div className="fixed z-40 top-0 bg-Greyscale w-full">
       <div className="flex items-center w-[min(90rem,100%)] mx-auto relative z-40 justify-between bg-Greyscale px-4 md:px-12 lg:px-32 py-4">
@@ -76,6 +83,8 @@ export default function Nav() {
               type="checkbox"
               id="expertise1"
               className="hidden peer/accordion"
+              checked={isChecked}
+              onChange={() => setIsChecked(true)}
             />
             <label
               htmlFor="expertise1"
@@ -97,30 +106,65 @@ export default function Nav() {
                 />
               </svg>
             </label>
-            <div className="grid grid-rows-[0] overflow-hidden peer-checked/accordion:grid-rows-1 rounded-br-md rounded-bl-md fixed bg-Greyscale [&>*]:px-4 [&>*]:py-3">
-              <div className="grid gap-5 pt-4">
-                <NavLink to="about" className="">
+            <div className="grid grid-rows-[0] overflow-hidden peer-checked/accordion:grid-rows-1 rounded-br-md rounded-bl-md fixed bg-Greyscale">
+              <div className="grid pt-4">
+                <NavLink
+                  to="about"
+                  className={`p-3 ${
+                    matchRoute("/about") && "font-bold bg-Greyscale200"
+                  }`}
+                >
                   About Dr Tom
                 </NavLink>
-                <NavLink to="speaking" className="">
+                <NavLink
+                  to="speaking"
+                  className={`p-3 ${
+                    matchRoute("/speaking") && "font-bold bg-Greyscale200"
+                  }`}
+                >
                   Speaking
                 </NavLink>
-                <NavLink to="advisory" className="">
+                <NavLink
+                  to="advisory"
+                  className={`p-3 ${
+                    matchRoute("/advisory") && "font-bold bg-Greyscale200"
+                  }`}
+                >
                   Advisory
                 </NavLink>
-                <NavLink to="library" className="">
+                <NavLink
+                  to="library"
+                  className={`p-3 ${
+                    matchRoute("/library") && "font-bold bg-Greyscale200"
+                  }`}
+                >
                   Library
                 </NavLink>
               </div>
             </div>
           </div>
-          <NavLink to="concepts" className="px-3 py-2 text-[18px]">
+          <NavLink
+            to="concepts"
+            className={`px-3 py-2 text-[18px] ${
+              matchRoute("/concepts") && "font-bold"
+            }`}
+          >
             Concepts
           </NavLink>
-          <NavLink to="affiliate" className="px-3 py-2 text-[18px]">
+          <NavLink
+            to="affiliate"
+            className={`px-3 py-2 text-[18px] ${
+              matchRoute("/affiliate") && "font-bold"
+            }`}
+          >
             Affiliate
           </NavLink>
-          <NavLink to="stay_updated" className="px-3 py-2 text-[18px]">
+          <NavLink
+            to="stay_updated"
+            className={`px-3 py-2 text-[18px] ${
+              matchRoute("/stay_updated") && "font-bold"
+            }`}
+          >
             Stay Updated
           </NavLink>
         </div>
@@ -168,7 +212,7 @@ export default function Nav() {
           !mobileMenuShown ? "-translate-y-[200%]" : "translate-y-[0]"
         }`}
       >
-        <div className="grid self-start px-4 md:px-12">
+        <div className="grid self-start md:px-12">
           <div className="py-4">
             <input
               type="checkbox"
@@ -180,7 +224,7 @@ export default function Nav() {
               htmlFor="expertise2"
               className="grid grid-cols-[1fr_1.5fr] items-center cursor-pointer peer-checked/accordion:[&>*:last-child]:rotate-[180deg] text-Dark"
             >
-              <p className="font-semibold text-xl">Expertise</p>
+              <p className="font-semibold text-xl px-4">Expertise</p>
               <svg
                 width="16"
                 height="16"
@@ -197,29 +241,64 @@ export default function Nav() {
               </svg>
             </label>
             <div className="grid grid-rows-[0] overflow-hidden peer-checked/accordion:grid-rows-1">
-              <div className="grid gap-5 text-base pt-4 px-4">
-                <NavLink to="about" className="">
+              <div className="grid text-base">
+                <NavLink
+                  to="about"
+                  className={`px-8 py-2 ${
+                    matchRoute("/about") && "font-bold bg-Greyscale200"
+                  }`}
+                >
                   About Dr Tom
                 </NavLink>
-                <NavLink to="speaking" className="">
+                <NavLink
+                  to="speaking"
+                  className={`px-8 py-2 ${
+                    matchRoute("/speaking") && "font-bold bg-Greyscale200"
+                  }`}
+                >
                   Speaking
                 </NavLink>
-                <NavLink to="advisory" className="">
+                <NavLink
+                  to="advisory"
+                  className={`px-8 py-2 ${
+                    matchRoute("/advisory") && "font-bold bg-Greyscale200"
+                  }`}
+                >
                   Advisory
                 </NavLink>
-                <NavLink to="library" className="">
+                <NavLink
+                  to="library"
+                  className={`px-8 py-2 ${
+                    matchRoute("/library") && "font-bold bg-Greyscale200"
+                  }`}
+                >
                   Library
                 </NavLink>
               </div>
             </div>
           </div>
-          <NavLink to="concepts" className="text-xl font-semibold py-4">
+          <NavLink
+            to="concepts"
+            className={`text-xl font-semibold p-4 ${
+              matchRoute("/concepts") && "bg-Greyscale200"
+            }`}
+          >
             Concepts
           </NavLink>
-          <NavLink to="affiliate" className="text-xl font-semibold py-4">
+          <NavLink
+            to="affiliate"
+            className={`text-xl font-semibold p-4 ${
+              matchRoute("/affiliate") && "bg-Greyscale200"
+            }`}
+          >
             Affiliate
           </NavLink>
-          <NavLink to="stay_updated" className="text-xl font-semibold py-4">
+          <NavLink
+            to="stay_updated"
+            className={`text-xl font-semibold p-4 ${
+              matchRoute("/stay_updated") && "bg-Greyscale200"
+            }`}
+          >
             Stay Updated
           </NavLink>
         </div>

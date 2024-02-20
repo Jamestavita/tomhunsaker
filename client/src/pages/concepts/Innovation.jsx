@@ -23,7 +23,7 @@ export default function Innovation() {
           </p>
           <div className="grid gap-4 lg:gap-2 md:grid-cols-2 lg:grid">
             <AppButton100
-              className="bg-Greyscale border-[1px] border-Blue500 text-Blue500 lg:text-sm"
+              className="bg-Greyscale border-[1px] border-Blue700 text-Blue700 lg:text-sm"
               label="Listen to Overview"
               icon={
                 <svg
@@ -43,7 +43,7 @@ export default function Innovation() {
               }
             />
             <AppButton100
-              className="bg-Greyscale border-[1px] border-Blue500 text-Blue500 lg:text-sm"
+              className="bg-Greyscale border-[1px] border-Blue700 text-Blue700 lg:text-sm"
               label="Download Concepts Map"
               icon={
                 <svg

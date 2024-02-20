@@ -1,16 +1,16 @@
 import React, { useEffect } from "react";
 import { Outlet } from "react-router-dom";
-import Nav from "./Nav";
-import Footer from "./Footer";
+import OverviewNav from "./OverviewNav";
+import OverviewFooter from "./OverviewFooter";
 
-export default function Layout() {
+export default function OverviewLayout() {
   return (
     <div className="h-full lg:grid">
-      <Nav />
+      <OverviewNav />
       <div className="mt-[56px]">
         <Outlet />
       </div>
-      <Footer />
+      <OverviewFooter />
     </div>
   );
 }
