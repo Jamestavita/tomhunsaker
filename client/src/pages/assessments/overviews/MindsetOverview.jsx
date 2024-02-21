@@ -1405,7 +1405,7 @@ export default function MindsetOverview() {
           <AppButton100
             className="bg-Red500 text-Greyscale mt-10 md:mr-auto md:px-20"
             label="Start Assessment"
-            onClick={() => navigate("../../assessment/mindset/01")}
+            onClick={() => navigate("../../assessment/mindset/personal/01")}
           />
         </div>
       </section>

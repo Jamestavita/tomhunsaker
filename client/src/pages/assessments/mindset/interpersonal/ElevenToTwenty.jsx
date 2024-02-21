@@ -1,14 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { useSelector } from "react-redux";
-import { AppButton900 } from "../../../components/reuseable/AppButtons";
+import { useSelector, useDispatch } from "react-redux";
+import {
+  AppButton900,
+  AppNextButton,
+} from "../../../../components/reuseable/AppButtons";
+import appContext from "../../../../context/AppContext";
+import { setMindsetAssessmentEvaluation } from "../../../../store/features/appSlice";
 
-export default function OneToTen() {
+export default function ElevenToTwenty() {
   const { assessment_number } = useParams();
   const navigate = useNavigate();
-  const { mindset_assessment_questions } = useSelector((state) => state.app);
+  const { mindset_assessment_questions, mindset_assessment_evaluation } =
+    useSelector((state) => state.app);
+  const { getResponse, selectOneScoring } = useContext(appContext);
   const [assessment, setAssessment] = useState({});
+  const dispatch = useDispatch();
 
+  //Get assessment
   useEffect(() => {
     setAssessment(
       mindset_assessment_questions.find(
@@ -16,21 +25,36 @@ export default function OneToTen() {
       )
     );
   }, [assessment_number]);
-  console.log(assessment);
+
+  //Handle select one choice
+  function handleChange(e) {
+    dispatch(
+      setMindsetAssessmentEvaluation({
+        category: assessment.category,
+        answer: {
+          number: assessment.number,
+          qstn: assessment.qstn,
+          response: e.target.value,
+          significance: assessment.significance,
+          score: selectOneScoring(e.target.value),
+        },
+      })
+    );
+  }
 
   return (
     <div className="">
       <div className="grid lg:flex gap-2 items-center w-[min(90rem,100%)] mx-auto p-4 md:px-12 lg:px-32 lg:justify-between">
         <p className="text-[24px] text-center lg:text-left font-bold w-[min(340px,100%)] md:w-full lg:w-[min(340px,100%)] mx-auto lg:mx-0">
           The following question relates to you{" "}
-          <span className="text-Red500">personally</span>
+          <span className="text-Red500">interpersonally</span>
         </p>
         <p className="text-[16px] font-medium text-center lg:text-right w-[min(340px,100%)] md:w-full lg:w-[min(340px,100%)] mx-auto lg:mx-0">
           Answer as honestly as possible to get the most value from your
           response
         </p>
       </div>
-      <div className="overflow-hidden relative grid">
+      <div className="overflow-hidden relative grid px-4 md:px-12 lg:px-32">
         <div className="w-[1850px] h-[1358px] bg-Greyscale200 rounded-[50%] absolute top-0 -translate-x-[50%] left-1/2"></div>
         <div className="relative grid justify-items-center">
           <p className="absolute top-0 text-Greyscale text-[24px] font-bold self-center">
@@ -52,42 +76,66 @@ export default function OneToTen() {
           </svg>
         </div>
         <div className="grid gap-12 w-[min(703px,100%)] mx-auto my-5 z-[1]">
-          <p className="text-[44px] font-bold text-center">{assessment.qstn}</p>
+          <p className="text-[30px] md:text-[44px] font-bold text-center">
+            {assessment.qstn}
+          </p>
           <div className="grid gap-4">
             {assessment?.options?.map((option) => (
               <div
-                key={option}
-                className="px-6 flex items-center gap-4 bg-[#F8F8F8] rounded-[20px] relative overflow-hidden cursor-pointer"
+                key={option + assessment_number}
+                className="px-6 flex items-center gap-4 bg-Greyscale rounded-[20px] relative overflow-hidden cursor-pointer"
               >
                 <input
                   type="radio"
                   className="peer/radio absolute w-full h-full opacity-0 z-30 cursor-pointer"
                   id={option}
                   name={assessment?.qstn}
-                  // checked={getValue()?.answer === option}
+                  checked={
+                    getResponse(
+                      mindset_assessment_evaluation,
+                      assessment.category,
+                      assessment_number
+                    )?.response === option
+                  }
                   value={option}
-                  // onChange={(e) => handleChange(e, assessment)}
+                  onChange={(e) => handleChange(e, assessment)}
                 />
-                <div className="w-6 h-6 rounded-full border-4 bg-white peer-checked/radio:bg-Dark z-20"></div>
+                <div className="p-1 rounded-full border-2  bg-Greyscale z-20 peer-checked/radio:[&>*]:bg-Greyscale800 grid place-items-center">
+                  <div className="w-3 h-3 rounded-full"></div>
+                </div>
                 <label
                   htmlFor={option}
-                  className="py-4 text-Dark w-[calc(100%-2.5rem)] z-20 cursor-pointer"
+                  className="py-4 text-[18px] w-[calc(100%-2.5rem)] z-20 cursor-pointer"
                 >
                   {option}
                 </label>
                 <div
-                  className={`absolute h-full w-full peer-checked/radio:bg-[#E5DFFA] z-10 top-0 left-0 cursor-pointer`}
+                  className={`absolute h-full w-full peer-checked/radio:bg-transparent z-10 top-0 left-0 cursor-pointer`}
                 ></div>
               </div>
             ))}
           </div>
           <div className="flex mx-auto gap-4">
-            <AppButton900
+            <AppNextButton
               onClick={() =>
-                navigate(`../assessment/mindset/0${+assessment_number + 1}`)
+                navigate(
+                  assessment_number < "20"
+                    ? `../assessment/mindset/interpersonal/${
+                        +assessment_number + 1
+                      }`
+                    : `../assessment/mindset/team/${
+                        +assessment_number + 1
+                      }`
+                )
               }
               className="bg-Greyscale900 text-Greyscale rounded-[4px] border-2 border-Dark disabled:opacity-40"
-              // disabled={!getValue()?.answer}
+              disabled={
+                !getResponse(
+                  mindset_assessment_evaluation,
+                  assessment.category,
+                  assessment_number
+                )?.response
+              }
               label={`Next`}
             />
           </div>

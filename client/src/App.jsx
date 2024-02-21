@@ -14,12 +14,13 @@ import Innovation from "./pages/concepts/Innovation";
 import Affiliate from "./pages/other pages/Affiliate";
 import StayUpdated from "./pages/other pages/StayUpdated";
 import MindsetLayout from "./pages/layouts/mindsetLayout/MindsetLayout";
-import OneToTen from "./pages/assessments/mindset/OneToTen";
+import OneToTen from "./pages/assessments/mindset/personal/OneToTen";
 import OverviewLayout from "./pages/layouts/overviewLayout/OverviewLayout";
-import ElevenToTwenty from "./pages/assessments/strategy/ElevenToTwenty";
+import ElevenToTwenty from "./pages/assessments/mindset/interpersonal/ElevenToTwenty";
 import StrategyLayout from "./pages/layouts/strategyLayout/StrategyLayout";
 import StrategyOverview from "./pages/assessments/overviews/StrategyOverview";
 import MindsetOverview from "./pages/assessments/overviews/MindsetOverview";
+import TwentyOneToThirtyFive from "./pages/assessments/mindset/team/TwentyOneToThirtyFive";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -50,17 +51,19 @@ export default function App() {
           {/* <Route path="innovation" element={<MindsetOverview />}></Route> */}
           {/* <Route path="execution" element={<MindsetOverview />}></Route> */}
         </Route>
-        <Route
-          path="/assessment/mindset/:assessment_number"
-          element={<MindsetLayout />}
-        >
-          <Route index element={<OneToTen />}></Route>
-        </Route>
-        <Route
-          path="/assessment/strategy/:assessment_number"
-          element={<StrategyLayout />}
-        >
-          <Route index element={<ElevenToTwenty />}></Route>
+        <Route element={<MindsetLayout />}>
+          <Route
+            path="/assessment/mindset/personal/:assessment_number"
+            element={<OneToTen />}
+          ></Route>
+          <Route
+            path="/assessment/mindset/interpersonal/:assessment_number"
+            element={<ElevenToTwenty />}
+          ></Route>
+          <Route
+            path="/assessment/mindset/team/:assessment_number"
+            element={<TwentyOneToThirtyFive />}
+          ></Route>
         </Route>
       </Routes>
     </div>

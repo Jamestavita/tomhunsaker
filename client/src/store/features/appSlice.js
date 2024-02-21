@@ -158,7 +158,7 @@ const initialState = {
     {
       number: "11",
       qstn: "I seek to understand what others find meaningful",
-      category: "Personal",
+      category: "Interpersonal",
       options: [
         "Almost always",
         "Often",
@@ -173,7 +173,7 @@ const initialState = {
     {
       number: "12",
       qstn: "I am trustworthy",
-      category: "Personal",
+      category: "Interpersonal",
       options: [
         "Almost always",
         "Often",
@@ -188,7 +188,7 @@ const initialState = {
     {
       number: "13",
       qstn: "I am candid but not contentious",
-      category: "Personal",
+      category: "Interpersonal",
       options: [
         "Almost always",
         "Often",
@@ -203,7 +203,7 @@ const initialState = {
     {
       number: "14",
       qstn: "I see the good in others",
-      category: "Personal",
+      category: "Interpersonal",
       options: [
         "Almost always",
         "Often",
@@ -218,7 +218,7 @@ const initialState = {
     {
       number: "15",
       qstn: "I am collaborative",
-      category: "Personal",
+      category: "Interpersonal",
       options: [
         "Almost always",
         "Often",
@@ -233,7 +233,7 @@ const initialState = {
     {
       number: "16",
       qstn: "I make it easier for others to get things done",
-      category: "Personal",
+      category: "Interpersonal",
       options: [
         "Almost always",
         "Often",
@@ -248,7 +248,7 @@ const initialState = {
     {
       number: "17",
       qstn: "I actively find ways to help others maximize their potential",
-      category: "Personal",
+      category: "Interpersonal",
       options: [
         "Almost always",
         "Often",
@@ -263,7 +263,7 @@ const initialState = {
     {
       number: "18",
       qstn: "I make others feel that they can share openly with me",
-      category: "Personal",
+      category: "Interpersonal",
       options: [
         "Almost always",
         "Often",
@@ -278,7 +278,7 @@ const initialState = {
     {
       number: "19",
       qstn: "I deliver on my commitments",
-      category: "Personal",
+      category: "Interpersonal",
       options: [
         "Almost always",
         "Often",
@@ -293,7 +293,7 @@ const initialState = {
     {
       number: "20",
       qstn: "I improve the well-being of those around me",
-      category: "Personal",
+      category: "Interpersonal",
       options: [
         "Almost always",
         "Often",
@@ -304,6 +304,233 @@ const initialState = {
       ],
       significance:
         "Research shows that preference is given to those who help others feel good when they're around them",
+    },
+
+    //Team
+    {
+      number: "21",
+      qstn: "Our purpose is authentic, actionable, and widely understood",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Teams that have and act with clear purpose outperform their peers on talent attraction, development, and retention metrics",
+    },
+    {
+      number: "22",
+      qstn: "Over 80% of our people highly recommend being on this team",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Strong positive sentiment that exceeds 80% is the threshold for high performing teams",
+    },
+    {
+      number: "23",
+      qstn: "We are exceptional at developing our people when and how it is needed",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Teams whose people believe they have access to exceptional development resources outperform their peers by nearly 20%",
+    },
+    {
+      number: "24",
+      qstn: "We have lower than industry average turnover among our best people",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Companies with better than average turnover among their top performers are more likely to also generate better than average returns",
+    },
+    {
+      number: "25",
+      qstn: "We attract all of the talent we need",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "More strongly preferred places of employment also enjoy a valuation premium to their peers",
+    },
+    {
+      number: "26",
+      qstn: "People here are consistently put in the right position to maximize their potential",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "There is a 50% productivity gain, on average, when people believe they are in  the right position to effectively contribute",
+    },
+    {
+      number: "27",
+      qstn: "We adjust our management approach based on the type of change we need to achieve",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Research shows that change efforts are 3x more likely to succeed when managers align their approach to the type of change needed",
+    },
+    {
+      number: "28",
+      qstn: "It is easy to get things done here",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "There is a strong correlation between lower perceived bureaucracy and higher productivity",
+    },
+    {
+      number: "29",
+      qstn: "It is easy to get things done here",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "There is a 76% engagement increase when people believe they are in a good position to make a valuable contribution",
+    },
+    {
+      number: "30",
+      qstn: "It is easy to get things done here",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Positive accountability nearly doubles when people believe that they have the freedom to take decisions are responsible for their results",
+    },
+    {
+      number: "31",
+      qstn: "It is easy to get things done here",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "The more secure people feel in their ability to take calculated risk the wiser decisions they make about risk and the more resilient they are when pursuing them ",
+    },
+    {
+      number: "32",
+      qstn: "It is easy to get things done here",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Transparent information flow either facilitates or inhibits the speed and reliability with which a team understands and responds to its environment",
+    },
+    {
+      number: "33",
+      qstn: "It is easy to get things done here",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Teams whose people feel respected report 38% less burnout",
+    },
+    {
+      number: "34",
+      qstn: "It is easy to get things done here",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Teams whose people believe they are appropriately recognized and rewarded experience nearly 40% higher sales",
+    },
+    {
+      number: "35",
+      qstn: "It is easy to get things done here",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Teams whose people feel that power is appropriately disturbed and exercised report 74% less stress",
     },
 
     //More
@@ -354,7 +581,6 @@ const initialState = {
         },
       ],
     },
-
     {
       add_more: false,
       number: "35",
@@ -374,7 +600,6 @@ const initialState = {
         },
       ],
     },
-
     {
       add_more: false,
       number: "37",
@@ -432,12 +657,12 @@ const initialState = {
     },
   ],
   mindset_assessment_evaluation: {
-    personal: [],
-    interpersonal: [],
-    team: [],
-    people: [],
-    position: [],
-    purpose: [],
+    Personal: [],
+    Interpersonal: [],
+    Team: [],
+    People: [],
+    Position: [],
+    Purpose: [],
   },
   fundersAssessment: [],
 };
@@ -449,43 +674,23 @@ export const AppSlice = createSlice({
     setMindsetAssessmentProgress: (state, action) => {
       state.mindset_assessment_progress = action.payload;
     },
-    setFoundersAssessmentStarted: (state, action) => {
-      state.foundersAssessmentStarted = action.payload;
-      state.fundersAssessmentStarted = false;
-    },
-    setFundersAssessmentProgress: (state, action) => {
-      if (state.fundersAssessmentProgress < 100) {
-        state.fundersAssessmentProgress = action.payload;
-      }
-    },
-    setFundersAssessmentStarted: (state, action) => {
-      state.fundersAssessmentStarted = action.payload;
-      state.foundersAssessmentStarted = false;
-    },
-    setAssessmentEvaluation: (state, action) => {
+    setMindsetAssessmentEvaluation: (state, action) => {
       // Find and replace or add new
-      if (state.fundersAssessmentStarted === true) {
-        state.fundersAssessment.find(
-          (v) => action.payload.qstnNumber === v.qstnNumber
-        )
-          ? state.fundersAssessment.forEach((v, i) => {
-              if (v.qstnNumber === action.payload.qstnNumber) {
-                state.fundersAssessment[i] = action.payload;
+      state.mindset_assessment_evaluation[action.payload.category].find(
+        (v) => action.payload.answer.number === v.number
+      )
+        ? state.mindset_assessment_evaluation[action.payload.category].forEach(
+            (v, i) => {
+              if (v.number === action.payload.answer.number) {
+                state.mindset_assessment_evaluation[action.payload.category][
+                  i
+                ] = action.payload.answer;
               }
-            })
-          : state.fundersAssessment.push(action.payload);
-      }
-      if (state.foundersAssessmentStarted === true) {
-        state.assessmentEvaluation.find(
-          (v) => action.payload.qstnNumber === v.qstnNumber
-        )
-          ? state.assessmentEvaluation.forEach((v, i) => {
-              if (v.qstnNumber === action.payload.qstnNumber) {
-                state.assessmentEvaluation[i] = action.payload;
-              }
-            })
-          : state.assessmentEvaluation.push(action.payload);
-      }
+            }
+          )
+        : state.mindset_assessment_evaluation[action.payload.category].push(
+            action.payload.answer
+          );
     },
     resetEvaluation: (state, action) => {
       state.assessmentEvaluation = [];
@@ -494,6 +699,9 @@ export const AppSlice = createSlice({
   },
 });
 
-export const { setMindsetAssessmentProgress, resetEvaluation } =
-  AppSlice.actions;
+export const {
+  setMindsetAssessmentProgress,
+  setMindsetAssessmentEvaluation,
+  resetEvaluation,
+} = AppSlice.actions;
 export default AppSlice.reducer;
