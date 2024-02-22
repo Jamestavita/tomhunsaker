@@ -21,6 +21,7 @@ import StrategyLayout from "./pages/layouts/strategyLayout/StrategyLayout";
 import StrategyOverview from "./pages/assessments/overviews/StrategyOverview";
 import MindsetOverview from "./pages/assessments/overviews/MindsetOverview";
 import TwentyOneToThirtyFive from "./pages/assessments/mindset/team/TwentyOneToThirtyFive";
+import PPP from "./pages/assessments/mindset/ppp/PPP";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -53,16 +54,20 @@ export default function App() {
         </Route>
         <Route element={<MindsetLayout />}>
           <Route
-            path="/assessment/mindset/personal/:assessment_number"
+            path="/assessment/mindset/personal/:number_personal"
             element={<OneToTen />}
           ></Route>
           <Route
-            path="/assessment/mindset/interpersonal/:assessment_number"
+            path="/assessment/mindset/interpersonal/:number_interpersonal"
             element={<ElevenToTwenty />}
           ></Route>
           <Route
-            path="/assessment/mindset/team/:assessment_number"
+            path="/assessment/mindset/team/:number_team"
             element={<TwentyOneToThirtyFive />}
+          ></Route>
+          <Route
+            path="/assessment/mindset/ppp/:number_ppp"
+            element={<PPP />}
           ></Route>
         </Route>
       </Routes>

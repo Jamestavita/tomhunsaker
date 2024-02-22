@@ -44,6 +44,12 @@ export const AppContextProvider = ({ children }) => {
     return response;
   }
 
+  //Get selected choices
+  function getSelectedChoices(evaluations, category, section) {
+    const response = evaluations[category]?.[section].choices;
+    return response;
+  }
+
   //Current score
   console.log(mindset_assessment_evaluation);
   console.log(
@@ -52,7 +58,9 @@ export const AppContextProvider = ({ children }) => {
   );
 
   return (
-    <appContext.Provider value={{ getResponse, selectOneScoring }}>
+    <appContext.Provider
+      value={{ getResponse, getSelectedChoices, selectOneScoring }}
+    >
       {children}
     </appContext.Provider>
   );

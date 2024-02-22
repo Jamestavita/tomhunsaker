@@ -499,8 +499,7 @@ const initialState = {
         "Not at all like us",
         "Don't know",
       ],
-      significance:
-        "Teams whose people feel respected report 38% less burnout",
+      significance: "Teams whose people feel respected report 38% less burnout",
     },
     {
       number: "34",
@@ -533,136 +532,106 @@ const initialState = {
         "Teams whose people feel that power is appropriately disturbed and exercised report 74% less stress",
     },
 
-    //More
+    //PPP
     {
-      add_more: false,
-      number: "31",
-      qstn: "This best describes how our stakeholders view us",
+      number: "36",
+      category: "Purpose",
       qstns: [
         {
-          qstn: "Customer",
+          qstn: "Continue",
           options: [
-            "Essential",
-            "Important",
-            "Useful",
-            "Ambivalent",
-            "Harmful",
+            "Our purpose statement — it's clear and motivating",
+            "Different agendas, functions and incentives around purpose are considered",
+            "We regularly discuss purpose",
+            "Our actions reinforce our purpose",
           ],
         },
         {
-          qstn: "Employees",
+          qstn: "Stop",
           options: [
-            "Essential",
-            "Important",
-            "Useful",
-            "Ambivalent",
-            "Harmful",
+            "Our purpose statement - it's unclear or doesn't fit us",
+            "Overlooking different functions when considering purpose",
+            "The way we approach purpose seems inauthentic",
+            "What we say and what we do often don't match",
           ],
         },
         {
-          qstn: "Partners",
+          qstn: "Start",
           options: [
-            "Essential",
-            "Important",
-            "Useful",
-            "Ambivalent",
-            "Harmful",
-          ],
-        },
-        {
-          qstn: "Community (social and regulatory)",
-          options: [
-            "Essential",
-            "Important",
-            "Useful",
-            "Ambivalent",
-            "Harmful",
+            "Develop a meaningful purpose statement",
+            "Bring different functions together to create purpose alignment",
+            "Be authentic about how we project our purpose",
+            "Take concrete actions that show our commitment to purpose",
           ],
         },
       ],
+      significance:
+        "Discovering and acting on clear intelligence regarding what to continue, what to stop, and options to consider starting related to your purpose directly influences the quality of your culture and the potential growth trajectory of your team",
     },
     {
-      add_more: false,
-      number: "35",
-      qstn: "This is what we solve and for whom",
-      qstns: [
-        {
-          qstn: "In order to",
-          placeholder: "X - insert the problem",
-        },
-        {
-          qstn: "We",
-          placeholder: "Y - how do you solve the need",
-        },
-        {
-          qstn: "better than anyone else for",
-          placeholder: "Z - who is your target customer audience",
-        },
-      ],
-    },
-    {
-      add_more: false,
       number: "37",
-      qstn: "This is how our model works",
+      category: "People",
       qstns: [
         {
-          qstn: "We offer A ",
-          placeholder: "what is your product or service?",
+          qstn: "Continue",
+          options: [
+            "We focus on developing people",
+            "Respectful candor is encouraged and practiced",
+            "The caliber of performance incentives provided",
+            " Freedom to act, learn, and grow",
+            "Giving proper credit for contributions",
+            "Genuine collaboration within and across teams",
+            "People can be their best self here",
+            "We excel at delivering on the 4 universal desires (earn, contribute, learn, belong)",
+            "We effectively adapt our culture for our context",
+          ],
         },
         {
-          qstn: "to B",
-          placeholder: "who is your target customer?",
+          qstn: "Stop",
+          options: [
+            "Underinvesting in people development",
+            "Saying that respectful candor is encouraged but not practicing it",
+            "Ineffective performance incentives",
+            "Lack of freedom to act, learn, and grow",
+            "Withholding proper credit for contributions",
+            "Providing too few collaboration resources",
+            "Asking for ideas but not embracing them",
+            "Underdelivering on the 4 universal desires (earn, contribute, learn, belong)",
+            "Not effectively adapt our culture for our context",
+          ],
         },
         {
-          qstn: "that we produce by C",
-          placeholder: "how is it built?",
-        },
-        {
-          qstn: "and sell by D",
-          placeholder: "how is it distributed?",
-        },
-        {
-          qstn: "using E pay structure",
-          placeholder: "what is the revenue model?",
-        },
-        {
-          qstn: "resulting in F % return",
-          placeholder: "what is the sales margin?",
-        },
-        {
-          qstn: "while upholding G",
-          placeholder: "(what are three important values to your firm?",
+          qstn: "Start",
+          options: [
+            "Invest in impactful learning opportunities",
+            "Encourage effective candor",
+            "Provide more appealing performance incentives",
+            "Improve trust",
+            "Ensure that rewards and promotion are merit-driven",
+            "Give proper credit for contributions",
+            "Improve cross-training",
+            "Genuinely support developing valuable ideas",
+            "More effectively delivering on the 4 universal desires (earn, contribute, learn, belong)",
+            "More effectively adapting our culture for our context",
+          ],
         },
       ],
-    },
-    {
-      add_more: false,
-      number: "42",
-      qstns: [
-        {
-          qstn: "What do you do?",
-          placeholder: "In 1-2 sentences describe what your business does",
-        },
-        {
-          qstn: "What challenges do your customers face?",
-          placeholder:
-            "In 1-2 sentences describe what challenge your business solves",
-        },
-        {
-          qstn: "How do you distinguish yourself?",
-          placeholder:
-            "In 1-2 sentences highlight how your business is distinct from others",
-        },
-      ],
+      significance:
+        "Discovering and acting on clear intelligence regarding what to continue, what to stop, and options to consider starting related to your people decisions directly influences the quality of your culture and the potential growth trajectory of your team",
     },
   ],
   mindset_assessment_evaluation: {
     Personal: [],
     Interpersonal: [],
     Team: [],
-    People: [],
-    Position: [],
-    Purpose: [],
+    Purpose: {
+      Continue: { choices: [], others: "", score: 0 },
+      Stop: { choices: [], others: "", score: 0 },
+      Start: { choices: [], others: "", score: 0 },
+    },
+    People: { Continue: [], Stop: [], Start: [] },
+    Position: { Continue: [], Stop: [], Start: [] },
+    Process: { Continue: [], Stop: [], Start: [] },
   },
   fundersAssessment: [],
 };
@@ -692,6 +661,30 @@ export const AppSlice = createSlice({
             action.payload.answer
           );
     },
+    setMindsetAssessmentPPP: (state, action) => {
+      //Choices
+      state.mindset_assessment_evaluation[action.payload.category][
+        action.payload.section
+      ].choices.includes(action.payload.choice)
+        ? (state.mindset_assessment_evaluation[action.payload.category][
+            action.payload.section
+          ].choices = state.mindset_assessment_evaluation[
+            action.payload.category
+          ][action.payload.section].choices.filter(
+            (choice) => choice !== action.payload.choice
+          ))
+        : state.mindset_assessment_evaluation[action.payload.category][
+            action.payload.section
+          ].choices.push(action.payload.choice);
+
+      //Scoring
+      state.mindset_assessment_evaluation[action.payload.category][
+        action.payload.section
+      ].score =
+        state.mindset_assessment_evaluation[action.payload.category][
+          action.payload.section
+        ].choices.length;
+    },
     resetEvaluation: (state, action) => {
       state.assessmentEvaluation = [];
       state.fundersAssessment = [];
@@ -702,6 +695,7 @@ export const AppSlice = createSlice({
 export const {
   setMindsetAssessmentProgress,
   setMindsetAssessmentEvaluation,
+  setMindsetAssessmentPPP,
   resetEvaluation,
 } = AppSlice.actions;
 export default AppSlice.reducer;

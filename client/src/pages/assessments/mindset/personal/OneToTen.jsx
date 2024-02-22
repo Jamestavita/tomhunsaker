@@ -9,7 +9,7 @@ import appContext from "../../../../context/AppContext";
 import { setMindsetAssessmentEvaluation } from "../../../../store/features/appSlice";
 
 export default function OneToTen() {
-  const { assessment_number } = useParams();
+  const { number_personal } = useParams();
   const navigate = useNavigate();
   const { mindset_assessment_questions, mindset_assessment_evaluation } =
     useSelector((state) => state.app);
@@ -21,10 +21,10 @@ export default function OneToTen() {
   useEffect(() => {
     setAssessment(
       mindset_assessment_questions.find(
-        (question) => question.number === assessment_number
+        (question) => question.number === number_personal
       )
     );
-  }, [assessment_number]);
+  }, [number_personal]);
 
   //Handle select one choice
   function handleChange(e) {
@@ -46,7 +46,7 @@ export default function OneToTen() {
   //   getResponse(
   //     mindset_assessment_evaluation,
   //     assessment.category,
-  //     assessment_number
+  //     number_personal
   //   )
   // );
   // console.log(mindset_assessment_evaluation);
@@ -67,7 +67,7 @@ export default function OneToTen() {
         <div className="w-[1850px] h-[1358px] bg-Greyscale200 rounded-[50%] absolute top-0 -translate-x-[50%] left-1/2"></div>
         <div className="relative grid justify-items-center">
           <p className="absolute top-0 text-Greyscale text-[24px] font-bold self-center">
-            {assessment_number}
+            {number_personal}
           </p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@ export default function OneToTen() {
           <div className="grid gap-4">
             {assessment?.options?.map((option) => (
               <div
-                key={option + assessment_number}
+                key={option + number_personal}
                 className="px-6 flex items-center gap-4 bg-Greyscale rounded-[20px] relative overflow-hidden cursor-pointer"
               >
                 <input
@@ -103,13 +103,13 @@ export default function OneToTen() {
                     getResponse(
                       mindset_assessment_evaluation,
                       assessment.category,
-                      assessment_number
+                      number_personal
                     )?.response === option
                   }
                   value={option}
                   onChange={(e) => handleChange(e, assessment)}
                 />
-                <div className="p-1 rounded-full border-2  bg-Greyscale z-20 peer-checked/radio:[&>*]:bg-Greyscale800 grid place-items-center">
+                <div className="p-1 rounded-full border-2  bg-Greyscale z-20 peer-checked/radio:[&>*]:bg-Greyscale800 grid place-items-center transition">
                   <div className="w-3 h-3 rounded-full"></div>
                 </div>
                 <label
@@ -124,31 +124,31 @@ export default function OneToTen() {
               </div>
             ))}
           </div>
-          <div className="flex mx-auto gap-4">
-            <AppNextButton
-              onClick={() =>
-                navigate(
-                  assessment_number < "10"
-                    ? `../assessment/mindset/personal/${(
-                        "0" +
-                        (+assessment_number + 1)
-                      ).slice(-2)}`
-                    : `../assessment/mindset/interpersonal/${
-                        +assessment_number + 1
-                      }`
-                )
-              }
-              className="bg-Greyscale900 text-Greyscale rounded-[4px] border-2 border-Dark disabled:opacity-40"
-              disabled={
-                !getResponse(
-                  mindset_assessment_evaluation,
-                  assessment.category,
-                  assessment_number
-                )?.response
-              }
-              label={`Next`}
-            />
-          </div>
+          {/* <div className="flex gap-4"> */}
+          <AppNextButton
+            onClick={() =>
+              navigate(
+                number_personal < "10"
+                  ? `../assessment/mindset/personal/${(
+                      "0" +
+                      (+number_personal + 1)
+                    ).slice(-2)}`
+                  : `../assessment/mindset/interpersonal/${
+                      +number_personal + 1
+                    }`
+              )
+            }
+            className="bg-Greyscale900 text-Greyscale rounded-[4px] border-2 border-Dark disabled:opacity-40 mx-auto"
+            disabled={
+              !getResponse(
+                mindset_assessment_evaluation,
+                assessment.category,
+                number_personal
+              )?.response
+            }
+            label={`Next`}
+          />
+          {/* </div> */}
         </div>
       </div>
     </div>

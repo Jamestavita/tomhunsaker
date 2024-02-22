@@ -5,12 +5,22 @@ import { setMindsetAssessmentProgress } from "../../../store/features/appSlice";
 
 export default function MindsetNav() {
   const dispatch = useDispatch();
-  const { assessment_number } = useParams();
+  const { number_personal, number_interpersonal, number_team, number_ppp } =
+    useParams();
   const { mindset_assessment_progress } = useSelector((state) => state.app);
 
   useEffect(() => {
-    dispatch(setMindsetAssessmentProgress(+assessment_number * 2.564));
-  }, [assessment_number]);
+    dispatch(
+      setMindsetAssessmentProgress(
+        (+number_personal ||
+          +number_interpersonal ||
+          +number_team ||
+          +number_ppp) * 2.564
+      )
+    );
+  }, [number_personal, number_interpersonal, number_team]);
+
+  console.log(number_personal, number_interpersonal, number_team);
 
   return (
     <div className="fixed top-0 w-full z-40 bg-Greyscale">
