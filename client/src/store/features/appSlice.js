@@ -625,13 +625,25 @@ const initialState = {
     Interpersonal: [],
     Team: [],
     Purpose: {
-      Continue: { choices: [], others: "", score: 0 },
-      Stop: { choices: [], others: "", score: 0 },
-      Start: { choices: [], others: "", score: 0 },
+      Continue: { choices: [], other: "", score: 0 },
+      Stop: { choices: [], other: "", score: 0 },
+      Start: { choices: [], other: "", score: 0 },
     },
-    People: { Continue: [], Stop: [], Start: [] },
-    Position: { Continue: [], Stop: [], Start: [] },
-    Process: { Continue: [], Stop: [], Start: [] },
+    People: {
+      Continue: { choices: [], other: "", score: 0 },
+      Stop: { choices: [], other: "", score: 0 },
+      Start: { choices: [], other: "", score: 0 },
+    },
+    Position: {
+      Continue: { choices: [], other: "", score: 0 },
+      Stop: { choices: [], other: "", score: 0 },
+      Start: { choices: [], other: "", score: 0 },
+    },
+    Process: {
+      Continue: { choices: [], other: "", score: 0 },
+      Stop: { choices: [], other: "", score: 0 },
+      Start: { choices: [], other: "", score: 0 },
+    },
   },
   fundersAssessment: [],
 };
@@ -665,7 +677,7 @@ export const AppSlice = createSlice({
       //Choices
       state.mindset_assessment_evaluation[action.payload.category][
         action.payload.section
-      ].choices.includes(action.payload.choice)
+      ]?.choices.includes(action.payload.choice)
         ? (state.mindset_assessment_evaluation[action.payload.category][
             action.payload.section
           ].choices = state.mindset_assessment_evaluation[
@@ -683,7 +695,31 @@ export const AppSlice = createSlice({
       ].score =
         state.mindset_assessment_evaluation[action.payload.category][
           action.payload.section
-        ].choices.length;
+        ].choices.length +
+        (state.mindset_assessment_evaluation[action.payload.category][
+          action.payload.section
+        ].other.length
+          ? 1
+          : 0);
+    },
+    setOther: (state, action) => {
+      //Others
+      state.mindset_assessment_evaluation[action.payload.category][
+        action.payload.section
+      ].other = action.payload.other;
+
+      //Scoring
+      state.mindset_assessment_evaluation[action.payload.category][
+        action.payload.section
+      ].score =
+        state.mindset_assessment_evaluation[action.payload.category][
+          action.payload.section
+        ].choices.length +
+        (state.mindset_assessment_evaluation[action.payload.category][
+          action.payload.section
+        ].other.length
+          ? 1
+          : 0);
     },
     resetEvaluation: (state, action) => {
       state.assessmentEvaluation = [];
@@ -696,6 +732,7 @@ export const {
   setMindsetAssessmentProgress,
   setMindsetAssessmentEvaluation,
   setMindsetAssessmentPPP,
+  setOther,
   resetEvaluation,
 } = AppSlice.actions;
 export default AppSlice.reducer;

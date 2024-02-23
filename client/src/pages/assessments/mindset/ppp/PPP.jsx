@@ -9,6 +9,7 @@ import appContext from "../../../../context/AppContext";
 import {
   setMindsetAssessmentEvaluation,
   setMindsetAssessmentPPP,
+  setOther,
 } from "../../../../store/features/appSlice";
 import { FaCheck } from "react-icons/fa";
 
@@ -17,7 +18,7 @@ export default function PPP() {
   const navigate = useNavigate();
   const { mindset_assessment_questions, mindset_assessment_evaluation } =
     useSelector((state) => state.app);
-  const { getSelectedChoices } = useContext(appContext);
+  const { getSelectedChoices, getOther } = useContext(appContext);
   const [assessment, setAssessment] = useState({});
   const dispatch = useDispatch();
 
@@ -28,7 +29,7 @@ export default function PPP() {
         (question) => question.number === number_ppp
       )
     );
-  }, []);
+  }, [number_ppp]);
 
   // Handle select many choice
   function handleChange(e, section) {
@@ -40,6 +41,18 @@ export default function PPP() {
       })
     );
   }
+
+  // Handle others
+  function handleOther(value, section) {
+    dispatch(
+      setOther({
+        category: assessment.category,
+        section,
+        other: value,
+      })
+    );
+  }
+  console.log(assessment);
 
   return (
     <div className="">
@@ -58,6 +71,8 @@ export default function PPP() {
       <div className="overflow-hidden relative grid px-4 md:px-12 lg:px-32">
         <div className="w-[1850px] h-[1358px] bg-Greyscale200 rounded-[50%] absolute top-0 -translate-x-[50%] left-1/2"></div>
         <div className="w-[1850px] h-[1358px] bg-Greyscale200 rounded-[50%] absolute top-[1000px] -translate-x-[50%] left-1/2"></div>
+        <div className="w-[1850px] h-[1358px] bg-Greyscale200 rounded-[50%] absolute top-[2000px] -translate-x-[50%] left-1/2"></div>
+        <div className="w-[1850px] h-[1358px] bg-Greyscale200 rounded-[50%] absolute top-[3000px] -translate-x-[50%] left-1/2"></div>
         <div className="relative grid justify-items-center">
           <p className="absolute top-0 text-Greyscale text-[24px] font-bold self-center">
             {number_ppp}
@@ -106,7 +121,7 @@ export default function PPP() {
                       value={option}
                       onChange={(e) => handleChange(e, section.qstn)}
                     />
-                    <div className="p-1 rounded-md border-[1px]  bg-Greyscale z-20 peer-checked/radio:bg-Greyscale800 grid place-items-center transition">
+                    <div className="p-1 rounded-md border-[1px] bg-Greyscale z-20 peer-checked/radio:bg-Greyscale800 grid place-items-center transition">
                       <FaCheck className="text-Greyscale" />
                     </div>
                     <label
@@ -120,6 +135,39 @@ export default function PPP() {
                     ></div>
                   </div>
                 ))}
+                <div
+                  className="px-6 py-2 flex items-center gap-4 bg-Greyscale rounded-[20px] relative overflow-hidden"
+                  key={number_ppp}
+                >
+                  <input
+                    type="checkbox"
+                    className="hidden peer/radio "
+                    // id={section.qstn}
+                    // name={section.qstn}
+                    readOnly
+                    checked={getOther(
+                      mindset_assessment_evaluation,
+                      assessment.category,
+                      section.qstn
+                    )}
+                  />
+                  <div className="p-1 rounded-md border-[1px]  bg-Greyscale z-20 peer-checked/radio:bg-Greyscale800 grid place-items-center transition">
+                    <FaCheck className="text-Greyscale" />
+                  </div>
+                  <input
+                    className="py-2 px-4 text-[18px] rounded-[8px] bg-white w-full z-20 focus:placeholder-transparent border-[1px]"
+                    placeholder="Other (please describe)"
+                    onChange={(e) => handleOther(e.target.value, section.qstn)}
+                    value={getOther(
+                      mindset_assessment_evaluation,
+                      assessment.category,
+                      section.qstn
+                    )}
+                  />
+                  <div
+                    className={`absolute h-full w-full peer-checked/radio:bg-transparent z-10 top-0 left-0 cursor-pointer`}
+                  ></div>
+                </div>
               </div>
             </div>
           ))}
@@ -130,21 +178,42 @@ export default function PPP() {
           }
           className="bg-Greyscale900 text-Greyscale rounded-[4px] border-2 border-Dark disabled:opacity-40 mx-auto my-10 z-[1]"
           disabled={
-            !getSelectedChoices(
-              mindset_assessment_evaluation,
-              assessment?.category,
-              "Continue"
-            )?.length ||
-            !getSelectedChoices(
-              mindset_assessment_evaluation,
-              assessment?.category,
-              "Stop"
-            )?.length ||
-            !getSelectedChoices(
-              mindset_assessment_evaluation,
-              assessment?.category,
-              "Start"
-            )?.length
+            !(
+              getSelectedChoices(
+                mindset_assessment_evaluation,
+                assessment?.category,
+                "Continue"
+              )?.length ||
+              getOther(
+                mindset_assessment_evaluation,
+                assessment.category,
+                "Continue"
+              )?.length
+            ) ||
+            !(
+              getSelectedChoices(
+                mindset_assessment_evaluation,
+                assessment?.category,
+                "Stop"
+              )?.length ||
+              getOther(
+                mindset_assessment_evaluation,
+                assessment.category,
+                "Stop"
+              )?.length
+            ) ||
+            !(
+              getSelectedChoices(
+                mindset_assessment_evaluation,
+                assessment?.category,
+                "Start"
+              )?.length ||
+              getOther(
+                mindset_assessment_evaluation,
+                assessment.category,
+                "Start"
+              )?.length
+            )
           }
           label={`Next`}
         />

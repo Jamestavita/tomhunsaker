@@ -46,7 +46,13 @@ export const AppContextProvider = ({ children }) => {
 
   //Get selected choices
   function getSelectedChoices(evaluations, category, section) {
-    const response = evaluations[category]?.[section].choices;
+    const response = evaluations[category]?.[section]?.choices;
+    return response;
+  }
+
+  //Get other
+  function getOther(evaluations, category, section) {
+    const response = evaluations[category]?.[section]?.other;
     return response;
   }
 
@@ -59,7 +65,7 @@ export const AppContextProvider = ({ children }) => {
 
   return (
     <appContext.Provider
-      value={{ getResponse, getSelectedChoices, selectOneScoring }}
+      value={{ getResponse, getSelectedChoices, getOther, selectOneScoring }}
     >
       {children}
     </appContext.Provider>
