@@ -6,6 +6,7 @@ export default {
       colors: {
         Greyscale: "#FDFDFD",
         Greyscale200: "#F3F3ED",
+        Greyscale300: "#E2E2D4",
         Greyscale400: "#D0D0C8",
         Greyscale500: "#A3A395",
         Greyscale700: "#656558",

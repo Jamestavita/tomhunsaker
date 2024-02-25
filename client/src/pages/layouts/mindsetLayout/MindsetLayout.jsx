@@ -7,7 +7,7 @@ export default function MindsetLayout() {
   return (
     <div className="h-full lg:grid">
       <MindsetNav />
-      <div className="mt-[75px]">
+      <div className="mt-[76px]">
         <Outlet />
       </div>
       <OverviewFooter />
