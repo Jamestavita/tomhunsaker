@@ -52,7 +52,6 @@ export default function PPP() {
       })
     );
   }
-  console.log(assessment);
 
   return (
     <div className="">
@@ -174,7 +173,11 @@ export default function PPP() {
         </div>
         <AppNextButton
           onClick={() =>
-            navigate(`../assessment/mindset/ppp/${+number_ppp + 1}`)
+            navigate(
+              number_ppp < 39
+                ? `../assessment/mindset/ppp/${+number_ppp + 1}`
+                : "../assessment/mindset/plan"
+            )
           }
           className="bg-Greyscale900 text-Greyscale rounded-[4px] border-2 border-Dark disabled:opacity-40 mx-auto my-10 z-[1]"
           disabled={

@@ -29,7 +29,7 @@ export default function Nav() {
           viewBox="0 0 135 13"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="shrink-0"
+          className="shrink-0 cursor-pointer"
           onClick={() => navigate("/")}
         >
           <path

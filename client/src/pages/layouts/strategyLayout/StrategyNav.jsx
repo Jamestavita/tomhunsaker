@@ -6,7 +6,7 @@ export default function StrategyNav() {
     <div className="fixed top-0 w-full z-40 bg-Greyscale">
       <div className="grid gap-4 w-[min(90rem,100%)] mx-auto px-4 md:px-12 lg:px-32 py-5">
         <div className="flex items-end">
-          <NavLink to="/" className="mr-auto ">
+          <NavLink to="/" className="mr-auto cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="136"

@@ -566,7 +566,7 @@ const initialState = {
         },
       ],
       significance:
-        "Discovering and acting on clear intelligence regarding what to continue, what to stop, and options to consider starting related to your purpose directly influences the quality of your culture and the potential growth trajectory of your team",
+        "The reason why something is done. It is putting values to action. A number of statements will be presented to you in three categories: Continue, Stop, and Start. Select all of the statements that apply in each category.",
     },
     {
       number: "37",
@@ -617,7 +617,85 @@ const initialState = {
         },
       ],
       significance:
-        "Discovering and acting on clear intelligence regarding what to continue, what to stop, and options to consider starting related to your people decisions directly influences the quality of your culture and the potential growth trajectory of your team",
+        "How well those in a group are able to maximize their potential. A number of statements will be presented to you in three categories: Continue, Stop, and Start. Select all of the statements that apply in each category.",
+    },
+    {
+      number: "38",
+      category: "Positions",
+      qstns: [
+        {
+          qstn: "Continue",
+          options: [
+            "Hiring is clear and transparent",
+            "People are hired based on merit",
+            "Roles are developed based on company need and candidate talents",
+            "People are promoted for merit-based reasons",
+            "Employee reviews are meaningful and effective",
+          ],
+        },
+        {
+          qstn: "Stop",
+          options: [
+            "Hiring practices are unclear",
+            "Politics influence hiring decisions",
+            "Relationships influence roles more than capability",
+            "Promotions are not always merit-driven",
+            "Employee reviews that don't focus on talent and career development",
+          ],
+        },
+        {
+          qstn: "Start",
+          options: [
+            "Make hiring clear and transparent",
+            "Hire based on merit",
+            "Fit people to roles based on need and talent for the position",
+            "Promote for merit-based reasons",
+            "Make the employee reviews more meaningful and effective",
+          ],
+        },
+      ],
+      significance:
+        "How well people are put in the right situations to deliver excellence. A number of statements will be presented to you in three categories: Continue, Stop, and Start. Select all of the statements that apply in each category.",
+    },
+    {
+      number: "39",
+      category: "Process",
+      qstns: [
+        {
+          qstn: "Continue",
+          options: [
+            "Bureaucracy is minimal",
+            "People are encouraged to communicate directly with others rather than through a chain of command",
+            "Managers provide evidence for decisions rather than relying on authority",
+            "Meetings are the right length of time and effective",
+            "It is safe to give candid feedback at all levels",
+            "Freedom to resolve issues at the local level",
+          ],
+        },
+        {
+          qstn: "Stop",
+          options: [
+            "Bureaucracy makes it hard to get things done",
+            "Requiring chain of command communication",
+            "Focusing on authority rather than evidence to make decisions",
+            "Ineffective meetings",
+            "Lack of freedom to resolve issues at the local level",
+          ],
+        },
+        {
+          qstn: "Start",
+          options: [
+            "Reduce bureaucracy by having regular and transparent process efficiency reviews everyone can contribute to",
+            "Encourage direct rather than chain of command communication",
+            "Share the behind decisions",
+            "Right-size, right-duration, and right-purpose meetings",
+            "Encourage and support local level problem solving",
+            "Make it safe to give candid feedback at all levels",
+          ],
+        },
+      ],
+      significance:
+        "The ease and quality with which people in a group can get things done. A number of statements will be presented to you in three categories: Continue, Stop, and Start. Select all of the statements that apply in each category.",
     },
   ],
   mindset_assessment_evaluation: {
@@ -634,7 +712,7 @@ const initialState = {
       Stop: { choices: [], other: "", score: 0 },
       Start: { choices: [], other: "", score: 0 },
     },
-    Position: {
+    Positions: {
       Continue: { choices: [], other: "", score: 0 },
       Stop: { choices: [], other: "", score: 0 },
       Start: { choices: [], other: "", score: 0 },

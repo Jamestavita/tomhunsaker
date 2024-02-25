@@ -20,12 +20,11 @@ export default function MindsetNav() {
     );
   }, [number_personal, number_interpersonal, number_team]);
 
-  console.log(number_personal, number_interpersonal, number_team);
 
   return (
     <div className="fixed top-0 w-full z-40 bg-Greyscale">
       <div className="grid md:flex items-center w-[min(90rem,100%)] mx-auto px-4 md:px-12 lg:px-32 py-4 justify-center md:justify-between">
-        <NavLink to="/" className="grid justify-center">
+        <NavLink to="/" className="grid justify-center cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="136"

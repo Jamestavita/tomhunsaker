@@ -4,7 +4,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 export default function OverviewFooter() {
   const navigate = useNavigate();
   return (
-    <div className="bg-[#111111] text-white lg:z-[3]">
+    <div className="bg-[#111111] text-white lg:z-[3] h-fit mt-auto">
       <div className="w-[min(90rem,100%)] mx-auto px-4 md:px-12 lg:px-32 pt-12 pb-16 grid gap-12 md:flex md:justify-between md:items-center justify-items-center">
         <svg
           width="73"
