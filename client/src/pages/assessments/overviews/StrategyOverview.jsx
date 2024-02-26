@@ -596,7 +596,7 @@ export default function StrategyOverview() {
           <AppButton100
             className="bg-Green500 text-Greyscale mt-10 md:mr-auto md:px-20"
             label="Start Assessment"
-            onClick={() => navigate("../../assessment/strategy/01")}
+            onClick={() => navigate("../../assessment/strategy/personal/01")}
           />
         </div>
       </section>

@@ -18,7 +18,7 @@ export default function MindsetNav() {
           +number_ppp) * 2.564
       )
     );
-  }, [number_personal, number_interpersonal, number_team]);
+  }, [number_personal, number_interpersonal, number_team, number_ppp]);
 
 
   return (

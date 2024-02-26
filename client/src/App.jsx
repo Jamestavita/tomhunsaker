@@ -27,6 +27,7 @@ import Paid from "./pages/assessments/mindset/complete assessment/Paid";
 import Free from "./pages/assessments/mindset/complete assessment/Free";
 import PaidSuccess from "./pages/assessments/mindset/complete assessment/PaidSuccess";
 import FreeSuccess from "./pages/assessments/mindset/complete assessment/FreeSuccess";
+import OneToNine from "./pages/assessments/strategy/personal/OneToNine";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -57,6 +58,7 @@ export default function App() {
           {/* <Route path="innovation" element={<MindsetOverview />}></Route> */}
           {/* <Route path="execution" element={<MindsetOverview />}></Route> */}
         </Route>
+        {/*Mindset assessment*/}
         <Route element={<MindsetLayout />}>
           <Route
             path="/assessment/mindset/personal/:number_personal"
@@ -85,6 +87,36 @@ export default function App() {
             path="/assessment/mindset/free_success"
             element={<FreeSuccess />}
           ></Route>
+        </Route>
+        {/*Strategy assessment*/}
+        <Route element={<StrategyLayout />}>
+          <Route
+            path="/assessment/strategy/personal/:number_personal"
+            element={<OneToNine />}
+          ></Route>
+          {/* <Route
+            path="/assessment/mindset/interpersonal/:number_interpersonal"
+            element={<ElevenToTwenty />}
+          ></Route>
+          <Route
+            path="/assessment/mindset/team/:number_team"
+            element={<TwentyOneToThirtyFive />}
+          ></Route>
+          <Route
+            path="/assessment/mindset/ppp/:number_ppp"
+            element={<PPP />}
+          ></Route> */}
+          {/* <Route path="/assessment/mindset/plan" element={<Plan />}></Route>
+          <Route path="/assessment/mindset/paid" element={<Paid />}></Route>
+          <Route path="/assessment/mindset/free" element={<Free />}></Route>
+          <Route
+            path="/assessment/mindset/paid_success"
+            element={<PaidSuccess />}
+          ></Route>
+          <Route
+            path="/assessment/mindset/free_success"
+            element={<FreeSuccess />}
+          ></Route> */}
         </Route>
       </Routes>
     </div>

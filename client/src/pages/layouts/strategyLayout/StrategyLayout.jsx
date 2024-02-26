@@ -7,7 +7,7 @@ export default function StrategyLayout() {
   return (
     <div className="h-full lg:grid">
       <StrategyNav />
-      <div className="mt-[56px]">
+      <div className="mt-[76px]">
         <Outlet />
       </div>
       <OverviewFooter />

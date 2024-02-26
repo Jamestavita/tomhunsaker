@@ -1,2374 +1,787 @@
 export const oneFree = ({ name }) => {
-  return `<html
-  xmlns="http://www.w3.org/1999/xhtml"
-  xmlns:v="urn:schemas-microsoft-com:vml"
-  xmlns:o="urn:schemas-microsoft-com:office:office"
->
-  <head>
-    <!--[if gte mso 9]>
-      <xml>
-        <o:OfficeDocumentSettings>
-          <o:AllowPNG />
-          <o:PixelsPerInch>96</o:PixelsPerInch>
-        </o:OfficeDocumentSettings>
-      </xml>
-    <![endif]-->
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="x-apple-disable-message-reformatting" />
-    <!--[if !mso]><!-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!--<![endif]-->
-    <title></title>
+  return `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="EN">
+<head>
+<!--[if gte mso 15]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<style type="text/css"> body,table tr,table td,a, span,table.MsoNormalTable {  font-family:'DM Sans', Helvetica, sans-serif !important;  }</style>
+<![endif]-->
+<title>   </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<meta name="x-apple-disable-message-reformatting">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0 " >
+<!--[if !mso]><!-->
+<link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,500,700,800" rel="stylesheet">
+<!--<![endif]--> 
+<meta name="format-detection" content="telephone=no" >
+<style type="text/css">  
+html, body {
+Margin: 0 auto !important;
+padding: 0 !important;
+width: 100% !important;
+height: 100% !important;
+}
+* {
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+text-rendering: optimizeLegibility; 
+}
+.ExternalClass {
+width: 100%;
+} 
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+table,
+th {
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+}
+.ExternalClass,
+.ExternalClass * {
+line-height: 100% !important;
+}
+table {
+border-spacing: 0 !important;
+border-collapse: collapse !important;
+border: none;
+Margin: 0 auto; 
+}
+img {
+-ms-interpolation-mode:bicubic;
+}
+.yshortcuts a {
+border-bottom: none !important;
+}
+*[x-apple-data-detectors],   
+.x-gmail-data-detectors,    
+.x-gmail-data-detectors *,
+.aBn {
+border-bottom: none !important;
+cursor: default !important;
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+}
+u   #body a {
+color: inherit;
+text-decoration: none;
+font-size: inherit;
+font-family: inherit;
+font-weight: inherit;
+line-height: inherit;
+}
+.a6S {
+display: none !important;
+opacity: 0.01 !important;
+}
+img.g-img   div {
+display:none !important;
+}
+a,
+a:link,
+a:visited {
+color: #000000;
+text-decoration: none !important;
+}  
+img {
+border: none !important;
+outline: none !important;
+text-decoration:none !important;
+overflow: hidden !important;
+}
+#MessageViewBody, #MessageWebViewDiv{
+width: 100% !important;
+min-width:100vw;
+margin:0 !important;
+zoom:1 !important;
+}
 
-    <style type="text/css">
-      @media only screen and (min-width: 620px) {
-        .u-row {
-          width: 600px !important;
-        }
-        .u-row .u-col {
-          vertical-align: top;
-        }
+ 
 
-        .u-row .u-col-33p33 {
-          width: 199.98px !important;
-        }
+span.preheader { display: none !important; }
+p {
+margin: 0px !important;
+padding: 0px !important;
+}
+td, a, span {
+border-collapse: collapse;
+mso-line-height-rule: exactly;
+} 
+@media only screen and (max-width:770px) {
+.em_main_table {
+width: 100% !important;
+}
+.em_wrapper {
+width: 100% !important; max-width: 100% !important;
+}
+.em_wrapper_two {
+width: 100% !important; max-width: 100% !important;display: block !important;
+}
+.em_hide {
+display: none !important;
+}
+.em_align_center {
+text-align: center !important;
+}
+.em_pad_top {
+padding-top: 20px !important;
+}
+.em_side_space {
+padding-left: 16px !important;
+padding-right: 16px !important;
+} 
+.em_full_width {
+width: 100% !important;
+height: auto !important;
+max-width: 100% !important;
+}
+.nopad{
+padding: 0 !important;
+}
 
-        .u-row .u-col-50 {
-          width: 300px !important;
-        }
+#showphone{display:block !important;mso-hide:none !important;}
 
-        .u-row .u-col-66p67 {
-          width: 400.02px !important;
-        }
+.txt56{font-size: 44px !important;line-height: 56px !important;font-weight: 700 !important;}
 
-        .u-row .u-col-100 {
-          width: 600px !important;
-        }
-      }
+.txt30{font-size: 24px !important;line-height: 32px !important;}   
 
-      @media (max-width: 620px) {
-        .u-row-container {
-          max-width: 100% !important;
-          padding-left: 0px !important;
-          padding-right: 0px !important;
-        }
-        .u-row .u-col {
-          min-width: 320px !important;
-          max-width: 100% !important;
-          display: block !important;
-        }
-        .u-row {
-          width: 100% !important;
-        }
-        .u-col {
-          width: 100% !important;
-        }
-        .u-col > div {
-          margin: 0 auto;
-        }
-        #u_row_35 .v-row-background-image--inner {
-          background: unset !important;
-        }
-      }
-      body {
-        margin: 0;
-        padding: 0;
-      }
 
-      table,
-      tr,
-      td {
-        vertical-align: top;
-        border-collapse: collapse;
-      }
+.txt56{font-size: 30px !important;line-height: 40px !important;}   
 
-      p {
-        margin: 0;
-      }
 
-      .ie-container table,
-      .mso-container table {
-        table-layout: fixed;
-      }
+.textreg{font-size: 18px !important;line-height: 26px !important;}
 
-      * {
-        line-height: inherit;
-      }
 
-      a[x-apple-data-detectors='true'] {
-        color: inherit !important;
-        text-decoration: none !important;
-      }
+.txt44{font-size: 30px !important;line-height: 40px !important;}  
+    
+    .radius{border-radius: 20px 20px 0px 0px !important;}
 
-      table,
-      td {
-        color: #000000;
-      }
-      #u_body a {
-        color: #0000ee;
-        text-decoration: underline;
-      }
-      @media (max-width: 480px) {
-        #u_content_image_6 .v-text-align {
-          text-align: center !important;
-        }
-        #u_content_text_11 .v-text-align {
-          text-align: center !important;
-        }
-        #u_row_35 .v-row-background-image--outer {
-          background-position: -11% 100% !important;
-          background-repeat: no-repeat !important;
-        }
-        #u_row_35.v-row-background-image--outer {
-          background-position: -11% 100% !important;
-          background-repeat: no-repeat !important;
-        }
-        #u_content_heading_26 .v-font-size {
-          font-size: 35px !important;
-        }
-        #u_content_heading_28 .v-font-size {
-          font-size: 14px !important;
-        }
-        #u_content_heading_11 .v-font-size {
-          font-size: 35px !important;
-        }
-        #u_content_heading_12 .v-container-padding-padding {
-          padding: 10px 27px 20px 28px !important;
-        }
-        #u_content_image_9 .v-src-width {
-          width: auto !important;
-        }
-        #u_content_image_9 .v-src-max-width {
-          max-width: 70% !important;
-        }
-        #u_content_text_14 .v-font-size {
-          font-size: 15px !important;
-        }
-        #u_content_heading_29 .v-container-padding-padding {
-          padding: 12px 10px 10px !important;
-        }
-        #u_content_heading_29 .v-text-align {
-          text-align: center !important;
-        }
-        #u_content_heading_16 .v-container-padding-padding {
-          padding: 12px 10px 10px !important;
-        }
-        #u_content_heading_16 .v-text-align {
-          text-align: center !important;
-        }
-        #u_content_heading_17 .v-text-align {
-          text-align: center !important;
-        }
-        #u_content_heading_18 .v-container-padding-padding {
-          padding: 12px 10px 10px !important;
-        }
-        #u_content_heading_18 .v-text-align {
-          text-align: center !important;
-        }
-        #u_content_heading_24 .v-font-size {
-          font-size: 26px !important;
-        }
-        #u_content_button_3 .v-size-width {
-          width: 90% !important;
-        }
-      }
-    </style>
+    
+.mob_bg{background:url('https://mcusercontent.com/91d753cf1db5228f650c8546a/images/c7bcf8f9-2546-7847-dda4-6b95c61206b8.jpg') !important;background-size: cover !important;background-repeat: no-repeat !important;}
 
-    <!--[if !mso]><!-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Cabin:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!--<![endif]-->
-  </head>
 
-  <body
-    class="clean-body u_body"
-    style="
-      margin: 0;
-      padding: 0;
-      -webkit-text-size-adjust: 100%;
-      background-color: #f9f9f9;
-      color: #000000;
-    "
-  >
-    <!--[if IE]><div class="ie-container"><![endif]-->
-    <!--[if mso]><div class="mso-container"><![endif]-->
-    <table
-      id="u_body"
-      style="
-        border-collapse: collapse;
-        table-layout: fixed;
-        border-spacing: 0;
-        mso-table-lspace: 0pt;
-        mso-table-rspace: 0pt;
-        vertical-align: top;
-        min-width: 320px;
-        margin: 0 auto;
-        background-color: #f9f9f9;
-        width: 100%;
-      "
-      cellpadding="0"
-      cellspacing="0"
-    >
-      <tbody>
-        <tr style="vertical-align: top">
-          <td
-            style="
-              word-break: break-word;
-              border-collapse: collapse !important;
-              vertical-align: top;
-            "
-          >
-            <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" style="background-color: #f9f9f9;"><![endif]-->
+u + .em_body .em_full_wrap {
+width: 100% !important;
+width: 100vw !important;
+}
+    
+} 
+</style>
 
-            <div
-              class="u-row-container v-row-background-image--outer"
-              style="padding: 10px 0px; background-color: transparent"
-            >
-              <div
-                class="u-row"
-                style="
-                  margin: 0 auto;
-                  min-width: 320px;
-                  max-width: 600px;
-                  overflow-wrap: break-word;
-                  word-wrap: break-word;
-                  word-break: break-word;
-                  background-color: transparent;
-                "
-              >
-                <div
-                  class="v-row-background-image--inner"
-                  style="
-                    border-collapse: collapse;
-                    display: table;
-                    width: 100%;
-                    height: 100%;
-                    background-color: transparent;
-                  "
-                >
-                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="v-row-background-image--outer" style="padding: 10px 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr class="v-row-background-image--inner" style="background-color: transparent;"><![endif]-->
+</head>
+<body class="em_body"  style="min-width: 100%;  background-color:#ffffff;margin:0 auto !important;padding:0;">
+<span class="preheader" style="font-size:1px;color:#ffffff;"> <!-- Preview text here --> &nbsp;&zwnj;</span> 
+<table class="em_full_wrap" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="background-color:#ffffff;">
+<tr>
+<td align="center" valign="top">
+<table align="center" class="em_main_table" width="770" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;" >
 
-                  <!--[if (mso)|(IE)]><td align="center" width="300" style="width: 300px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-50"
-                    style="
-                      max-width: 320px;
-                      min-width: 300px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_image_6"
-                          class="header-image"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 10px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <table
-                                  width="100%"
-                                  cellpadding="0"
-                                  cellspacing="0"
-                                  border="0"
-                                >
-                                  <tr>
-                                    <td
-                                      class="v-text-align"
-                                      style="
-                                        padding-right: 0px;
-                                        padding-left: 0px;
-                                      "
-                                      align="left"
-                                    >
-                                      <img
-                                        align="left"
-                                        border="0"
-                                        src="https://res.cloudinary.com/diiohnshc/image/upload/v1705208413/Glo-Raise/akiwqnf5fdj77xfwoex5.png"
-                                        alt=""
-                                        title=""
-                                        style="
-                                          outline: none;
-                                          text-decoration: none;
-                                          -ms-interpolation-mode: bicubic;
-                                          clear: both;
-                                          display: inline-block !important;
-                                          border: none;
-                                          height: auto;
-                                          float: none;
-                                          width: 48%;
-                                          max-width: 134.4px;
-                                        "
-                                        width="134.4"
-                                        class="v-src-width v-src-max-width"
-                                      />
-                                    </td>
+
+ 
+
+       <tr>
+        <td>
+          <table  bgcolor="#FDFDFD" width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="48" class="em_hide">&nbsp;</td>
+              <td class="em_side_space">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="21" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                  </tr>
+                  
+                  <tr>
+                      <td>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                  <td valign="top" class="em_wrapper_two" width="135">
+                                      <table width="135" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                    
+                                          <tr>
+                                      <td> <img alt="Image" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/05c0148c-9caa-6be5-e9f6-f7c8cfeaf27c.png" width="135" height="14" style="max-width:135px;" /> </td>
                                   </tr>
-                                </table>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+                                                    
+                                                    
+                                      </table>
+                                  </td>
+                                                    
+                                  <td class="em_wrapper_two" style="font-size: 12px;line-height: 12px;" width="30">&nbsp;</td>
+                                                    
+                                  <td valign="top" class="em_wrapper_two"  >
+                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                    
+                           
+                                                    
+                                                    
+                                          <tr>
+                                          <td class="em_align_center" style="font-family:'Nunito', Avenir, Arial, sans-serif;font-size:14px;text-align:right; color:#656558;line-height:20px;font-weight:700;text-transform: uppercase;letter-spacing:1px;">
 
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]><td align="center" width="300" style="width: 300px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-50"
-                    style="
-                      max-width: 320px;
-                      min-width: 300px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_text_11"
-                          class="header-text"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 10px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <div
-                                  class="v-text-align v-font-size"
-                                  style="
-                                    font-size: 20px;
-                                    color: #999999;
-                                    line-height: 140%;
-                                    text-align: right;
-                                    word-wrap: break-word;
-                                  "
-                                >
-                                  <p style="line-height: 140%">
-                                    GROWTH Assessment
-                                  </p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+                                             Mindset & Culture Assessment
 
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-                </div>
-              </div>
-            </div>
 
-            <!--[if gte mso 9]>
-      <table cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;min-width: 320px;max-width: 600px;">
-        <tr>
-          <td background="https://res.cloudinary.com/diiohnshc/image/upload/v1705208412/Glo-Raise/nclvi80wjdhp9ndrs3cq.png" valign="top" width="100%">
-      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 600px;">
-        <v:fill type="frame" src="https://res.cloudinary.com/diiohnshc/image/upload/v1705208412/Glo-Raise/nclvi80wjdhp9ndrs3cq.png" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
-      <![endif]-->
+                                          </td>
+                                          </tr>
+                                                    
+                                                    
+                                      </table>
+                                  </td>
+                                                    
+                                                     
+                                                    
+                              </tr>
+                          </table>
+                      </td>
+                                                    </tr>
+                    
+                    
+                  <tr>
+                    <td height="21" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+              <td width="48" class="em_hide">&nbsp;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
 
-            <div
-              id="u_row_35"
-              class="u-row-container m v-row-background-image--outer"
-              style="padding: 0px; background-color: transparent"
-            >
-              <div
-                class="u-row"
-                style="
-                  margin: 0 auto;
-                  min-width: 320px;
-                  max-width: 600px;
-                  overflow-wrap: break-word;
-                  word-wrap: break-word;
-                  word-break: break-word;
-                  background-color: #02b68a;
-                "
-              >
-                <div
-                  class="v-row-background-image--inner"
-                  style="
-                    border-collapse: collapse;
-                    display: table;
-                    width: 100%;
-                    height: 100%;
-                    background-image: url('https://res.cloudinary.com/diiohnshc/image/upload/v1705208412/Glo-Raise/nclvi80wjdhp9ndrs3cq.png');
-                    background-repeat: no-repeat;
-                    background-position: -11% 100%;
-                    background-color: transparent;
-                    background-size: 140px;
-                  "
-                >
-                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="v-row-background-image--outer" style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr class="v-row-background-image--inner" style="background-image: url('https://res.cloudinary.com/diiohnshc/image/upload/v1705208412/Glo-Raise/nclvi80wjdhp9ndrs3cq.png');background-repeat: no-repeat;background-position: -11% 100%;background-color: #02b68a;background-size: 140px;"><![endif]-->
+ 
 
-                  <!--[if (mso)|(IE)]><td align="center" width="600" style="width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-100"
-                    style="
-                      max-width: 320px;
-                      min-width: 600px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div style="height: 100%; width: 100% !important">
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_heading_26"
-                          class="heading-1"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 20px 10px 0px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <!--[if mso]><table width="100%"><tr><td><![endif]-->
-                                <h1
-                                  class="v-text-align v-font-size"
-                                  style="
-                                    margin: 0px;
-                                    color: #ffffff;
-                                    line-height: 140%;
-                                    text-align: center;
-                                    word-wrap: break-word;
-                                    font-family: 'Raleway', sans-serif;
-                                    font-size: 40px;
-                                    font-weight: 700;
-                                  "
-                                >
-                                  <span
-                                    ><span
-                                      ><span
-                                        ><span
-                                          ><span
-                                            ><span
-                                              ><span
-                                                ><span
-                                                  ><span
-                                                    ><span
-                                                      ><span
-                                                        >Congratulations</span
-                                                      ></span
-                                                    ></span
-                                                  ></span
-                                                ></span
-                                              ></span
-                                            ></span
-                                          ></span
-                                        ></span
-                                      ></span
-                                    ></span
-                                  >
-                                </h1>
-                                <!--[if mso]></td></tr></table><![endif]-->
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+      <tr>
+        <td>
+          <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td style="background:url('https://mcusercontent.com/91d753cf1db5228f650c8546a/images/9d88ddc1-ec8a-35e0-8661-8a7f4b4108e6.jpg');background-color: #F3F3ED;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;background-position: top center;" class="mob_bg" valign="top" background="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/9d88ddc1-ec8a-35e0-8661-8a7f4b4108e6.jpg" align="center">
+                <!--[if gte mso 9]>
+                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:770px;height:870px;">
+                  <v:fill type="tile" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/9d88ddc1-ec8a-35e0-8661-8a7f4b4108e6.jpg" color="#ffffff" />
+                  <v:textbox inset="0,0,0,0">
+                    <![endif]-->
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                      
+                       
+                       
+                       <tr>
+                           <td>
+                               <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                                   <tr>
+                                       <td width="48" class="em_hide">&nbsp;</td>
+                                       <td valign="top" class="em_side_space">
+                                           <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       
+                                               <tr>
+                                                   <td height="48" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                               </tr>
+                       
+                       
+                                                   <tr>
+                                                   <td height="16" class="em_hide"  style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                                   </tr>
+                                                   
+                                                       
+                                           
+                                       
+                       
+                                               <tr>
+                                                   <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:56px;text-align:center;color:#1C1C1C;font-weight:500;line-height: 64px;">
+                                                      Mindset & Culture
+Assessment Report
+                                                   </td>
+                                               </tr>
+                       
+                                               <tr>
+                                                   <td height="25" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                               </tr>
+                                               
+                                               
+                                                   <tr>
+                                                         <td class="radius" bgcolor="#ffffff" style="border-radius: 40px 40px 0px 0px;box-shadow: 7px 0px 9px #dddddd;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                              
+                                                          
+                                               
+                                               
+                                               <tr>
+                                                   <td >
+                                                       <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                                                           <tr>
+                                                               <td width="40" class="em_hide">&nbsp;</td>
+                                                               <td valign="top" class="em_side_space">
+                                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                               
+                                                                       <tr>
+                                                                           <td height="32" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                                                       </tr>
+                                                                       
+                                                                          <tr>
+                                                                           <td height="16" class="em_hide"  style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                                                       </tr>
+                                                                       
+                                                                       
+                                                                       
+                                                
+                                                                   <tr>
+                                                                       <td class="txt30" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:30px;text-align:center; color:#333333;line-height:40px;font-weight:700;">
+                                                                         Congratulations
+                                                                       </td>
+                                                                   </tr>
+                                                                    <tr>
+                                                                   <td height="8" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                                                   </tr>
+                                                                   <tr>
+                                                                       <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:44px;text-align:center; color:#333333;line-height:56px;font-weight:700;">
+                                                                         Anastasiia Ivashchuk 
+                                                                       </td>
+                                                                   </tr>
+                                                                   
+                                                                   <tr>
+                                                                   <td height="8" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                                                   </tr>
+                                                                   
+                                                                           <tr>
+                                                                       <td class="txt30" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:30px;text-align:center; color:#333333;line-height:40px;font-weight:700;">
+                                                                         on completing the Mindset & Culture Assessment!
+                                                                       </td>
+                                                                   </tr>
+                       
+                       
+                                                                       <tr>
+                                                                           <td height="24" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                                                       </tr>
+                                               
+                       
+                                                                           <tr>
+                                                                       <td class="textreg" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:18px;text-align:center; color:#333333;line-height:26px;font-weight:400;">
+                                                                         Scores range from Level 1 to Level 5 - Level 5 most closely aligns with the factors known to deliver exceptional performance.
+                                                                       </td>
+                                                                   </tr>
+                       
+                                                                       <tr>
+                                                                           <td height="16" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                                                       </tr>
+                                               
+                       
+                                                                       <tr>
+                                                                           <td height="8" class="em_hide"  style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                                                       </tr>
+                                               
+                                               
+                                                                   </table>
+                                                               </td>
+                                                               <td width="40" class="em_hide">&nbsp;</td>
+                                                           </tr>
+                                                       </table>
+                                                   </td>
+                                               </tr>
+                                                 
+                       
+                                                <tr>
+                                                   <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/8f34a728-5581-383a-e743-7103ec3f7982.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;" border="0" /> </td>
+                                                 </tr> 
+                                                 
+                                                  <!--[if !mso]><!-- -->
+                                                <tr>
+                                                   <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/ebe6af9e-ea72-f430-15c0-b86596ae1f69.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;" border="0" /> </td>
+                                                 </tr> 
+                                                 
+                                                    <!--<![endif]-->
+                                                 
+                                                 
+                                                 
+                                                      </table></td>
+                                                 </tr>
 
-                        <table
-                          class="heading-2"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 5px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <!--[if mso]><table width="100%"><tr><td><![endif]-->
-                                <h2
-                                  class="v-text-align v-font-size"
-                                  style="
-                                    margin: 0px;
-                                    color: #ffffff;
-                                    line-height: 140%;
-                                    text-align: center;
-                                    word-wrap: break-word;
-                                    font-family: 'Raleway', sans-serif;
-                                    font-size: 30px;
-                                    font-weight: 400;
-                                  "
-                                >
-                                  <span
-                                    ><span
-                                      ><span
-                                        ><span
-                                          ><span
-                                            ><span
-                                              ><span
-                                                ><span
-                                                  ><span
-                                                    ><span
-                                                      ><span
-                                                        ><span
-                                                          ><span
-                                                            >Jhon Smith</span
-                                                          ></span
-                                                        ></span
-                                                      ></span
-                                                    ></span
-                                                  ></span
-                                                ></span
-                                              ></span
-                                            ></span
-                                          ></span
-                                        ></span
-                                      ></span
-                                    ></span
-                                  >
-                                </h2>
-                                <!--[if mso]></td></tr></table><![endif]-->
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+                       
+                                           </table>
+                                       </td>
+                                       <td width="48" class="em_hide">&nbsp;</td>
+                                   </tr>
+                               </table>
+                           </td>
+                       </tr>
+                        
+                        
+                    </table>
+                    <!--[if gte mso 9]>
+                  </v:textbox>
+                </v:rect>
+                <![endif]-->
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      
+      
+      
+      
 
-                        <table
-                          id="u_content_heading_28"
-                          class="heading-3"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 10px 20px 20px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <!--[if mso]><table width="100%"><tr><td><![endif]-->
-                                <h3
-                                  class="v-text-align v-font-size"
-                                  style="
-                                    margin: 0px;
-                                    color: #ffffff;
-                                    line-height: 160%;
-                                    text-align: center;
-                                    word-wrap: break-word;
-                                    font-family: 'Raleway', sans-serif;
-                                    font-size: 15px;
-                                    font-weight: 400;
-                                  "
-                                >
-                                  <span
-                                    ><span
-                                      ><span style="line-height: 24px"
-                                        ><span style="line-height: 24px"
-                                          ><span style="line-height: 24px"
-                                            ><span style="line-height: 24px"
-                                              ><span style="line-height: 24px"
-                                                ><span style="line-height: 24px"
-                                                  ><span
-                                                    style="line-height: 24px"
-                                                    ><span
-                                                      style="line-height: 24px"
-                                                      ><span
-                                                        style="
-                                                          line-height: 24px;
-                                                        "
-                                                        ><span
-                                                          style="
-                                                            line-height: 24px;
-                                                          "
-                                                          ><span
-                                                            style="
-                                                              line-height: 24px;
-                                                            "
-                                                            ><span
-                                                              style="
-                                                                line-height: 24px;
-                                                              "
-                                                              ><span
-                                                                style="
-                                                                  line-height: 24px;
-                                                                "
-                                                                ><span
-                                                                  style="
-                                                                    line-height: 24px;
-                                                                  "
-                                                                  ><span
-                                                                    style="
-                                                                      line-height: 24px;
-                                                                    "
-                                                                    ><span
-                                                                      style="
-                                                                        line-height: 24px;
-                                                                      "
-                                                                      ><span
-                                                                        style="
-                                                                          line-height: 24px;
-                                                                        "
-                                                                        >on
-                                                                        completing
-                                                                        the
-                                                                        Glo-raise
-                                                                        GROWTH
-                                                                        assessment<br />–
-                                                                        the
-                                                                        premier
-                                                                        business
-                                                                        attractiveness
-                                                                        assessment
-                                                                        globally.</span
-                                                                      ></span
-                                                                    ></span
-                                                                  ></span
-                                                                ></span
-                                                              ></span
-                                                            ></span
-                                                          ></span
-                                                        ></span
-                                                      ></span
-                                                    ></span
-                                                  ></span
-                                                ></span
-                                              ></span
-                                            ></span
-                                          ></span
-                                        ></span
-                                      ></span
-                                    ></span
-                                  >
-                                </h3>
-                                <!--[if mso]></td></tr></table><![endif]-->
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+      <tr>
+        <td>
+          <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td style="background:url('https://mcusercontent.com/91d753cf1db5228f650c8546a/images/d9939214-53c9-6d69-b3f0-5d0cbf64c2be.jpg');background-color: #F3F3ED;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;background-position: top center;" class="mob_bg_two" valign="top" background="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/d9939214-53c9-6d69-b3f0-5d0cbf64c2be.jpg" align="center">
+                <!--[if gte mso 9]>
+                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:770px;height:822px;">
+                  <v:fill type="tile" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/d9939214-53c9-6d69-b3f0-5d0cbf64c2be.jpg" color="#ffffff" />
+                  <v:textbox inset="0,0,0,0">
+                    <![endif]-->
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                      
+                       
+                       
+                       <tr>
+                           <td>
+                               <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                                   <tr>
+                                       <td width="48" class="em_hide">&nbsp;</td>
+                                       <td valign="top" class="em_side_space">
+                                           <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       
+                                               <tr>
+                                                   <td height="59" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                               </tr> 
+                       
+                                               <tr>
+                                                   <td class="txt44" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:44px;text-align:center;color:#ffffff;font-weight:500;line-height: 56px;">
+                                                     Unlock Your Complete <br class="em_hide">  Mindset & Culture  <br class="em_hide">  Report Bundle
+                                                   </td>
+                                               </tr>
+                       
+                                               <tr>
+                                                   <td height="35" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                               </tr>
+                                               
+                                               
+                                                   <tr>
+                                                         <td bgcolor="#ffffff" style="border-radius: 40px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                              
+                                                          <tr>
+                                                               <td width="40" class="em_hide">&nbsp;</td>
+                                                               <td valign="top" class="em_side_space">
+                                                                   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                               
+                                                                       <tr>
+                                                                           <td height="45" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                                                       </tr>
+                                                                       
+                                                                       <tr>
+                                                                           <td>
+                                                                               <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                   <tr>
+                                                                                       <td valign="top" class="em_wrapper_two" width="288">
+                                                                                           <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                                                         
+                                                                                              <tr>
+                                                                                               <td class="fricon" valign="top" width="80" style="padding-top:5px;padding-bottom: 5px; ">
+                                                                                                 <img class="fricon" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/8b3afd8c-728f-e19d-f94b-a2286d9d7fba.png" alt="ico" width="80" height="80" style="display:block;border:none; max-width:80px;" border="0" />
+                                                                                               </td>
+                                                                                               
+                                                                                               <td width="16">&nbsp;</td>
+                                                                                               <td   style=" font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:left;color:#1C1C1C;line-height:20px;font-weight:400;padding-bottom: 5px;">
 
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-                </div>
-              </div>
-            </div>
+                                                                                                Visual breakdown report of your scores in each dimension and how they compare to others globally
+                                                                                               </td>
+                                                                                             </tr>      
+                                                                                                         
+                                                                                           </table>
+                                                                                       </td>
+                                                                                                         
+                                                                                       <td class="em_wrapper_two" width="16">&nbsp;</td>
+                                                                                                         
+                                                                                       <td valign="top" class="em_wrapper_two" width="288">
+                                                                                           <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                                                         
+                                                                                 
+                                                                                                              
+                                                                                              <tr>
+                                                                                               <td class="fricon" valign="top" width="80" style="padding-top:5px;padding-bottom: 5px; ">
+                                                                                                 <img class="fricon" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/b18f693c-5c3c-d80f-090d-f493cbb919e6.png" alt="ico" width="80" height="80" style="display:block;border:none; max-width:80px;" border="0" />
+                                                                                               </td>
+                                                                                               
+                                                                                               <td width="16">&nbsp;</td>
+                                                                                               <td   style=" font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:left;color:#1C1C1C;line-height:20px;font-weight:400;padding-bottom: 5px;">
 
-            <!--[if gte mso 9]>
-      </v:textbox></v:rect>
-    </td>
-    </tr>
-    </table>
-    <![endif]-->
+                                                                                               Top trends from all participants by region
+                                                                                               </td>
+                                                                                             </tr>         
+                                                                                                         
+                                                                                           </table>
+                                                                                       </td>
+                                                                                                         
+                                                                                                          
+                                                                                                         
+                                                                                   </tr>
+                                                                               </table>
+                                                                           </td>
+                                                                      </tr>
+                                                                      
+                                                                      <tr>
+                                                                      <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                                                      </tr>
+                                                                      
+                                                                          
+                                                 <tr>
+                                                                           <td>
+                                                                               <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                   <tr>
+                                                                                       <td valign="top" class="em_wrapper_two" width="288">
+                                                                                           <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                                                         
+                                                                                              <tr>
+                                                                                               <td class="fricon" valign="top" width="80" style="padding-top:5px;padding-bottom: 5px; ">
+                                                                                                 <img class="fricon" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/304166f4-9a86-fdb3-c846-bc018eb33c7e.png" alt="ico" width="80" height="80" style="display:block;border:none; max-width:80px;" border="0" />
+                                                                                               </td>
+                                                                                               
+                                                                                               <td width="16">&nbsp;</td>
+                                                                                               <td   style=" font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:left;color:#1C1C1C;line-height:20px;font-weight:400;padding-bottom: 5px;">
 
-            <div
-              class="u-row-container m v-row-background-image--outer"
-              style="padding: 0px; background-color: transparent"
-            >
-              <div
-                class="u-row"
-                style="
-                  margin: 0 auto;
-                  min-width: 320px;
-                  max-width: 600px;
-                  overflow-wrap: break-word;
-                  word-wrap: break-word;
-                  word-break: break-word;
-                  background-color: #ffffff;
-                "
-              >
-                <div
-                  class="v-row-background-image--inner"
-                  style="
-                    border-collapse: collapse;
-                    display: table;
-                    width: 100%;
-                    height: 100%;
-                    background-color: transparent;
-                  "
-                >
-                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="v-row-background-image--outer" style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr class="v-row-background-image--inner" style="background-color: #ffffff;"><![endif]-->
+                                                                                                Personalized action insights for each dimension based on your responses
+                                                                                               </td>
+                                                                                             </tr>      
+                                                                                                         
+                                                                                           </table>
+                                                                                       </td>
+                                                                                                         
+                                                                                       <td class="em_wrapper_two" width="16">&nbsp;</td>
+                                                                                                         
+                                                                                       <td valign="top" class="em_wrapper_two" width="288">
+                                                                                           <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                                                         
+                                                                                 
+                                                                                                              
+                                                                                              <tr>
+                                                                                               <td class="fricon" valign="top" width="80" style="padding-top:5px;padding-bottom: 5px; ">
+                                                                                                 <img class="fricon" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/fbf04a68-c8da-9dd1-c04c-1b8b8dcab4eb.png" alt="ico" width="80" height="80" style="display:block;border:none; max-width:80px;" border="0" />
+                                                                                               </td>
+                                                                                               
+                                                                                               <td width="16">&nbsp;</td>
+                                                                                               <td   style=" font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:left;color:#1C1C1C;line-height:20px;font-weight:400;padding-bottom: 5px;">
 
-                  <!--[if (mso)|(IE)]><td align="center" width="400" style="width: 400px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-66p67"
-                    style="
-                      max-width: 320px;
-                      min-width: 400px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_heading_11"
-                          class="heading-1"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 10px 10px 0px 20px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <!--[if mso]><table width="100%"><tr><td><![endif]-->
-                                <h1
-                                  class="v-text-align v-font-size"
-                                  style="
-                                    margin: 0px;
-                                    color: #000000;
-                                    line-height: 140%;
-                                    text-align: left;
-                                    word-wrap: break-word;
-                                    font-family: 'Raleway', sans-serif;
-                                    font-size: 40px;
-                                    font-weight: 700;
-                                  "
-                                >
-                                  <span
-                                    ><span
-                                      ><span
-                                        ><span
-                                          ><span
-                                            ><span
-                                              style="color: #1f1f1f; text-align: left; -wrap; background-color: #ffffff; float: none; display: inline;"
-                                              >Your score is</span
-                                            ></span
-                                          ></span
-                                        ></span
-                                      ></span
-                                    ></span
-                                  >
-                                </h1>
-                                <!--[if mso]></td></tr></table><![endif]-->
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+                                                                                              A digital copy of bestseller SHAPER
+                                                                                               </td>
+                                                                                             </tr>         
+                                                                                                         
+                                                                                           </table>
+                                                                                       </td>
+                                                                                                         
+                                                                                                          
+                                                                                                         
+                                                                                   </tr>
+                                                                               </table>
+                                                                           </td>
+                                                                      </tr> 
+                                                                      <tr>
+                                                                      <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                                                      </tr>
+                                                                      
+                                                                          
+                                                 <tr>
+                                                                           <td>
+                                                                               <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                   <tr>
+                                                                                       <td valign="top" class="em_wrapper_two" width="288">
+                                                                                           <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                                                         
+                                                                                              <tr>
+                                                                                               <td class="fricon" valign="top" width="80" style="padding-top:5px;padding-bottom: 5px; ">
+                                                                                                 <img class="fricon" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/cf5ef234-4063-3b26-14a4-7379c3c5fcda.png" alt="ico" width="80" height="80" style="display:block;border:none; max-width:80px;" border="0" />
+                                                                                               </td>
+                                                                                               
+                                                                                               <td width="16">&nbsp;</td>
+                                                                                               <td   style=" font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:left;color:#1C1C1C;line-height:20px;font-weight:400;padding-bottom: 5px;">
 
-                        <table
-                          id="u_content_heading_12"
-                          class="heading-3"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 10px 10px 10px 20px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <!--[if mso]><table width="100%"><tr><td><![endif]-->
-                                <h3
-                                  class="v-text-align v-font-size"
-                                  style="
-                                    margin: 0px;
-                                    color: #000000;
-                                    line-height: 150%;
-                                    text-align: left;
-                                    word-wrap: break-word;
-                                    font-family: 'Raleway', sans-serif;
-                                    font-size: 15px;
-                                    font-weight: 400;
-                                  "
-                                >
-                                  <span
-                                    ><span
-                                      ><span
-                                        ><span style="line-height: 22.5px"
-                                          ><span
-                                            style="
-                                              color: #000000;
-                                              text-align: left;
-                                              white-space: normal;
-                                              background-color: #ffffff;
-                                              float: none;
-                                              display: inline;
-                                              line-height: 22.5px;
-                                            "
-                                            >Scores range from Level 1 (lowest)
-                                            to Level 5 (highest) with Level 5
-                                            most closely aligning with the
-                                            factors known to drive
-                                            entrepreneurial success.</span
-                                          ></span
-                                        ></span
-                                      ></span
-                                    ></span
-                                  >
-                                </h3>
-                                <!--[if mso]></td></tr></table><![endif]-->
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+                                                                                               Access to an overview of research findings and key concepts presented by Dr. Tom Hunsaker
+                                                                                               </td>
+                                                                                             </tr>      
+                                                                                                         
+                                                                                           </table>
+                                                                                       </td>
+                                                                                                         
+                                                                                       <td class="em_wrapper_two" width="16">&nbsp;</td>
+                                                                                                         
+                                                                                       <td valign="top" class="em_wrapper_two" width="288">
+                                                                                           <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                                                         
+                                                                                 
+                                                                                                              
+                                                                                              <tr>
+                                                                                               <td class="fricon" valign="top" width="80" style="padding-top:5px;padding-bottom: 5px; ">
+                                                                                                 <img class="fricon" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/c7b89d31-3cae-cd84-9a43-be5d3274febb.png" alt="ico" width="80" height="80" style="display:block;border:none; max-width:80px;" border="0" />
+                                                                                               </td>
+                                                                                               
+                                                                                               <td width="16">&nbsp;</td>
+                                                                                               <td   style=" font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:left;color:#1C1C1C;line-height:20px;font-weight:400;padding-bottom: 5px;">
 
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]><td align="center" width="200" style="width: 200px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-33p33"
-                    style="
-                      max-width: 320px;
-                      min-width: 200px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_image_9"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 0px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <table
-                                  width="100%"
-                                  cellpadding="0"
-                                  cellspacing="0"
-                                  border="0"
-                                >
-                                  <tr>
-                                    <td
-                                      class="v-text-align"
-                                      style="
-                                        padding-right: 0px;
-                                        padding-left: 0px;
-                                      "
-                                      align="center"
-                                    >
-                                      <img
-                                        align="center"
-                                        border="0"
-                                        src="https://res.cloudinary.com/diiohnshc/image/upload/v1705208411/Glo-Raise/xft1jduvrxyx8r7mhxi2.png"
-                                        alt=""
-                                        title=""
-                                        style="
-                                          outline: none;
-                                          text-decoration: none;
-                                          -ms-interpolation-mode: bicubic;
-                                          clear: both;
-                                          display: inline-block !important;
-                                          border: none;
-                                          height: auto;
-                                          float: none;
-                                          width: 100%;
-                                          max-width: 200px;
-                                        "
-                                        width="200"
-                                        class="v-src-width v-src-max-width"
-                                      />
+                                                                                           All for a limited time just $49 ($500 value)
+                                                                                               </td>
+                                                                                             </tr>         
+                                                                                                         
+                                                                                           </table>
+                                                                                       </td>
+                                                                                                         
+                                                                                                          
+                                                                                                         
+                                                                                   </tr>
+                                                                               </table>
+                                                                           </td>
+                                                                      </tr>
+                                                                    
+                       
+                                                                       <tr>
+                                                                           <td height="22" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                                                       </tr>
+                                                                       
+                                                                       
+                                                                       <tr>
+                                                                           <td><table width="288" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                               <tr>
+                                                                                 <td  valign="middle" bgcolor="#CB4A22" height="48" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:center;border-radius:40px;color:#ffffff;  font-weight:700;">
+                                                                                     <a href="https://example.com/" target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 48px;"> 
+                                                                                  Get complete bundle for $49
+                                                                                     </a>
+                                                                                 </td>
+                                                                               </tr>
+                                                                             </table></td>
+                                                                          </tr>
+                                               
+                                               
+                       
+                                                                       <tr>
+                                                                           <td height="40" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                                                       </tr>
+                                               
+                                               
+                                                                   </table>
+                                                               </td>
+                                                               <td width="40" class="em_hide">&nbsp;</td>
+                                                           </tr>
+                                                 
+                                                      </table></td>
+                                                 </tr>
+
+                       
+                                               <tr>
+                                                   <td height="88" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                               </tr>
+                                                
+                       
+                                           </table>
+                                       </td>
+                                       <td width="48" class="em_hide">&nbsp;</td>
+                                   </tr>
+                               </table>
+                           </td>
+                       </tr>
+                        
+                        
+                    </table>
+                    <!--[if gte mso 9]>
+                  </v:textbox>
+                </v:rect>
+                <![endif]-->
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+ 
+
+
+      <tr>
+        <td>
+          <table bgcolor="#111111" width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="48" class="em_hide">&nbsp;</td>
+              <td valign="top" class="em_side_space">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="50" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                  </tr>
+                 
+                    
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td valign="top" class="em_wrapper_two" width="73">
+                                        <table width="73" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      
+                                        <tr>
+                                            <td> <img alt="Image" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/2e3a1dbc-e970-d0e2-958e-bc86f3b0f241.png" width="73" height="41" style="max-width:73px;" /> </td>
+                                        </tr>
+                                                      
+                                                      
+                                        </table>
                                     </td>
-                                  </tr>
-                                </table>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+                                                      
+                                    <td class="em_wrapper_two"  style="line-height: 40px;" width="145">&nbsp;</td>
+                                                      
+                                    <td valign="middle" class="em_wrapper_two" >
+                                        <table class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="right">
+                                                      
+                               <tr>
+                                   <td class="em_wrapper_two"  style=" font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:12px;text-align:center;color:#ffffff;line-height:16px;font-weight:400; ">
 
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-                </div>
-              </div>
-            </div>
+                                       <a target="_blank" style="text-decoration:none;color:#ffffff;" href="https://example.com"> Privacy Policy </a> 
+                                       </td>
+                                       
+                                       <td class="em_wrapper_two"  width="37">&nbsp;</td>
+                                       
+                                       <td class="em_wrapper_two"   style=" font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:12px;text-align:center;color:#ffffff;line-height:16px;font-weight:400; ">
 
-            <div
-              class="u-row-container v-row-background-image--outer"
-              style="padding: 0px; background-color: transparent"
-            >
-              <div
-                class="u-row"
-                style="
-                  margin: 0 auto;
-                  min-width: 320px;
-                  max-width: 600px;
-                  overflow-wrap: break-word;
-                  word-wrap: break-word;
-                  word-break: break-word;
-                  background-color: #222222;
-                "
-              >
-                <div
-                  class="v-row-background-image--inner"
-                  style="
-                    border-collapse: collapse;
-                    display: table;
-                    width: 100%;
-                    height: 100%;
-                    background-color: transparent;
-                  "
-                >
-                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="v-row-background-image--outer" style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr class="v-row-background-image--inner" style="background-color: #222222;"><![endif]-->
+                                       <a target="_blank" style="text-decoration:none;color:#ffffff;" href="https://example.com"> Terms & Conditions </a> 
+                                       </td> 
+                                       
+                                          <td class="em_wrapper_two"  width="37">&nbsp;</td>
+                                       
+                                       <td class="em_wrapper_two"   style=" font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:12px;text-align:center;color:#ffffff;line-height:16px;font-weight:400; ">
 
-                  <!--[if (mso)|(IE)]><td align="center" width="600" style="width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-100"
-                    style="
-                      max-width: 320px;
-                      min-width: 600px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_text_14"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 10px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <div
-                                  class="v-text-align v-font-size"
-                                  style="
-                                    font-family: 'Raleway', sans-serif;
-                                    font-size: 20px;
-                                    color: #ffffff;
-                                    line-height: 230%;
-                                    text-align: center;
-                                    word-wrap: break-word;
-                                  "
-                                >
-                                  <h2>
-                                    UNLOCK YOUR COMPLETE GLO-RAISE GROWTH™ SCORE
-                                  </h2>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="u-row-container v-row-background-image--outer"
-              style="padding: 0px; background-color: transparent"
-            >
-              <div
-                class="u-row"
-                style="
-                  margin: 0 auto;
-                  min-width: 320px;
-                  max-width: 600px;
-                  overflow-wrap: break-word;
-                  word-wrap: break-word;
-                  word-break: break-word;
-                  background-color: #222222;
-                "
-              >
-                <div
-                  class="v-row-background-image--inner"
-                  style="
-                    border-collapse: collapse;
-                    display: table;
-                    width: 100%;
-                    height: 100%;
-                    background-color: transparent;
-                  "
-                >
-                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="v-row-background-image--outer" style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr class="v-row-background-image--inner" style="background-color: #222222;"><![endif]-->
-
-                  <!--[if (mso)|(IE)]><td align="center" width="300" style="width: 300px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-50"
-                    style="
-                      max-width: 320px;
-                      min-width: 300px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 20px 10px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <table
-                                  width="100%"
-                                  cellpadding="0"
-                                  cellspacing="0"
-                                  border="0"
-                                >
-                                  <tr>
-                                    <td
-                                      class="v-text-align"
-                                      style="
-                                        padding-right: 0px;
-                                        padding-left: 0px;
-                                      "
-                                      align="center"
-                                    >
-                                      <img
-                                        align="center"
-                                        border="0"
-                                        src="https://res.cloudinary.com/diiohnshc/image/upload/v1705208481/Glo-Raise/puthwgqaqamt7nfiy0oq.png"
-                                        alt=""
-                                        title=""
-                                        style="
-                                          outline: none;
-                                          text-decoration: none;
-                                          -ms-interpolation-mode: bicubic;
-                                          clear: both;
-                                          display: inline-block !important;
-                                          border: none;
-                                          height: auto;
-                                          float: none;
-                                          width: 40%;
-                                          max-width: 112px;
-                                        "
-                                        width="112"
-                                        class="v-src-width v-src-max-width"
-                                      />
+                                       <a target="_blank" style="text-decoration:none;color:#ffffff;" href="https://example.com"> © Copyright 2024 Tom Hunsaker </a> 
+                                       </td> 
+                                       
+                                        
+                                       
+                               </tr>
+                                                      
+                                        </table>
                                     </td>
-                                  </tr>
-                                </table>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+                                                      
+                                                       
+                                                      
+                                </tr>
+                            </table>
+                        </td>
+                     </tr>
+                  
+                  
+                  <tr>
+                    <td height="50" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+              <td width="48" class="em_hide">&nbsp;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
 
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]><td align="center" width="300" style="width: 300px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-50"
-                    style="
-                      max-width: 320px;
-                      min-width: 300px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_heading_29"
-                          class="heading-3"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 32px 10px 10px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <!--[if mso]><table width="100%"><tr><td><![endif]-->
-                                <h3
-                                  class="v-text-align v-font-size"
-                                  style="
-                                    margin: 0px;
-                                    color: #ffffff;
-                                    line-height: 160%;
-                                    text-align: left;
-                                    word-wrap: break-word;
-                                    font-family: 'Raleway', sans-serif;
-                                    font-size: 20px;
-                                    font-weight: 400;
-                                  "
-                                >
-                                  <span
-                                    ><span
-                                      ><span
-                                        >visualization breakdown of the % of
-                                        founders per region</span
-                                      ></span
-                                    ></span
-                                  >
-                                </h3>
-                                <!--[if mso]></td></tr></table><![endif]-->
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+ 
 
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="u-row-container v-row-background-image--outer"
-              style="padding: 0px; background-color: transparent"
-            >
-              <div
-                class="u-row"
-                style="
-                  margin: 0 auto;
-                  min-width: 320px;
-                  max-width: 600px;
-                  overflow-wrap: break-word;
-                  word-wrap: break-word;
-                  word-break: break-word;
-                  background-color: #222222;
-                "
-              >
-                <div
-                  class="v-row-background-image--inner"
-                  style="
-                    border-collapse: collapse;
-                    display: table;
-                    width: 100%;
-                    height: 100%;
-                    background-color: transparent;
-                  "
-                >
-                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="v-row-background-image--outer" style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr class="v-row-background-image--inner" style="background-color: #222222;"><![endif]-->
-
-                  <!--[if (mso)|(IE)]><td align="center" width="300" style="width: 300px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-50"
-                    style="
-                      max-width: 320px;
-                      min-width: 300px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 20px 10px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <table
-                                  width="100%"
-                                  cellpadding="0"
-                                  cellspacing="0"
-                                  border="0"
-                                >
-                                  <tr>
-                                    <td
-                                      class="v-text-align"
-                                      style="
-                                        padding-right: 0px;
-                                        padding-left: 0px;
-                                      "
-                                      align="center"
-                                    >
-                                      <img
-                                        align="center"
-                                        border="0"
-                                        src="https://res.cloudinary.com/diiohnshc/image/upload/v1705208481/Glo-Raise/gdbeij9e7o8qxybwc4kn.png"
-                                        alt=""
-                                        title=""
-                                        style="
-                                          outline: none;
-                                          text-decoration: none;
-                                          -ms-interpolation-mode: bicubic;
-                                          clear: both;
-                                          display: inline-block !important;
-                                          border: none;
-                                          height: auto;
-                                          float: none;
-                                          width: 40%;
-                                          max-width: 112px;
-                                        "
-                                        width="112"
-                                        class="v-src-width v-src-max-width"
-                                      />
-                                    </td>
-                                  </tr>
-                                </table>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]><td align="center" width="300" style="width: 300px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-50"
-                    style="
-                      max-width: 320px;
-                      min-width: 300px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_heading_16"
-                          class="heading-3"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 32px 10px 10px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <!--[if mso]><table width="100%"><tr><td><![endif]-->
-                                <h3
-                                  class="v-text-align v-font-size"
-                                  style="
-                                    margin: 0px;
-                                    color: #ffffff;
-                                    line-height: 160%;
-                                    text-align: left;
-                                    word-wrap: break-word;
-                                    font-family: 'Raleway', sans-serif;
-                                    font-size: 20px;
-                                    font-weight: 400;
-                                  "
-                                >
-                                  <span
-                                    >examples of eventual unicorns from each
-                                    level</span
-                                  >
-                                </h3>
-                                <!--[if mso]></td></tr></table><![endif]-->
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="u-row-container v-row-background-image--outer"
-              style="padding: 0px; background-color: transparent"
-            >
-              <div
-                class="u-row"
-                style="
-                  margin: 0 auto;
-                  min-width: 320px;
-                  max-width: 600px;
-                  overflow-wrap: break-word;
-                  word-wrap: break-word;
-                  word-break: break-word;
-                  background-color: #222222;
-                "
-              >
-                <div
-                  class="v-row-background-image--inner"
-                  style="
-                    border-collapse: collapse;
-                    display: table;
-                    width: 100%;
-                    height: 100%;
-                    background-color: transparent;
-                  "
-                >
-                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="v-row-background-image--outer" style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr class="v-row-background-image--inner" style="background-color: #222222;"><![endif]-->
-
-                  <!--[if (mso)|(IE)]><td align="center" width="300" style="width: 300px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-50"
-                    style="
-                      max-width: 320px;
-                      min-width: 300px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 20px 10px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <table
-                                  width="100%"
-                                  cellpadding="0"
-                                  cellspacing="0"
-                                  border="0"
-                                >
-                                  <tr>
-                                    <td
-                                      class="v-text-align"
-                                      style="
-                                        padding-right: 0px;
-                                        padding-left: 0px;
-                                      "
-                                      align="center"
-                                    >
-                                      <img
-                                        align="center"
-                                        border="0"
-                                        src="https://res.cloudinary.com/diiohnshc/image/upload/v1705208481/Glo-Raise/rld2rlq7oatvz41elabl.png"
-                                        alt=""
-                                        title=""
-                                        style="
-                                          outline: none;
-                                          text-decoration: none;
-                                          -ms-interpolation-mode: bicubic;
-                                          clear: both;
-                                          display: inline-block !important;
-                                          border: none;
-                                          height: auto;
-                                          float: none;
-                                          width: 40%;
-                                          max-width: 112px;
-                                        "
-                                        width="112"
-                                        class="v-src-width v-src-max-width"
-                                      />
-                                    </td>
-                                  </tr>
-                                </table>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]><td align="center" width="300" style="width: 300px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-50"
-                    style="
-                      max-width: 320px;
-                      min-width: 300px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_heading_17"
-                          class="heading-3"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 32px 10px 10px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <!--[if mso]><table width="100%"><tr><td><![endif]-->
-                                <h3
-                                  class="v-text-align v-font-size"
-                                  style="
-                                    margin: 0px;
-                                    color: #ffffff;
-                                    line-height: 160%;
-                                    text-align: left;
-                                    word-wrap: break-word;
-                                    font-family: 'Raleway', sans-serif;
-                                    font-size: 20px;
-                                    font-weight: 400;
-                                  "
-                                >
-                                  <span
-                                    >personalized action report based on your
-                                    responses to help you drive next-level
-                                    GROWTH</span
-                                  >
-                                </h3>
-                                <!--[if mso]></td></tr></table><![endif]-->
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="u-row-container v-row-background-image--outer"
-              style="padding: 0px; background-color: transparent"
-            >
-              <div
-                class="u-row"
-                style="
-                  margin: 0 auto;
-                  min-width: 320px;
-                  max-width: 600px;
-                  overflow-wrap: break-word;
-                  word-wrap: break-word;
-                  word-break: break-word;
-                  background-color: #222222;
-                "
-              >
-                <div
-                  class="v-row-background-image--inner"
-                  style="
-                    border-collapse: collapse;
-                    display: table;
-                    width: 100%;
-                    height: 100%;
-                    background-color: transparent;
-                  "
-                >
-                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="v-row-background-image--outer" style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr class="v-row-background-image--inner" style="background-color: #222222;"><![endif]-->
-
-                  <!--[if (mso)|(IE)]><td align="center" width="300" style="width: 300px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-50"
-                    style="
-                      max-width: 320px;
-                      min-width: 300px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 20px 10px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <table
-                                  width="100%"
-                                  cellpadding="0"
-                                  cellspacing="0"
-                                  border="0"
-                                >
-                                  <tr>
-                                    <td
-                                      class="v-text-align"
-                                      style="
-                                        padding-right: 0px;
-                                        padding-left: 0px;
-                                      "
-                                      align="center"
-                                    >
-                                      <img
-                                        align="center"
-                                        border="0"
-                                        src="https://res.cloudinary.com/diiohnshc/image/upload/v1705208481/Glo-Raise/jkvez4vyzzgfwj7haxgr.png"
-                                        alt=""
-                                        title=""
-                                        style="
-                                          outline: none;
-                                          text-decoration: none;
-                                          -ms-interpolation-mode: bicubic;
-                                          clear: both;
-                                          display: inline-block !important;
-                                          border: none;
-                                          height: auto;
-                                          float: none;
-                                          width: 40%;
-                                          max-width: 112px;
-                                        "
-                                        width="112"
-                                        class="v-src-width v-src-max-width"
-                                      />
-                                    </td>
-                                  </tr>
-                                </table>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]><td align="center" width="300" style="width: 300px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-50"
-                    style="
-                      max-width: 320px;
-                      min-width: 300px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_heading_18"
-                          class="heading-3"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 32px 10px 10px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <!--[if mso]><table width="100%"><tr><td><![endif]-->
-                                <h3
-                                  class="v-text-align v-font-size"
-                                  style="
-                                    margin: 0px;
-                                    color: #ffffff;
-                                    line-height: 160%;
-                                    text-align: left;
-                                    word-wrap: break-word;
-                                    font-family: 'Raleway', sans-serif;
-                                    font-size: 20px;
-                                    font-weight: 400;
-                                  "
-                                >
-                                  <span
-                                    ><span
-                                      >overall level for all founders globally
-                                      and the % of founders scoring in each
-                                      level</span
-                                    ></span
-                                  >
-                                </h3>
-                                <!--[if mso]></td></tr></table><![endif]-->
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="u-row-container v-row-background-image--outer"
-              style="padding: 0px; background-color: transparent"
-            >
-              <div
-                class="u-row"
-                style="
-                  margin: 0 auto;
-                  min-width: 320px;
-                  max-width: 600px;
-                  overflow-wrap: break-word;
-                  word-wrap: break-word;
-                  word-break: break-word;
-                  background-color: #222222;
-                "
-              >
-                <div
-                  class="v-row-background-image--inner"
-                  style="
-                    border-collapse: collapse;
-                    display: table;
-                    width: 100%;
-                    height: 100%;
-                    background-color: transparent;
-                  "
-                >
-                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="v-row-background-image--outer" style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr class="v-row-background-image--inner" style="background-color: #222222;"><![endif]-->
-
-                  <!--[if (mso)|(IE)]><td align="center" width="600" style="width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-100"
-                    style="
-                      max-width: 320px;
-                      min-width: 600px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_heading_24"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 10px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <!--[if mso]><table width="100%"><tr><td><![endif]-->
-                                <h1
-                                  class="v-text-align v-font-size"
-                                  style="
-                                    margin: 0px;
-                                    color: #ffffff;
-                                    line-height: 140%;
-                                    text-align: center;
-                                    word-wrap: break-word;
-                                    font-family: 'Raleway', sans-serif;
-                                    font-size: 28px;
-                                    font-weight: 700;
-                                  "
-                                >
-                                  <span
-                                    ><span
-                                      >LIMITED TIME JUST $29 ($300 VALUE)</span
-                                    ></span
-                                  >
-                                </h1>
-                                <!--[if mso]></td></tr></table><![endif]-->
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="u-row-container v-row-background-image--outer"
-              style="padding: 0px; background-color: transparent"
-            >
-              <div
-                class="u-row"
-                style="
-                  margin: 0 auto;
-                  min-width: 320px;
-                  max-width: 600px;
-                  overflow-wrap: break-word;
-                  word-wrap: break-word;
-                  word-break: break-word;
-                  background-color: #222222;
-                "
-              >
-                <div
-                  class="v-row-background-image--inner"
-                  style="
-                    border-collapse: collapse;
-                    display: table;
-                    width: 100%;
-                    height: 100%;
-                    background-color: transparent;
-                  "
-                >
-                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td class="v-row-background-image--outer" style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr class="v-row-background-image--inner" style="background-color: #222222;"><![endif]-->
-
-                  <!--[if (mso)|(IE)]><td align="center" width="600" style="width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                  <div
-                    class="u-col u-col-100"
-                    style="
-                      max-width: 320px;
-                      min-width: 600px;
-                      display: table-cell;
-                      vertical-align: top;
-                    "
-                  >
-                    <div
-                      style="
-                        height: 100%;
-                        width: 100% !important;
-                        border-radius: 0px;
-                        -webkit-border-radius: 0px;
-                        -moz-border-radius: 0px;
-                      "
-                    >
-                      <!--[if (!mso)&(!IE)]><!--><div
-                        style="
-                          box-sizing: border-box;
-                          height: 100%;
-                          padding: 0px;
-                          border-top: 0px solid transparent;
-                          border-left: 0px solid transparent;
-                          border-right: 0px solid transparent;
-                          border-bottom: 0px solid transparent;
-                          border-radius: 0px;
-                          -webkit-border-radius: 0px;
-                          -moz-border-radius: 0px;
-                        "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_button_3"
-                          style="font-family: 'Cabin', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                class="v-container-padding-padding"
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 20px 10px;
-                                  font-family: 'Cabin', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <!--[if mso
-                                  ]><style>
-                                    .v-button {
-                                      background: transparent !important;
-                                    }
-                                  </style><!
-                                [endif]-->
-                                <div class="v-text-align" align="center">
-                                  <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="" style="height:68px; v-text-anchor:middle; width:133px;" arcsize="12%"  stroke="f" fillcolor="#caff87"><w:anchorlock/><center style="color:#222222;font-family: 'Raleway',sans-serif; "><![endif]-->
-                                  <a
-                                    href=""
-                                    target="_blank"
-                                    class="v-button v-size-width v-font-size"
-                                    style="
-                                      box-sizing: border-box;
-                                      display: inline-block;
-                                      text-decoration: none;
-                                      -webkit-text-size-adjust: none;
-                                      text-align: center;
-                                      color: #222222;
-                                      background-color: #caff87;
-                                      border-radius: 8px;
-                                      -webkit-border-radius: 8px;
-                                      -moz-border-radius: 8px;
-                                      width: 23%;
-                                      max-width: 100%;
-                                      overflow-wrap: break-word;
-                                      word-break: break-word;
-                                      word-wrap: break-word;
-                                      mso-border-alt: none;
-                                      font-family: 'Raleway', sans-serif;
-                                      font-size: 17px;
-                                      font-weight: 700;
-                                    "
-                                  >
-                                    <span
-                                      style="
-                                        display: block;
-                                        padding: 24px 36px;
-                                        line-height: 120%;
-                                      "
-                                      ><span style="line-height: 20.4px"
-                                        ><span style="line-height: 20.4px"
-                                          >Unlock</span
-                                        ></span
-                                      ></span
-                                    >
-                                  </a>
-                                  <!--[if mso]></center></v:roundrect><![endif]-->
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <!--[if (!mso)&(!IE)]><!-->
-                      </div>
-                      <!--<![endif]-->
-                    </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-                </div>
-              </div>
-            </div>
-
-            <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <!--[if mso]></div><![endif]-->
-    <!--[if IE]></div><![endif]-->
-  </body>
+</table>
+</td>
+</tr>
+</table>
+<div style="display:none; white-space:nowrap; font:20px courier; color:#ffffff; background-color:#ffffff;">- - - - - - - - - - - - - - - - - - - - - - -</div>
+</body>
 </html>`;
 };
 export const onePrem = ({ name }) => {

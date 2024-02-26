@@ -6,6 +6,7 @@ import cors from "cors";
 import http from "http";
 import { stripeRouter } from "./config/stripe.js";
 import stayInformedRoute from "./routes/stayInformedRoute.js";
+import mindsetUsersRoute from "./routes/mindsetUsersRoute.js";
 
 dotenv.config();
 connectDB();
@@ -31,8 +32,7 @@ app.use(
 const server = http.createServer(app);
 
 //Api Routes
-app.use("/api/funders", fundersRoute);
-app.use("/api/founders", foundersRoute);
+app.use("/api/mindset", mindsetUsersRoute);
 app.use("/api/stripe", stripeRouter);
 app.use("/api/subscribe", stayInformedRoute);
 

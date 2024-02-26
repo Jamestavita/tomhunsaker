@@ -1,8 +1,12 @@
 import mongoose from "mongoose";
 
-const foundersSchema = mongoose.Schema(
+const mindsetUsersSchema = mongoose.Schema(
   {
     name: {
+      type: String,
+      require: true,
+    },
+    last_name: {
       type: String,
       require: true,
     },
@@ -10,15 +14,19 @@ const foundersSchema = mongoose.Schema(
       type: String,
       require: true,
     },
-    founderInfo: {
+    user_info: {
       type: Object,
       require: true,
     },
-    assessmentInfo: {
-      type: Array,
+    assessment_info: {
+      type: Object,
       require: true,
     },
-    score: {
+    points: {
+      type: Object,
+      require: true,
+    },
+    total_score: {
       type: Number,
       require: true,
       default: 0,
@@ -26,7 +34,7 @@ const foundersSchema = mongoose.Schema(
     level: {
       type: Number,
       require: true,
-      default: 0,
+      default: 1,
     },
     plan: {
       type: String,
@@ -40,6 +48,6 @@ const foundersSchema = mongoose.Schema(
   { timestamps: true }
 );
 
-const Founders = mongoose.model("Founders", foundersSchema);
+const MindsetUsers = mongoose.model("Mindset_Users", mindsetUsersSchema);
 
-export default Founders;
+export default MindsetUsers;

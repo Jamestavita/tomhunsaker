@@ -1,7 +1,6 @@
 import Stripe from "stripe";
 import express from "express";
 import dotenv from "dotenv";
-import Founders from "../models/foundersModel.js";
 import NodeMailer from "./nodeMailer.js";
 
 dotenv.config();
