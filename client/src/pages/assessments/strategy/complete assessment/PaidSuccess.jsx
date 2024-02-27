@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 
-export default function PaidSuccess() {
+export function PaidSuccess() {
   return (
     <div className="bg-Greyscale200 mx-auto">
       <section className="bg-Greyscale200">

@@ -1320,8 +1320,7 @@ const initialState = {
           ],
         },
       ],
-      significance:
-        "The reason why something is done. It is putting values to action. A number of statements will be presented to you in three categories: Continue, Stop, and Start. Select all of the statements that apply in each category.",
+      significance: `Fit-to-Purpose is your level of attractiveness to stakeholders. It is the relevance of your value proposition to key stakeholder and answers "How valuable are our actions to key stakeholders?" A number of statements will be presented to you in three categories: Continue, Stop, and Start. Select all of the statements that apply in each category.`,
     },
     {
       number: "39",
@@ -1371,8 +1370,7 @@ const initialState = {
           ],
         },
       ],
-      significance:
-        "How well those in a group are able to maximize their potential. A number of statements will be presented to you in three categories: Continue, Stop, and Start. Select all of the statements that apply in each category.",
+      significance: `Relative Advantage is how much stakeholders prefer you to others. It is your distinctiveness from alternatives and answers "How unique from other options are you viewed by key stakeholders?" A number of statements will be presented to you in three categories: Continue, Stop, and Start. Select all of the statements that apply in each category.`,
     },
   ],
   strategy_assessment_evaluation: {
@@ -1491,28 +1489,28 @@ export const AppSlice = createSlice({
     },
     setStrategyAssessmentPR: (state, action) => {
       //Choices
-      state.mindset_assessment_evaluation[action.payload.category][
+      state.strategy_assessment_evaluation[action.payload.category][
         action.payload.section
       ]?.choices.includes(action.payload.choice)
-        ? (state.mindset_assessment_evaluation[action.payload.category][
+        ? (state.strategy_assessment_evaluation[action.payload.category][
             action.payload.section
-          ].choices = state.mindset_assessment_evaluation[
+          ].choices = state.strategy_assessment_evaluation[
             action.payload.category
           ][action.payload.section].choices.filter(
             (choice) => choice !== action.payload.choice
           ))
-        : state.mindset_assessment_evaluation[action.payload.category][
+        : state.strategy_assessment_evaluation[action.payload.category][
             action.payload.section
           ].choices.push(action.payload.choice);
 
       //Scoring
-      state.mindset_assessment_evaluation[action.payload.category][
+      state.strategy_assessment_evaluation[action.payload.category][
         action.payload.section
       ].score =
-        state.mindset_assessment_evaluation[action.payload.category][
+        state.strategy_assessment_evaluation[action.payload.category][
           action.payload.section
         ].choices.length +
-        (state.mindset_assessment_evaluation[action.payload.category][
+        (state.strategy_assessment_evaluation[action.payload.category][
           action.payload.section
         ].other.length
           ? 1
@@ -1520,18 +1518,18 @@ export const AppSlice = createSlice({
     },
     setStrategyOther: (state, action) => {
       //Others
-      state.mindset_assessment_evaluation[action.payload.category][
+      state.strategy_assessment_evaluation[action.payload.category][
         action.payload.section
       ].other = action.payload.other;
 
       //Scoring
-      state.mindset_assessment_evaluation[action.payload.category][
+      state.strategy_assessment_evaluation[action.payload.category][
         action.payload.section
       ].score =
-        state.mindset_assessment_evaluation[action.payload.category][
+        state.strategy_assessment_evaluation[action.payload.category][
           action.payload.section
         ].choices.length +
-        (state.mindset_assessment_evaluation[action.payload.category][
+        (state.strategy_assessment_evaluation[action.payload.category][
           action.payload.section
         ].other.length
           ? 1
@@ -1552,7 +1550,7 @@ export const {
   setOther,
   setStrategyAssessmentProgress,
   setStrategyAssessmentEvaluation,
-  setStrategyAssessmentPPP,
+  setStrategyAssessmentPR,
   setStrategyOther,
   resetEvaluation,
 } = AppSlice.actions;

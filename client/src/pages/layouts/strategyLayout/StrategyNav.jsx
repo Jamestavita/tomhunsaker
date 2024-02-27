@@ -5,20 +5,16 @@ import { setStrategyAssessmentProgress } from "../../../store/features/appSlice"
 
 export default function StrategyNav() {
   const dispatch = useDispatch();
-  const { number_personal, number_team, number_organization, number_pr } =
-    useParams();
+  const { number_personal, number_team, number_org, number_pr } = useParams();
   const { strategy_assessment_progress } = useSelector((state) => state.app);
 
   useEffect(() => {
     dispatch(
       setStrategyAssessmentProgress(
-        (+number_personal ||
-          +number_team ||
-          +number_organization ||
-          +number_pr) * 2.564
+        (+number_personal || +number_team || +number_org || +number_pr) * 2.564
       )
     );
-  }, [number_personal, number_team, number_organization, number_pr]);
+  }, [number_personal, number_team, number_org, number_pr]);
 
   return (
     <div className="fixed top-0 w-full z-40 bg-Greyscale">

@@ -7,10 +7,18 @@ export const appApi = createApi({
   reducerPath: "AppAPI",
   baseQuery: fetchBaseQuery({ baseUrl: BASE_URL }),
   endpoints: (builder) => ({
-    //Funders---------------------------------------
+    //Mindset---------------------------------------
     createMindsetUser: builder.mutation({
       query: ({ body }) => ({
         url: `/mindset/create_user`,
+        method: "post",
+        body,
+      }),
+    }),
+    //Strategy---------------------------------------
+    createStrategyUser: builder.mutation({
+      query: ({ body }) => ({
+        url: `/strategy/create_user`,
         method: "post",
         body,
       }),
@@ -43,8 +51,6 @@ export const appApi = createApi({
 
 export const {
   useCreateMindsetUserMutation,
-  useCreateFunderMutation,
-  useCreateFounderMutation,
-  useCheckoutMutation,
+  useCreateStrategyUserMutation,
   useAddSubscriberMutation,
 } = appApi;

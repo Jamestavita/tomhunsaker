@@ -28,6 +28,14 @@ import Free from "./pages/assessments/mindset/complete assessment/Free";
 import PaidSuccess from "./pages/assessments/mindset/complete assessment/PaidSuccess";
 import FreeSuccess from "./pages/assessments/mindset/complete assessment/FreeSuccess";
 import OneToNine from "./pages/assessments/strategy/personal/OneToNine";
+import TenToSeventeen from "./pages/assessments/strategy/team/TenToSeventeen";
+import EighteenToThirtyseven from "./pages/assessments/strategy/organization/EighteenToThirtyseven";
+import PR from "./pages/assessments/strategy/pr/PR";
+import { Plan as StrategyPlan } from "./pages/assessments/strategy/complete assessment/Plan";
+import { Paid as StrategyPaid } from "./pages/assessments/strategy/complete assessment/Paid";
+import { Free as StrategyFree } from "./pages/assessments/strategy/complete assessment/Free";
+import { PaidSuccess as StrategyPaidSuccess } from "./pages/assessments/strategy/complete assessment/PaidSuccess";
+import { FreeSuccess as StrategyFreeSuccess } from "./pages/assessments/strategy/complete assessment/FreeSuccess";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -93,6 +101,38 @@ export default function App() {
           <Route
             path="/assessment/strategy/personal/:number_personal"
             element={<OneToNine />}
+          ></Route>
+          <Route
+            path="/assessment/strategy/team/:number_team"
+            element={<TenToSeventeen />}
+          ></Route>
+          <Route
+            path="/assessment/strategy/organization/:number_org"
+            element={<EighteenToThirtyseven />}
+          ></Route>
+          <Route
+            path="/assessment/strategy/pr/:number_pr"
+            element={<PR />}
+          ></Route>
+          <Route
+            path="/assessment/strategy/plan"
+            element={<StrategyPlan />}
+          ></Route>
+          <Route
+            path="/assessment/strategy/paid"
+            element={<StrategyPaid />}
+          ></Route>
+          <Route
+            path="/assessment/strategy/free"
+            element={<StrategyFree />}
+          ></Route>
+          <Route
+            path="/assessment/strategy/paid_success"
+            element={<StrategyPaidSuccess />}
+          ></Route>
+          <Route
+            path="/assessment/strategy/free_success"
+            element={<StrategyFreeSuccess />}
           ></Route>
           {/* <Route
             path="/assessment/mindset/interpersonal/:number_interpersonal"

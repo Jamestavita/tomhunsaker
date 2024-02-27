@@ -9,18 +9,9 @@ import SelectField from "../../../../components/reuseable/SelectField";
 import axios from "axios";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import {
-  useCheckoutMutation,
-  useCreateFounderMutation,
-} from "../../../../services/appApi";
 
 export default function Paid() {
   const navigate = useNavigate();
-  // const { assessmentEvaluation: assessmentInfo } = useSelector(
-  //   (state) => state.app
-  // );
-  // const { finalScore: score, level } = useContext(appContext);
-
 
   const marketSectorOptions = [
     {
@@ -125,8 +116,6 @@ export default function Paid() {
     });
   }
 
-  const [checkoutApi] = useCheckoutMutation();
-  const [createFounderApi] = useCreateFounderMutation();
   const [loading, setLoading] = useState(false);
   function onSubmitForm(e) {
     e.preventDefault();
@@ -319,7 +308,7 @@ export default function Paid() {
             />
           </div>
         </form>
-        <div className="grid gap-6 rounded-[40px] p-6 text-Greyscale900 self-start">
+        <div className="grid gap-6 rounded-[40px] p-6 lg:px-0 text-Greyscale900 self-start">
           <p className="text-[30px] lg:text-[44px] font-bold lg:font-medium leading-tight">
             With your complete bundle you will receive:
           </p>

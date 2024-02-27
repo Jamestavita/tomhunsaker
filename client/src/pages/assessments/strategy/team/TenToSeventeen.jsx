@@ -5,8 +5,8 @@ import { AppNextButton } from "../../../../components/reuseable/AppButtons";
 import appContext from "../../../../context/AppContext";
 import { setStrategyAssessmentEvaluation } from "../../../../store/features/appSlice";
 
-export default function OneToNine() {
-  const { number_personal } = useParams();
+export default function TenToSeventeen() {
+  const { number_team } = useParams();
   const navigate = useNavigate();
   const { strategy_assessment_questions, strategy_assessment_evaluation } =
     useSelector((state) => state.app);
@@ -18,10 +18,10 @@ export default function OneToNine() {
   useEffect(() => {
     setAssessment(
       strategy_assessment_questions.find(
-        (question) => question.number === number_personal
+        (question) => question.number === number_team
       )
     );
-  }, [number_personal]);
+  }, [number_team]);
 
   //Handle select one choice
   function handleChange(e) {
@@ -43,8 +43,8 @@ export default function OneToNine() {
     <div className="">
       <div className="grid lg:flex gap-2 items-center w-[min(90rem,100%)] mx-auto p-4 md:px-12 lg:px-32 lg:justify-between">
         <p className="text-[24px] text-center lg:text-left font-bold w-[min(340px,100%)] md:w-full lg:w-[min(340px,100%)] mx-auto lg:mx-0">
-          The following question relates to you{" "}
-          <span className="text-Green500">personally</span>
+          The following question relates to{" "}
+          <span className="text-Green500">your direct team</span>
         </p>
         <p className="text-[16px] font-medium text-center lg:text-right w-[min(340px,100%)] md:w-full lg:w-[min(340px,100%)] mx-auto lg:mx-0">
           Answer as honestly as possible to get the most value from your
@@ -55,7 +55,7 @@ export default function OneToNine() {
         <div className="w-[1850px] h-[1358px] bg-Greyscale200 rounded-[50%] absolute top-0 -translate-x-[50%] left-1/2"></div>
         <div className="relative grid justify-items-center">
           <p className="absolute top-0 text-Greyscale text-[24px] font-bold self-center">
-            {number_personal}
+            {number_team}
           </p>
           <svg
             width="212"
@@ -79,7 +79,7 @@ export default function OneToNine() {
           <div className="grid gap-4">
             {assessment?.options?.map((option) => (
               <div
-                key={option + number_personal}
+                key={option + number_team}
                 className="px-6 flex items-center gap-4 bg-Greyscale rounded-[20px] relative overflow-hidden cursor-pointer"
               >
                 <input
@@ -91,7 +91,7 @@ export default function OneToNine() {
                     getResponse(
                       strategy_assessment_evaluation,
                       assessment.category,
-                      number_personal
+                      number_team
                     )?.response === option
                   }
                   value={option}
@@ -115,13 +115,13 @@ export default function OneToNine() {
           <AppNextButton
             onClick={() =>
               navigate(
-                number_personal < 9
-                  ? `../assessment/strategy/personal/${(
+                number_team < 17
+                  ? `../assessment/strategy/team/${(
                       "0" +
-                      (+number_personal + 1)
+                      (+number_team + 1)
                     ).slice(-2)}`
-                  : `../assessment/strategy/team/${
-                      +number_personal + 1
+                  : `../assessment/strategy/organization/${
+                      +number_team + 1
                     }`
               )
             }
@@ -130,7 +130,7 @@ export default function OneToNine() {
               !getResponse(
                 strategy_assessment_evaluation,
                 assessment.category,
-                number_personal
+                number_team
               )?.response
             }
             label={`Next`}

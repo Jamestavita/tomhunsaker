@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
 
-export default function FreeSuccess() {
+export function FreeSuccess() {
   return (
     <div className="bg-Greyscale200 mx-auto">
       <section className="bg-Greyscale200">

@@ -4,7 +4,8 @@ import { useSelector } from "react-redux";
 const appContext = createContext();
 
 export const AppContextProvider = ({ children }) => {
-  const { mindset_assessment_evaluation } = useSelector((state) => state.app);
+  const { mindset_assessment_evaluation, strategy_assessment_evaluation } =
+    useSelector((state) => state.app);
 
   //Select one scoring
   function selectOneScoring(answer) {
@@ -58,71 +59,71 @@ export const AppContextProvider = ({ children }) => {
   }
 
   //Current score
-  console.log(mindset_assessment_evaluation);
-  console.log(
-    "Personal points: " +
-      mindset_assessment_evaluation?.Personal?.reduce((a, c) => a + c.score, 0)
-  );
-  console.log(
-    "Personal score: " +
-      (
-        mindset_assessment_evaluation?.Personal?.reduce(
-          (a, c) => a + c.score,
-          0
-        ) / 50
-      ).toFixed(2)
-  );
-  console.log(
-    "Interpersonal points: " +
-      mindset_assessment_evaluation?.Interpersonal?.reduce(
-        (a, c) => a + c.score,
-        0
-      )
-  );
-  console.log(
-    "Interpersonal score: " +
-      (
-        mindset_assessment_evaluation?.Interpersonal?.reduce(
-          (a, c) => a + c.score,
-          0
-        ) / 50
-      ).toFixed(2)
-  );
-  console.log(
-    "Team points: " +
-      mindset_assessment_evaluation?.Team?.reduce((a, c) => a + c.score, 0)
-  );
-  console.log(
-    "Team score: " +
-      (
-        mindset_assessment_evaluation?.Team?.reduce((a, c) => a + c.score, 0) /
-        95
-      ).toFixed(2)
-  );
-  console.log(
-    "Purpose score: " +
-      (mindset_assessment_evaluation?.Purpose?.Continue?.score +
-        mindset_assessment_evaluation?.Purpose?.Stop?.score +
-        mindset_assessment_evaluation?.Purpose?.Start?.score)
-  );
-  console.log(
-    "People score: " +
-      (mindset_assessment_evaluation?.People?.Continue?.score +
-        mindset_assessment_evaluation?.People?.Stop?.score +
-        mindset_assessment_evaluation?.People?.Start?.score)
-  );
-  console.log(
-    "Positions score: " +
-      (mindset_assessment_evaluation?.Positions?.Continue?.score +
-        mindset_assessment_evaluation?.Positions?.Stop?.score +
-        mindset_assessment_evaluation?.Positions?.Start?.score)
-  );
-  console.log(
-    "Process score: " +
-      (mindset_assessment_evaluation?.Process?.Continue?.score +
-        mindset_assessment_evaluation?.Process?.Stop?.score +
-        mindset_assessment_evaluation?.Process?.Start?.score)
-  );
+  console.log(strategy_assessment_evaluation);
+  // console.log(
+  //   "Personal points: " +
+  //     mindset_assessment_evaluation?.Personal?.reduce((a, c) => a + c.score, 0)
+  // );
+  // console.log(
+  //   "Personal score: " +
+  //     (
+  //       mindset_assessment_evaluation?.Personal?.reduce(
+  //         (a, c) => a + c.score,
+  //         0
+  //       ) / 50
+  //     ).toFixed(2)
+  // );
+  // console.log(
+  //   "Interpersonal points: " +
+  //     mindset_assessment_evaluation?.Interpersonal?.reduce(
+  //       (a, c) => a + c.score,
+  //       0
+  //     )
+  // );
+  // console.log(
+  //   "Interpersonal score: " +
+  //     (
+  //       mindset_assessment_evaluation?.Interpersonal?.reduce(
+  //         (a, c) => a + c.score,
+  //         0
+  //       ) / 50
+  //     ).toFixed(2)
+  // );
+  // console.log(
+  //   "Team points: " +
+  //     mindset_assessment_evaluation?.Team?.reduce((a, c) => a + c.score, 0)
+  // );
+  // console.log(
+  //   "Team score: " +
+  //     (
+  //       mindset_assessment_evaluation?.Team?.reduce((a, c) => a + c.score, 0) /
+  //       95
+  //     ).toFixed(2)
+  // );
+  // console.log(
+  //   "Purpose score: " +
+  //     (mindset_assessment_evaluation?.Purpose?.Continue?.score +
+  //       mindset_assessment_evaluation?.Purpose?.Stop?.score +
+  //       mindset_assessment_evaluation?.Purpose?.Start?.score)
+  // );
+  // console.log(
+  //   "People score: " +
+  //     (mindset_assessment_evaluation?.People?.Continue?.score +
+  //       mindset_assessment_evaluation?.People?.Stop?.score +
+  //       mindset_assessment_evaluation?.People?.Start?.score)
+  // );
+  // console.log(
+  //   "Positions score: " +
+  //     (mindset_assessment_evaluation?.Positions?.Continue?.score +
+  //       mindset_assessment_evaluation?.Positions?.Stop?.score +
+  //       mindset_assessment_evaluation?.Positions?.Start?.score)
+  // );
+  // console.log(
+  //   "Process score: " +
+  //     (mindset_assessment_evaluation?.Process?.Continue?.score +
+  //       mindset_assessment_evaluation?.Process?.Stop?.score +
+  //       mindset_assessment_evaluation?.Process?.Start?.score)
+  // );
 
   return (
     <appContext.Provider
