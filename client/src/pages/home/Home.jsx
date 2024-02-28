@@ -768,7 +768,7 @@ export default function Home() {
           </div>
           <div
             className="w-full h-[444px] bg-Blue500 rounded-[40px] relative grid cursor-pointer"
-            onClick={() => navigate("concepts/innovation#innovation")}
+            onClick={() => navigate("concepts/innovation")}
           >
             <div className="w-[60px] h-[60px] bg-Greyscale absolute -top-1 -right-[0.03rem] rounded-bl-[40px]">
               <svg

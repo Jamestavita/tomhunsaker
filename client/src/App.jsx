@@ -36,6 +36,18 @@ import { Paid as StrategyPaid } from "./pages/assessments/strategy/complete asse
 import { Free as StrategyFree } from "./pages/assessments/strategy/complete assessment/Free";
 import { PaidSuccess as StrategyPaidSuccess } from "./pages/assessments/strategy/complete assessment/PaidSuccess";
 import { FreeSuccess as StrategyFreeSuccess } from "./pages/assessments/strategy/complete assessment/FreeSuccess";
+import OneToFourteen from "./pages/assessments/innovation/personal/OneToFourteen";
+import FifteenToTwentyFour from "./pages/assessments/innovation/interpersonal/FifteenToTwentyFour";
+import TwentyFiveToThirtyThree from "./pages/assessments/innovation/team/TwentyFiveToThirtyThree";
+import IVAS from "./pages/assessments/innovation/ivas/IVAS";
+import { Plan as InnovationPlan } from "./pages/assessments/innovation/complete assessment/Plan";
+import { Paid as InnovationPaid } from "./pages/assessments/innovation/complete assessment/Paid";
+import { Free as InnovationFree } from "./pages/assessments/innovation/complete assessment/Free";
+import { PaidSuccess as InnovationPaidSuccess } from "./pages/assessments/innovation/complete assessment/PaidSuccess";
+import { FreeSuccess as InnovationFreeSuccess } from "./pages/assessments/innovation/complete assessment/FreeSuccess";
+import InnovationLayout from "./pages/layouts/innovationLayout/InnovationLayout";
+import InnovationOverview from "./pages/assessments/overviews/InnovationOverview";
+import ThirtyFourToThirtyFive from "./pages/assessments/innovation/team/ThirtyFourToThirtyFive";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -63,7 +75,7 @@ export default function App() {
         <Route path="/overview" element={<OverviewLayout />}>
           <Route path="mindset" element={<MindsetOverview />}></Route>
           <Route path="strategy" element={<StrategyOverview />}></Route>
-          {/* <Route path="innovation" element={<MindsetOverview />}></Route> */}
+          <Route path="innovation" element={<InnovationOverview />}></Route>
           {/* <Route path="execution" element={<MindsetOverview />}></Route> */}
         </Route>
         {/*Mindset assessment*/}
@@ -157,6 +169,49 @@ export default function App() {
             path="/assessment/mindset/free_success"
             element={<FreeSuccess />}
           ></Route> */}
+        </Route>
+        {/*Mindset assessment*/}
+        <Route element={<InnovationLayout />}>
+          <Route
+            path="/assessment/innovation/personal/:number_personal"
+            element={<OneToFourteen />}
+          ></Route>
+          <Route
+            path="/assessment/innovation/interpersonal/:number_interpersonal"
+            element={<FifteenToTwentyFour />}
+          ></Route>
+          <Route
+            path="/assessment/innovation/team/:number_team"
+            element={<TwentyFiveToThirtyThree />}
+          ></Route>
+          <Route
+            path="/assessment/innovation/team_rank/:number_team_rank"
+            element={<ThirtyFourToThirtyFive />}
+          ></Route>
+          <Route
+            path="/assessment/innovation/ppp/:number_ppp"
+            element={<IVAS />}
+          ></Route>
+          <Route
+            path="/assessment/innovation/plan"
+            element={<InnovationPlan />}
+          ></Route>
+          <Route
+            path="/assessment/innovation/paid"
+            element={<InnovationPaid />}
+          ></Route>
+          <Route
+            path="/assessment/innovation/free"
+            element={<InnovationFree />}
+          ></Route>
+          <Route
+            path="/assessment/innovation/paid_success"
+            element={<InnovationPaidSuccess />}
+          ></Route>
+          <Route
+            path="/assessment/innovation/free_success"
+            element={<InnovationFreeSuccess />}
+          ></Route>
         </Route>
       </Routes>
     </div>

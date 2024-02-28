@@ -1,7 +1,9 @@
 import React from "react";
 import AppButton100 from "../../components/reuseable/AppButtons";
+import { useNavigate } from "react-router-dom";
 
 export default function Innovation() {
+  const navigate = useNavigate();
   return (
     <div className="grid gap-10">
       <div className="grid lg:grid-cols-[0.72fr,1fr] gap-[56px] md:gap-[64px] lg:gap-3 items-start">
@@ -13,6 +15,7 @@ export default function Innovation() {
             <AppButton100
               className="bg-Blue500 text-Greyscale self-center lg:justify-self-start lg:px-16"
               label="Take FREE Assessment"
+              onClick={() => navigate("../../overview/innovation")}
             />
           </div>
           <p className="text-[18px]">

@@ -1388,6 +1388,717 @@ const initialState = {
       Start: { choices: [], other: "", score: 0 },
     },
   },
+
+  //Innovation
+  innovation_assessment_progress: 0,
+  innovation_assessment_questions: [
+    //Personal
+    {
+      number: "01",
+      qstn: "I start each day with the goal to find a valuable new idea",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Less than 20% of people look for valuable new ideas daily and nearly 85% of value creation comes from those who do",
+    },
+    {
+      number: "02",
+      qstn: "I avoid information I don't agree with",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "World-class innovators are open to information that may not reinforce the status quo",
+    },
+    {
+      number: "03",
+      qstn: "I excel at understanding what people like and dislike about an experience",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Scouting great ideas is aided by observing sources of joy, frustration, and ambivalence in an experience",
+    },
+    {
+      number: "04",
+      qstn: "I believe that others share my preferences",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Effective observation requires separating the preferences of others from your own",
+    },
+    {
+      number: "05",
+      qstn: "I have a favorite framework I use to help me identify valuable new opportunities",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "The brain uses mental frames to make sense of information and valuable frameworks help in this process",
+    },
+    {
+      number: "06",
+      qstn: "I choose comfort over new challenges",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Seeking comfort is linked to indifference whereas seeking challenges is linked to innovation",
+    },
+    {
+      number: "07",
+      qstn: "I excel at understanding how the parts connect in complex situations",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Effective scouting links a single observed point to its broader context and connects the relational dots in between ",
+    },
+    {
+      number: "08",
+      qstn: "I ask great questions",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Questions unlock curiosity and are linked to the desire to learn",
+    },
+    {
+      number: "09",
+      qstn: "I validate ideas before selling them to others",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Those who seek evidence to support or refute their ideas raise the confidence of others to consider them",
+    },
+    {
+      number: "10",
+      qstn: "I have a positive outlook about the future",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "World-class innovators share a sense of hope for the future and their role in it",
+    },
+    {
+      number: "11",
+      qstn: "I seek to understand new ideas before I reject or embrace them",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Seeking to understand an idea before forming an opinion about it allows for its merit to be genuinely considered",
+    },
+    {
+      number: "12",
+      qstn: "I act decisively on good new ideas",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Ideas are only as good as the actions that bring them to life",
+    },
+    {
+      number: "13",
+      qstn: "When I come up with a new idea I visualize myself having success implementing it",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Those who see themselves succeeding with the new idea are more likely to do so",
+    },
+    {
+      number: "14",
+      qstn: "I persist through challenges to make good ideas happen",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "World-class innovators know that resistance to anything new is natural and persist when they are convicted about an idea's value",
+    },
+
+    //Interpersonal
+    {
+      number: "15",
+      qstn: "I excel at understanding the emotions others have when they engage with a service",
+      category: "Interpersonal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Emotions are key to understanding sources of joy, frustration, or ambivalence ",
+    },
+    {
+      number: "16",
+      qstn: " I enjoy bringing people together to achieve new things ",
+      category: "Interpersonal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Common among world-class innovators is they enjoy bringing others together in the act of building",
+    },
+    {
+      number: "17",
+      qstn: "I involve those with interest and influence early with my ideas",
+      category: "Interpersonal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Winning buy-in for new ideas requires advocacy from those that have interest in the idea and influence to get others onboard",
+    },
+    {
+      number: "18",
+      qstn: "I first share my ideas with people who I know will support them",
+      category: "Interpersonal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Rather than first sharing ideas with those who will agree it's better to first share ideas with people who know about the domain of the idea, have a bit of time to consider it, and care enough to be candid about it's potential",
+    },
+    {
+      number: "19",
+      qstn: "I am clear about the cost-to-benefit ratio when presenting new ideas",
+      category: "Interpersonal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Ideas that have clearly attached benefits that align with the interests of those who will consider whether to adopt them are more likely to gain support",
+    },
+    {
+      number: "20",
+      qstn: "People tend to get defensive when I share with them ways to improve",
+      category: "Interpersonal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "The willingness and ability to candidly give and receive feedback is key to refining ideas",
+    },
+    {
+      number: "21",
+      qstn: "I deliver a compelling story for why an opportunity should be supported",
+      category: "Interpersonal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Persuasive narratives bring ideas to life in ways other forms of communication do not",
+    },
+    {
+      number: "22",
+      qstn: "I make complex ideas simple",
+      category: "Interpersonal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "World-class innovators make complex things simple to help others make sense of them",
+    },
+    {
+      number: "23",
+      qstn: "I accurately determine what it will take to implement an idea",
+      category: "Interpersonal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Considering the pathway forward to implement an idea aids in determining its value",
+    },
+    {
+      number: "24",
+      qstn: "My ideas get adopted",
+      category: "Interpersonal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "World-class innovators get their ideas adopted at a higher rate than ideas by following the core concepts of winning buy-in",
+    },
+
+    //Team
+    {
+      number: "25",
+      qstn: "Taking calculated risks is positively incentivized here",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Teams that encourage wise risk taking enjoy more frequent and better innovation output",
+    },
+    {
+      number: "26",
+      qstn: "We have a clear platform for proposing new ideas",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "The systems teams employ to help or hinder the sourcing of ideas influence the quality and breadth of the ideas they capture",
+    },
+    {
+      number: "27",
+      qstn: "We effectively invest in innovation skill development ",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "There is a direct link between the level that innovation is encouraged, the skill development offered to effectively innovate, and the quality and breadth of innovation output",
+    },
+    {
+      number: "28",
+      qstn: "Our R&D efforts produce returns that are better than our peers",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Size and quality of R&D efforts are a key indicator of innovation output",
+    },
+    {
+      number: "29",
+      qstn: "People here trust that their ideas will be appropriately considered",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "People share ideas when they believe there is incentive to do so and those considering them can be trusted",
+    },
+    {
+      number: "30",
+      qstn: "We excel at initial validation to improve the likelihood of innovation success",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Ideas that have iniitial validation are nearly 80% more likely to succeed",
+    },
+    {
+      number: "31",
+      qstn: "Innovation contribution is a clear part of our performance review system",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Teams that include innovation contribution in their performance reviews average a 3x increase in innovation output",
+    },
+    {
+      number: "32",
+      qstn: "The best ideas always win here",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "When people believe that the merit of ideas will win over the politics of a team they are more likely to contribute valuable new ideas",
+    },
+    {
+      number: "33",
+      qstn: "We effectively target markets that are likely to expand",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "World-class innovators know that the ocean tide is more powerful than even the best ship and focus on favorable markets",
+    },
+    //Rank
+    {
+      number: "34",
+      qstn: "Rank in order what your customers care about (high to low)",
+      category: "Team",
+      options: [
+        `Choice ("I want customizable options")`,
+        `Convenience ("I want ease of access")`,
+        `Price ("I am price sensitive")`,
+        `Quality ("I desire functional outcomes")`,
+        `Service ("I want help when and how I need it")`,
+        `Status ("I want social status")`,
+        `Integration ("I prefer to single-source")`,
+      ],
+      significance:
+        "World-class innovators have a clear understanding of what the target audience of a given experience cares about most",
+    },
+    {
+      number: "35",
+      qstn: "Rank in order what you are best built to deliver (high to low)",
+      category: "Team",
+      options: [
+        `Customization ("We can efficiently personalize")`,
+        `Accessibility ("It's easy to access our service")`,
+        `Cost ("We manage costs well")`,
+        `Reliability ("We deliver on what we say")`,
+        `Responsiveness ("We engage quickly and effectively")`,
+        `Prestige ("We provide social status")`,
+        `Integration ("Our service work well across our platform")`,
+        ,
+      ],
+      significance:
+        "World-class innovators prioritize their capabilities to deliver on what their target audience cares about most",
+    },
+
+    //IVOS
+    {
+      number: "36",
+      category: "Ideation",
+      qstns: [
+        {
+          qstn: "Continue",
+          options: [
+            `The encouragement to take calculated risk`,
+            `How well we invest in innovation skill development`,
+            `How asking great questions is central to our interactions`,
+            `Going out of our way to limit bias when considering new ideas`,
+            `Focusing on what we "ought" to over what we "want" to`,
+          ],
+        },
+        {
+          qstn: "Stop",
+          options: [
+            `Misalignment between what is said and done regarding innovation`,
+            `Underfunding innovation capacity`,
+            `Discouraging candid questions`,
+            `Bias when considering new ideas`,
+            `Seek ideas focused on what we "want" to see over what we "ought" to see`,
+          ],
+        },
+        {
+          qstn: "Start",
+          options: [
+            `Align what we say and what we do regarding innovation`,
+            `Embrace calculated risk`,
+            `Invest in innovation skill development`,
+            `Encourage candid questions`,
+            `Embrace practices to limit bias during ideation`,
+            `Incentivize regular new idea development;`,
+          ],
+        },
+      ],
+      significance:
+        "Discovering and acting on clear intelligence regarding what to continue, what to stop, and options to consider starting related to your ideation practices directly influences the quality of your innovation results and the potential growth trajectory of your team",
+    },
+    {
+      number: "37",
+      category: "Validation",
+      qstns: [
+        {
+          qstn: "Continue",
+          options: [
+            `The freedom to test  new ideas`,
+            `Having clear metrics for effective validation`,
+            `Providing training on validation techniques`,
+            `Universal standards for validation success`,
+          ],
+        },
+        {
+          qstn: "Stop",
+          options: [
+            `Lack of time and resources to test ideas`,
+            `Unclear metrics for effective validation`,
+            `Lack of effective training on validation techniques`,
+            `Inconsistent standards for validation success`,
+          ],
+        },
+        {
+          qstn: "Start",
+          options: [
+            `Provide time and resources to test new ideas`,
+            `Set clear metrics for effective validation`,
+            `Provide training on effective validation techniques`,
+            `Streamline and make transparent the standards for validation success`,
+          ],
+        },
+      ],
+      significance:
+        "Discovering and acting on clear intelligence regarding what to continue, what to stop, and options to consider starting related to your validation practices directly influences the quality of your innovation results and the potential growth trajectory of your team",
+    },
+    {
+      number: "38",
+      category: "Adoption",
+      qstns: [
+        {
+          qstn: "Continue",
+          options: [
+            "Training on building an effective innovation case",
+            "Use of a universally understood framework for sharing the potential value of an innovation",
+            "Encourage interactions with people who are effective innovation messengers",
+            "Reinforce the effective components to innovation messaging",
+          ],
+        },
+        {
+          qstn: "Stop",
+          options: [
+            "Underresourcing innovation adoption training",
+            "Not having a universally understood framework for sharing the potential value of an innovation",
+            "Disouraging interactions with people who aren't your direct manager",
+            "Not providing clear guidance on the effective components to innovation messaging",
+          ],
+        },
+        {
+          qstn: "Start",
+          options: [
+            "Provide training on building an effective innovation case",
+            "Have a universally understood framework for sharing the potential value of an innovation",
+            "Encourage interactions with people who are effective innovation messengers",
+            "Making known the effective components to innovation messaging",
+          ],
+        },
+      ],
+      significance: `Discovering and acting on clear intelligence regarding what to continue, what to stop, and options to consider starting related to your adoption practices directly influences the quality of your innovation results and the potential growth trajectory of your team`,
+    },
+    {
+      number: "39",
+      category: "System",
+      qstns: [
+        {
+          qstn: "Continue",
+          options: [
+            "Clear, transparent, and timely pathway for sharing new ideas",
+            "Alignment between what is said and how things are actually done",
+            "Consistently developing innovation capacity",
+            "Clear and motivating incentives to be innovative",
+            "Easy to understand and use system to share ideas and get credit for their success",
+          ],
+        },
+        {
+          qstn: "Stop",
+          options: [
+            "Unclear, obscure, and slow pathway for sharing new ideas",
+            "Misalignment between what is said and how things are actually done",
+            "Inconsistently developing innovation capacity",
+            "Unclear and demotivating incentives to be innovative",
+            "Hard to understand and use system to share ideas and get credit for their success",
+          ],
+        },
+        {
+          qstn: "Start",
+          options: [
+            "Clear, transparent, and timely pathway for sharing new ideas",
+            "Alignment between what is said and how things are actually done",
+            "Provide consistent development opportunities",
+            "Clear and motivating incentives to be innovative",
+            "Easy to understand and use system to share ideas and get credit for their success",
+          ],
+        },
+      ],
+      significance: `Discovering and acting on clear intelligence regarding what to continue, what to stop, and options to consider starting related to your systems practices directly influences the quality of your innovation results and the potential growth trajectory of your team`,
+    },
+  ],
+  innovation_assessment_evaluation: {
+    Personal: [],
+    Interpersonal: [],
+    Team: [],
+    Ideation: {
+      Continue: { choices: [], other: "", score: 0 },
+      Stop: { choices: [], other: "", score: 0 },
+      Start: { choices: [], other: "", score: 0 },
+    },
+    Validation: {
+      Continue: { choices: [], other: "", score: 0 },
+      Stop: { choices: [], other: "", score: 0 },
+      Start: { choices: [], other: "", score: 0 },
+    },
+    Adoption: {
+      Continue: { choices: [], other: "", score: 0 },
+      Stop: { choices: [], other: "", score: 0 },
+      Start: { choices: [], other: "", score: 0 },
+    },
+    System: {
+      Continue: { choices: [], other: "", score: 0 },
+      Stop: { choices: [], other: "", score: 0 },
+      Start: { choices: [], other: "", score: 0 },
+    },
+  },
 };
 
 export const AppSlice = createSlice({
@@ -1536,6 +2247,77 @@ export const AppSlice = createSlice({
           : 0);
     },
 
+    //Innovation
+    setInnovationAssessmentProgress: (state, action) => {
+      state.innovation_assessment_progress = action.payload;
+    },
+    setInnovationAssessmentEvaluation: (state, action) => {
+      // Find and replace or add new
+      state.innovation_assessment_evaluation[action.payload.category].find(
+        (v) => action.payload.answer.number === v.number
+      )
+        ? state.innovation_assessment_evaluation[
+            action.payload.category
+          ].forEach((v, i) => {
+            if (v.number === action.payload.answer.number) {
+              state.innovation_assessment_evaluation[action.payload.category][
+                i
+              ] = action.payload.answer;
+            }
+          })
+        : state.innovation_assessment_evaluation[action.payload.category].push(
+            action.payload.answer
+          );
+    },
+    setInnovationAssessmentPR: (state, action) => {
+      //Choices
+      state.innovation_assessment_evaluation[action.payload.category][
+        action.payload.section
+      ]?.choices.includes(action.payload.choice)
+        ? (state.innovation_assessment_evaluation[action.payload.category][
+            action.payload.section
+          ].choices = state.innovation_assessment_evaluation[
+            action.payload.category
+          ][action.payload.section].choices.filter(
+            (choice) => choice !== action.payload.choice
+          ))
+        : state.innovation_assessment_evaluation[action.payload.category][
+            action.payload.section
+          ].choices.push(action.payload.choice);
+
+      //Scoring
+      state.innovation_assessment_evaluation[action.payload.category][
+        action.payload.section
+      ].score =
+        state.innovation_assessment_evaluation[action.payload.category][
+          action.payload.section
+        ].choices.length +
+        (state.innovation_assessment_evaluation[action.payload.category][
+          action.payload.section
+        ].other.length
+          ? 1
+          : 0);
+    },
+    setInnovationOther: (state, action) => {
+      //Others
+      state.innovation_assessment_evaluation[action.payload.category][
+        action.payload.section
+      ].other = action.payload.other;
+
+      //Scoring
+      state.innovation_assessment_evaluation[action.payload.category][
+        action.payload.section
+      ].score =
+        state.innovation_assessment_evaluation[action.payload.category][
+          action.payload.section
+        ].choices.length +
+        (state.innovation_assessment_evaluation[action.payload.category][
+          action.payload.section
+        ].other.length
+          ? 1
+          : 0);
+    },
+
     resetEvaluation: (state, action) => {
       state.assessmentEvaluation = [];
       state.fundersAssessment = [];
@@ -1544,14 +2326,22 @@ export const AppSlice = createSlice({
 });
 
 export const {
+  //Mindset
   setMindsetAssessmentProgress,
   setMindsetAssessmentEvaluation,
   setMindsetAssessmentPPP,
   setOther,
+  //Strategy
   setStrategyAssessmentProgress,
   setStrategyAssessmentEvaluation,
   setStrategyAssessmentPR,
   setStrategyOther,
+  //Innovation
+  setInnovationAssessmentProgress,
+  setInnovationAssessmentEvaluation,
+  setInnovationAssessmentPR,
+  setInnovationOther,
+  //
   resetEvaluation,
 } = AppSlice.actions;
 export default AppSlice.reducer;

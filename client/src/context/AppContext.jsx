@@ -4,8 +4,11 @@ import { useSelector } from "react-redux";
 const appContext = createContext();
 
 export const AppContextProvider = ({ children }) => {
-  const { mindset_assessment_evaluation, strategy_assessment_evaluation } =
-    useSelector((state) => state.app);
+  const {
+    mindset_assessment_evaluation,
+    strategy_assessment_evaluation,
+    innovation_assessment_evaluation,
+  } = useSelector((state) => state.app);
 
   //Select one scoring
   function selectOneScoring(answer) {
@@ -59,7 +62,7 @@ export const AppContextProvider = ({ children }) => {
   }
 
   //Current score
-  console.log(strategy_assessment_evaluation);
+  console.log(innovation_assessment_evaluation);
   // console.log(
   //   "Personal points: " +
   //     mindset_assessment_evaluation?.Personal?.reduce((a, c) => a + c.score, 0)

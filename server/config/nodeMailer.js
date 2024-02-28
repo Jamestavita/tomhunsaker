@@ -1,4 +1,4 @@
-import nodeMailer from "nodemailer";
+import nodemailer from "nodemailer";
 import {
   fifthFree,
   fifthPrem,
@@ -15,13 +15,13 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const NodeMailer = async ({ name, email, level, plan }) => {
-  const transporter = nodeMailer.createTransport({
+  const transporter = nodemailer.createTransport({
     host: process.env.MAILER_HOST,
     secureConnection: true,
     port: 465,
     auth: {
-      user: process.env.GLO_RAISE_EMAIL,
-      pass: process.env.GLO_RAISE_PASSWORD,
+      user: process.env.EMAIL_USERNAME,
+      pass: process.env.EMAIL_PASSWORD,
     },
   });
 
