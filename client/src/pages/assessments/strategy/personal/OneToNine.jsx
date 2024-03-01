@@ -65,8 +65,8 @@ export default function OneToNine() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M211.552 3.57869C184.37 31.0096 146.67 48 105.001 48C64.1974 48 27.199 31.7076 0.15625 5.27338C38.1049 1.79297 76.7677 0 116.001 0C148.264 0 180.141 1.21246 211.552 3.57869Z"
               fill="#425740"
             />
@@ -120,9 +120,7 @@ export default function OneToNine() {
                       "0" +
                       (+number_personal + 1)
                     ).slice(-2)}`
-                  : `../assessment/strategy/team/${
-                      +number_personal + 1
-                    }`
+                  : `../assessment/strategy/team/${+number_personal + 1}`
               )
             }
             className="bg-Greyscale900 text-Greyscale rounded-[4px] border-2 border-Dark disabled:opacity-40 mx-auto"

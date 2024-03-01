@@ -1921,7 +1921,6 @@ const initialState = {
         `Responsiveness ("We engage quickly and effectively")`,
         `Prestige ("We provide social status")`,
         `Integration ("Our service work well across our platform")`,
-        ,
       ],
       significance:
         "World-class innovators prioritize their capabilities to deliver on what their target audience cares about most",
