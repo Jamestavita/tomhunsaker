@@ -63,9 +63,9 @@ const NodeMailer = async ({ name, email, level, plan }) => {
   }
 
   const info = await transporter.sendMail({
-    from: `Glo-Raise <${process.env.GLO_RAISE_EMAIL}>`,
+    from: `Tom Hunsaker <${process.env.EMAIL_USERNAME}>`,
     to: email,
-    subject: "Glo_Raise Assessment",
+    subject: "Tom Hunsaker Assessment",
     html: mail({ name }),
   });
 

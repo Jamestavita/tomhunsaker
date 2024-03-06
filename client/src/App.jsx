@@ -48,6 +48,16 @@ import { FreeSuccess as InnovationFreeSuccess } from "./pages/assessments/innova
 import InnovationLayout from "./pages/layouts/innovationLayout/InnovationLayout";
 import InnovationOverview from "./pages/assessments/overviews/InnovationOverview";
 import ThirtyFourToThirtyFive from "./pages/assessments/innovation/team/ThirtyFourToThirtyFive";
+import ExecutionOverview from "./pages/assessments/overviews/ExecutionOverview";
+import PO from "./pages/assessments/execution/PO/PO";
+import ExecutionLayout from "./pages/layouts/executionLayout/ExecutionLayout";
+import OneToFifteen from "./pages/assessments/execution/personal/OneToFifteen";
+import SixteenToThirtySeven from "./pages/assessments/execution/team/SixteenToThirtySeven";
+import { Plan as ExecutionPlan } from "./pages/assessments/execution/complete assessment/Plan";
+import { Paid as ExecutionPaid } from "./pages/assessments/execution/complete assessment/Paid";
+import { Free as ExecutionFree } from "./pages/assessments/execution/complete assessment/Free";
+import { PaidSuccess as ExecutionPaidSuccess } from "./pages/assessments/execution/complete assessment/PaidSuccess";
+import { FreeSuccess as ExecutionFreeSuccess } from "./pages/assessments/execution/complete assessment/FreeSuccess";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -76,7 +86,7 @@ export default function App() {
           <Route path="mindset" element={<MindsetOverview />}></Route>
           <Route path="strategy" element={<StrategyOverview />}></Route>
           <Route path="innovation" element={<InnovationOverview />}></Route>
-          {/* <Route path="execution" element={<MindsetOverview />}></Route> */}
+          <Route path="execution" element={<ExecutionOverview />}></Route>
         </Route>
         {/*Mindset assessment*/}
         <Route element={<MindsetLayout />}>
@@ -170,7 +180,7 @@ export default function App() {
             element={<FreeSuccess />}
           ></Route> */}
         </Route>
-        {/*Mindset assessment*/}
+        {/*Innovation assessment*/}
         <Route element={<InnovationLayout />}>
           <Route
             path="/assessment/innovation/personal/:number_personal"
@@ -189,7 +199,7 @@ export default function App() {
             element={<ThirtyFourToThirtyFive />}
           ></Route>
           <Route
-            path="/assessment/innovation/ppp/:number_ppp"
+            path="/assessment/innovation/ivas/:number_ivas"
             element={<IVAS />}
           ></Route>
           <Route
@@ -211,6 +221,41 @@ export default function App() {
           <Route
             path="/assessment/innovation/free_success"
             element={<InnovationFreeSuccess />}
+          ></Route>
+        </Route>
+        {/*Execution assessment*/}
+        <Route element={<ExecutionLayout />}>
+          <Route
+            path="/assessment/execution/personal/:number_personal"
+            element={<OneToFifteen />}
+          ></Route>
+          <Route
+            path="/assessment/execution/team/:number_team"
+            element={<SixteenToThirtySeven />}
+          ></Route>
+          <Route
+            path="/assessment/execution/po/:number_po"
+            element={<PO />}
+          ></Route>
+          <Route
+            path="/assessment/execution/plan"
+            element={<ExecutionPlan />}
+          ></Route>
+          <Route
+            path="/assessment/execution/paid"
+            element={<ExecutionPaid />}
+          ></Route>
+          <Route
+            path="/assessment/execution/free"
+            element={<ExecutionFree />}
+          ></Route>
+          <Route
+            path="/assessment/execution/paid_success"
+            element={<ExecutionPaidSuccess />}
+          ></Route>
+          <Route
+            path="/assessment/execution/free_success"
+            element={<ExecutionFreeSuccess />}
           ></Route>
         </Route>
       </Routes>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import AppButton100, {
@@ -9,10 +9,19 @@ import SelectField from "../../../../components/reuseable/SelectField";
 import axios from "axios";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import {
+  useCreateUserMutation,
+  useCheckoutMutation,
+} from "../../../../services/appApi";
+import appContext from "../../../../context/AppContext";
 
 export default function Paid() {
-  const navigate = useNavigate();
+  const { mindset_assessment_evaluation: assessmentInfo } = useSelector(
+    (state) => state.app
+  );
+  const { category_points, section_points } = useContext(appContext);
 
+  //Input handlers
   const marketSectorOptions = [
     {
       value: "Business Services",
@@ -67,7 +76,6 @@ export default function Paid() {
       label: "Travel & Tourism",
     },
   ];
-
   const employeesCountOptions = [
     {
       value: "1 - 100",
@@ -86,7 +94,6 @@ export default function Paid() {
       label: "10000+",
     },
   ];
-
   const [countryOptions, setCountryOptions] = useState();
   useEffect(() => {
     async function getCountries() {
@@ -106,9 +113,17 @@ export default function Paid() {
     }
     getCountries();
   }, []);
-
-  const [paidFormVal, setPaidFormVal] = useState({});
-
+  const [paidFormVal, setPaidFormVal] = useState({
+    Name: "",
+    Last_Name: "",
+    Market_Sector: "",
+    Organization: "",
+    Number_of_Employees: "",
+    Country: "",
+    Email: "",
+    Website_or_Social_Handle: "",
+    Phone: "",
+  });
   function handleChange(e) {
     setPaidFormVal({
       ...paidFormVal,
@@ -116,27 +131,89 @@ export default function Paid() {
     });
   }
 
+  //Submit handlers
+  const [createUserApi] = useCreateUserMutation();
+  const [checkoutApi] = useCheckoutMutation();
   const [loading, setLoading] = useState(false);
+
   function onSubmitForm(e) {
     e.preventDefault();
     setLoading(true);
-    createFounderApi({
+
+    //Calculate total score
+    const total_score =
+      category_points(assessmentInfo, "Personal") +
+      category_points(assessmentInfo, "Interpersonal") +
+      category_points(assessmentInfo, "Team") +
+      section_points(assessmentInfo, "Purpose") +
+      section_points(assessmentInfo, "People") +
+      section_points(assessmentInfo, "Positions") +
+      section_points(assessmentInfo, "Process");
+
+    //Assign levels
+    const level =
+      total_score > 170 && total_score < 196
+        ? 5
+        : total_score > 139 && total_score < 171
+        ? 4
+        : total_score > 89 && total_score < 140
+        ? 3
+        : total_score > 39 && total_score < 90
+        ? 2
+        : 1;
+
+    createUserApi({
+      concept: "mindset",
       body: {
-        name: paidFormVal.name,
-        email: paidFormVal.email,
-        userInfo: paidFormVal,
-        assessmentInfo,
-        score,
+        name: paidFormVal.Name,
+        last_name: paidFormVal.Last_Name,
+        email: paidFormVal.Email,
+        user_info: paidFormVal,
+        assessment_info: assessmentInfo,
+        points: {
+          //Personal
+          Personal_points: category_points(assessmentInfo, "Personal"),
+          Personal_score: +(
+            category_points(assessmentInfo, "Personal") / 50
+          ).toFixed(2),
+
+          //Interpersonal
+          Interpersonal_points: category_points(
+            assessmentInfo,
+            "Interpersonal"
+          ),
+          Interpersonal_score: +(
+            category_points(assessmentInfo, "Interpersonal") / 50
+          ).toFixed(2),
+
+          //Team
+          Team_points:
+            category_points(assessmentInfo, "Team") +
+            section_points(assessmentInfo, "Purpose") +
+            section_points(assessmentInfo, "People") +
+            section_points(assessmentInfo, "Positions") +
+            section_points(assessmentInfo, "Process"),
+          Team_score: +(
+            (category_points(assessmentInfo, "Team") +
+              section_points(assessmentInfo, "Purpose") +
+              section_points(assessmentInfo, "People") +
+              section_points(assessmentInfo, "Positions") +
+              section_points(assessmentInfo, "Process")) /
+            95
+          ).toFixed(2),
+        },
+        total_score,
         level,
+        plan: "Free",
       },
     });
+
     checkoutApi({
+      concept: "mindset",
       body: {
-        name: paidFormVal.name,
-        email: paidFormVal.email,
-        userInfo: paidFormVal,
-        score,
-        level,
+        name: paidFormVal.Name,
+        email: paidFormVal.Email,
+        user_info: paidFormVal,
       },
     })
       .unwrap()
@@ -148,8 +225,6 @@ export default function Paid() {
         setLoading(false);
       });
   }
-
-  console.log(paidFormVal);
 
   return (
     <div className="bg-Greyscale200 mx-auto">
@@ -168,17 +243,15 @@ export default function Paid() {
               label="Name"
               name="Name"
               onChange={handleChange}
-              pattern=""
               required={true}
               type="text"
-              value={paidFormVal.name}
+              value={paidFormVal.Name}
             />
             <InputField
               id="Last_Name"
               label="Last Name"
               name="Last_Name"
               onChange={handleChange}
-              pattern=""
               required={true}
               type="text"
               value={paidFormVal.Last_Name}
@@ -207,7 +280,6 @@ export default function Paid() {
               label="Organization"
               name="Organization"
               onChange={handleChange}
-              pattern=""
               required={true}
               type="text"
               value={paidFormVal.Organization}
@@ -226,7 +298,7 @@ export default function Paid() {
                 }
                 name="Number_of_Employees"
                 value={employeesCountOptions?.find(
-                  (option) => paidFormVal.Country === option.label
+                  (option) => paidFormVal.Number_of_Employees === option.label
                 )}
                 placeholder=""
               />
@@ -304,7 +376,8 @@ export default function Paid() {
             </p>
             <AppButton100
               className="bg-Red500 text-Greyscale border-Red500 border-2"
-              label="Proceed to checkout"
+              label={loading ? "Proceeding" : "Proceed to checkout"}
+              disabled={loading}
             />
           </div>
         </form>

@@ -1,36 +1,20 @@
 import React, { useEffect } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { setInnovationAssessmentProgress } from "../../../store/features/appSlice";
+import { setExecutionAssessmentProgress } from "../../../store/features/appSlice";
 
-export default function InnovationNav() {
+export default function ExecutionNav() {
   const dispatch = useDispatch();
-  const {
-    number_personal,
-    number_interpersonal,
-    number_team,
-    number_team_rank,
-    number_ivas,
-  } = useParams();
-  const { innovation_assessment_progress } = useSelector((state) => state.app);
+  const { number_personal, number_team, number_po } = useParams();
+  const { execution_assessment_progress } = useSelector((state) => state.app);
 
   useEffect(() => {
     dispatch(
-      setInnovationAssessmentProgress(
-        (+number_personal ||
-          +number_interpersonal ||
-          +number_team ||
-          +number_team_rank ||
-          +number_ivas) * 2.564
+      setExecutionAssessmentProgress(
+        (+number_personal || +number_team || +number_po) * 2.564
       )
     );
-  }, [
-    number_personal,
-    number_interpersonal,
-    number_team,
-    number_team_rank,
-    number_ivas,
-  ]);
+  }, [number_personal, number_team, number_po]);
 
   return (
     <div className="fixed top-0 w-full z-40 bg-Greyscale">
@@ -90,15 +74,15 @@ export default function InnovationNav() {
           </svg>
         </NavLink>
         <p className="md:text-xl text-Greyscale700 font-bold mt-2">
-          Innovation & Analytics Assessment
+          Execution & Agility Assessment
         </p>
       </div>
       <div className="bg-[#F8F8F8] grid h-2 overflow-x-hidden">
         <div
           style={{
-            width: innovation_assessment_progress + "%",
+            width: execution_assessment_progress + "%",
           }}
-          className="bg-Blue500 transition-all"
+          className="bg-Yellow500 transition-all"
         ></div>
       </div>
     </div>

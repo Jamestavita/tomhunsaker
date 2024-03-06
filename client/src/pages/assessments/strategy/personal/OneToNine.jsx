@@ -33,7 +33,10 @@ export default function OneToNine() {
           qstn: assessment.qstn,
           response: e.target.value,
           significance: assessment.significance,
-          score: selectOneScoring(e.target.value),
+          score:
+            assessment.number === "07" || assessment.number === "09"
+              ? selectOneScoring(e.target.value, true)
+              : selectOneScoring(e.target.value),
         },
       })
     );

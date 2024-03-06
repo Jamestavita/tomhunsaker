@@ -7,15 +7,15 @@ import {
 } from "../../../../components/reuseable/AppButtons";
 import appContext from "../../../../context/AppContext";
 import {
-  setInnovationAssessmentIVAS,
-  setInnovationOther,
+  setExecutionAssessmentPO,
+  setExecutionOther,
 } from "../../../../store/features/appSlice";
 import { FaCheck } from "react-icons/fa";
 
-export default function IVAS() {
-  const { number_ivas } = useParams();
+export default function PO() {
+  const { number_po } = useParams();
   const navigate = useNavigate();
-  const { innovation_assessment_questions, innovation_assessment_evaluation } =
+  const { execution_assessment_questions, execution_assessment_evaluation } =
     useSelector((state) => state.app);
   const { getSelectedChoices, getOther } = useContext(appContext);
   const [assessment, setAssessment] = useState({});
@@ -24,16 +24,16 @@ export default function IVAS() {
   //Get assessment
   useEffect(() => {
     setAssessment(
-      innovation_assessment_questions.find(
-        (question) => question.number === number_ivas
+      execution_assessment_questions.find(
+        (question) => question.number === number_po
       )
     );
-  }, [number_ivas]);
+  }, [number_po]);
 
   // Handle select many choice
   function handleChange(e, section) {
     dispatch(
-      setInnovationAssessmentIVAS({
+      setExecutionAssessmentPO({
         category: assessment.category,
         section,
         choice: e.target.value,
@@ -44,7 +44,7 @@ export default function IVAS() {
   // Handle others
   function handleOther(value, section) {
     dispatch(
-      setInnovationOther({
+      setExecutionOther({
         category: assessment.category,
         section,
         other: value,
@@ -73,7 +73,7 @@ export default function IVAS() {
         <div className="w-[1850px] h-[1358px] bg-Greyscale200 rounded-[50%] absolute top-[3000px] -translate-x-[50%] left-1/2"></div>
         <div className="relative grid justify-items-center">
           <p className="absolute top-0 text-Greyscale text-[24px] font-bold self-center">
-            {number_ivas}
+            {number_po}
           </p>
           <svg
             width="212"
@@ -83,10 +83,10 @@ export default function IVAS() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fillRule="evenodd"
-              clipRule="evenodd"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
               d="M211.552 3.57869C184.37 31.0096 146.67 48 105.001 48C64.1974 48 27.199 31.7076 0.15625 5.27338C38.1049 1.79297 76.7677 0 116.001 0C148.264 0 180.141 1.21246 211.552 3.57869Z"
-              fill="#315C90"
+              fill="#DFBF34"
             />
           </svg>
         </div>
@@ -112,7 +112,7 @@ export default function IVAS() {
                       id={option}
                       name={section.qstn}
                       checked={getSelectedChoices(
-                        innovation_assessment_evaluation,
+                        execution_assessment_evaluation,
                         assessment.category,
                         section.qstn
                       )?.includes(option)}
@@ -135,7 +135,7 @@ export default function IVAS() {
                 ))}
                 <div
                   className="px-6 py-2 flex items-center gap-4 bg-Greyscale rounded-[20px] relative overflow-hidden"
-                  key={number_ivas}
+                  key={number_po}
                 >
                   <input
                     type="checkbox"
@@ -144,7 +144,7 @@ export default function IVAS() {
                     // name={section.qstn}
                     readOnly
                     checked={getOther(
-                      innovation_assessment_evaluation,
+                      execution_assessment_evaluation,
                       assessment.category,
                       section.qstn
                     )}
@@ -157,7 +157,7 @@ export default function IVAS() {
                     placeholder="Other (please describe)"
                     onChange={(e) => handleOther(e.target.value, section.qstn)}
                     value={getOther(
-                      innovation_assessment_evaluation,
+                      execution_assessment_evaluation,
                       assessment.category,
                       section.qstn
                     )}
@@ -173,45 +173,45 @@ export default function IVAS() {
         <AppNextButton
           onClick={() =>
             navigate(
-              number_ivas < 39
-                ? `../assessment/innovation/ivas/${+number_ivas + 1}`
-                : "../assessment/innovation/plan"
+              number_po < 39
+                ? `../assessment/execution/po/${+number_po + 1}`
+                : "../assessment/execution/plan"
             )
           }
           className="bg-Greyscale900 text-Greyscale rounded-[4px] border-2 border-Dark disabled:opacity-40 mx-auto my-10 z-[1]"
           disabled={
             !(
               getSelectedChoices(
-                innovation_assessment_evaluation,
+                execution_assessment_evaluation,
                 assessment?.category,
                 "Continue"
               )?.length ||
               getOther(
-                innovation_assessment_evaluation,
+                execution_assessment_evaluation,
                 assessment?.category,
                 "Continue"
               )?.length
             ) ||
             !(
               getSelectedChoices(
-                innovation_assessment_evaluation,
+                execution_assessment_evaluation,
                 assessment?.category,
                 "Stop"
               )?.length ||
               getOther(
-                innovation_assessment_evaluation,
+                execution_assessment_evaluation,
                 assessment?.category,
                 "Stop"
               )?.length
             ) ||
             !(
               getSelectedChoices(
-                innovation_assessment_evaluation,
+                execution_assessment_evaluation,
                 assessment?.category,
                 "Start"
               )?.length ||
               getOther(
-                innovation_assessment_evaluation,
+                execution_assessment_evaluation,
                 assessment?.category,
                 "Start"
               )?.length

@@ -1,7 +1,7 @@
 import NodeMailer from "../config/nodeMailer.js";
-import StrategyUsers from "../models/strategyUsersModel.js";
+import InnovationUsers from "../models/innovationUsersModel.js";
 
-export const createStrategyUser = async (req, res) => {
+export const createInnovationUser = async (req, res) => {
   try {
     const {
       name,
@@ -15,7 +15,7 @@ export const createStrategyUser = async (req, res) => {
       plan,
     } = req.body;
 
-    const data = await StrategyUsers.create({
+    const data = await InnovationUsers.create({
       name,
       last_name,
       email,

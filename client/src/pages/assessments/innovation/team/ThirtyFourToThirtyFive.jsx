@@ -70,8 +70,6 @@ export default function ThirtyFourToThirtyFive() {
     getResponse();
   }, [number_team_rank]);
 
-  console.log(assessmentOptions);
-
   //Handle drag
   function handleDragEnd(event) {
     const { active, over } = event;
@@ -168,7 +166,7 @@ export default function ThirtyFourToThirtyFive() {
                       "0" +
                       (+number_team_rank + 1)
                     ).slice(-2)}`
-                  : `../assessment/innovation/ivos/${+number_team_rank + 1}`
+                  : `../assessment/innovation/ivas/${+number_team_rank + 1}`
               )
             }
             className="bg-Greyscale900 text-Greyscale rounded-[4px] border-2 border-Dark disabled:opacity-40 mx-auto"

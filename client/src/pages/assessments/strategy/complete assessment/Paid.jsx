@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import AppButton100, {
@@ -9,10 +9,19 @@ import SelectField from "../../../../components/reuseable/SelectField";
 import axios from "axios";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import appContext from "../../../../context/AppContext";
+import {
+  useCheckoutMutation,
+  useCreateUserMutation,
+} from "../../../../services/appApi";
 
 export function Paid() {
-  const navigate = useNavigate();
+  const { strategy_assessment_evaluation: assessmentInfo } = useSelector(
+    (state) => state.app
+  );
+  const { category_points, section_points } = useContext(appContext);
 
+  //Input handlers
   const marketSectorOptions = [
     {
       value: "Business Services",
@@ -67,7 +76,6 @@ export function Paid() {
       label: "Travel & Tourism",
     },
   ];
-
   const employeesCountOptions = [
     {
       value: "1 - 100",
@@ -86,7 +94,6 @@ export function Paid() {
       label: "10000+",
     },
   ];
-
   const [countryOptions, setCountryOptions] = useState();
   useEffect(() => {
     async function getCountries() {
@@ -106,9 +113,17 @@ export function Paid() {
     }
     getCountries();
   }, []);
-
-  const [paidFormVal, setPaidFormVal] = useState({});
-
+  const [paidFormVal, setPaidFormVal] = useState({
+    Name: "",
+    Last_Name: "",
+    Market_Sector: "",
+    Organization: "",
+    Number_of_Employees: "",
+    Country: "",
+    Email: "",
+    Website_or_Social_Handle: "",
+    Phone: "",
+  });
   function handleChange(e) {
     setPaidFormVal({
       ...paidFormVal,
@@ -116,27 +131,80 @@ export function Paid() {
     });
   }
 
+  //Submit handlers
+  const [createUserApi] = useCreateUserMutation();
+  const [checkoutApi] = useCheckoutMutation();
   const [loading, setLoading] = useState(false);
+
   function onSubmitForm(e) {
     e.preventDefault();
     setLoading(true);
-    createFounderApi({
+
+    //Calculate total score
+    const total_score =
+      category_points(assessmentInfo, "Personal") +
+      category_points(assessmentInfo, "Team") +
+      category_points(assessmentInfo, "Organization") +
+      section_points(assessmentInfo, "Fit_to_Purpose") +
+      section_points(assessmentInfo, "Relative_Advantage");
+
+    //Assign levels
+    const level =
+      total_score > 159 && total_score < 196
+        ? 5
+        : total_score > 119 && total_score < 160
+        ? 4
+        : total_score > 80 && total_score < 120
+        ? 3
+        : total_score > 39 && total_score < 81
+        ? 2
+        : 1;
+
+    createUserApi({
+      concept: "strategy",
       body: {
-        name: paidFormVal.name,
-        email: paidFormVal.email,
-        userInfo: paidFormVal,
-        assessmentInfo,
-        score,
+        name: paidFormVal.Name,
+        last_name: paidFormVal.Last_Name,
+        email: paidFormVal.Email,
+        user_info: paidFormVal,
+        assessment_info: assessmentInfo,
+        points: {
+          //Personal
+          Personal_points: category_points(assessmentInfo, "Personal"),
+          Personal_score: +(
+            category_points(assessmentInfo, "Personal") / 45
+          ).toFixed(2),
+
+          //Team
+          Team_points: category_points(assessmentInfo, "Team"),
+          Team_score: +(category_points(assessmentInfo, "Team") / 40).toFixed(
+            2
+          ),
+
+          //Organization
+          Organization_points:
+            category_points(assessmentInfo, "Organization") +
+            section_points(assessmentInfo, "Fit_to_Purpose") +
+            section_points(assessmentInfo, "Relative_Advantage"),
+          Organization_score: +(
+            (category_points(assessmentInfo, "Organization") +
+              section_points(assessmentInfo, "Fit_to_Purpose") +
+              section_points(assessmentInfo, "Relative_Advantage")) /
+            110
+          ).toFixed(2),
+        },
+        total_score,
         level,
+        plan: "Free",
       },
     });
+
     checkoutApi({
+      concept: "strategy",
       body: {
-        name: paidFormVal.name,
-        email: paidFormVal.email,
-        userInfo: paidFormVal,
-        score,
-        level,
+        name: paidFormVal.Name,
+        email: paidFormVal.Email,
+        user_info: paidFormVal,
       },
     })
       .unwrap()
@@ -149,14 +217,12 @@ export function Paid() {
       });
   }
 
-  console.log(paidFormVal);
-
   return (
     <div className="bg-Greyscale200 mx-auto">
       <div className="w-[min(90rem,100%)] mx-auto md:px-12 lg:px-32 pb-16 md:pt-16 lg:pb-24 grid gap-12 lg:grid-cols-[1fr,0.6fr]">
         <form
           onSubmit={onSubmitForm}
-          id="Mindset_form"
+          id="strategy_form"
           className="grid gap-10 py-12 md:py-10 px-6 md:px-10 bg-Greyscale md:rounded-[20px]"
         >
           <p className="text-[30px] lg:text-[44px] font-bold lg:font-medium leading-tight">
@@ -168,7 +234,6 @@ export function Paid() {
               label="Name"
               name="Name"
               onChange={handleChange}
-              pattern=""
               required={true}
               type="text"
               value={paidFormVal.name}
@@ -178,7 +243,6 @@ export function Paid() {
               label="Last Name"
               name="Last_Name"
               onChange={handleChange}
-              pattern=""
               required={true}
               type="text"
               value={paidFormVal.Last_Name}
@@ -207,7 +271,6 @@ export function Paid() {
               label="Organization"
               name="Organization"
               onChange={handleChange}
-              pattern=""
               required={true}
               type="text"
               value={paidFormVal.Organization}
@@ -304,7 +367,7 @@ export function Paid() {
             </p>
             <AppButton100
               className="bg-Green500 text-Greyscale border-Green500 border-2"
-              label="Proceed to checkout"
+              label={loading ? "Proceeding" : "Proceed to checkout"}
             />
           </div>
         </form>

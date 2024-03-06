@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import AppButton100 from "../../components/reuseable/AppButtons";
 
 export default function Execution() {
+  const navigate = useNavigate();
   return (
     <div className="grid gap-10">
       <div className="grid lg:grid-cols-[0.7fr,1fr] gap-[56px] md:gap-[64px] lg:gap-5 items-start">
@@ -13,6 +15,7 @@ export default function Execution() {
             <AppButton100
               className="bg-Yellow500 text-Greyscale self-center lg:justify-self-start lg:px-16"
               label="Take FREE Assessment"
+              onClick={() => navigate("../../overview/execution")}
             />
           </div>
           <p className="text-[18px]">

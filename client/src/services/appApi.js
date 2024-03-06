@@ -7,37 +7,24 @@ export const appApi = createApi({
   reducerPath: "AppAPI",
   baseQuery: fetchBaseQuery({ baseUrl: BASE_URL }),
   endpoints: (builder) => ({
-    //Mindset---------------------------------------
-    createMindsetUser: builder.mutation({
-      query: ({ body }) => ({
-        url: `/mindset/create_user`,
+    //Create User---------------------------------------
+    createUser: builder.mutation({
+      query: ({ body, concept }) => ({
+        url: `/${concept}/create_user`,
         method: "post",
         body,
       }),
     }),
-    //Strategy---------------------------------------
-    createStrategyUser: builder.mutation({
-      query: ({ body }) => ({
-        url: `/strategy/create_user`,
+
+    //Checkout
+    checkout: builder.mutation({
+      query: ({ body, concept }) => ({
+        url: `/${concept}/stripe/create-checkout-session`,
         method: "post",
         body,
       }),
     }),
-    // //Founders---------------------------------------
-    // createFounder: builder.mutation({
-    //   query: ({ body }) => ({
-    //     url: `/founders/founder_create`,
-    //     method: "post",
-    //     body,
-    //   }),
-    // }),
-    // checkout: builder.mutation({
-    //   query: ({ body }) => ({
-    //     url: "/stripe/create-checkout-session",
-    //     method: "post",
-    //     body,
-    //   }),
-    // }),
+
     //Stay Informed---------------------------------------
     addSubscriber: builder.mutation({
       query: ({ body }) => ({
@@ -50,7 +37,7 @@ export const appApi = createApi({
 });
 
 export const {
-  useCreateMindsetUserMutation,
-  useCreateStrategyUserMutation,
+  useCreateUserMutation,
+  useCheckoutMutation,
   useAddSubscriberMutation,
 } = appApi;

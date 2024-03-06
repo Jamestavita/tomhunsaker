@@ -1,7 +1,7 @@
 import NodeMailer from "../config/nodeMailer.js";
-import StrategyUsers from "../models/strategyUsersModel.js";
+import ExecutionUsers from "../models/executionUsersModel.js";
 
-export const createStrategyUser = async (req, res) => {
+export const createExecutionUser = async (req, res) => {
   try {
     const {
       name,
@@ -15,7 +15,7 @@ export const createStrategyUser = async (req, res) => {
       plan,
     } = req.body;
 
-    const data = await StrategyUsers.create({
+    const data = await ExecutionUsers.create({
       name,
       last_name,
       email,
@@ -27,7 +27,7 @@ export const createStrategyUser = async (req, res) => {
       plan,
     });
 
-    // if (plan === "Free") NodeMailer({ name, email, level, plan });
+    if (plan === "Free") NodeMailer({ name, email, level, plan });
 
     res.status(201).json(data);
   } catch (error) {

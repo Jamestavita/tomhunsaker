@@ -1320,7 +1320,7 @@ const initialState = {
           ],
         },
       ],
-      significance: `Fit-to-Purpose is your level of attractiveness to stakeholders. It is the relevance of your value proposition to key stakeholder and answers "How valuable are our actions to key stakeholders?" A number of statements will be presented to you in three categories: Continue, Stop, and Start. Select all of the statements that apply in each category.`,
+      significance: `Fit-to-Purpose is your level of attractiveness to stakeholders. It is the relevance of your value proposition to key stakeholder and answers "How valuable are our actions to key stakeholders?".`,
     },
     {
       number: "39",
@@ -1370,7 +1370,7 @@ const initialState = {
           ],
         },
       ],
-      significance: `Relative Advantage is how much stakeholders prefer you to others. It is your distinctiveness from alternatives and answers "How unique from other options are you viewed by key stakeholders?" A number of statements will be presented to you in three categories: Continue, Stop, and Start. Select all of the statements that apply in each category.`,
+      significance: `Relative Advantage is how much stakeholders prefer you to others. It is your distinctiveness from alternatives and answers "How unique from other options are you viewed by key stakeholders?".`,
     },
   ],
   strategy_assessment_evaluation: {
@@ -1926,7 +1926,7 @@ const initialState = {
         "World-class innovators prioritize their capabilities to deliver on what their target audience cares about most",
     },
 
-    //IVOS
+    //IVAS
     {
       number: "36",
       category: "Ideation",
@@ -2093,6 +2093,654 @@ const initialState = {
       Start: { choices: [], other: "", score: 0 },
     },
     System: {
+      Continue: { choices: [], other: "", score: 0 },
+      Stop: { choices: [], other: "", score: 0 },
+      Start: { choices: [], other: "", score: 0 },
+    },
+  },
+
+  //Execution
+  execution_assessment_progress: 0,
+  execution_assessment_questions: [
+    //Personal
+    {
+      number: "01",
+      qstn: "I set aspirational goals",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Effective goal setting focuses actions on a specific aspiration",
+    },
+    {
+      number: "02",
+      qstn: "I do more with less",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Being efficient with resources is indicative of excellent execution",
+    },
+    {
+      number: "03",
+      qstn: "I use a reliable approach to measure my progress",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Effectively measuring progress is foundational to adaptive execution",
+    },
+    {
+      number: "04",
+      qstn: "I negotiate effectively with others",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Execution and agility require the ability to negotiate effectively with limited time and, often, in dynamic settings",
+    },
+    {
+      number: "05",
+      qstn: "I excel at quickly detecting inefficiencies",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Quickly identifying challenges increases the odds of efficiently solving for them",
+    },
+    {
+      number: "06",
+      qstn: "I prioritize my efforts in now, next, then increments",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Prioritizing actions if sprint durations increases the odds of implementation success",
+    },
+    {
+      number: "07",
+      qstn: "I focus on quality done quickly, rather than aiming for perfection done slowly",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Slowly seeking perfection is the enemy of great in fast-paced settings",
+    },
+    {
+      number: "08",
+      qstn: "I finish the worthwhile pursuits that I start",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Those who persist to complete worthwhile pursuits experience better result on nearly all performance metrics",
+    },
+    {
+      number: "09",
+      qstn: "I use more than self-discipline to follow through on my commitments",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Self-discipline is the start, but it must be complemented by accountability mechanisms to achieve the highest execution and agility levels",
+    },
+    {
+      number: "10",
+      qstn: "I learn quickly from mistakes",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Learning is always the answer - and learning quickly is preferred",
+    },
+    {
+      number: "11",
+      qstn: "I effectively influence others without appealing to titles",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "Appealing to authority is the lowest level of influence whereas other forms of influence are perceived to be more genuine",
+    },
+    {
+      number: "12",
+      qstn: "I am reliable",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "The willingness and ability to keep commitments is foundational to effective execution",
+    },
+    {
+      number: "13",
+      qstn: "I achieve over 80% of the goals I set",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "The quality relationship between goal setting and goal achievement should exceed 80% success when the ideal balance of goal ambition and effective execution are in effect",
+    },
+    {
+      number: "14",
+      qstn: "I actively seek candid feedback about the effectiveness of my actions",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance:
+        "The willingness and ability to attract, implement, and give feedback is vital to effective execution and agility in dynamic settings",
+    },
+    {
+      number: "15",
+      qstn: "I quickly adopt the better way",
+      category: "Personal",
+      options: [
+        "Almost always",
+        "Often",
+        "Sometimes",
+        "Rarely",
+        "Almost never",
+        "Don't know",
+      ],
+      significance: `There is rarely a "best" but there is always a "better" when it comes to developing, implementing, and adapting execution pathways - those who consistently and quickly seek better have the advantage`,
+    },
+
+    //Team
+    {
+      number: "16",
+      qstn: "We set clear, transparent, and impactful goals",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Teams that have clear goals experience better execution alignment",
+    },
+    {
+      number: "17",
+      qstn: "We consistently achieve above 90% of the value we plan for",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "On average less than 60% of the value planned for is actually realized so closing this execution gap represents significant value",
+    },
+    {
+      number: "18",
+      qstn: "We win deals at a superior rate to our competitors",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance: "Deal win rate influences execution success",
+    },
+    {
+      number: "19",
+      qstn: "We rarely experience operational bottlenecks",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Operational bottlenecks increase complexity, waste resources, and reduce output",
+    },
+    {
+      number: "20",
+      qstn: "We change our efforts before we change our goals",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "TWhen goals are valid they should be altered only after adjusting the approach to achieve the goal",
+    },
+    {
+      number: "21",
+      qstn: "We effectively spread power throughout the organization rather than concentrating it in senior leadership",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "When power is distributed people feel more accountable to and better incentivized to achieve the intended objective",
+    },
+    {
+      number: "22",
+      qstn: "We adapt rapidly",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "The power of agility increases as speed and accuracy of sensing and incorporating information updates improves",
+    },
+    {
+      number: "23",
+      qstn: "We work effectively across functions",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Execution efforts are known to improve when collaboration across the team is strong",
+    },
+    {
+      number: "24",
+      qstn: "Every function in our organization has a clear understanding of how their work relates to our purpose",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "People are more likely to give their best when they know why they are doing it and how it impacts others",
+    },
+    {
+      number: "25",
+      qstn: "We focus on progress and results, not politics and task completion",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Politics and tracking tasks completed detract from effective execution because they shift focus from learning and action quality to favoritism and tactivity quantity",
+    },
+    {
+      number: "26",
+      qstn: "We have a high trust operating environment",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Trust is foundational to effective execution and this increases as operating setting are more dynamic",
+    },
+    {
+      number: "27",
+      qstn: "Effective development is provided for our people to deliver what is asked of them",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Execution excellence requires both the will to commit to delivering on the objective and the skill to do what is required",
+    },
+    {
+      number: "28",
+      qstn: "We codify best practices and effectively share them",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Capturing and effectively sharing best practices reduces wasted motion and increases the odds of goal achievement",
+    },
+    {
+      number: "29",
+      qstn: "We quickly iterate based on easily understood and reliable evaluation metrics",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Those that have a system for effectively evaluating implementation efforts in the now, next, and then horizons are more likely to positively adapt and achieve goals at a higher rate",
+    },
+    {
+      number: "30",
+      qstn: "We effectively prioritize efforts and resources",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Prioritization is pivotal to execution success because know what you don't need to is as important to creating effort focus as knowing what to do",
+    },
+    {
+      number: "31",
+      qstn: "We implement plans with precision and discipline",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Knowing what to do is only as valuable as the willingness and ability to do it consistently well",
+    },
+    {
+      number: "32",
+      qstn: "Our systems allow for quick and accurate information gathering, analysis, and sharing ",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Systems hinder or accelerate how effectively people are able to execute the actions linked to goal achievement",
+    },
+    {
+      number: "33",
+      qstn: "We are clear and transparent - everyone here knows exactly how their contribution impacts our intended results",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Impact transparency improves not only accountability for actions but also the quality of the actions themselves",
+    },
+    {
+      number: "34",
+      qstn: "We use resources more efficiently than our competitors",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "All else equal those who maximize the yield from their resources have the advantage",
+    },
+    {
+      number: "35",
+      qstn: "We are data-driven - the best idea always wins",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Operating trust increases to the extent people believe that the quality of their actions and the value of their ideas is valued above other social dynamics",
+    },
+    {
+      number: "36",
+      qstn: "We effectively learn from failure",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Learning is the answer in both success and failure - and learning quickly is preferred",
+    },
+    {
+      number: "37",
+      qstn: "We use mechanisms outside of management controls that hold us accountable for the quality of our actions",
+      category: "Team",
+      options: [
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
+        "Don't know",
+      ],
+      significance:
+        "Those who employ accountability mechanisms beyond discipline execute with more precision and adapt better and quicker than those who don't",
+    },
+
+    //PO
+    {
+      number: "38",
+      category: "Precision_and_Execution",
+      qstns: [
+        {
+          qstn: "Continue",
+          options: [
+            "Training on building an effective innovation case",
+            "Use of a universally understood framework for sharing the potential value of an innovation",
+            "Encourage interactions with people who are effective innovation messengers",
+            "Reinforce the effective components to innovation messaging",
+          ],
+        },
+        {
+          qstn: "Stop",
+          options: [
+            "Underresourcing innovation adoption training",
+            "Not having a universally understood framework for sharing the potential value of an innovation",
+            "Disouraging interactions with people who aren't your direct manager",
+            "Not providing clear guidance on the effective components to innovation messaging",
+          ],
+        },
+        {
+          qstn: "Start",
+          options: [
+            "Provide training on building an effective innovation case",
+            "Have a universally understood framework for sharing the potential value of an innovation",
+            "Encourage interactions with people who are effective innovation messengers",
+            "Making known the effective components to innovation messaging",
+          ],
+        },
+      ],
+      significance: `Discovering and acting on clear intelligence regarding what to continue, what to stop, and options to consider starting related to your adoption practices directly influences the quality of your innovation results and the potential growth trajectory of your team`,
+    },
+    {
+      number: "39",
+      category: "Operational_Agility",
+      qstns: [
+        {
+          qstn: "Continue",
+          options: [
+            "Clear, transparent, and timely pathway for sharing new ideas",
+            "Alignment between what is said and how things are actually done",
+            "Consistently developing innovation capacity",
+            "Clear and motivating incentives to be innovative",
+            "Easy to understand and use system to share ideas and get credit for their success",
+          ],
+        },
+        {
+          qstn: "Stop",
+          options: [
+            "Unclear, obscure, and slow pathway for sharing new ideas",
+            "Misalignment between what is said and how things are actually done",
+            "Inconsistently developing innovation capacity",
+            "Unclear and demotivating incentives to be innovative",
+            "Hard to understand and use system to share ideas and get credit for their success",
+          ],
+        },
+        {
+          qstn: "Start",
+          options: [
+            "Clear, transparent, and timely pathway for sharing new ideas",
+            "Alignment between what is said and how things are actually done",
+            "Provide consistent development opportunities",
+            "Clear and motivating incentives to be innovative",
+            "Easy to understand and use system to share ideas and get credit for their success",
+          ],
+        },
+      ],
+      significance: `Discovering and acting on clear intelligence regarding what to continue, what to stop, and options to consider starting related to your systems practices directly influences the quality of your innovation results and the potential growth trajectory of your team`,
+    },
+  ],
+  execution_assessment_evaluation: {
+    Personal: [],
+    Team: [],
+    Precision_and_Execution: {
+      Continue: { choices: [], other: "", score: 0 },
+      Stop: { choices: [], other: "", score: 0 },
+      Start: { choices: [], other: "", score: 0 },
+    },
+    Operational_Agility: {
       Continue: { choices: [], other: "", score: 0 },
       Stop: { choices: [], other: "", score: 0 },
       Start: { choices: [], other: "", score: 0 },
@@ -2268,7 +2916,7 @@ export const AppSlice = createSlice({
             action.payload.answer
           );
     },
-    setInnovationAssessmentPR: (state, action) => {
+    setInnovationAssessmentIVAS: (state, action) => {
       //Choices
       state.innovation_assessment_evaluation[action.payload.category][
         action.payload.section
@@ -2317,6 +2965,77 @@ export const AppSlice = createSlice({
           : 0);
     },
 
+    //Execution
+    setExecutionAssessmentProgress: (state, action) => {
+      state.execution_assessment_progress = action.payload;
+    },
+    setExecutionAssessmentEvaluation: (state, action) => {
+      // Find and replace or add new
+      state.execution_assessment_evaluation[action.payload.category].find(
+        (v) => action.payload.answer.number === v.number
+      )
+        ? state.execution_assessment_evaluation[
+            action.payload.category
+          ].forEach((v, i) => {
+            if (v.number === action.payload.answer.number) {
+              state.execution_assessment_evaluation[action.payload.category][
+                i
+              ] = action.payload.answer;
+            }
+          })
+        : state.execution_assessment_evaluation[action.payload.category].push(
+            action.payload.answer
+          );
+    },
+    setExecutionAssessmentPO: (state, action) => {
+      //Choices
+      state.execution_assessment_evaluation[action.payload.category][
+        action.payload.section
+      ]?.choices.includes(action.payload.choice)
+        ? (state.execution_assessment_evaluation[action.payload.category][
+            action.payload.section
+          ].choices = state.execution_assessment_evaluation[
+            action.payload.category
+          ][action.payload.section].choices.filter(
+            (choice) => choice !== action.payload.choice
+          ))
+        : state.execution_assessment_evaluation[action.payload.category][
+            action.payload.section
+          ].choices.push(action.payload.choice);
+
+      //Scoring
+      state.execution_assessment_evaluation[action.payload.category][
+        action.payload.section
+      ].score =
+        state.execution_assessment_evaluation[action.payload.category][
+          action.payload.section
+        ].choices.length +
+        (state.execution_assessment_evaluation[action.payload.category][
+          action.payload.section
+        ].other.length
+          ? 1
+          : 0);
+    },
+    setExecutionOther: (state, action) => {
+      //Others
+      state.execution_assessment_evaluation[action.payload.category][
+        action.payload.section
+      ].other = action.payload.other;
+
+      //Scoring
+      state.execution_assessment_evaluation[action.payload.category][
+        action.payload.section
+      ].score =
+        state.execution_assessment_evaluation[action.payload.category][
+          action.payload.section
+        ].choices.length +
+        (state.execution_assessment_evaluation[action.payload.category][
+          action.payload.section
+        ].other.length
+          ? 1
+          : 0);
+    },
+
     resetEvaluation: (state, action) => {
       state.assessmentEvaluation = [];
       state.fundersAssessment = [];
@@ -2338,8 +3057,13 @@ export const {
   //Innovation
   setInnovationAssessmentProgress,
   setInnovationAssessmentEvaluation,
-  setInnovationAssessmentPR,
+  setInnovationAssessmentIVAS,
   setInnovationOther,
+  //Execution
+  setExecutionAssessmentProgress,
+  setExecutionAssessmentEvaluation,
+  setExecutionAssessmentPO,
+  setExecutionOther,
   //
   resetEvaluation,
 } = AppSlice.actions;

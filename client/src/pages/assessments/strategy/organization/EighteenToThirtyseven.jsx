@@ -33,7 +33,12 @@ export default function EighteenToThirtyseven() {
           qstn: assessment.qstn,
           response: e.target.value,
           significance: assessment.significance,
-          score: selectOneScoring(e.target.value),
+          score:
+            assessment.number === "34" ||
+            assessment.number === "35" ||
+            assessment.number === "36"
+              ? selectOneScoring(e.target.value, true)
+              : selectOneScoring(e.target.value),
         },
       })
     );

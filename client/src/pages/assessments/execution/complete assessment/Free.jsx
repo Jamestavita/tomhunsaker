@@ -13,7 +13,7 @@ import appContext from "../../../../context/AppContext";
 
 export function Free() {
   const navigate = useNavigate();
-  const { innovation_assessment_evaluation: assessmentInfo } = useSelector(
+  const { execution_assessment_evaluation: assessmentInfo } = useSelector(
     (state) => state.app
   );
   const { category_points, section_points } = useContext(appContext);
@@ -137,27 +137,24 @@ export function Free() {
     //Calculate total score
     const total_score =
       category_points(assessmentInfo, "Personal") +
-      category_points(assessmentInfo, "Interpersonal") +
       category_points(assessmentInfo, "Team") +
-      section_points(assessmentInfo, "Ideation") +
-      section_points(assessmentInfo, "Validation") +
-      section_points(assessmentInfo, "Adoption") +
-      section_points(assessmentInfo, "Systems");
+      section_points(assessmentInfo, "Precision_and_Execution") +
+      section_points(assessmentInfo, "Operational_Agility");
 
     //Assign levels
     const level =
-      total_score > 159 && total_score < 186
+      total_score > 170 && total_score < 196
         ? 5
-        : total_score > 120 && total_score < 160
+        : total_score > 139 && total_score < 171
         ? 4
-        : total_score > 69 && total_score < 121
+        : total_score > 89 && total_score < 140
         ? 3
-        : total_score > 39 && total_score < 70
+        : total_score > 39 && total_score < 90
         ? 2
         : 1;
 
     createUserApi({
-      concept: "innovation",
+      concept: "execution",
       body: {
         name: freeFormVal.Name,
         last_name: freeFormVal.Last_Name,
@@ -168,32 +165,19 @@ export function Free() {
           //Personal
           Personal_points: category_points(assessmentInfo, "Personal"),
           Personal_score: +(
-            category_points(assessmentInfo, "Personal") / 70
-          ).toFixed(2),
-
-          //Interpersonal
-          Interpersonal_points: category_points(
-            assessmentInfo,
-            "Interpersonal"
-          ),
-          Interpersonal_score: +(
-            category_points(assessmentInfo, "Interpersonal") / 50
+            category_points(assessmentInfo, "Personal") / 75
           ).toFixed(2),
 
           //Team
           Team_points:
             category_points(assessmentInfo, "Team") +
-            section_points(assessmentInfo, "Ideation") +
-            section_points(assessmentInfo, "Validation") +
-            section_points(assessmentInfo, "Adoption") +
-            section_points(assessmentInfo, "System"),
+            section_points(assessmentInfo, "Precision_and_Execution") +
+            section_points(assessmentInfo, "Operational_Agility"),
           Team_score: +(
             (category_points(assessmentInfo, "Team") +
-              section_points(assessmentInfo, "Ideation") +
-              section_points(assessmentInfo, "Validation") +
-              section_points(assessmentInfo, "Adoption") +
-              section_points(assessmentInfo, "System")) /
-            65
+              section_points(assessmentInfo, "Precision_and_Execution") +
+              section_points(assessmentInfo, "Operational_Agility")) /
+            120
           ).toFixed(2),
         },
         total_score,
@@ -203,7 +187,7 @@ export function Free() {
     })
       .unwrap()
       .then((result) => {
-        navigate("../assessment/innovation/free_success");
+        navigate("../assessment/execution/free_success");
         setLoading(false);
       })
       .catch((err) => {
@@ -216,7 +200,7 @@ export function Free() {
       <div className="w-[min(90rem,100%)] mx-auto pt-8 md:px-12 md:pb-16 lg:px-32 lg:pt-16 lg:pb-20 grid gap-12 lg:grid-cols-[1fr,0.6fr]">
         <div
           className="cursor-pointer flex gap-3 lg:col-span-2 items-center mx-auto lg:mx-0"
-          onClick={() => navigate("../assessment/innovation/plan")}
+          onClick={() => navigate("../assessment/execution/plan")}
         >
           <FaArrowLeft />
           Back to option selection
@@ -226,44 +210,39 @@ export function Free() {
             Just your raw score
           </p>
           <svg
-            width="260"
-            height="190"
-            viewBox="0 0 260 190"
+            width="133"
+            height="97"
+            viewBox="0 0 133 97"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className="mx-auto"
           >
             <path
-              d="M244.156 111.815C244.156 127.431 230.687 139.642 215.145 138.115L115.605 128.334C102.076 127.004 91.7626 115.628 91.7626 102.034L91.7626 52.4466C91.7626 38.7363 102.248 27.303 115.907 26.1187L215.447 17.488C230.885 16.1495 244.156 28.3201 244.156 43.8159L244.156 111.815Z"
-              fill="#315C90"
+              d="M124.461 56.7677C124.461 64.696 117.623 70.8953 109.732 70.12L59.1964 65.154C52.3278 64.4791 47.0919 58.7033 47.0919 51.8017L47.0919 26.6268C47.0919 19.6662 52.415 13.8616 59.3495 13.2603L109.885 8.87861C117.723 8.19904 124.461 14.3779 124.461 22.2451L124.461 56.7677Z"
+              fill="#DFBF34"
             />
-            <g filter="url(#filter0_b_804_137681)">
+            <g filter="url(#filter0_b_804_138687)">
               <path
-                d="M16 77.6244C16 62.008 29.4694 49.7973 45.011 51.3245L144.551 61.1059C158.08 62.4353 168.394 73.8118 168.394 87.4059V136.993C168.394 150.703 157.909 162.136 144.25 163.321L44.7094 171.951C29.2715 173.29 16 161.119 16 145.624V77.6244Z"
-                fill="white"
-                fill-opacity="0.1"
-              />
-              <path
-                d="M16 77.6244C16 62.008 29.4694 49.7973 45.011 51.3245L144.551 61.1059C158.08 62.4353 168.394 73.8118 168.394 87.4059V136.993C168.394 150.703 157.909 162.136 144.25 163.321L44.7094 171.951C29.2715 173.29 16 161.119 16 145.624V77.6244Z"
-                fill="url(#paint0_linear_804_137681)"
-                fill-opacity="0.58"
+                d="M8.625 39.4101C8.625 31.4817 15.4633 25.2824 23.3537 26.0578L73.8896 31.0237C80.7581 31.6987 85.9941 37.4744 85.9941 44.376V69.5509C85.9941 76.5115 80.671 82.3161 73.7364 82.9174L23.2006 87.2991C15.3629 87.9787 8.625 81.7998 8.625 73.9327V39.4101Z"
+                fill="url(#paint0_linear_804_138687)"
+                fill-opacity="0.7"
               />
             </g>
-            <g filter="url(#filter1_b_804_137681)">
+            <g filter="url(#filter1_b_804_138687)">
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
-                d="M144.508 61.5442L44.968 51.7628C29.6854 50.2611 16.4404 62.2682 16.4404 77.6244V145.624C16.4404 160.861 29.4908 172.829 44.6714 171.513L144.212 162.882C157.643 161.717 167.953 150.475 167.953 136.993V87.4059C167.953 74.0383 157.812 62.8515 144.508 61.5442ZM45.011 51.3245C29.4694 49.7973 16 62.008 16 77.6244V145.624C16 161.119 29.2715 173.29 44.7094 171.951L144.25 163.321C157.909 162.136 168.394 150.703 168.394 136.993V87.4059C168.394 73.8118 158.08 62.4353 144.551 61.1059L45.011 51.3245Z"
-                fill="url(#paint1_linear_804_137681)"
+                d="M73.8677 31.2463L23.3318 26.2803C15.573 25.5179 8.84861 31.6138 8.84861 39.4101V73.9327C8.84861 81.6687 15.4742 87.7446 23.1812 87.0763L73.7171 82.6946C80.5361 82.1034 85.7705 76.3955 85.7705 69.5509V44.376C85.7705 37.5894 80.6217 31.9099 73.8677 31.2463ZM23.3537 26.0578C15.4633 25.2824 8.625 31.4817 8.625 39.4101V73.9327C8.625 81.7998 15.3629 87.9787 23.2006 87.2991L73.7364 82.9174C80.671 82.3161 85.9941 76.5115 85.9941 69.5509V44.376C85.9941 37.4744 80.7581 31.6987 73.8896 31.0237L23.3537 26.0578Z"
+                fill="url(#paint1_linear_804_138687)"
               />
             </g>
             <defs>
               <filter
-                id="filter0_b_804_137681"
-                x="4"
-                y="39.1953"
-                width="176.391"
-                height="144.857"
+                id="filter0_b_804_138687"
+                x="-3.375"
+                y="13.9922"
+                width="101.367"
+                height="85.3574"
                 filterUnits="userSpaceOnUse"
                 color-interpolation-filters="sRGB"
               >
@@ -272,21 +251,21 @@ export function Free() {
                 <feComposite
                   in2="SourceAlpha"
                   operator="in"
-                  result="effect1_backgroundBlur_804_137681"
+                  result="effect1_backgroundBlur_804_138687"
                 />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
-                  in2="effect1_backgroundBlur_804_137681"
+                  in2="effect1_backgroundBlur_804_138687"
                   result="shape"
                 />
               </filter>
               <filter
-                id="filter1_b_804_137681"
-                x="-17.8358"
-                y="17.3595"
-                width="220.062"
-                height="188.529"
+                id="filter1_b_804_138687"
+                x="-25.2108"
+                y="-7.84362"
+                width="145.039"
+                height="129.029"
                 filterUnits="userSpaceOnUse"
                 color-interpolation-filters="sRGB"
               >
@@ -298,41 +277,42 @@ export function Free() {
                 <feComposite
                   in2="SourceAlpha"
                   operator="in"
-                  result="effect1_backgroundBlur_804_137681"
+                  result="effect1_backgroundBlur_804_138687"
                 />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
-                  in2="effect1_backgroundBlur_804_137681"
+                  in2="effect1_backgroundBlur_804_138687"
                   result="shape"
                 />
               </filter>
               <linearGradient
-                id="paint0_linear_804_137681"
-                x1="22.3497"
-                y1="53.7132"
-                x2="80.5528"
-                y2="173.866"
+                id="paint0_linear_804_138687"
+                x1="21.5788"
+                y1="27.9659"
+                x2="81.8577"
+                y2="84.3671"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#D9E4F1" />
-                <stop offset="0.765625" stop-color="#85A9D5" />
+                <stop stop-color="#F9F2D7" />
+                <stop offset="0.331051" stop-color="#ECD57E" />
+                <stop offset="0.818043" stop-color="#DFBF34" />
               </linearGradient>
               <linearGradient
-                id="paint1_linear_804_137681"
-                x1="23.5582"
-                y1="42.8036"
-                x2="195.29"
-                y2="129.37"
+                id="paint1_linear_804_138687"
+                x1="12.4622"
+                y1="21.7318"
+                x2="99.6492"
+                y2="65.6808"
                 gradientUnits="userSpaceOnUse"
               >
                 <stop
                   offset="0.0136312"
-                  stop-color="#85A9D5"
+                  stop-color="#EDDB8C"
                   stop-opacity="0"
                 />
-                <stop offset="0.600063" stop-color="#315C90" />
-                <stop offset="1" stop-color="#85A9D5" stop-opacity="0.1" />
+                <stop offset="0.600063" stop-color="#DFBF34" />
+                <stop offset="1" stop-color="#EDDB8C" stop-opacity="0.1" />
               </linearGradient>
             </defs>
           </svg>
@@ -484,7 +464,7 @@ export function Free() {
               You'll receive an email with your raw score
             </p>
             <AppButton100
-              className="bg-Blue500 text-Greyscale border-Blue500 border-2"
+              className="bg-Yellow500 text-Greyscale border-Yellow500 border-2"
               label={loading ? "Processing..." : "Get raw score"}
             />
           </div>

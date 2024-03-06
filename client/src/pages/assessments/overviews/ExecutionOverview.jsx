@@ -2,14 +2,14 @@ import React from "react";
 import AppButton100 from "../../../components/reuseable/AppButtons";
 import { useNavigate } from "react-router-dom";
 
-export default function InnovationOverview() {
+export default function ExecutionOverview() {
   const navigate = useNavigate();
   return (
     <div className="">
       <section className="bg-Greyscale200">
         <div className="w-[min(90rem,100%)] mx-auto px-4 md:px-12 lg:px-32 pt-12 pb-28 md:pb-12 grid gap-12">
           <p className="text-[56px] md:text-[74px] font-medium leading-tight md:w-[670px] lg:w-2/3">
-            Innovation & Analytics Assessment
+            Execution & Analytics Assessment
           </p>
         </div>
       </section>
@@ -752,7 +752,7 @@ export default function InnovationOverview() {
             </defs>
           </svg>
           <p className="text-[24px] font-bold md:w-[395px] lg:w-[704px]">
-            Welcome to the exclusive home of the world's premier Innovation &
+            Welcome to the exclusive home of the world's premier Execution &
             Analytics assessment.
           </p>
         </div>
@@ -766,7 +766,7 @@ export default function InnovationOverview() {
           <p className="text-[18px] md:w-[672px]">
             Your responses are never shared without your consent, so answer as
             candidly as possible for the opportunity to learn your current
-            Innovation & Analytics BRIDGER® score, gain insights for each
+            Execution & Analytics BRIDGER® score, gain insights for each
             category, and receive accurate next-level recommended actions.
           </p>
           <p className="text-[18px]">
@@ -774,9 +774,9 @@ export default function InnovationOverview() {
             minutes.
           </p>
           <AppButton100
-            className="bg-Blue500 text-Greyscale mt-10 md:mr-auto md:px-20"
+            className="bg-Yellow500 text-Greyscale mt-10 md:mr-auto md:px-20"
             label="Start Assessment"
-            onClick={() => navigate("../../assessment/innovation/personal/01")}
+            onClick={() => navigate("../../assessment/execution/personal/01")}
           />
         </div>
       </section>

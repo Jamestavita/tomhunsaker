@@ -189,7 +189,7 @@ export default function PPP() {
               )?.length ||
               getOther(
                 mindset_assessment_evaluation,
-                assessment.category,
+                assessment?.category,
                 "Continue"
               )?.length
             ) ||
@@ -201,7 +201,7 @@ export default function PPP() {
               )?.length ||
               getOther(
                 mindset_assessment_evaluation,
-                assessment.category,
+                assessment?.category,
                 "Stop"
               )?.length
             ) ||
@@ -213,7 +213,7 @@ export default function PPP() {
               )?.length ||
               getOther(
                 mindset_assessment_evaluation,
-                assessment.category,
+                assessment?.category,
                 "Start"
               )?.length
             )

@@ -7,15 +7,18 @@ import SelectField from "../../../../components/reuseable/SelectField";
 import axios from "axios";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import { useCreateMindsetUserMutation } from "../../../../services/appApi";
+import { useCreateUserMutation } from "../../../../services/appApi";
 import { FaArrowLeft } from "react-icons/fa";
+import appContext from "../../../../context/AppContext";
 
 export default function Free() {
   const navigate = useNavigate();
   const { mindset_assessment_evaluation: assessmentInfo } = useSelector(
     (state) => state.app
   );
+  const { category_points, section_points } = useContext(appContext);
 
+  //Input handlers
   const marketSectorOptions = [
     {
       value: "Business Services",
@@ -70,7 +73,6 @@ export default function Free() {
       label: "Travel & Tourism",
     },
   ];
-
   const employeesCountOptions = [
     {
       value: "1 - 100",
@@ -89,7 +91,6 @@ export default function Free() {
       label: "10000+",
     },
   ];
-
   const [countryOptions, setCountryOptions] = useState();
   useEffect(() => {
     async function getCountries() {
@@ -109,9 +110,17 @@ export default function Free() {
     }
     getCountries();
   }, []);
-
-  const [freeFormVal, setFreeFormVal] = useState({});
-
+  const [freeFormVal, setFreeFormVal] = useState({
+    Name: "",
+    Last_Name: "",
+    Market_Sector: "",
+    Organization: "",
+    Number_of_Employees: "",
+    Country: "",
+    Email: "",
+    Website_or_Social_Handle: "",
+    Phone: "",
+  });
   function handleChange(e) {
     setFreeFormVal({
       ...freeFormVal,
@@ -119,12 +128,37 @@ export default function Free() {
     });
   }
 
-  const [createFounderApi] = useCreateMindsetUserMutation();
+  //Submit handlers
+  const [createUserApi] = useCreateUserMutation();
   const [loading, setLoading] = useState(false);
   function onSubmitForm(e) {
     e.preventDefault();
     setLoading(true);
-    createFounderApi({
+
+    //Calculate total score
+    const total_score =
+      category_points(assessmentInfo, "Personal") +
+      category_points(assessmentInfo, "Interpersonal") +
+      category_points(assessmentInfo, "Team") +
+      section_points(assessmentInfo, "Purpose") +
+      section_points(assessmentInfo, "People") +
+      section_points(assessmentInfo, "Positions") +
+      section_points(assessmentInfo, "Process");
+
+    //Assign levels
+    const level =
+      total_score > 170 && total_score < 196
+        ? 5
+        : total_score > 139 && total_score < 171
+        ? 4
+        : total_score > 89 && total_score < 140
+        ? 3
+        : total_score > 39 && total_score < 90
+        ? 2
+        : 1;
+
+    createUserApi({
+      concept: "mindset",
       body: {
         name: freeFormVal.Name,
         last_name: freeFormVal.Last_Name,
@@ -132,44 +166,39 @@ export default function Free() {
         user_info: freeFormVal,
         assessment_info: assessmentInfo,
         points: {
-          Personal_points: assessmentInfo?.Personal?.reduce(
-            (a, c) => a + c.score,
-            0
-          ),
+          //Personal
+          Personal_points: category_points(assessmentInfo, "Personal"),
           Personal_score: +(
-            assessmentInfo?.Personal?.reduce((a, c) => a + c.score, 0) / 50
+            category_points(assessmentInfo, "Personal") / 50
           ).toFixed(2),
 
-          Interpersonal_points: assessmentInfo?.Interpersonal?.reduce(
-            (a, c) => a + c.score,
-            0
+          //Interpersonal
+          Interpersonal_points: category_points(
+            assessmentInfo,
+            "Interpersonal"
           ),
           Interpersonal_score: +(
-            assessmentInfo?.Interpersonal?.reduce((a, c) => a + c.score, 0) / 50
+            category_points(assessmentInfo, "Interpersonal") / 50
           ).toFixed(2),
-          Team_points: assessmentInfo?.Team?.reduce((a, c) => a + c.score, 0),
+
+          //Team
+          Team_points:
+            category_points(assessmentInfo, "Team") +
+            section_points(assessmentInfo, "Purpose") +
+            section_points(assessmentInfo, "People") +
+            section_points(assessmentInfo, "Positions") +
+            section_points(assessmentInfo, "Process"),
           Team_score: +(
-            assessmentInfo?.Team?.reduce((a, c) => a + c.score, 0) / 95
+            (category_points(assessmentInfo, "Team") +
+              section_points(assessmentInfo, "Purpose") +
+              section_points(assessmentInfo, "People") +
+              section_points(assessmentInfo, "Positions") +
+              section_points(assessmentInfo, "Process")) /
+            95
           ).toFixed(2),
-          Purpose_score:
-            assessmentInfo?.Purpose?.Continue?.score +
-            assessmentInfo?.Purpose?.Stop?.score +
-            assessmentInfo?.Purpose?.Start?.score,
-          People_score:
-            assessmentInfo?.People?.Continue?.score +
-            assessmentInfo?.People?.Stop?.score +
-            assessmentInfo?.People?.Start?.score,
-          Positions_score:
-            assessmentInfo?.Positions?.Continue?.score +
-            assessmentInfo?.Positions?.Stop?.score +
-            assessmentInfo?.Positions?.Start?.score,
-          Process_score:
-            assessmentInfo?.Process?.Continue?.score +
-            assessmentInfo?.Process?.Stop?.score +
-            assessmentInfo?.Process?.Start?.score,
         },
-        total_score: 86,
-        level: 1,
+        total_score,
+        level,
         plan: "Free",
       },
     })
@@ -182,8 +211,6 @@ export default function Free() {
         setLoading(false);
       });
   }
-
-  console.log(freeFormVal);
 
   return (
     <div className="bg-Greyscale200 mx-auto">
@@ -346,7 +373,7 @@ export default function Free() {
               onChange={handleChange}
               required={true}
               type="text"
-              value={freeFormVal.name}
+              value={freeFormVal.Name}
             />
             <InputField
               id="Last_Name"
@@ -399,7 +426,7 @@ export default function Free() {
                 }
                 name="Number_of_Employees"
                 value={employeesCountOptions?.find(
-                  (option) => freeFormVal.Country === option.label
+                  (option) => freeFormVal.Number_of_Employees === option.label
                 )}
                 placeholder=""
               />

@@ -7,15 +7,18 @@ import SelectField from "../../../../components/reuseable/SelectField";
 import axios from "axios";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import { useCreateStrategyUserMutation } from "../../../../services/appApi";
+import { useCreateUserMutation } from "../../../../services/appApi";
 import { FaArrowLeft } from "react-icons/fa";
+import appContext from "../../../../context/AppContext";
 
 export function Free() {
   const navigate = useNavigate();
   const { strategy_assessment_evaluation: assessmentInfo } = useSelector(
     (state) => state.app
   );
+  const { category_points, section_points } = useContext(appContext);
 
+  //Input handlers
   const marketSectorOptions = [
     {
       value: "Business Services",
@@ -70,7 +73,6 @@ export function Free() {
       label: "Travel & Tourism",
     },
   ];
-
   const employeesCountOptions = [
     {
       value: "1 - 100",
@@ -89,7 +91,6 @@ export function Free() {
       label: "10000+",
     },
   ];
-
   const [countryOptions, setCountryOptions] = useState();
   useEffect(() => {
     async function getCountries() {
@@ -109,9 +110,17 @@ export function Free() {
     }
     getCountries();
   }, []);
-
-  const [freeFormVal, setFreeFormVal] = useState({});
-
+  const [freeFormVal, setFreeFormVal] = useState({
+    Name: "",
+    Last_Name: "",
+    Market_Sector: "",
+    Organization: "",
+    Number_of_Employees: "",
+    Country: "",
+    Email: "",
+    Website_or_Social_Handle: "",
+    Phone: "",
+  });
   function handleChange(e) {
     setFreeFormVal({
       ...freeFormVal,
@@ -119,12 +128,35 @@ export function Free() {
     });
   }
 
-  const [createFounderApi] = useCreateStrategyUserMutation();
+  //Submit handlers
+  const [createUserApi] = useCreateUserMutation();
   const [loading, setLoading] = useState(false);
   function onSubmitForm(e) {
     e.preventDefault();
     setLoading(true);
-    createFounderApi({
+
+    //Calculate total score
+    const total_score =
+      category_points(assessmentInfo, "Personal") +
+      category_points(assessmentInfo, "Team") +
+      category_points(assessmentInfo, "Organization") +
+      section_points(assessmentInfo, "Fit_to_Purpose") +
+      section_points(assessmentInfo, "Relative_Advantage");
+
+    //Assign levels
+    const level =
+      total_score > 159 && total_score < 196
+        ? 5
+        : total_score > 119 && total_score < 160
+        ? 4
+        : total_score > 80 && total_score < 120
+        ? 3
+        : total_score > 39 && total_score < 81
+        ? 2
+        : 1;
+
+    createUserApi({
+      concept: "strategy",
       body: {
         name: freeFormVal.Name,
         last_name: freeFormVal.Last_Name,
@@ -132,49 +164,44 @@ export function Free() {
         user_info: freeFormVal,
         assessment_info: assessmentInfo,
         points: {
-          Personal_points: assessmentInfo?.Personal?.reduce(
-            (a, c) => a + c.score,
-            0
-          ),
+          //Personal
+          Personal_points: category_points(assessmentInfo, "Personal"),
           Personal_score: +(
-            assessmentInfo?.Personal?.reduce((a, c) => a + c.score, 0) / 50
+            category_points(assessmentInfo, "Personal") / 45
           ).toFixed(2),
-          Team_points: assessmentInfo?.Team?.reduce((a, c) => a + c.score, 0),
-          Team_score: +(
-            assessmentInfo?.Team?.reduce((a, c) => a + c.score, 0) / 95
-          ).toFixed(2),
-          Organization_points: assessmentInfo?.Organization?.reduce(
-            (a, c) => a + c.score,
-            0
+
+          //Team
+          Team_points: category_points(assessmentInfo, "Team"),
+          Team_score: +(category_points(assessmentInfo, "Team") / 40).toFixed(
+            2
           ),
+
+          //Organization
+          Organization_points:
+            category_points(assessmentInfo, "Organization") +
+            section_points(assessmentInfo, "Fit_to_Purpose") +
+            section_points(assessmentInfo, "Relative_Advantage"),
           Organization_score: +(
-            assessmentInfo?.Organization?.reduce((a, c) => a + c.score, 0) / 50
+            (category_points(assessmentInfo, "Organization") +
+              section_points(assessmentInfo, "Fit_to_Purpose") +
+              section_points(assessmentInfo, "Relative_Advantage")) /
+            110
           ).toFixed(2),
-          Fit_to_Purpose_score:
-            assessmentInfo?.Fit_to_Purpose?.Continue?.score +
-            assessmentInfo?.Fit_to_Purpose?.Stop?.score +
-            assessmentInfo?.Fit_to_Purpose?.Start?.score,
-          Relative_Advantage_score:
-            assessmentInfo?.Relative_Advantage?.Continue?.score +
-            assessmentInfo?.Relative_Advantage?.Stop?.score +
-            assessmentInfo?.Relative_Advantage?.Start?.score,
         },
-        total_score: 86,
-        level: 1,
+        total_score,
+        level,
         plan: "Free",
       },
     })
       .unwrap()
       .then((result) => {
-        // navigate("../assessment/strategy/free_success");
+        navigate("../assessment/strategy/free_success");
         setLoading(false);
       })
       .catch((err) => {
         setLoading(false);
       });
   }
-
-  console.log(freeFormVal);
 
   return (
     <div className="bg-Greyscale200 mx-auto">
@@ -329,7 +356,7 @@ export function Free() {
               onChange={handleChange}
               required={true}
               type="text"
-              value={freeFormVal.name}
+              value={freeFormVal.Name}
             />
             <InputField
               id="Last_Name"
@@ -382,7 +409,7 @@ export function Free() {
                 }
                 name="Number_of_Employees"
                 value={employeesCountOptions?.find(
-                  (option) => freeFormVal.Country === option.label
+                  (option) => freeFormVal.Number_of_Employees === option.label
                 )}
                 placeholder=""
               />

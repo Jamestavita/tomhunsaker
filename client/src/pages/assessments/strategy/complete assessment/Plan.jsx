@@ -2268,7 +2268,6 @@ export function Plan() {
                   </linearGradient>
                 </defs>
               </svg>
-
               <AppButton100
                 label="Get just raw score"
                 className="border-2 border-Green500 text-Green500 my-auto"

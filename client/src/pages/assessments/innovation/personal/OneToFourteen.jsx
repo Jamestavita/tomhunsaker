@@ -36,7 +36,12 @@ export default function OneToFourteen() {
           qstn: assessment.qstn,
           response: e.target.value,
           significance: assessment.significance,
-          score: selectOneScoring(e.target.value),
+          score:
+            assessment.number === "02" ||
+            assessment.number === "04" ||
+            assessment.number === "06"
+              ? selectOneScoring(e.target.value, true)
+              : selectOneScoring(e.target.value),
         },
       })
     );
