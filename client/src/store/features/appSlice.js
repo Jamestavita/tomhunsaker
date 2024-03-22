@@ -430,7 +430,7 @@ const initialState = {
     },
     {
       number: "29",
-      qstn: "It is easy to get things done here",
+      qstn: "We excel at matching people's talents and interests with the needs of the business",
       category: "Team",
       options: [
         "Totally describes us",
@@ -445,7 +445,7 @@ const initialState = {
     },
     {
       number: "30",
-      qstn: "It is easy to get things done here",
+      qstn: "People here are trusted to take decisions and account for their results",
       category: "Team",
       options: [
         "Totally describes us",
@@ -460,7 +460,7 @@ const initialState = {
     },
     {
       number: "31",
-      qstn: "It is easy to get things done here",
+      qstn: "It is safe here to take risks and to continuously learn",
       category: "Team",
       options: [
         "Totally describes us",
@@ -475,7 +475,7 @@ const initialState = {
     },
     {
       number: "32",
-      qstn: "It is easy to get things done here",
+      qstn: "People here feel free to speak candidly",
       category: "Team",
       options: [
         "Totally describes us",
@@ -490,7 +490,7 @@ const initialState = {
     },
     {
       number: "33",
-      qstn: "It is easy to get things done here",
+      qstn: "People here feel respected",
       category: "Team",
       options: [
         "Totally describes us",
@@ -504,7 +504,7 @@ const initialState = {
     },
     {
       number: "34",
-      qstn: "It is easy to get things done here",
+      qstn: "Our approach to rewards and recognition is exceptional",
       category: "Team",
       options: [
         "Totally describes us",
@@ -519,7 +519,7 @@ const initialState = {
     },
     {
       number: "35",
-      qstn: "It is easy to get things done here",
+      qstn: "Power is effectively distributed across our team",
       category: "Team",
       options: [
         "Totally describes us",
@@ -688,7 +688,7 @@ const initialState = {
           options: [
             "Reduce bureaucracy by having regular and transparent process efficiency reviews everyone can contribute to",
             "Encourage direct rather than chain of command communication",
-            "Share the behind decisions",
+            "Share the rational decisions",
             "Right-size, right-duration, and right-purpose meetings",
             "Encourage and support local level problem solving",
             "Make it safe to give candid feedback at all levels",

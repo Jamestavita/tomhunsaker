@@ -114,7 +114,7 @@ export function Paid() {
     Name: "",
     Last_Name: "",
     Market_Sector: "",
-    Organization: "",
+    Teams: "",
     Number_of_Employees: "",
     Country: "",
     Email: "",
@@ -256,13 +256,13 @@ export function Paid() {
               />
             </div>
             <InputField
-              id="Organization"
-              label="Organization"
-              name="Organization"
+              id="Teams"
+              label="Teams"
+              name="Teams"
               onChange={handleChange}
               required={true}
               type="text"
-              value={paidFormVal.Organization}
+              value={paidFormVal.Teams}
             />
             <div className="grid gap-2">
               <label htmlFor="Number_of_Employees" className="font-medium">
@@ -280,7 +280,7 @@ export function Paid() {
                 value={employeesCountOptions?.find(
                   (option) => paidFormVal.Number_of_Employees === option.label
                 )}
-                placeholder=""
+                placeholder="Select number of employees"
               />
             </div>
             <div className="grid gap-2">

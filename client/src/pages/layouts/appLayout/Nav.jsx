@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 
 export default function Nav() {
@@ -11,7 +11,7 @@ export default function Nav() {
     setIsChecked(false);
     setMobileMenuShown(false);
   }, [pathname]);
-  
+
   function matchRoute(route) {
     if (pathname === route) {
       return true;
@@ -19,6 +19,14 @@ export default function Nav() {
       return false;
     }
   }
+
+  const dropDownRef = useRef(null);
+  const closeOpenMenus = (e) => {
+    if (isChecked && !dropDownRef.current?.contains(e.target)) {
+      setIsChecked(false);
+    }
+  };
+  document.addEventListener("mousedown", closeOpenMenus);
 
   return (
     <div className="fixed z-40 top-0 bg-Greyscale w-full">
@@ -84,7 +92,7 @@ export default function Nav() {
               id="expertise1"
               className="hidden peer/accordion"
               checked={isChecked}
-              onChange={() => setIsChecked(true)}
+              onChange={() => setIsChecked(!isChecked)}
             />
             <label
               htmlFor="expertise1"
@@ -106,7 +114,10 @@ export default function Nav() {
                 />
               </svg>
             </label>
-            <div className="grid grid-rows-[0] overflow-hidden peer-checked/accordion:grid-rows-1 rounded-br-md rounded-bl-md fixed bg-Greyscale">
+            <div
+              ref={dropDownRef}
+              className="grid grid-rows-[0] overflow-hidden peer-checked/accordion:grid-rows-1 rounded-br-md rounded-bl-md fixed bg-Greyscale shadow-lg"
+            >
               <div className="grid pt-4">
                 <NavLink
                   to="about"

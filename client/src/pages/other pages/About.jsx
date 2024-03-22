@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import tom from "../../assets/tom.png";
 import harvard from "../../assets/harvard.png";
 import MIT from "../../assets/MIT.png";
@@ -143,9 +143,7 @@ export default function About() {
               <div className="">
                 <p className="text-[14px] leading-tight">BREADTH</p>
                 <p className="text-[80px] leading-tight">10,000</p>
-                <p className="text-[16px] leading-tight">
-                  1,000s of enterprises
-                </p>
+                <p className="text-[16px] leading-tight">10,000s of managers</p>
               </div>
               <div className="grid gap-[1px] [grid-template-columns:repeat(114,minmax(0,1fr))] md:[grid-template-columns:repeat(224,minmax(0,1fr))] lg:[grid-template-columns:repeat(258,minmax(0,1fr))]">
                 {[...Array(10000).keys()].map((val) => (

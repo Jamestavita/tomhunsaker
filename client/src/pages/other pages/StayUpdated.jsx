@@ -1,5 +1,6 @@
 import React from "react";
 import SubscriberForm from "../../components/SubscriberForm";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function StayUpdated() {
   return (
@@ -38,19 +39,8 @@ export default function StayUpdated() {
                   info@tomhunsaker.com
                 </div>
               </div>
-              <div className="text-[18px] md:text-[30px] flex gap-3 items-center border-t border-t-Greyscale200 pt-10">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="25"
-                  viewBox="0 0 24 25"
-                  fill="none"
-                >
-                  <path
-                    d="M22.2234 0.0644531H1.77187C0.792187 0.0644531 0 0.837891 0 1.79414V22.3301C0 23.2863 0.792187 24.0645 1.77187 24.0645H22.2234C23.2031 24.0645 24 23.2863 24 22.3348V1.79414C24 0.837891 23.2031 0.0644531 22.2234 0.0644531ZM7.12031 20.516H3.55781V9.05976H7.12031V20.516ZM5.33906 7.49883C4.19531 7.49883 3.27188 6.57539 3.27188 5.43633C3.27188 4.29727 4.19531 3.37383 5.33906 3.37383C6.47813 3.37383 7.40156 4.29727 7.40156 5.43633C7.40156 6.5707 6.47813 7.49883 5.33906 7.49883ZM20.4516 20.516H16.8937V14.9473C16.8937 13.6207 16.8703 11.9098 15.0422 11.9098C13.1906 11.9098 12.9094 13.3582 12.9094 14.8535V20.516H9.35625V9.05976H12.7687V10.6254H12.8156C13.2891 9.72539 14.4516 8.77383 16.1813 8.77383C19.7859 8.77383 20.4516 11.1457 20.4516 14.2301V20.516Z"
-                    fill="#FDFDFD"
-                  />
-                </svg>
+              <div className="text-[18px] flex gap-3 items-center border-t border-t-Greyscale200 pt-10">
+                <FaLinkedin className="text-4xl md:text-[2.7rem]" />
                 Follow on LinkedIn for practical insights and more
               </div>
             </div>

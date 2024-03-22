@@ -20,11 +20,12 @@ export default function AppButton100({
   );
 }
 
-export function AppButton900({ label, onClick, className }) {
+export function AppButton900({ label, onClick, className, disabled }) {
   return (
     <button
       className={`py-[11px] px-[40px] ${className} rounded-[8px] font-bold border`}
       onClick={onClick}
+      disabled={disabled}
     >
       {label}
     </button>

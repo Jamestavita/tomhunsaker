@@ -21,7 +21,7 @@ export default function Concepts() {
             matchRoute("/concepts") && "bg-Greyscale200 font-bold"
           } rounded-t-[20px]`}
         >
-          <p className="">MindSet & Culture</p>
+          <p className="">Mindset & Culture</p>
         </NavLink>
         <NavLink
           to="strategy"

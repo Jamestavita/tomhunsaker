@@ -19,10 +19,14 @@ import image32 from "../../assets/logos/image 32.png";
 import image33 from "../../assets/logos/image 33.png";
 import eclipse from "../../assets/Group 59.png";
 import AffiliateForm from "../../components/AffiliateForm";
-import sharperRed from "../../assets/sharper red.png";
+import sharperRed from "../../assets/sharper.png";
+import framerGreen from "../../assets/framer.png";
+import bridgerBlue from "../../assets/bridger.png";
+import amplifierYellow from "../../assets/amplifier.png";
 import ArticlesList from "../../components/ArticlesList";
 import SubscriberForm from "../../components/SubscriberForm";
 import { useNavigate } from "react-router-dom";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -36,7 +40,7 @@ export default function Home() {
         <div className="grid gap-5 md:grid-cols-[1fr,1fr] md:w-[min(750px,100%)] md:gap-[20px_40px] lg:grid-cols-[1fr,1fr,1fr,1fr] lg:justify-items-center lg:w-[unset] lg:gap-4">
           <div
             className="w-full h-[444px] bg-Red500 rounded-[40px] relative grid cursor-pointer"
-            onClick={() => navigate("concepts")}
+            onClick={() => navigate("overview/mindset")}
           >
             <div className="w-[60px] h-[60px] bg-Greyscale absolute -top-1 -right-[0.03rem] rounded-bl-[40px]">
               <svg
@@ -549,7 +553,7 @@ export default function Home() {
           </div>
           <div
             className="w-full h-[444px] bg-Green500 rounded-[40px] relative grid cursor-pointer"
-            onClick={() => navigate("concepts/strategy")}
+            onClick={() => navigate("overview/strategy")}
           >
             <div className="w-[60px] h-[60px] bg-Greyscale absolute -top-1 -right-[0.03rem] rounded-bl-[40px]">
               <svg
@@ -768,7 +772,7 @@ export default function Home() {
           </div>
           <div
             className="w-full h-[444px] bg-Blue500 rounded-[40px] relative grid cursor-pointer"
-            onClick={() => navigate("concepts/innovation")}
+            onClick={() => navigate("overview/innovation")}
           >
             <div className="w-[60px] h-[60px] bg-Greyscale absolute -top-1 -right-[0.03rem] rounded-bl-[40px]">
               <svg
@@ -1038,7 +1042,7 @@ export default function Home() {
           </div>
           <div
             className="w-full h-[444px] bg-Yellow500 rounded-[40px] relative grid cursor-pointer"
-            onClick={() => navigate("concepts/execution")}
+            onClick={() => navigate("overview/execution")}
           >
             <div className="w-[60px] h-[60px] bg-Greyscale absolute -top-1 -right-[0.03rem] rounded-bl-[40px]">
               <svg
@@ -1714,9 +1718,7 @@ export default function Home() {
               <div className="">
                 <p className="text-[14px] leading-tight">BREADTH</p>
                 <p className="text-[80px] leading-tight">10,000</p>
-                <p className="text-[16px] leading-tight">
-                  1,000s of enterprises
-                </p>
+                <p className="text-[16px] leading-tight">10,000s of managers</p>
               </div>
               <div className="grid gap-[1px] [grid-template-columns:repeat(114,minmax(0,1fr))] md:[grid-template-columns:repeat(224,minmax(0,1fr))] lg:[grid-template-columns:repeat(258,minmax(0,1fr))]">
                 {[...Array(10000).keys()].map((val, index) => (
@@ -1787,8 +1789,8 @@ export default function Home() {
         </div>
       </section>
       <section className=" bg-Yellow500 overflow-x-hidden">
-        <div className="grid lg:flex bg-Yellow500 h-[unset] lg:h-[480px]">
-          <div className="grid gap-12 pl-4 md:pl-12 lg:pl-32 pt-12 pb-16 w-[min(584px,100%)] shrink-0 my-auto">
+        <div className="md:grid md:grid-cols-2 md:pl-12 lg:pl-32">
+          <div className="px-4 md:px-0 py-12 w-[min(90rem,100%)] md:w-[min(41rem,100%)] mx-auto md:ml-auto md:mr-0 self-center">
             <p className="text-[56px] font:medium">Speaking</p>
             <div className="grid gap-6">
               <p className="text-[18px]">
@@ -1825,7 +1827,7 @@ export default function Home() {
           <img
             src={speech}
             alt="Speech"
-            className="w-full h-full object-cover mix-blend-luminosity"
+            className="w-full object-cover object-left h-full mix-blend-luminosity"
           />
         </div>
       </section>
@@ -1948,48 +1950,52 @@ export default function Home() {
                 <AppButton100
                   className="bg-Red500 w-full text-Greyscale self-end"
                   label="Take FREE Assessment"
+                  onClick={() => navigate("overview/mindset")}
                 />
               </div>
               <div className="grid">
                 <div className="relative grid h-full py-10">
                   <img
-                    src={sharperRed}
+                    src={framerGreen}
                     alt="Sharper"
                     className=" z-[1] w-3/5 mx-auto"
                   />
-                  <div className="h-[266px] w-[266px] rounded-full absolute bg-Red500 -top-0 justify-self-center"></div>
+                  <div className="h-[266px] w-[266px] rounded-full absolute bg-Green500 -top-0 justify-self-center"></div>
                 </div>
                 <AppButton100
-                  className="bg-Red500 w-full text-Greyscale self-end"
+                  className="bg-Green500 w-full text-Greyscale self-end"
                   label="Take FREE Assessment"
+                  onClick={() => navigate("overview/strategy")}
                 />
               </div>
               <div className="grid">
                 <div className="relative grid h-full py-10">
                   <img
-                    src={sharperRed}
+                    src={bridgerBlue}
                     alt="Sharper"
                     className=" z-[1] w-3/5 mx-auto"
                   />
-                  <div className="h-[266px] w-[266px] rounded-full absolute bg-Red500 -top-0 justify-self-center"></div>
+                  <div className="h-[266px] w-[266px] rounded-full absolute bg-Blue500 -top-0 justify-self-center"></div>
                 </div>
                 <AppButton100
-                  className="bg-Red500 w-full text-Greyscale self-end"
+                  className="bg-Blue500 w-full text-Greyscale self-end"
                   label="Take FREE Assessment"
+                  onClick={() => navigate("overview/innovation")}
                 />
               </div>
               <div className="grid">
                 <div className="relative grid h-full py-10">
                   <img
-                    src={sharperRed}
+                    src={amplifierYellow}
                     alt="Sharper"
                     className=" z-[1] w-3/5 mx-auto"
                   />
-                  <div className="h-[266px] w-[266px] rounded-full absolute bg-Red500 -top-0 justify-self-center"></div>
+                  <div className="h-[266px] w-[266px] rounded-full absolute bg-Yellow500 -top-0 justify-self-center"></div>
                 </div>
                 <AppButton100
-                  className="bg-Red500 w-full text-Greyscale self-end"
+                  className="bg-Yellow500 w-full text-Greyscale self-end"
                   label="Take FREE Assessment"
+                  onClick={() => navigate("overview/execution")}
                 />
               </div>
             </div>
@@ -2041,19 +2047,8 @@ export default function Home() {
                   info@tomhunsaker.com
                 </div>
               </div>
-              <div className="text-[18px] md:text-[30px] flex gap-3 items-center border-t border-t-Greyscale200 pt-10">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="25"
-                  viewBox="0 0 24 25"
-                  fill="none"
-                >
-                  <path
-                    d="M22.2234 0.0644531H1.77187C0.792187 0.0644531 0 0.837891 0 1.79414V22.3301C0 23.2863 0.792187 24.0645 1.77187 24.0645H22.2234C23.2031 24.0645 24 23.2863 24 22.3348V1.79414C24 0.837891 23.2031 0.0644531 22.2234 0.0644531ZM7.12031 20.516H3.55781V9.05976H7.12031V20.516ZM5.33906 7.49883C4.19531 7.49883 3.27188 6.57539 3.27188 5.43633C3.27188 4.29727 4.19531 3.37383 5.33906 3.37383C6.47813 3.37383 7.40156 4.29727 7.40156 5.43633C7.40156 6.5707 6.47813 7.49883 5.33906 7.49883ZM20.4516 20.516H16.8937V14.9473C16.8937 13.6207 16.8703 11.9098 15.0422 11.9098C13.1906 11.9098 12.9094 13.3582 12.9094 14.8535V20.516H9.35625V9.05976H12.7687V10.6254H12.8156C13.2891 9.72539 14.4516 8.77383 16.1813 8.77383C19.7859 8.77383 20.4516 11.1457 20.4516 14.2301V20.516Z"
-                    fill="#FDFDFD"
-                  />
-                </svg>
+              <div className="text-[18px] flex gap-3 items-center border-t border-t-Greyscale200 pt-10">
+                <FaLinkedin className="text-4xl md:text-[2.7rem]" />
                 Follow on LinkedIn for practical insights and more
               </div>
             </div>

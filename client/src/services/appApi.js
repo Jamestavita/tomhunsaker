@@ -28,7 +28,7 @@ export const appApi = createApi({
     //Stay Informed---------------------------------------
     addSubscriber: builder.mutation({
       query: ({ body }) => ({
-        url: `/subscribe/add`,
+        url: `/subscribe/create`,
         method: "post",
         body,
       }),

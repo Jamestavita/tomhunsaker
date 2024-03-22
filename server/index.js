@@ -10,7 +10,7 @@ import {
   stripeRouter_innovation,
   stripeRouter_execution,
 } from "./config/stripe.js";
-import stayInformedRoute from "./routes/stayInformedRoute.js";
+import subscriberRoute from "./routes/subscriberRoute.js";
 import mindsetUsersRoute from "./routes/mindsetUsersRoute.js";
 import strategyUsersRoute from "./routes/strategyUsersRoute.js";
 import innovationUsersRoute from "./routes/innovationUsersRoute.js";
@@ -48,7 +48,7 @@ app.use("/api/mindset/stripe", stripeRouter_mindset);
 app.use("/api/strategy/stripe", stripeRouter_strategy);
 app.use("/api/innovation/stripe", stripeRouter_innovation);
 app.use("/api/execution/stripe", stripeRouter_execution);
-app.use("/api/subscribe", stayInformedRoute);
+app.use("/api/subscribe", subscriberRoute);
 
 const PORT = process.env.PORT;
 server.listen(PORT || 5000, console.log(`Server is running on ${PORT}`));

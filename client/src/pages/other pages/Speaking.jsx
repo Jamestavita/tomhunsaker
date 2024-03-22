@@ -3,10 +3,10 @@ import speech from "../../assets/speech.jpeg";
 
 export default function Speaking() {
   return (
-    <div className="bg-Greyscale mx-auto grid lg:overflow-y-hidden">
-      <section className=" bg-Yellow500 overflow-x-hidden">
-        <div className="grid lg:flex bg-Yellow500 h-[unset] lg:h-[480px]">
-          <div className="grid gap-12 pl-4 md:pl-12 lg:pl-32 pt-12 pb-16 w-[min(584px,100%)] shrink-0 my-auto">
+    <div className="h-full mx-auto">
+      <section className=" bg-Yellow500 h-full overflow-x-hidden grid">
+        <div className="md:grid md:grid-cols-2 md:pl-12 lg:pl-32 self-center md:h-full">
+          <div className="px-4 md:px-0 py-12 w-[min(90rem,100%)] md:w-[min(41rem,100%)] mx-auto md:ml-auto md:mr-0 self-center">
             <p className="text-[56px] font:medium">Speaking</p>
             <div className="grid gap-6">
               <p className="text-[18px]">
@@ -43,7 +43,7 @@ export default function Speaking() {
           <img
             src={speech}
             alt="Speech"
-            className="w-full h-full object-cover mix-blend-luminosity"
+            className="w-full object-cover object-left h-full mix-blend-luminosity"
           />
         </div>
       </section>

@@ -1,6 +1,7 @@
 import React from "react";
 import AppButton100 from "../../components/reuseable/AppButtons";
 import { useNavigate } from "react-router-dom";
+import Mindset_Culture from "../../assets/concepts pdfs/Mindset & Culture.pdf";
 
 export default function Mindset() {
   const navigate = useNavigate();
@@ -25,48 +26,29 @@ export default function Mindset() {
             Review, that have become core practices in organizations worldwide.
           </p>
           <div className="grid gap-4 lg:gap-2 md:grid-cols-2 lg:grid">
-            <AppButton100
-              className="bg-Greyscale border-[1px] border-Red700 text-Red700 lg:text-sm"
-              label="Listen to Overview"
-              icon={
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M10 11.8472L20 10.1805V14.4666C19.408 14.1687 18.7232 14 18 14C15.8271 14 14 15.5226 14 17.5C14 19.4775 15.8271 21 18 21C20.1729 21 22 19.4775 22 17.5V1.81958L8 4.15291V15.4666C7.40804 15.1687 6.72317 15 6 15C3.82708 15 2 16.5226 2 18.5C2 20.4775 3.82708 22 6 22C8.17292 22 10 20.4775 10 18.5V11.8472ZM8 18.5C8 19.284 7.14079 20 6 20C4.85921 20 4 19.284 4 18.5C4 17.7161 4.85921 17 6 17C7.14079 17 8 17.7161 8 18.5ZM18 19C19.1408 19 20 18.284 20 17.5C20 16.7161 19.1408 16 18 16C16.8592 16 16 16.7161 16 17.5C16 18.284 16.8592 19 18 19ZM10 9.81958V5.84717L20 4.1805V8.15291L10 9.81958Z"
-                    fill="#9D391A"
-                  />
-                </svg>
-              }
-            />
-            <AppButton100
-              className="bg-Greyscale border-[1px] border-Red700 text-Red700 lg:text-sm"
-              label="Download Concepts Map"
-              icon={
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M16.2929 9.29289L13 12.5858V2H11V12.5858L7.70711 9.29289L6.29289 10.7071L12 16.4142L17.7071 10.7071L16.2929 9.29289Z"
-                    fill="#9D391A"
-                  />
-                  <path
-                    d="M22 20V16H20V20H4V16H2V20C2 21.1046 2.89543 22 4 22H20C21.1046 22 22 21.1046 22 20Z"
-                    fill="#9D391A"
-                  />
-                </svg>
-              }
-            />
+            <a
+              href={Mindset_Culture}
+              download
+              className={`py-3 rounded-[32px] font-bold flex gap-1 items-center justify-center bg-Greyscale border-[1px] border-Red700 text-Red700 lg:text-sm`}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M16.2929 9.29289L13 12.5858V2H11V12.5858L7.70711 9.29289L6.29289 10.7071L12 16.4142L17.7071 10.7071L16.2929 9.29289Z"
+                  fill="#9D391A"
+                />
+                <path
+                  d="M22 20V16H20V20H4V16H2V20C2 21.1046 2.89543 22 4 22H20C21.1046 22 22 21.1046 22 20Z"
+                  fill="#9D391A"
+                />
+              </svg>
+              <span>Download Concepts Map</span>
+            </a>
           </div>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-3 items-start">
@@ -330,7 +312,7 @@ export default function Mindset() {
               <p className="lg:text-sm">Design and Align</p>
             </div>
           </div>
-          <div className="grid gap-4 p-6 lg:p-4 rounded-[40px] bg-Greyscale lg:col-start-2">
+          <div className="grid gap-4 p-6 lg:p-4 rounded-[40px] bg-Greyscale">
             <div className="w-[214px] lg:w-[190px] mx-auto grid gap-5 place-items-center relative p-[15.5px] lg:p-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -427,7 +409,7 @@ export default function Mindset() {
               <p className="lg:text-sm">Effectively Role Fit</p>
             </div>
           </div>
-          <div className="grid gap-4 p-6 lg:p-4 rounded-[40px] bg-Greyscale lg:col-start-3">
+          <div className="grid gap-4 p-6 lg:p-4 rounded-[40px] bg-Greyscale">
             <div className="w-[214px] lg:w-[190px] mx-auto grid gap-5 place-items-center relative p-[15.5px] lg:p-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1241,7 +1223,7 @@ export default function Mindset() {
               <p className="lg:text-sm">Build Efficient Systems</p>
             </div>
           </div>
-          <div className="grid gap-4 p-6 lg:p-4 rounded-[40px] bg-Greyscale lg:row-start-3 lg:col-start-3">
+          <div className="grid gap-4 p-6 lg:p-4 rounded-[40px] bg-Greyscale">
             <div className="w-[214px] lg:w-[190px] mx-auto grid gap-5 place-items-center relative py-[22px] lg:p-0">
               <div className="w-[162.64px] h-[135.533px] [background:linear-gradient(180deg,#FFF_8.54%,rgba(255,255,255,0.00)100%)] absolute top-0"></div>
               <svg

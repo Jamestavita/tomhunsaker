@@ -114,7 +114,7 @@ export function Free() {
     Name: "",
     Last_Name: "",
     Market_Sector: "",
-    Organization: "",
+    Teams: "",
     Number_of_Employees: "",
     Country: "",
     Email: "",
@@ -385,13 +385,13 @@ export function Free() {
               />
             </div>
             <InputField
-              id="Organization"
-              label="Organization"
-              name="Organization"
+              id="Teams"
+              label="Teams"
+              name="Teams"
               onChange={handleChange}
               required={true}
               type="text"
-              value={freeFormVal.Organization}
+              value={freeFormVal.Teams}
             />
             <div className="grid gap-2">
               <label htmlFor="Number_of_Employees" className="font-medium">
@@ -409,7 +409,7 @@ export function Free() {
                 value={employeesCountOptions?.find(
                   (option) => freeFormVal.Number_of_Employees === option.label
                 )}
-                placeholder=""
+                placeholder="Select number of employees"
               />
             </div>
             <div className="grid gap-2">

@@ -1,5 +1,8 @@
 import React from "react";
-import sharperRed from "../../assets/sharper red.png";
+import sharperRed from "../../assets/sharper.png";
+import framerGreen from "../../assets/framer.png";
+import bridgerBlue from "../../assets/bridger.png";
+import amplifierYellow from "../../assets/amplifier.png";
 import ArticlesList from "../../components/ArticlesList";
 import AppButton100 from "../../components/reuseable/AppButtons";
 import harvard from "../../assets/harvard.png";
@@ -27,48 +30,52 @@ export default function Library() {
                 <AppButton100
                   className="bg-Red500 w-full text-Greyscale self-end"
                   label="Take FREE Assessment"
+                  onClick={() => navigate("overview/mindset")}
                 />
               </div>
               <div className="grid">
                 <div className="relative grid h-full py-10">
                   <img
-                    src={sharperRed}
+                    src={framerGreen}
                     alt="Sharper"
                     className=" z-[1] w-3/5 mx-auto"
                   />
-                  <div className="h-[266px] w-[266px] rounded-full absolute bg-Red500 -top-0 justify-self-center"></div>
+                  <div className="h-[266px] w-[266px] rounded-full absolute bg-Green500 -top-0 justify-self-center"></div>
                 </div>
                 <AppButton100
-                  className="bg-Red500 w-full text-Greyscale self-end"
+                  className="bg-Green500 w-full text-Greyscale self-end"
                   label="Take FREE Assessment"
+                  onClick={() => navigate("overview/strategy")}
                 />
               </div>
               <div className="grid">
                 <div className="relative grid h-full py-10">
                   <img
-                    src={sharperRed}
+                    src={bridgerBlue}
                     alt="Sharper"
                     className=" z-[1] w-3/5 mx-auto"
                   />
-                  <div className="h-[266px] w-[266px] rounded-full absolute bg-Red500 -top-0 justify-self-center"></div>
+                  <div className="h-[266px] w-[266px] rounded-full absolute bg-Blue500 -top-0 justify-self-center"></div>
                 </div>
                 <AppButton100
-                  className="bg-Red500 w-full text-Greyscale self-end"
+                  className="bg-Blue500 w-full text-Greyscale self-end"
                   label="Take FREE Assessment"
+                  onClick={() => navigate("overview/innovation")}
                 />
               </div>
               <div className="grid">
                 <div className="relative grid h-full py-10">
                   <img
-                    src={sharperRed}
+                    src={amplifierYellow}
                     alt="Sharper"
                     className=" z-[1] w-3/5 mx-auto"
                   />
-                  <div className="h-[266px] w-[266px] rounded-full absolute bg-Red500 -top-0 justify-self-center"></div>
+                  <div className="h-[266px] w-[266px] rounded-full absolute bg-Yellow500 -top-0 justify-self-center"></div>
                 </div>
                 <AppButton100
-                  className="bg-Red500 w-full text-Greyscale self-end"
+                  className="bg-Yellow500 w-full text-Greyscale self-end"
                   label="Take FREE Assessment"
+                  onClick={() => navigate("overview/execution")}
                 />
               </div>
             </div>

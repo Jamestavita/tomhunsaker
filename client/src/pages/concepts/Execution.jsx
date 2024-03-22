@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import AppButton100 from "../../components/reuseable/AppButtons";
+import Execution_Agility from "../../assets/concepts pdfs/Execution & Agility.pdf";
 
 export default function Execution() {
   const navigate = useNavigate();
@@ -25,48 +26,29 @@ export default function Execution() {
             Review, that have become core practices in organizations worldwide.
           </p>
           <div className="grid gap-4 lg:gap-2 md:grid-cols-2 lg:grid">
-            <AppButton100
-              className="bg-Greyscale border-[1px] border-Yellow700 text-Yellow700 lg:text-sm"
-              label="Listen to Overview"
-              icon={
-                <svg
-                  width="25"
-                  height="24"
-                  viewBox="0 0 25 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M10.5 11.8472L20.5 10.1805V14.4666C19.908 14.1687 19.2232 14 18.5 14C16.3271 14 14.5 15.5226 14.5 17.5C14.5 19.4775 16.3271 21 18.5 21C20.6729 21 22.5 19.4775 22.5 17.5V1.81958L8.5 4.15291V15.4666C7.90804 15.1687 7.22317 15 6.5 15C4.32708 15 2.5 16.5226 2.5 18.5C2.5 20.4775 4.32708 22 6.5 22C8.67292 22 10.5 20.4775 10.5 18.5V11.8472ZM8.5 18.5C8.5 19.284 7.64079 20 6.5 20C5.35921 20 4.5 19.284 4.5 18.5C4.5 17.7161 5.35921 17 6.5 17C7.64079 17 8.5 17.7161 8.5 18.5ZM18.5 19C19.6408 19 20.5 18.284 20.5 17.5C20.5 16.7161 19.6408 16 18.5 16C17.3592 16 16.5 16.7161 16.5 17.5C16.5 18.284 17.3592 19 18.5 19ZM10.5 9.81958V5.84717L20.5 4.1805V8.15291L10.5 9.81958Z"
-                    fill="#776413"
-                  />
-                </svg>
-              }
-            />
-            <AppButton100
-              className="bg-Greyscale border-[1px] border-Yellow700 text-Yellow700 lg:text-sm"
-              label="Download Concepts Map"
-              icon={
-                <svg
-                  width="25"
-                  height="24"
-                  viewBox="0 0 25 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M16.7929 9.29289L13.5 12.5858V2H11.5V12.5858L8.20711 9.29289L6.79289 10.7071L12.5 16.4142L18.2071 10.7071L16.7929 9.29289Z"
-                    fill="#776413"
-                  />
-                  <path
-                    d="M22.5 20V16H20.5V20H4.5V16H2.5V20C2.5 21.1046 3.39543 22 4.5 22H20.5C21.6046 22 22.5 21.1046 22.5 20Z"
-                    fill="#776413"
-                  />
-                </svg>
-              }
-            />
+            <a
+              href={Execution_Agility}
+              download
+              className={`py-3 rounded-[32px] font-bold flex gap-1 items-center justify-center bg-Greyscale border-[1px] border-Yellow700 text-Yellow700 lg:text-sm`}
+            >
+              <svg
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.7929 9.29289L13.5 12.5858V2H11.5V12.5858L8.20711 9.29289L6.79289 10.7071L12.5 16.4142L18.2071 10.7071L16.7929 9.29289Z"
+                  fill="#776413"
+                />
+                <path
+                  d="M22.5 20V16H20.5V20H4.5V16H2.5V20C2.5 21.1046 3.39543 22 4.5 22H20.5C21.6046 22 22.5 21.1046 22.5 20Z"
+                  fill="#776413"
+                />
+              </svg>
+              <span>Download Concepts Map</span>
+            </a>
           </div>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-3">
@@ -942,7 +924,7 @@ export default function Execution() {
               <p className="lg:text-sm">Match Method and Resources</p>
             </div>
           </div>
-          <div className="grid rounded-[40px] bg-Greyscale pt-1 lg:col-start-2">
+          <div className="grid rounded-[40px] bg-Greyscale pt-1">
             <div className="mx-auto grid gap-5 place-items-center relative">
               <svg
                 width="215"
@@ -1087,7 +1069,7 @@ export default function Execution() {
               <p className="lg:text-sm">Effectively Raise Aсcountability</p>
             </div>
           </div>
-          <div className="grid rounded-[40px] bg-Greyscale pt-1 lg:col-start-3">
+          <div className="grid rounded-[40px] bg-Greyscale pt-1">
             <div className="mx-auto grid gap-5 place-items-center relative">
               <svg
                 width="216"
@@ -1376,7 +1358,7 @@ export default function Execution() {
               <p className="lg:text-sm">Action → Production → Outcome</p>
             </div>
           </div>
-          <div className="grid rounded-[40px] bg-Greyscale pt-1 lg:row-start-3 lg:col-start-3">
+          <div className="grid rounded-[40px] bg-Greyscale pt-1">
             <div className="mx-auto grid gap-5 place-items-center relative">
               <svg
                 width="219"
