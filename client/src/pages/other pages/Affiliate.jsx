@@ -18,8 +18,8 @@ export default function Affiliate() {
           </p>
           <p className="text-[18px]">
             Become an affiliate of{" "}
-            <span className="underline">tomhunsaker.com </span> across the
-            world, spread the word to your network, and{" "}
+            <span className="underline">tomhunsaker.com</span> across the world,
+            spread the word to your network, and{" "}
             <span className="font-bold">
               benefit every time someone you refer accesses a bestseller bundle
             </span>{" "}

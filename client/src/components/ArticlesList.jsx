@@ -168,9 +168,9 @@ export default function ArticlesList() {
                 <path
                   d="M7 17.0645L17 7.06445M17 7.06445H9M17 7.06445V15.0645"
                   stroke="#656558"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <p className="font-medium text-[18px] col-span-2 md:col-span-1 md:col-start-2 md:row-start-1">

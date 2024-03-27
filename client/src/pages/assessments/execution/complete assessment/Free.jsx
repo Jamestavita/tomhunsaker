@@ -225,7 +225,7 @@ export function Free() {
               <path
                 d="M8.625 39.4101C8.625 31.4817 15.4633 25.2824 23.3537 26.0578L73.8896 31.0237C80.7581 31.6987 85.9941 37.4744 85.9941 44.376V69.5509C85.9941 76.5115 80.671 82.3161 73.7364 82.9174L23.2006 87.2991C15.3629 87.9787 8.625 81.7998 8.625 73.9327V39.4101Z"
                 fill="url(#paint0_linear_804_138687)"
-                fill-opacity="0.7"
+                fillOpacity="0.7"
               />
             </g>
             <g filter="url(#filter1_b_804_138687)">
@@ -244,9 +244,9 @@ export function Free() {
                 width="101.367"
                 height="85.3574"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur in="BackgroundImageFix" stdDeviation="6" />
                 <feComposite
                   in2="SourceAlpha"
@@ -267,9 +267,9 @@ export function Free() {
                 width="145.039"
                 height="129.029"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="16.9179"
@@ -294,9 +294,9 @@ export function Free() {
                 y2="84.3671"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#F9F2D7" />
-                <stop offset="0.331051" stop-color="#ECD57E" />
-                <stop offset="0.818043" stop-color="#DFBF34" />
+                <stop stopColor="#F9F2D7" />
+                <stop offset="0.331051" stopColor="#ECD57E" />
+                <stop offset="0.818043" stopColor="#DFBF34" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_804_138687"
@@ -306,13 +306,9 @@ export function Free() {
                 y2="65.6808"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  offset="0.0136312"
-                  stop-color="#EDDB8C"
-                  stop-opacity="0"
-                />
-                <stop offset="0.600063" stop-color="#DFBF34" />
-                <stop offset="1" stop-color="#EDDB8C" stop-opacity="0.1" />
+                <stop offset="0.0136312" stopColor="#EDDB8C" stopOpacity="0" />
+                <stop offset="0.600063" stopColor="#DFBF34" />
+                <stop offset="1" stopColor="#EDDB8C" stopOpacity="0.1" />
               </linearGradient>
             </defs>
           </svg>

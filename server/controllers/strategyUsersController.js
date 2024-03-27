@@ -27,7 +27,15 @@ export const createStrategyUser = async (req, res) => {
       plan,
     });
 
-    // if (plan === "Free") NodeMailer({ name, email, level, plan });
+    if (plan === "Free")
+      NodeMailer({
+        name,
+        email,
+        assessment_info,
+        concept: "Strategy",
+        level,
+        plan,
+      });
 
     res.status(201).json(data);
   } catch (error) {

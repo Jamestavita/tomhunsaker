@@ -1,9 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
-import AppButton100, {
-  AppButton900,
-} from "../../../../components/reuseable/AppButtons";
+import AppButton100 from "../../../../components/reuseable/AppButtons";
 import InputField from "../../../../components/reuseable/InputField";
 import SelectField from "../../../../components/reuseable/SelectField";
 import axios from "axios";
@@ -204,7 +201,6 @@ export default function Paid() {
         },
         total_score,
         level,
-        plan: "Free",
       },
     });
 
@@ -415,14 +411,14 @@ export default function Paid() {
                     r="31.2"
                     fill="#D9D9D9"
                     stroke="url(#paint1_linear_804_133568)"
-                    stroke-width="0.677966"
+                    strokeWidth="0.677966"
                   />
                 </mask>
                 <g mask="url(#mask0_804_133568)">
                   <path
                     d="M88.0588 38.1341C88.0588 48.4728 65.7088 56.8541 38.1388 56.8541C10.5687 56.8541 -11.7812 48.4728 -11.7812 38.1341M88.0588 38.1341C88.0588 27.7953 65.7088 19.4141 38.1388 19.4141C10.5687 19.4141 -11.7812 27.7953 -11.7812 38.1341M88.0588 38.1341H-11.7812"
                     stroke="url(#paint2_linear_804_133568)"
-                    stroke-width="0.677966"
+                    strokeWidth="0.677966"
                   />
                 </g>
                 <circle
@@ -430,27 +426,27 @@ export default function Paid() {
                   cy="38.1336"
                   r="31.2"
                   stroke="url(#paint3_linear_804_133568)"
-                  stroke-width="0.677966"
+                  strokeWidth="0.677966"
                 />
                 <path
                   d="M38.1375 69.3336C20.9062 69.3336 6.9375 55.3649 6.9375 38.1336C6.9375 20.9023 20.9062 6.93359 38.1375 6.93359"
                   stroke="#CB4A22"
-                  stroke-width="0.677966"
+                  strokeWidth="0.677966"
                 />
                 <path
                   d="M38.1341 69.3336C27.7953 69.3336 19.4141 55.3649 19.4141 38.1336C19.4141 20.9023 27.7953 6.93359 38.1341 6.93359"
                   stroke="#CB4A22"
-                  stroke-width="0.677966"
+                  strokeWidth="0.677966"
                 />
                 <path
                   d="M37.8281 69.3336C38.0004 69.3336 38.1401 55.3649 38.1401 38.1336C38.1401 20.9023 38.0004 6.93359 37.8281 6.93359"
                   stroke="#CB4A22"
-                  stroke-width="0.677966"
+                  strokeWidth="0.677966"
                 />
                 <path
                   d="M37.8281 69.3336C48.1669 69.3336 56.5481 55.3649 56.5481 38.1336C56.5481 20.9023 48.1669 6.93359 37.8281 6.93359"
                   stroke="#CB4A22"
-                  stroke-width="0.677966"
+                  strokeWidth="0.677966"
                 />
                 <g filter="url(#filter0_b_804_133568)">
                   <path
@@ -464,7 +460,7 @@ export default function Paid() {
                     clipRule="evenodd"
                     d="M67.5746 66.811C72.1806 60.789 71.7298 52.1395 66.2221 46.6318C60.2235 40.6331 50.4977 40.6331 44.499 46.6318C38.5003 52.6305 38.5003 62.3563 44.499 68.3549C50.0067 73.8626 58.6562 74.3134 64.6782 69.7075L69.3207 74.35C69.7423 74.7715 70.4258 74.7715 70.8473 74.35L72.2171 72.9801C72.6387 72.5586 72.6387 71.8751 72.2171 71.4535L67.5746 66.811Z"
                     fill="url(#paint5_radial_804_133568)"
-                    fill-opacity="0.7"
+                    fillOpacity="0.7"
                   />
                 </g>
                 <g filter="url(#filter1_b_804_133568)">
@@ -483,9 +479,9 @@ export default function Paid() {
                     width="73.2131"
                     height="73.2112"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="10.1695"
@@ -509,9 +505,9 @@ export default function Paid() {
                     width="53.8911"
                     height="53.8891"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="5.33898"
@@ -536,9 +532,9 @@ export default function Paid() {
                     y2="69.8297"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.0327056" stop-color="#CB4A22" />
-                    <stop offset="0.520187" stop-color="#F9E3DC" />
-                    <stop offset="0.960352" stop-color="#CB4A22" />
+                    <stop offset="0.0327056" stopColor="#CB4A22" />
+                    <stop offset="0.520187" stopColor="#F9E3DC" />
+                    <stop offset="0.960352" stopColor="#CB4A22" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_804_133568"
@@ -548,9 +544,9 @@ export default function Paid() {
                     y2="69.3336"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#0B5BDB" />
-                    <stop offset="0.526042" stop-color="#C4D6FF" />
-                    <stop offset="1" stop-color="#0B5BDB" />
+                    <stop stopColor="#0B5BDB" />
+                    <stop offset="0.526042" stopColor="#C4D6FF" />
+                    <stop offset="1" stopColor="#0B5BDB" />
                   </linearGradient>
                   <linearGradient
                     id="paint2_linear_804_133568"
@@ -560,9 +556,9 @@ export default function Paid() {
                     y2="38.4005"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#CB4A22" />
-                    <stop offset="0.546875" stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#CB4A22" />
+                    <stop stopColor="#CB4A22" />
+                    <stop offset="0.546875" stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#CB4A22" />
                   </linearGradient>
                   <linearGradient
                     id="paint3_linear_804_133568"
@@ -572,9 +568,9 @@ export default function Paid() {
                     y2="69.3336"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#CB4A22" />
-                    <stop offset="0.526042" stop-color="#F9E3DC" />
-                    <stop offset="1" stop-color="#CB4A22" />
+                    <stop stopColor="#CB4A22" />
+                    <stop offset="0.526042" stopColor="#F9E3DC" />
+                    <stop offset="1" stopColor="#CB4A22" />
                   </linearGradient>
                   <linearGradient
                     id="paint4_linear_804_133568"
@@ -586,15 +582,15 @@ export default function Paid() {
                   >
                     <stop
                       offset="0.188941"
-                      stop-color="#CB4A22"
-                      stop-opacity="0"
+                      stopColor="#CB4A22"
+                      stopOpacity="0"
                     />
                     <stop
                       offset="0.526042"
-                      stop-color="#CB4A22"
-                      stop-opacity="0.7"
+                      stopColor="#CB4A22"
+                      stopOpacity="0.7"
                     />
-                    <stop offset="1" stop-color="#CB4A22" stop-opacity="0.17" />
+                    <stop offset="1" stopColor="#CB4A22" stopOpacity="0.17" />
                   </linearGradient>
                   <radialGradient
                     id="paint5_radial_804_133568"
@@ -604,8 +600,8 @@ export default function Paid() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(44.862 73.601) rotate(-50.9773) scale(25.5493 41.7761)"
                   >
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0" />
                   </radialGradient>
                   <linearGradient
                     id="paint6_linear_804_133568"
@@ -615,13 +611,13 @@ export default function Paid() {
                     y2="58.7756"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.0277705" stop-color="#CB4A22" />
+                    <stop offset="0.0277705" stopColor="#CB4A22" />
                     <stop
                       offset="0.723618"
-                      stop-color="#EDAB96"
-                      stop-opacity="0"
+                      stopColor="#EDAB96"
+                      stopOpacity="0"
                     />
-                    <stop offset="1" stop-color="#EDAB96" stop-opacity="0.1" />
+                    <stop offset="1" stopColor="#EDAB96" stopOpacity="0.1" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -670,9 +666,9 @@ export default function Paid() {
                     width="30.8438"
                     height="41.2813"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="1.9209"
@@ -696,9 +692,9 @@ export default function Paid() {
                     width="30.5156"
                     height="60.8535"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="1.9209"
@@ -722,9 +718,9 @@ export default function Paid() {
                     width="30.8438"
                     height="76.836"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="1.9209"
@@ -748,9 +744,9 @@ export default function Paid() {
                     width="72.958"
                     height="41.8974"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -784,8 +780,8 @@ export default function Paid() {
                     y2="74.5782"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#F9E3DC" />
-                    <stop offset="0.765625" stop-color="#CB4A22" />
+                    <stop stopColor="#F9E3DC" />
+                    <stop offset="0.765625" stopColor="#CB4A22" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_804_133571"
@@ -795,8 +791,8 @@ export default function Paid() {
                     y2="74.5754"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#F9E3DC" />
-                    <stop offset="0.765625" stop-color="#CB4A22" />
+                    <stop stopColor="#F9E3DC" />
+                    <stop offset="0.765625" stopColor="#CB4A22" />
                   </linearGradient>
                   <linearGradient
                     id="paint2_linear_804_133571"
@@ -806,8 +802,8 @@ export default function Paid() {
                     y2="74.5764"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#F9E3DC" />
-                    <stop offset="0.765625" stop-color="#CB4A22" />
+                    <stop stopColor="#F9E3DC" />
+                    <stop offset="0.765625" stopColor="#CB4A22" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -832,12 +828,12 @@ export default function Paid() {
                 <path
                   d="M1.57812 5.42383L27.1902 11.8268V74.5764L1.57812 68.1734V5.42383Z"
                   fill="url(#paint1_linear_804_133574)"
-                  fill-opacity="0.2"
+                  fillOpacity="0.2"
                 />
                 <path
                   d="M1.57812 5.42383L27.1902 11.8268V74.5764L1.57812 68.1734V5.42383Z"
                   stroke="url(#paint2_linear_804_133574)"
-                  stroke-width="0.271186"
+                  strokeWidth="0.271186"
                 />
                 <path
                   d="M52.8086 5.42383L27.1965 11.8268V74.5764L52.8086 68.1734V5.42383Z"
@@ -850,12 +846,12 @@ export default function Paid() {
                 <path
                   d="M52.8086 5.42383L27.1965 11.8268V74.5764L52.8086 68.1734V5.42383Z"
                   fill="url(#paint4_linear_804_133574)"
-                  fill-opacity="0.2"
+                  fillOpacity="0.2"
                 />
                 <path
                   d="M52.8086 5.42383L27.1965 11.8268V74.5764L52.8086 68.1734V5.42383Z"
                   stroke="url(#paint5_linear_804_133574)"
-                  stroke-width="0.271186"
+                  strokeWidth="0.271186"
                 />
                 <path
                   d="M52.8086 5.42383L78.4207 11.8268V74.5764L52.8086 68.1734V5.42383Z"
@@ -868,19 +864,19 @@ export default function Paid() {
                 <path
                   d="M52.8086 5.42383L78.4207 11.8268V74.5764L52.8086 68.1734V5.42383Z"
                   fill="url(#paint7_linear_804_133574)"
-                  fill-opacity="0.2"
+                  fillOpacity="0.2"
                 />
                 <path
                   d="M52.8086 5.42383L78.4207 11.8268V74.5764L52.8086 68.1734V5.42383Z"
                   stroke="url(#paint8_linear_804_133574)"
-                  stroke-width="0.271186"
+                  strokeWidth="0.271186"
                 />
-                <g clip-path="url(#clip0_804_133574)">
+                <g clipPath="url(#clip0_804_133574)">
                   <g filter="url(#filter0_bi_804_133574)">
                     <path
                       d="M39.9993 30.5078C42.5166 30.5078 44.9309 31.5078 46.7109 33.2878C48.4909 35.0678 49.4909 37.482 49.4909 39.9993C49.4909 43.5112 47.5767 46.5801 44.7451 48.2253V51.0728C44.7451 51.4923 44.5784 51.8947 44.2818 52.1914C43.9851 52.488 43.5827 52.6547 43.1632 52.6547H36.8355C36.4159 52.6547 36.0136 52.488 35.7169 52.1914C35.4202 51.8947 35.2536 51.4923 35.2536 51.0728V48.2253C32.4219 46.5801 30.5078 43.5112 30.5078 39.9993C30.5078 37.482 31.5078 35.0678 33.2878 33.2878C35.0678 31.5078 37.482 30.5078 39.9993 30.5078ZM43.1632 54.2366V55.8185C43.1632 56.2381 42.9965 56.6405 42.6998 56.9371C42.4032 57.2338 42.0008 57.4005 41.5813 57.4005H38.4174C37.9979 57.4005 37.5955 57.2338 37.2988 56.9371C37.0022 56.6405 36.8355 56.2381 36.8355 55.8185V54.2366H43.1632Z"
                       fill="url(#paint9_linear_804_133574)"
-                      fill-opacity="0.5"
+                      fillOpacity="0.5"
                     />
                     <path
                       d="M39.9993 30.5078C42.5166 30.5078 44.9309 31.5078 46.7109 33.2878C48.4909 35.0678 49.4909 37.482 49.4909 39.9993C49.4909 43.5112 47.5767 46.5801 44.7451 48.2253V51.0728C44.7451 51.4923 44.5784 51.8947 44.2818 52.1914C43.9851 52.488 43.5827 52.6547 43.1632 52.6547H36.8355C36.4159 52.6547 36.0136 52.488 35.7169 52.1914C35.4202 51.8947 35.2536 51.4923 35.2536 51.0728V48.2253C32.4219 46.5801 30.5078 43.5112 30.5078 39.9993C30.5078 37.482 31.5078 35.0678 33.2878 33.2878C35.0678 31.5078 37.482 30.5078 39.9993 30.5078ZM43.1632 54.2366V55.8185C43.1632 56.2381 42.9965 56.6405 42.6998 56.9371C42.4032 57.2338 42.0008 57.4005 41.5813 57.4005H38.4174C37.9979 57.4005 37.5955 57.2338 37.2988 56.9371C37.0022 56.6405 36.8355 56.2381 36.8355 55.8185V54.2366H43.1632Z"
@@ -891,14 +887,14 @@ export default function Paid() {
                     <path
                       d="M39.9999 22.666V27.2054M49.0787 30.9195L52.3801 27.6181M52.7928 39.9984H57.3322M30.9215 30.9197L27.6201 27.6183M27.2074 39.9986H22.668"
                       stroke="#FDFDFD"
-                      stroke-width="2.0339"
-                      stroke-linecap="round"
+                      strokeWidth="2.0339"
+                      strokeLinecap="round"
                     />
                     <path
                       d="M39.9999 22.666V27.2054M49.0787 30.9195L52.3801 27.6181M52.7928 39.9984H57.3322M30.9215 30.9197L27.6201 27.6183M27.2074 39.9986H22.668"
                       stroke="url(#paint11_radial_804_133574)"
-                      stroke-width="2.0339"
-                      stroke-linecap="round"
+                      strokeWidth="2.0339"
+                      strokeLinecap="round"
                     />
                   </g>
                 </g>
@@ -910,9 +906,9 @@ export default function Paid() {
                     width="59.6623"
                     height="67.5705"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="10.1695"
@@ -959,9 +955,9 @@ export default function Paid() {
                     width="66.5258"
                     height="49.1977"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -1018,8 +1014,8 @@ export default function Paid() {
                     y2="69.8306"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.0207592" stop-color="#F9E3DC" />
-                    <stop offset="0.649494" stop-color="#CB4A22" />
+                    <stop offset="0.0207592" stopColor="#F9E3DC" />
+                    <stop offset="0.649494" stopColor="#CB4A22" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_804_133574"
@@ -1029,8 +1025,8 @@ export default function Paid() {
                     y2="40.0001"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#F9E3DC" />
+                    <stop stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#F9E3DC" />
                   </linearGradient>
                   <linearGradient
                     id="paint2_linear_804_133574"
@@ -1040,8 +1036,8 @@ export default function Paid() {
                     y2="74.5764"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#F9E3DC" />
-                    <stop offset="1" stop-color="#CB4A22" />
+                    <stop stopColor="#F9E3DC" />
+                    <stop offset="1" stopColor="#CB4A22" />
                   </linearGradient>
                   <linearGradient
                     id="paint3_linear_804_133574"
@@ -1051,8 +1047,8 @@ export default function Paid() {
                     y2="69.8306"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.0207592" stop-color="#F9E3DC" />
-                    <stop offset="0.649494" stop-color="#CB4A22" />
+                    <stop offset="0.0207592" stopColor="#F9E3DC" />
+                    <stop offset="0.649494" stopColor="#CB4A22" />
                   </linearGradient>
                   <linearGradient
                     id="paint4_linear_804_133574"
@@ -1062,8 +1058,8 @@ export default function Paid() {
                     y2="40.0001"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#F9E3DC" />
+                    <stop stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#F9E3DC" />
                   </linearGradient>
                   <linearGradient
                     id="paint5_linear_804_133574"
@@ -1073,8 +1069,8 @@ export default function Paid() {
                     y2="74.5764"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#F9E3DC" />
-                    <stop offset="1" stop-color="#CB4A22" />
+                    <stop stopColor="#F9E3DC" />
+                    <stop offset="1" stopColor="#CB4A22" />
                   </linearGradient>
                   <linearGradient
                     id="paint6_linear_804_133574"
@@ -1084,8 +1080,8 @@ export default function Paid() {
                     y2="69.8306"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.0207592" stop-color="#F9E3DC" />
-                    <stop offset="0.649494" stop-color="#CB4A22" />
+                    <stop offset="0.0207592" stopColor="#F9E3DC" />
+                    <stop offset="0.649494" stopColor="#CB4A22" />
                   </linearGradient>
                   <linearGradient
                     id="paint7_linear_804_133574"
@@ -1095,8 +1091,8 @@ export default function Paid() {
                     y2="40.0001"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#F9E3DC" />
+                    <stop stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#F9E3DC" />
                   </linearGradient>
                   <linearGradient
                     id="paint8_linear_804_133574"
@@ -1106,8 +1102,8 @@ export default function Paid() {
                     y2="74.5764"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#F9E3DC" />
-                    <stop offset="1" stop-color="#CB4A22" />
+                    <stop stopColor="#F9E3DC" />
+                    <stop offset="1" stopColor="#CB4A22" />
                   </linearGradient>
                   <linearGradient
                     id="paint9_linear_804_133574"
@@ -1117,10 +1113,10 @@ export default function Paid() {
                     y2="43.0173"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#F9E3DC" />
-                    <stop offset="0.586318" stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#CB4A22" stop-opacity="0.17" />
-                    <stop offset="1" stop-color="#F9E3DC" />
+                    <stop stopColor="#F9E3DC" />
+                    <stop offset="0.586318" stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#CB4A22" stopOpacity="0.17" />
+                    <stop offset="1" stopColor="#F9E3DC" />
                   </linearGradient>
                   <radialGradient
                     id="paint10_radial_804_133574"
@@ -1130,8 +1126,8 @@ export default function Paid() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(33.3448 56.52) rotate(-60.2272) scale(18.9029 27.2347)"
                   >
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" stop-opacity="0.46" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0.46" />
                   </radialGradient>
                   <radialGradient
                     id="paint11_radial_804_133574"
@@ -1141,8 +1137,8 @@ export default function Paid() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(39.9985 38.9816) rotate(-90) scale(9.49153 6.32768)"
                   >
-                    <stop stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#F9E3DC" />
+                    <stop stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#F9E3DC" />
                   </radialGradient>
                   <clipPath id="clip0_804_133574">
                     <rect
@@ -1174,7 +1170,7 @@ export default function Paid() {
                   fill="url(#paint0_linear_804_133577)"
                 />
                 <g filter="url(#filter0_d_804_133577)">
-                  <g clip-path="url(#clip0_804_133577)">
+                  <g clipPath="url(#clip0_804_133577)">
                     <rect
                       x="8"
                       y="12"
@@ -1188,7 +1184,7 @@ export default function Paid() {
                       width="52"
                       height="73.3985"
                       fill="url(#paint1_linear_804_133577)"
-                      fill-opacity="0.2"
+                      fillOpacity="0.2"
                     />
                     <g filter="url(#filter1_i_804_133577)">
                       <path
@@ -1470,87 +1466,87 @@ export default function Paid() {
                     <path
                       d="M21.2764 39.8367C21.3108 39.8367 21.328 39.8539 21.328 39.8883V43.3936C21.328 43.428 21.3108 43.4452 21.2764 43.4452H20.9156C20.8812 43.4452 20.864 43.428 20.864 43.3936V41.7801L20.5341 43.4039C20.5255 43.4314 20.5083 43.4452 20.4826 43.4452H20.4001C20.3743 43.4452 20.3571 43.4314 20.3485 43.4039L20.0186 41.7801V43.3936C20.0186 43.428 20.0014 43.4452 19.9671 43.4452H19.6062C19.5719 43.4452 19.5547 43.428 19.5547 43.3936V39.8883C19.5547 39.8539 19.5719 39.8367 19.6062 39.8367H19.9774C20.0014 39.8367 20.0152 39.847 20.0186 39.8676L20.4413 42.1874L20.864 39.8676C20.8675 39.847 20.8812 39.8367 20.9053 39.8367H21.2764Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M22.8756 42.9915C22.91 42.9915 22.9271 43.0087 22.9271 43.0431V43.3936C22.9271 43.428 22.91 43.4452 22.8756 43.4452H21.7931C21.7587 43.4452 21.7415 43.428 21.7415 43.3936V39.8883C21.7415 39.8539 21.7587 39.8367 21.7931 39.8367H22.8447C22.879 39.8367 22.8962 39.8539 22.8962 39.8883V40.2388C22.8962 40.2732 22.879 40.2903 22.8447 40.2903H22.2054V41.3626H22.7519C22.7862 41.3626 22.8034 41.3797 22.8034 41.4141V41.7646C22.8034 41.799 22.7862 41.8162 22.7519 41.8162H22.2054V42.9915H22.8756Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M24.5588 39.8367C24.5932 39.8367 24.6104 39.8539 24.6104 39.8883V43.3936C24.6104 43.428 24.5932 43.4452 24.5588 43.4452H24.198C24.1705 43.4452 24.1533 43.4314 24.1464 43.4039L23.7237 41.4889V43.3936C23.7237 43.428 23.7065 43.4452 23.6722 43.4452H23.3113C23.277 43.4452 23.2598 43.428 23.2598 43.3936V39.8883C23.2598 39.8539 23.277 39.8367 23.3113 39.8367H23.6825C23.7048 39.8367 23.7186 39.847 23.7237 39.8676L24.1464 41.8342V39.8883C24.1464 39.8539 24.1636 39.8367 24.198 39.8367H24.5588Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M26.1784 39.8367C26.2128 39.8367 26.23 39.8539 26.23 39.8883V40.2491C26.23 40.2835 26.2128 40.3006 26.1784 40.3006H25.8073V43.3936C25.8073 43.428 25.7901 43.4452 25.7557 43.4452H25.3949C25.3605 43.4452 25.3433 43.428 25.3433 43.3936V40.3006H24.9722C24.9378 40.3006 24.9206 40.2835 24.9206 40.2491V39.8883C24.9206 39.8539 24.9378 39.8367 24.9722 39.8367H26.1784Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M27.684 43.3833C27.6892 43.4245 27.672 43.4452 27.6325 43.4452H27.251C27.2201 43.4452 27.2029 43.428 27.1994 43.3936L27.153 42.909H26.8128L26.7664 43.3936C26.763 43.428 26.7458 43.4452 26.7149 43.4452H26.3334C26.2939 43.4452 26.2767 43.4245 26.2819 43.3833L26.7458 39.8779C26.751 39.8505 26.7681 39.8367 26.7974 39.8367H27.1685C27.1977 39.8367 27.2149 39.8505 27.2201 39.8779L27.684 43.3833ZM26.8566 42.4554H27.1092L26.9829 41.1306L26.8566 42.4554Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M29.1018 42.9915C29.1361 42.9915 29.1533 43.0087 29.1533 43.0431V43.3936C29.1533 43.428 29.1361 43.4452 29.1018 43.4452H28.0192C27.9849 43.4452 27.9677 43.428 27.9677 43.3936V39.8883C27.9677 39.8539 27.9849 39.8367 28.0192 39.8367H28.3801C28.4144 39.8367 28.4316 39.8539 28.4316 39.8883V42.9915H29.1018Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M31.1423 39.8367C31.3416 39.8367 31.4997 39.8986 31.6166 40.0223C31.7334 40.146 31.7918 40.2972 31.7918 40.4759V41.177C31.7918 41.3557 31.7334 41.5069 31.6166 41.6306C31.4997 41.7543 31.3416 41.8162 31.1423 41.8162H30.9567V43.3936C30.9567 43.428 30.9395 43.4452 30.9052 43.4452H30.5443C30.51 43.4452 30.4928 43.428 30.4928 43.3936V39.8883C30.4928 39.8539 30.51 39.8367 30.5443 39.8367H31.1423ZM31.1423 41.3626C31.2042 41.3626 31.2506 41.3445 31.2815 41.3084C31.3124 41.2724 31.3279 41.2285 31.3279 41.177V40.4759C31.3279 40.4244 31.3124 40.3805 31.2815 40.3445C31.2506 40.3084 31.2042 40.2903 31.1423 40.2903H30.9567V41.3626H31.1423Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M33.2942 42.9915C33.3285 42.9915 33.3457 43.0087 33.3457 43.0431V43.3936C33.3457 43.428 33.3285 43.4452 33.2942 43.4452H32.2116C32.1773 43.4452 32.1601 43.428 32.1601 43.3936V39.8883C32.1601 39.8539 32.1773 39.8367 32.2116 39.8367H33.2632C33.2976 39.8367 33.3148 39.8539 33.3148 39.8883V40.2388C33.3148 40.2732 33.2976 40.2903 33.2632 40.2903H32.624V41.3626H33.1704C33.2048 41.3626 33.222 41.3797 33.222 41.4141V41.7646C33.222 41.799 33.2048 41.8162 33.1704 41.8162H32.624V42.9915H33.2942Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M35.0702 43.373C35.0754 43.3936 35.0711 43.4108 35.0573 43.4245C35.0453 43.4383 35.029 43.4452 35.0083 43.4452H34.6578C34.632 43.4452 34.6148 43.4314 34.6063 43.4039L34.15 41.8162H34.1423V43.3936C34.1423 43.428 34.1251 43.4452 34.0908 43.4452H33.7299C33.6956 43.4452 33.6784 43.428 33.6784 43.3936V39.8883C33.6784 39.8539 33.6956 39.8367 33.7299 39.8367H34.3279C34.5272 39.8367 34.6853 39.8986 34.8021 40.0223C34.919 40.146 34.9774 40.2972 34.9774 40.4759V41.177C34.9774 41.3059 34.9448 41.4236 34.8795 41.5301C34.8159 41.6349 34.7257 41.7122 34.6088 41.7621L35.0702 43.373ZM34.1423 40.2903V41.3626H34.3279C34.3897 41.3626 34.4361 41.3445 34.4671 41.3084C34.498 41.2724 34.5135 41.2285 34.5135 41.177V40.4759C34.5135 40.4244 34.498 40.3805 34.4671 40.3445C34.4361 40.3084 34.3897 40.2903 34.3279 40.2903H34.1423Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M36.4891 39.8367C36.5235 39.8367 36.5406 39.8539 36.5406 39.8883V40.2388C36.5406 40.2732 36.5235 40.2903 36.4891 40.2903H35.8499V41.3626H36.3963C36.4307 41.3626 36.4479 41.3797 36.4479 41.4141V41.7646C36.4479 41.799 36.4307 41.8162 36.3963 41.8162H35.8499V43.3936C35.8499 43.428 35.8327 43.4452 35.7983 43.4452H35.4375C35.4031 43.4452 35.3859 43.428 35.3859 43.3936V39.8883C35.3859 39.8539 35.4031 39.8367 35.4375 39.8367H36.4891Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M37.0065 39.9707C37.1234 39.847 37.2814 39.7852 37.4808 39.7852C37.6801 39.7852 37.8382 39.847 37.955 39.9707C38.0719 40.0945 38.1303 40.2457 38.1303 40.4244V42.8575C38.1303 43.0362 38.0719 43.1874 37.955 43.3111C37.8382 43.4348 37.6801 43.4967 37.4808 43.4967C37.2814 43.4967 37.1234 43.4348 37.0065 43.3111C36.8897 43.1874 36.8312 43.0362 36.8312 42.8575V40.4244C36.8312 40.2457 36.8897 40.0945 37.0065 39.9707ZM37.3416 42.9889C37.3725 43.025 37.4189 43.0431 37.4808 43.0431C37.5426 43.0431 37.589 43.025 37.62 42.9889C37.6509 42.9529 37.6663 42.909 37.6663 42.8575V40.4244C37.6663 40.3728 37.6509 40.329 37.62 40.2929C37.589 40.2568 37.5426 40.2388 37.4808 40.2388C37.4189 40.2388 37.3725 40.2568 37.3416 40.2929C37.3107 40.329 37.2952 40.3728 37.2952 40.4244V42.8575C37.2952 42.909 37.3107 42.9529 37.3416 42.9889Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M39.915 43.373C39.9202 43.3936 39.9159 43.4108 39.9021 43.4245C39.8901 43.4383 39.8738 43.4452 39.8532 43.4452H39.5026C39.4769 43.4452 39.4597 43.4314 39.4511 43.4039L38.9949 41.8162H38.9871V43.3936C38.9871 43.428 38.97 43.4452 38.9356 43.4452H38.5747C38.5404 43.4452 38.5232 43.428 38.5232 43.3936V39.8883C38.5232 39.8539 38.5404 39.8367 38.5747 39.8367H39.1727C39.372 39.8367 39.5301 39.8986 39.647 40.0223C39.7638 40.146 39.8222 40.2972 39.8222 40.4759V41.177C39.8222 41.3059 39.7896 41.4236 39.7243 41.5301C39.6607 41.6349 39.5705 41.7122 39.4537 41.7621L39.915 43.373ZM38.9871 40.2903V41.3626H39.1727C39.2346 41.3626 39.281 41.3445 39.3119 41.3084C39.3428 41.2724 39.3583 41.2285 39.3583 41.177V40.4759C39.3583 40.4244 39.3428 40.3805 39.3119 40.3445C39.281 40.3084 39.2346 40.2903 39.1727 40.2903H38.9871Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M41.9525 39.8367C41.9869 39.8367 42.0041 39.8539 42.0041 39.8883V43.3936C42.0041 43.428 41.9869 43.4452 41.9525 43.4452H41.5917C41.5573 43.4452 41.5401 43.428 41.5401 43.3936V41.7801L41.2102 43.4039C41.2016 43.4314 41.1844 43.4452 41.1586 43.4452H41.0762C41.0504 43.4452 41.0332 43.4314 41.0246 43.4039L40.6947 41.7801V43.3936C40.6947 43.428 40.6775 43.4452 40.6432 43.4452H40.2823C40.2479 43.4452 40.2308 43.428 40.2308 43.3936V39.8883C40.2308 39.8539 40.2479 39.8367 40.2823 39.8367H40.6535C40.6775 39.8367 40.6913 39.847 40.6947 39.8676L41.1174 42.1874L41.5401 39.8676C41.5435 39.847 41.5573 39.8367 41.5813 39.8367H41.9525Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M43.7166 43.3833C43.7218 43.4245 43.7046 43.4452 43.6651 43.4452H43.2836C43.2527 43.4452 43.2355 43.428 43.2321 43.3936L43.1857 42.909H42.8454L42.799 43.3936C42.7956 43.428 42.7784 43.4452 42.7475 43.4452H42.366C42.3265 43.4452 42.3093 43.4245 42.3145 43.3833L42.7784 39.8779C42.7836 39.8505 42.8008 39.8367 42.83 39.8367H43.2011C43.2303 39.8367 43.2475 39.8505 43.2527 39.8779L43.7166 43.3833ZM42.8892 42.4554H43.1418L43.0155 41.1306L42.8892 42.4554Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M45.2993 39.8367C45.3337 39.8367 45.3509 39.8539 45.3509 39.8883V43.3936C45.3509 43.428 45.3337 43.4452 45.2993 43.4452H44.9385C44.911 43.4452 44.8938 43.4314 44.8869 43.4039L44.4642 41.4889V43.3936C44.4642 43.428 44.4471 43.4452 44.4127 43.4452H44.0518C44.0175 43.4452 44.0003 43.428 44.0003 43.3936V39.8883C44.0003 39.8539 44.0175 39.8367 44.0518 39.8367H44.423C44.4453 39.8367 44.4591 39.847 44.4642 39.8676L44.8869 41.8342V39.8883C44.8869 39.8539 44.9041 39.8367 44.9385 39.8367H45.2993Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M46.6303 40.7852C46.5959 40.7852 46.5787 40.768 46.5787 40.7337V40.4244C46.5787 40.3728 46.5633 40.329 46.5323 40.2929C46.5014 40.2568 46.455 40.2388 46.3931 40.2388C46.3313 40.2388 46.2849 40.2568 46.254 40.2929C46.223 40.329 46.2076 40.3728 46.2076 40.4244V42.8575C46.2076 42.909 46.223 42.9529 46.254 42.9889C46.2849 43.025 46.3313 43.0431 46.3931 43.0431C46.455 43.0431 46.5014 43.025 46.5323 42.9889C46.5633 42.9529 46.5787 42.909 46.5787 42.8575V42.5482C46.5787 42.5138 46.5959 42.4966 46.6303 42.4966H46.9911C47.0255 42.4966 47.0427 42.5138 47.0427 42.5482V42.8575C47.0427 43.0362 46.9842 43.1874 46.8674 43.3111C46.7506 43.4348 46.5925 43.4967 46.3931 43.4967C46.1938 43.4967 46.0357 43.4348 45.9189 43.3111C45.802 43.1874 45.7436 43.0362 45.7436 42.8575V40.4244C45.7436 40.2457 45.802 40.0945 45.9189 39.9707C46.0357 39.847 46.1938 39.7852 46.3931 39.7852C46.5925 39.7852 46.7506 39.847 46.8674 39.9707C46.9842 40.0945 47.0427 40.2457 47.0427 40.4244V40.7337C47.0427 40.768 47.0255 40.7852 46.9911 40.7852H46.6303Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M48.5697 42.9915C48.604 42.9915 48.6212 43.0087 48.6212 43.0431V43.3936C48.6212 43.428 48.604 43.4452 48.5697 43.4452H47.4871C47.4528 43.4452 47.4356 43.428 47.4356 43.3936V39.8883C47.4356 39.8539 47.4528 39.8367 47.4871 39.8367H48.5387C48.5731 39.8367 48.5903 39.8539 48.5903 39.8883V40.2388C48.5903 40.2732 48.5731 40.2903 48.5387 40.2903H47.8995V41.3626H48.4459C48.4803 41.3626 48.4975 41.3797 48.4975 41.4141V41.7646C48.4975 41.799 48.4803 41.8162 48.4459 41.8162H47.8995V42.9915H48.5697Z"
                       stroke="#111111"
-                      stroke-width="0.0169381"
+                      strokeWidth="0.0169381"
                     />
                     <path
                       d="M21.6919 77.719C21.7221 77.719 21.7371 77.7341 21.7371 77.7642V78.0803C21.7371 78.1105 21.7221 78.1255 21.6919 78.1255H21.3667V80.8356C21.3667 80.8657 21.3517 80.8808 21.3216 80.8808H21.0054C20.9753 80.8808 20.9602 80.8657 20.9602 80.8356V78.1255H20.635C20.6049 78.1255 20.5898 78.1105 20.5898 78.0803V77.7642C20.5898 77.7341 20.6049 77.719 20.635 77.719H21.6919Z"
@@ -1618,7 +1614,7 @@ export default function Paid() {
                       cy="55.5826"
                       r="5.63742"
                       stroke="#1C1C1C"
-                      stroke-width="2.45668"
+                      strokeWidth="2.45668"
                     />
                     <circle
                       opacity="0.15"
@@ -1626,7 +1622,7 @@ export default function Paid() {
                       cy="55.5586"
                       r="8.2825"
                       stroke="#1C1C1C"
-                      stroke-width="2.55603"
+                      strokeWidth="2.55603"
                     />
                     <circle
                       opacity="0.06"
@@ -1634,7 +1630,7 @@ export default function Paid() {
                       cy="55.5583"
                       r="10.3307"
                       stroke="#1C1C1C"
-                      stroke-width="1.27146"
+                      strokeWidth="1.27146"
                     />
                     <circle
                       opacity="0.15"
@@ -1642,8 +1638,8 @@ export default function Paid() {
                       cy="55.5831"
                       r="13.7784"
                       stroke="#1C1C1C"
-                      stroke-width="0.140596"
-                      stroke-dasharray="0.37 0.37"
+                      strokeWidth="0.140596"
+                      strokeDasharray="0.37 0.37"
                     />
                     <circle
                       opacity="0.15"
@@ -1651,16 +1647,16 @@ export default function Paid() {
                       cy="55.559"
                       r="16.6372"
                       stroke="#1C1C1C"
-                      stroke-width="0.0937306"
-                      stroke-dasharray="0.19 0.19"
+                      strokeWidth="0.0937306"
+                      strokeDasharray="0.19 0.19"
                     />
                     <circle
                       cx="34.0812"
                       cy="55.5831"
                       r="4.00698"
                       stroke="#CB4A22"
-                      stroke-width="0.0937306"
-                      stroke-dasharray="0.09 0.09"
+                      strokeWidth="0.0937306"
+                      strokeDasharray="0.09 0.09"
                     />
                     <g filter="url(#filter8_d_804_133577)">
                       <path
@@ -1688,7 +1684,7 @@ export default function Paid() {
                       <path
                         d="M35.1875 50.0156L39.0788 47.3418L37.5906 46.7802L35.1875 50.0156Z"
                         fill="#111111"
-                        fill-opacity="0.55"
+                        fillOpacity="0.55"
                       />
                       <path
                         d="M36.7408 46.2929L35.1875 50.0156L35.5506 45.0303L36.7408 46.2929Z"
@@ -1697,7 +1693,7 @@ export default function Paid() {
                       <path
                         d="M36.7408 46.2929L35.1875 50.0156L35.5506 45.0303L36.7408 46.2929Z"
                         fill="#111111"
-                        fill-opacity="0.55"
+                        fillOpacity="0.55"
                       />
                       <path
                         d="M37.6125 45.8159L36.7408 46.2929L35.1875 50.0156L37.6125 45.8159Z"
@@ -1706,7 +1702,7 @@ export default function Paid() {
                       <path
                         d="M37.6125 45.8159L36.7408 46.2929L35.1875 50.0156L37.6125 45.8159Z"
                         fill="#111111"
-                        fill-opacity="0.8"
+                        fillOpacity="0.8"
                       />
                       <path
                         d="M37.5906 46.7802L37.6125 45.8159L35.1875 50.0156L37.5906 46.7802Z"
@@ -1715,7 +1711,7 @@ export default function Paid() {
                       <path
                         d="M37.5906 46.7802L37.6125 45.8159L35.1875 50.0156L37.5906 46.7802Z"
                         fill="#111111"
-                        fill-opacity="0.68"
+                        fillOpacity="0.68"
                       />
                     </g>
                     <g filter="url(#filter10_d_804_133577)">
@@ -1726,7 +1722,7 @@ export default function Paid() {
                       <path
                         d="M26.3672 58.9512L22.5966 59.0506L23.3496 60.0742L26.3672 58.9512Z"
                         fill="#111111"
-                        fill-opacity="0.45"
+                        fillOpacity="0.45"
                       />
                       <path
                         d="M23.7071 60.7703L26.3672 58.9512L23.9556 62.1342L23.7071 60.7703Z"
@@ -1735,7 +1731,7 @@ export default function Paid() {
                       <path
                         d="M23.7071 60.7703L26.3672 58.9512L23.9556 62.1342L23.7071 60.7703Z"
                         fill="#111111"
-                        fill-opacity="0.45"
+                        fillOpacity="0.45"
                       />
                       <path
                         d="M22.9155 60.7108L23.7071 60.7703L26.3672 58.9512L22.9155 60.7108Z"
@@ -1744,7 +1740,7 @@ export default function Paid() {
                       <path
                         d="M22.9155 60.7108L23.7071 60.7703L26.3672 58.9512L22.9155 60.7108Z"
                         fill="#111111"
-                        fill-opacity="0.7"
+                        fillOpacity="0.7"
                       />
                       <path
                         d="M23.3496 60.0742L22.9155 60.7108L26.3672 58.9512L23.3496 60.0742Z"
@@ -1753,7 +1749,7 @@ export default function Paid() {
                       <path
                         d="M23.3496 60.0742L22.9155 60.7108L26.3672 58.9512L23.3496 60.0742Z"
                         fill="#111111"
-                        fill-opacity="0.58"
+                        fillOpacity="0.58"
                       />
                     </g>
                   </g>
@@ -1763,7 +1759,7 @@ export default function Paid() {
                     width="51.7"
                     height="73.0985"
                     stroke="#722913"
-                    stroke-width="0.3"
+                    strokeWidth="0.3"
                   />
                 </g>
                 <defs>
@@ -1774,9 +1770,9 @@ export default function Paid() {
                     width="60"
                     height="81.3984"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -1809,9 +1805,9 @@ export default function Paid() {
                     width="45.6193"
                     height="14.7922"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -1849,9 +1845,9 @@ export default function Paid() {
                     width="29.7052"
                     height="3.37623"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -1889,9 +1885,9 @@ export default function Paid() {
                     width="52.5646"
                     height="6.43678"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -1929,9 +1925,9 @@ export default function Paid() {
                     width="34.6701"
                     height="2.86842"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -1969,9 +1965,9 @@ export default function Paid() {
                     width="1.82632"
                     height="2.7942"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -2009,9 +2005,9 @@ export default function Paid() {
                     width="1.82632"
                     height="2.7942"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -2049,9 +2045,9 @@ export default function Paid() {
                     width="29.8313"
                     height="4.02822"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -2089,9 +2085,9 @@ export default function Paid() {
                     width="8.32061"
                     height="8.70679"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -2124,9 +2120,9 @@ export default function Paid() {
                     width="5.01983"
                     height="6.28492"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -2159,9 +2155,9 @@ export default function Paid() {
                     width="4.89874"
                     height="4.48218"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -2195,8 +2191,8 @@ export default function Paid() {
                     y2="5.56741"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#9D391A" />
+                    <stop stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#9D391A" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_804_133577"
@@ -2206,8 +2202,8 @@ export default function Paid() {
                     y2="128.647"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.172067" stop-color="#FDFDFD" />
-                    <stop offset="1" stop-color="#111111" stop-opacity="0" />
+                    <stop offset="0.172067" stopColor="#FDFDFD" />
+                    <stop offset="1" stopColor="#111111" stopOpacity="0" />
                   </linearGradient>
                   <radialGradient
                     id="paint2_radial_804_133577"
@@ -2217,8 +2213,8 @@ export default function Paid() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(33.8464 24.1786) rotate(90) scale(18.6226 21.6336)"
                   >
-                    <stop offset="0.474504" stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#9D391A" />
+                    <stop offset="0.474504" stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#9D391A" />
                   </radialGradient>
                   <radialGradient
                     id="paint3_radial_804_133577"
@@ -2228,8 +2224,8 @@ export default function Paid() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(33.8464 24.1786) rotate(90) scale(18.6226 21.6336)"
                   >
-                    <stop offset="0.474504" stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#9D391A" />
+                    <stop offset="0.474504" stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#9D391A" />
                   </radialGradient>
                   <radialGradient
                     id="paint4_radial_804_133577"
@@ -2239,8 +2235,8 @@ export default function Paid() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(33.8464 24.1786) rotate(90) scale(18.6226 21.6336)"
                   >
-                    <stop offset="0.474504" stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#9D391A" />
+                    <stop offset="0.474504" stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#9D391A" />
                   </radialGradient>
                   <radialGradient
                     id="paint5_radial_804_133577"
@@ -2250,8 +2246,8 @@ export default function Paid() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(33.8464 24.1786) rotate(90) scale(18.6226 21.6336)"
                   >
-                    <stop offset="0.474504" stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#9D391A" />
+                    <stop offset="0.474504" stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#9D391A" />
                   </radialGradient>
                   <radialGradient
                     id="paint6_radial_804_133577"
@@ -2261,8 +2257,8 @@ export default function Paid() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(33.8464 24.1786) rotate(90) scale(18.6226 21.6336)"
                   >
-                    <stop offset="0.474504" stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#9D391A" />
+                    <stop offset="0.474504" stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#9D391A" />
                   </radialGradient>
                   <radialGradient
                     id="paint7_radial_804_133577"
@@ -2272,8 +2268,8 @@ export default function Paid() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(33.8464 24.1786) rotate(90) scale(18.6226 21.6336)"
                   >
-                    <stop offset="0.474504" stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#9D391A" />
+                    <stop offset="0.474504" stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#9D391A" />
                   </radialGradient>
                   <radialGradient
                     id="paint8_radial_804_133577"
@@ -2283,8 +2279,8 @@ export default function Paid() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(33.7908 71.867) rotate(90) scale(7.93985 24.9682)"
                   >
-                    <stop offset="0.474504" stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#9D391A" />
+                    <stop offset="0.474504" stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#9D391A" />
                   </radialGradient>
                   <clipPath id="clip0_804_133577">
                     <rect
@@ -2319,7 +2315,7 @@ export default function Paid() {
                   <path
                     d="M5.42188 15.4751C5.42188 9.92392 9.92197 5.42383 15.4731 5.42383H63.7191C69.2702 5.42383 73.7703 9.92392 73.7703 15.4751V38.4748C73.7703 39.194 73.4846 39.8838 72.976 40.3923L56.6832 56.6852L40.3904 72.978C39.8818 73.4866 39.192 73.7723 38.4728 73.7723H15.4731C9.92197 73.7723 5.42188 69.2722 5.42188 63.721V15.4751Z"
                     fill="url(#paint1_radial_804_133234)"
-                    fill-opacity="0.7"
+                    fillOpacity="0.7"
                   />
                 </g>
                 <g filter="url(#filter1_b_804_133234)">
@@ -2355,9 +2351,9 @@ export default function Paid() {
                     width="109.026"
                     height="109.026"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="10.1695"
@@ -2381,9 +2377,9 @@ export default function Paid() {
                     width="89.7036"
                     height="89.7036"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="5.33898"
@@ -2407,9 +2403,9 @@ export default function Paid() {
                     width="31.9267"
                     height="31.9287"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -2443,17 +2439,13 @@ export default function Paid() {
                     y2="36.5015"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop
-                      offset="0.125"
-                      stop-color="#CB4A22"
-                      stop-opacity="0"
-                    />
+                    <stop offset="0.125" stopColor="#CB4A22" stopOpacity="0" />
                     <stop
                       offset="0.526042"
-                      stop-color="#CB4A22"
-                      stop-opacity="0.7"
+                      stopColor="#CB4A22"
+                      stopOpacity="0.7"
                     />
-                    <stop offset="1" stop-color="#CB4A22" stop-opacity="0" />
+                    <stop offset="1" stopColor="#CB4A22" stopOpacity="0" />
                   </linearGradient>
                   <radialGradient
                     id="paint1_radial_804_133234"
@@ -2463,8 +2455,8 @@ export default function Paid() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(15.6363 71.5347) rotate(-50.9773) scale(53.676 87.7663)"
                   >
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0" />
                   </radialGradient>
                   <linearGradient
                     id="paint2_linear_804_133234"
@@ -2476,11 +2468,11 @@ export default function Paid() {
                   >
                     <stop
                       offset="0.0136312"
-                      stop-color="#EDAB96"
-                      stop-opacity="0"
+                      stopColor="#EDAB96"
+                      stopOpacity="0"
                     />
-                    <stop offset="0.600063" stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#EDAB96" stop-opacity="0.1" />
+                    <stop offset="0.600063" stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#EDAB96" stopOpacity="0.1" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -2522,7 +2514,7 @@ export default function Paid() {
                   <path
                     d="M74.5744 37.3826C74.5744 32.8084 70.8663 29.1003 66.2922 29.1003H44.3601C42.5209 29.1003 40.8256 28.1053 39.929 26.4994C39.0324 24.8935 37.3371 23.8984 35.4979 23.8984H13.7041C9.12995 23.8984 5.42188 27.6065 5.42188 32.1807V65.406C5.42188 69.9802 9.12996 73.6883 13.7041 73.6883H66.2922C70.8663 73.6883 74.5744 69.9802 74.5744 65.406V37.3826Z"
                     fill="url(#paint0_radial_804_133583)"
-                    fill-opacity="0.7"
+                    fillOpacity="0.7"
                   />
                   <path
                     d="M74.5744 37.3826C74.5744 32.8084 70.8663 29.1003 66.2922 29.1003H44.3601C42.5209 29.1003 40.8256 28.1053 39.929 26.4994C39.0324 24.8935 37.3371 23.8984 35.4979 23.8984H13.7041C9.12995 23.8984 5.42188 27.6065 5.42188 32.1807V65.406C5.42188 69.9802 9.12996 73.6883 13.7041 73.6883H66.2922C70.8663 73.6883 74.5744 69.9802 74.5744 65.406V37.3826Z"
@@ -2551,9 +2543,9 @@ export default function Paid() {
                     width="93.8497"
                     height="74.4864"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="6.17433"
@@ -2577,9 +2569,9 @@ export default function Paid() {
                     width="88.6015"
                     height="69.2382"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="4.86229"
@@ -2604,8 +2596,8 @@ export default function Paid() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(-0.00185621 81.6957) rotate(-33.6229) scale(80.1965 133.105)"
                   >
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0" />
                   </radialGradient>
                   <linearGradient
                     id="paint1_linear_804_133583"
@@ -2615,18 +2607,14 @@ export default function Paid() {
                     y2="51.3987"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop
-                      offset="0.125"
-                      stop-color="#F9E3DC"
-                      stop-opacity="0"
-                    />
+                    <stop offset="0.125" stopColor="#F9E3DC" stopOpacity="0" />
                     <stop
                       offset="0.719024"
-                      stop-color="#CB4A22"
-                      stop-opacity="0.7"
+                      stopColor="#CB4A22"
+                      stopOpacity="0.7"
                     />
-                    <stop offset="1" stop-color="#F9E3DC" />
-                    <stop offset="1" stop-color="#F9E3DC" stop-opacity="0" />
+                    <stop offset="1" stopColor="#F9E3DC" />
+                    <stop offset="1" stopColor="#F9E3DC" stopOpacity="0" />
                   </linearGradient>
                 </defs>
               </svg>

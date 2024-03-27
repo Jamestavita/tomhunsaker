@@ -57,14 +57,14 @@ export function Plan() {
                         r="31.2"
                         fill="#D9D9D9"
                         stroke="url(#paint1_linear_804_134821)"
-                        stroke-width="0.677966"
+                        strokeWidth="0.677966"
                       />
                     </mask>
                     <g mask="url(#mask0_804_134821)">
                       <path
                         d="M88.0588 38.1341C88.0588 48.4728 65.7088 56.8541 38.1388 56.8541C10.5687 56.8541 -11.7812 48.4728 -11.7812 38.1341M88.0588 38.1341C88.0588 27.7953 65.7088 19.4141 38.1388 19.4141C10.5687 19.4141 -11.7812 27.7953 -11.7812 38.1341M88.0588 38.1341H-11.7812"
                         stroke="#425740"
-                        stroke-width="0.677966"
+                        strokeWidth="0.677966"
                       />
                     </g>
                     <circle
@@ -72,27 +72,27 @@ export function Plan() {
                       cy="38.1336"
                       r="31.2"
                       stroke="url(#paint2_linear_804_134821)"
-                      stroke-width="0.677966"
+                      strokeWidth="0.677966"
                     />
                     <path
                       d="M38.1375 69.3336C20.9062 69.3336 6.9375 55.3649 6.9375 38.1336C6.9375 20.9023 20.9062 6.93359 38.1375 6.93359"
                       stroke="#425740"
-                      stroke-width="0.677966"
+                      strokeWidth="0.677966"
                     />
                     <path
                       d="M38.1341 69.3336C27.7953 69.3336 19.4141 55.3649 19.4141 38.1336C19.4141 20.9023 27.7953 6.93359 38.1341 6.93359"
                       stroke="#425740"
-                      stroke-width="0.677966"
+                      strokeWidth="0.677966"
                     />
                     <path
                       d="M37.8281 69.3336C38.0004 69.3336 38.1401 55.3649 38.1401 38.1336C38.1401 20.9023 38.0004 6.93359 37.8281 6.93359"
                       stroke="#425740"
-                      stroke-width="0.677966"
+                      strokeWidth="0.677966"
                     />
                     <path
                       d="M37.8281 69.3336C48.1669 69.3336 56.5481 55.3649 56.5481 38.1336C56.5481 20.9023 48.1669 6.93359 37.8281 6.93359"
                       stroke="#425740"
-                      stroke-width="0.677966"
+                      strokeWidth="0.677966"
                     />
                     <g filter="url(#filter0_b_804_134821)">
                       <path
@@ -100,14 +100,14 @@ export function Plan() {
                         clipRule="evenodd"
                         d="M67.5746 66.811C72.1806 60.789 71.7298 52.1395 66.2221 46.6318C60.2235 40.6331 50.4977 40.6331 44.499 46.6318C38.5003 52.6305 38.5003 62.3563 44.499 68.3549C50.0067 73.8626 58.6562 74.3134 64.6782 69.7075L69.3207 74.35C69.7423 74.7715 70.4258 74.7715 70.8473 74.35L72.2171 72.9801C72.6387 72.5586 72.6387 71.8751 72.2171 71.4535L67.5746 66.811Z"
                         fill="url(#paint3_radial_804_134821)"
-                        fill-opacity="0.4"
+                        fillOpacity="0.4"
                       />
                       <path
                         fillRule="evenodd"
                         clipRule="evenodd"
                         d="M67.5746 66.811C72.1806 60.789 71.7298 52.1395 66.2221 46.6318C60.2235 40.6331 50.4977 40.6331 44.499 46.6318C38.5003 52.6305 38.5003 62.3563 44.499 68.3549C50.0067 73.8626 58.6562 74.3134 64.6782 69.7075L69.3207 74.35C69.7423 74.7715 70.4258 74.7715 70.8473 74.35L72.2171 72.9801C72.6387 72.5586 72.6387 71.8751 72.2171 71.4535L67.5746 66.811Z"
                         fill="url(#paint4_linear_804_134821)"
-                        fill-opacity="0.6"
+                        fillOpacity="0.6"
                       />
                     </g>
                     <g filter="url(#filter1_b_804_134821)">
@@ -126,12 +126,9 @@ export function Plan() {
                         width="57.2325"
                         height="57.2305"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feGaussianBlur
                           in="BackgroundImageFix"
                           stdDeviation="6.17433"
@@ -155,12 +152,9 @@ export function Plan() {
                         width="53.8911"
                         height="53.8891"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feGaussianBlur
                           in="BackgroundImageFix"
                           stdDeviation="5.33898"
@@ -185,9 +179,9 @@ export function Plan() {
                         y2="69.8297"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop offset="0.0327056" stop-color="#425740" />
-                        <stop offset="0.520187" stop-color="#DAE3D9" />
-                        <stop offset="0.960352" stop-color="#425740" />
+                        <stop offset="0.0327056" stopColor="#425740" />
+                        <stop offset="0.520187" stopColor="#DAE3D9" />
+                        <stop offset="0.960352" stopColor="#425740" />
                       </linearGradient>
                       <linearGradient
                         id="paint1_linear_804_134821"
@@ -197,9 +191,9 @@ export function Plan() {
                         y2="69.3336"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#0B5BDB" />
-                        <stop offset="0.526042" stop-color="#C4D6FF" />
-                        <stop offset="1" stop-color="#0B5BDB" />
+                        <stop stopColor="#0B5BDB" />
+                        <stop offset="0.526042" stopColor="#C4D6FF" />
+                        <stop offset="1" stopColor="#0B5BDB" />
                       </linearGradient>
                       <linearGradient
                         id="paint2_linear_804_134821"
@@ -209,9 +203,9 @@ export function Plan() {
                         y2="69.3336"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#425740" />
-                        <stop offset="0.526042" stop-color="#8CA88A" />
-                        <stop offset="1" stop-color="#425740" />
+                        <stop stopColor="#425740" />
+                        <stop offset="0.526042" stopColor="#8CA88A" />
+                        <stop offset="1" stopColor="#425740" />
                       </linearGradient>
                       <radialGradient
                         id="paint3_radial_804_134821"
@@ -221,8 +215,8 @@ export function Plan() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(37.4484 79.8983) rotate(-42.7248) scale(42.7662 76.7282)"
                       >
-                        <stop stop-color="white" />
-                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                        <stop stopColor="white" />
+                        <stop offset="1" stopColor="white" stopOpacity="0" />
                       </radialGradient>
                       <linearGradient
                         id="paint4_linear_804_134821"
@@ -234,10 +228,10 @@ export function Plan() {
                       >
                         <stop
                           offset="0.125"
-                          stop-color="#8CA88A"
-                          stop-opacity="0.34"
+                          stopColor="#8CA88A"
+                          stopOpacity="0.34"
                         />
-                        <stop offset="0.641023" stop-color="#425740" />
+                        <stop offset="0.641023" stopColor="#425740" />
                       </linearGradient>
                     </defs>
                   </svg>
@@ -286,12 +280,9 @@ export function Plan() {
                         width="30.8438"
                         height="41.2813"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feGaussianBlur
                           in="BackgroundImageFix"
                           stdDeviation="1.9209"
@@ -315,12 +306,9 @@ export function Plan() {
                         width="30.5156"
                         height="60.8535"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feGaussianBlur
                           in="BackgroundImageFix"
                           stdDeviation="1.9209"
@@ -344,12 +332,9 @@ export function Plan() {
                         width="30.8438"
                         height="76.836"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feGaussianBlur
                           in="BackgroundImageFix"
                           stdDeviation="1.9209"
@@ -373,12 +358,9 @@ export function Plan() {
                         width="72.958"
                         height="41.8974"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feColorMatrix
                           in="SourceAlpha"
                           type="matrix"
@@ -412,8 +394,8 @@ export function Plan() {
                         y2="74.5782"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#DAE3D9" />
-                        <stop offset="0.765625" stop-color="#425740" />
+                        <stop stopColor="#DAE3D9" />
+                        <stop offset="0.765625" stopColor="#425740" />
                       </linearGradient>
                       <linearGradient
                         id="paint1_linear_804_134824"
@@ -423,8 +405,8 @@ export function Plan() {
                         y2="74.5754"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#DAE3D9" />
-                        <stop offset="0.765625" stop-color="#425740" />
+                        <stop stopColor="#DAE3D9" />
+                        <stop offset="0.765625" stopColor="#425740" />
                       </linearGradient>
                       <linearGradient
                         id="paint2_linear_804_134824"
@@ -434,8 +416,8 @@ export function Plan() {
                         y2="74.5764"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#DAE3D9" />
-                        <stop offset="0.765625" stop-color="#425740" />
+                        <stop stopColor="#DAE3D9" />
+                        <stop offset="0.765625" stopColor="#425740" />
                       </linearGradient>
                     </defs>
                   </svg>
@@ -460,12 +442,12 @@ export function Plan() {
                     <path
                       d="M1.57812 5.42383L27.1902 11.8268V74.5764L1.57812 68.1734V5.42383Z"
                       fill="url(#paint1_linear_804_134828)"
-                      fill-opacity="0.2"
+                      fillOpacity="0.2"
                     />
                     <path
                       d="M1.57812 5.42383L27.1902 11.8268V74.5764L1.57812 68.1734V5.42383Z"
                       stroke="url(#paint2_linear_804_134828)"
-                      stroke-width="0.271186"
+                      strokeWidth="0.271186"
                     />
                     <path
                       d="M52.8086 5.42383L27.1965 11.8268V74.5764L52.8086 68.1734V5.42383Z"
@@ -478,12 +460,12 @@ export function Plan() {
                     <path
                       d="M52.8086 5.42383L27.1965 11.8268V74.5764L52.8086 68.1734V5.42383Z"
                       fill="url(#paint4_linear_804_134828)"
-                      fill-opacity="0.2"
+                      fillOpacity="0.2"
                     />
                     <path
                       d="M52.8086 5.42383L27.1965 11.8268V74.5764L52.8086 68.1734V5.42383Z"
                       stroke="url(#paint5_linear_804_134828)"
-                      stroke-width="0.271186"
+                      strokeWidth="0.271186"
                     />
                     <path
                       d="M52.8086 5.42383L78.4207 11.8268V74.5764L52.8086 68.1734V5.42383Z"
@@ -496,19 +478,19 @@ export function Plan() {
                     <path
                       d="M52.8086 5.42383L78.4207 11.8268V74.5764L52.8086 68.1734V5.42383Z"
                       fill="url(#paint7_linear_804_134828)"
-                      fill-opacity="0.2"
+                      fillOpacity="0.2"
                     />
                     <path
                       d="M52.8086 5.42383L78.4207 11.8268V74.5764L52.8086 68.1734V5.42383Z"
                       stroke="url(#paint8_linear_804_134828)"
-                      stroke-width="0.271186"
+                      strokeWidth="0.271186"
                     />
-                    <g clip-path="url(#clip0_804_134828)">
+                    <g clipPath="url(#clip0_804_134828)">
                       <g filter="url(#filter0_bi_804_134828)">
                         <path
                           d="M39.9993 30.5078C42.5166 30.5078 44.9309 31.5078 46.7109 33.2878C48.4909 35.0678 49.4909 37.482 49.4909 39.9993C49.4909 43.5112 47.5767 46.5801 44.7451 48.2253V51.0728C44.7451 51.4923 44.5784 51.8947 44.2818 52.1914C43.9851 52.488 43.5827 52.6547 43.1632 52.6547H36.8355C36.4159 52.6547 36.0136 52.488 35.7169 52.1914C35.4202 51.8947 35.2536 51.4923 35.2536 51.0728V48.2253C32.4219 46.5801 30.5078 43.5112 30.5078 39.9993C30.5078 37.482 31.5078 35.0678 33.2878 33.2878C35.0678 31.5078 37.482 30.5078 39.9993 30.5078ZM43.1632 54.2366V55.8185C43.1632 56.2381 42.9965 56.6405 42.6998 56.9371C42.4032 57.2338 42.0008 57.4005 41.5813 57.4005H38.4174C37.9979 57.4005 37.5955 57.2338 37.2988 56.9371C37.0022 56.6405 36.8355 56.2381 36.8355 55.8185V54.2366H43.1632Z"
                           fill="url(#paint9_linear_804_134828)"
-                          fill-opacity="0.5"
+                          fillOpacity="0.5"
                         />
                         <path
                           d="M39.9993 30.5078C42.5166 30.5078 44.9309 31.5078 46.7109 33.2878C48.4909 35.0678 49.4909 37.482 49.4909 39.9993C49.4909 43.5112 47.5767 46.5801 44.7451 48.2253V51.0728C44.7451 51.4923 44.5784 51.8947 44.2818 52.1914C43.9851 52.488 43.5827 52.6547 43.1632 52.6547H36.8355C36.4159 52.6547 36.0136 52.488 35.7169 52.1914C35.4202 51.8947 35.2536 51.4923 35.2536 51.0728V48.2253C32.4219 46.5801 30.5078 43.5112 30.5078 39.9993C30.5078 37.482 31.5078 35.0678 33.2878 33.2878C35.0678 31.5078 37.482 30.5078 39.9993 30.5078ZM43.1632 54.2366V55.8185C43.1632 56.2381 42.9965 56.6405 42.6998 56.9371C42.4032 57.2338 42.0008 57.4005 41.5813 57.4005H38.4174C37.9979 57.4005 37.5955 57.2338 37.2988 56.9371C37.0022 56.6405 36.8355 56.2381 36.8355 55.8185V54.2366H43.1632Z"
@@ -519,14 +501,14 @@ export function Plan() {
                         <path
                           d="M39.9999 22.666V27.2054M49.0787 30.9195L52.3801 27.6181M52.7928 39.9984H57.3322M30.9215 30.9197L27.6201 27.6183M27.2074 39.9986H22.668"
                           stroke="#FDFDFD"
-                          stroke-width="2.0339"
-                          stroke-linecap="round"
+                          strokeWidth="2.0339"
+                          strokeLinecap="round"
                         />
                         <path
                           d="M39.9999 22.666V27.2054M49.0787 30.9195L52.3801 27.6181M52.7928 39.9984H57.3322M30.9215 30.9197L27.6201 27.6183M27.2074 39.9986H22.668"
                           stroke="url(#paint11_radial_804_134828)"
-                          stroke-width="2.0339"
-                          stroke-linecap="round"
+                          strokeWidth="2.0339"
+                          strokeLinecap="round"
                         />
                       </g>
                     </g>
@@ -538,12 +520,9 @@ export function Plan() {
                         width="59.6623"
                         height="67.5705"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feGaussianBlur
                           in="BackgroundImageFix"
                           stdDeviation="10.1695"
@@ -590,12 +569,9 @@ export function Plan() {
                         width="66.5258"
                         height="49.1977"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feColorMatrix
                           in="SourceAlpha"
                           type="matrix"
@@ -652,8 +628,8 @@ export function Plan() {
                         y2="69.8306"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop offset="0.0207592" stop-color="#DAE3D9" />
-                        <stop offset="0.649494" stop-color="#425740" />
+                        <stop offset="0.0207592" stopColor="#DAE3D9" />
+                        <stop offset="0.649494" stopColor="#425740" />
                       </linearGradient>
                       <linearGradient
                         id="paint1_linear_804_134828"
@@ -663,8 +639,8 @@ export function Plan() {
                         y2="40.0001"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#425740" />
-                        <stop offset="1" stop-color="#F5F5F5" />
+                        <stop stopColor="#425740" />
+                        <stop offset="1" stopColor="#F5F5F5" />
                       </linearGradient>
                       <linearGradient
                         id="paint2_linear_804_134828"
@@ -674,8 +650,8 @@ export function Plan() {
                         y2="74.5764"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#DAE3D9" />
-                        <stop offset="1" stop-color="#425740" />
+                        <stop stopColor="#DAE3D9" />
+                        <stop offset="1" stopColor="#425740" />
                       </linearGradient>
                       <linearGradient
                         id="paint3_linear_804_134828"
@@ -685,8 +661,8 @@ export function Plan() {
                         y2="69.8306"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop offset="0.0207592" stop-color="#DAE3D9" />
-                        <stop offset="0.649494" stop-color="#425740" />
+                        <stop offset="0.0207592" stopColor="#DAE3D9" />
+                        <stop offset="0.649494" stopColor="#425740" />
                       </linearGradient>
                       <linearGradient
                         id="paint4_linear_804_134828"
@@ -696,8 +672,8 @@ export function Plan() {
                         y2="40.0001"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#425740" />
-                        <stop offset="1" stop-color="#F5F5F5" />
+                        <stop stopColor="#425740" />
+                        <stop offset="1" stopColor="#F5F5F5" />
                       </linearGradient>
                       <linearGradient
                         id="paint5_linear_804_134828"
@@ -707,8 +683,8 @@ export function Plan() {
                         y2="74.5764"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#DAE3D9" />
-                        <stop offset="1" stop-color="#425740" />
+                        <stop stopColor="#DAE3D9" />
+                        <stop offset="1" stopColor="#425740" />
                       </linearGradient>
                       <linearGradient
                         id="paint6_linear_804_134828"
@@ -718,8 +694,8 @@ export function Plan() {
                         y2="69.8306"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop offset="0.0207592" stop-color="#DAE3D9" />
-                        <stop offset="0.649494" stop-color="#425740" />
+                        <stop offset="0.0207592" stopColor="#DAE3D9" />
+                        <stop offset="0.649494" stopColor="#425740" />
                       </linearGradient>
                       <linearGradient
                         id="paint7_linear_804_134828"
@@ -729,8 +705,8 @@ export function Plan() {
                         y2="40.0001"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#425740" />
-                        <stop offset="1" stop-color="#F5F5F5" />
+                        <stop stopColor="#425740" />
+                        <stop offset="1" stopColor="#F5F5F5" />
                       </linearGradient>
                       <linearGradient
                         id="paint8_linear_804_134828"
@@ -740,8 +716,8 @@ export function Plan() {
                         y2="74.5764"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#DAE3D9" />
-                        <stop offset="1" stop-color="#425740" />
+                        <stop stopColor="#DAE3D9" />
+                        <stop offset="1" stopColor="#425740" />
                       </linearGradient>
                       <linearGradient
                         id="paint9_linear_804_134828"
@@ -751,9 +727,9 @@ export function Plan() {
                         y2="43.0173"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#DAE3D9" />
-                        <stop offset="0.586318" stop-color="#425740" />
-                        <stop offset="1" stop-color="#DAE3D9" />
+                        <stop stopColor="#DAE3D9" />
+                        <stop offset="0.586318" stopColor="#425740" />
+                        <stop offset="1" stopColor="#DAE3D9" />
                       </linearGradient>
                       <radialGradient
                         id="paint10_radial_804_134828"
@@ -763,12 +739,8 @@ export function Plan() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(33.3448 56.52) rotate(-60.2272) scale(18.9029 27.2347)"
                       >
-                        <stop stop-color="white" />
-                        <stop
-                          offset="1"
-                          stop-color="white"
-                          stop-opacity="0.46"
-                        />
+                        <stop stopColor="white" />
+                        <stop offset="1" stopColor="white" stopOpacity="0.46" />
                       </radialGradient>
                       <radialGradient
                         id="paint11_radial_804_134828"
@@ -778,8 +750,8 @@ export function Plan() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(39.9985 38.9816) rotate(-90) scale(9.49153 6.32768)"
                       >
-                        <stop stop-color="#425740" />
-                        <stop offset="1" stop-color="#DAE3D9" />
+                        <stop stopColor="#425740" />
+                        <stop offset="1" stopColor="#DAE3D9" />
                       </radialGradient>
                       <clipPath id="clip0_804_134828">
                         <rect
@@ -813,7 +785,7 @@ export function Plan() {
                       />
                     </g>
                     <g filter="url(#filter1_d_804_134831)">
-                      <g clip-path="url(#clip0_804_134831)">
+                      <g clipPath="url(#clip0_804_134831)">
                         <rect
                           x="8"
                           y="12"
@@ -827,8 +799,8 @@ export function Plan() {
                           width="16.6558"
                           height="16.6558"
                           stroke="#425740"
-                          stroke-width="0.169381"
-                          stroke-dasharray="0.28 0.28"
+                          strokeWidth="0.169381"
+                          strokeDasharray="0.28 0.28"
                         />
                         <rect
                           x="8"
@@ -836,7 +808,7 @@ export function Plan() {
                           width="52"
                           height="73.3985"
                           fill="url(#paint1_linear_804_134831)"
-                          fill-opacity="0.2"
+                          fillOpacity="0.2"
                         />
                         <g filter="url(#filter2_i_804_134831)">
                           <rect
@@ -986,7 +958,7 @@ export function Plan() {
                           width="12.6293"
                           height="12.6293"
                           stroke="#111111"
-                          stroke-width="1.28785"
+                          strokeWidth="1.28785"
                         />
                         <path
                           d="M34.2127 59.1448L31.2166 55.0707L45.5391 45.7637L34.2127 59.1448Z"
@@ -1011,7 +983,7 @@ export function Plan() {
                         <path
                           d="M24.8312 51.6948L23.5032 49.889L29.8516 45.7637L24.8312 51.6948Z"
                           fill="#111111"
-                          fill-opacity="0.3"
+                          fillOpacity="0.3"
                         />
                         <path
                           d="M25.1093 50.0303L24.8312 51.6948L29.8516 45.7637L25.1093 50.0303Z"
@@ -1020,7 +992,7 @@ export function Plan() {
                         <path
                           d="M25.1093 50.0303L24.8312 51.6948L29.8516 45.7637L25.1093 50.0303Z"
                           fill="#111111"
-                          fill-opacity="0.5"
+                          fillOpacity="0.5"
                         />
                         <path
                           d="M29.8516 45.7637L27.6061 50.0191L25.1093 50.0303L29.8516 45.7637Z"
@@ -1029,7 +1001,7 @@ export function Plan() {
                         <path
                           d="M29.8516 45.7637L27.6061 50.0191L25.1093 50.0303L29.8516 45.7637Z"
                           fill="#111111"
-                          fill-opacity="0.2"
+                          fillOpacity="0.2"
                         />
                         <path
                           d="M23.4897 49.9025L29.8516 45.7637L21.4955 50.0774L23.4897 49.9025Z"
@@ -1038,7 +1010,7 @@ export function Plan() {
                         <path
                           d="M23.4897 49.9025L29.8516 45.7637L21.4955 50.0774L23.4897 49.9025Z"
                           fill="#111111"
-                          fill-opacity="0.2"
+                          fillOpacity="0.2"
                         />
                         <path
                           d="M25.3937 67.1655L24.0657 65.3597L30.4141 61.2344L25.3937 67.1655Z"
@@ -1047,7 +1019,7 @@ export function Plan() {
                         <path
                           d="M25.3937 67.1655L24.0657 65.3597L30.4141 61.2344L25.3937 67.1655Z"
                           fill="#111111"
-                          fill-opacity="0.3"
+                          fillOpacity="0.3"
                         />
                         <path
                           d="M25.6718 65.501L25.3937 67.1655L30.4141 61.2344L25.6718 65.501Z"
@@ -1056,7 +1028,7 @@ export function Plan() {
                         <path
                           d="M25.6718 65.501L25.3937 67.1655L30.4141 61.2344L25.6718 65.501Z"
                           fill="#111111"
-                          fill-opacity="0.5"
+                          fillOpacity="0.5"
                         />
                         <path
                           d="M30.4141 61.2344L28.1686 65.4898L25.6718 65.501L30.4141 61.2344Z"
@@ -1065,7 +1037,7 @@ export function Plan() {
                         <path
                           d="M30.4141 61.2344L28.1686 65.4898L25.6718 65.501L30.4141 61.2344Z"
                           fill="#111111"
-                          fill-opacity="0.2"
+                          fillOpacity="0.2"
                         />
                         <path
                           d="M24.0522 65.3732L30.4141 61.2344L22.058 65.5481L24.0522 65.3732Z"
@@ -1074,7 +1046,7 @@ export function Plan() {
                         <path
                           d="M24.0522 65.3732L30.4141 61.2344L22.058 65.5481L24.0522 65.3732Z"
                           fill="#111111"
-                          fill-opacity="0.2"
+                          fillOpacity="0.2"
                         />
                         <path
                           d="M41.3156 62.8745L39.9876 61.0687L46.3359 56.9434L41.3156 62.8745Z"
@@ -1083,7 +1055,7 @@ export function Plan() {
                         <path
                           d="M41.3156 62.8745L39.9876 61.0687L46.3359 56.9434L41.3156 62.8745Z"
                           fill="#111111"
-                          fill-opacity="0.3"
+                          fillOpacity="0.3"
                         />
                         <path
                           d="M41.5937 61.21L41.3156 62.8745L46.3359 56.9434L41.5937 61.21Z"
@@ -1092,7 +1064,7 @@ export function Plan() {
                         <path
                           d="M41.5937 61.21L41.3156 62.8745L46.3359 56.9434L41.5937 61.21Z"
                           fill="#111111"
-                          fill-opacity="0.5"
+                          fillOpacity="0.5"
                         />
                         <path
                           d="M46.3359 56.9434L44.0904 61.1988L41.5937 61.21L46.3359 56.9434Z"
@@ -1101,7 +1073,7 @@ export function Plan() {
                         <path
                           d="M46.3359 56.9434L44.0904 61.1988L41.5937 61.21L46.3359 56.9434Z"
                           fill="#111111"
-                          fill-opacity="0.2"
+                          fillOpacity="0.2"
                         />
                         <path
                           d="M39.9741 61.0821L46.3359 56.9434L37.9799 61.2571L39.9741 61.0821Z"
@@ -1110,7 +1082,7 @@ export function Plan() {
                         <path
                           d="M39.9741 61.0821L46.3359 56.9434L37.9799 61.2571L39.9741 61.0821Z"
                           fill="#111111"
-                          fill-opacity="0.2"
+                          fillOpacity="0.2"
                         />
                         <path
                           d="M21.6919 77.719C21.7221 77.719 21.7371 77.7341 21.7371 77.7642V78.0803C21.7371 78.1105 21.7221 78.1255 21.6919 78.1255H21.3667V80.8356C21.3667 80.8657 21.3517 80.8808 21.3216 80.8808H21.0054C20.9753 80.8808 20.9602 80.8657 20.9602 80.8356V78.1255H20.635C20.6049 78.1255 20.5898 78.1105 20.5898 78.0803V77.7642C20.5898 77.7341 20.6049 77.719 20.635 77.719H21.6919Z"
@@ -1295,97 +1267,97 @@ export function Plan() {
                         <path
                           d="M16.6972 39.5676C16.7358 39.5676 16.7551 39.5869 16.7551 39.6255V40.0306C16.7551 40.0692 16.7358 40.0885 16.6972 40.0885H16.2806V43.5608C16.2806 43.5994 16.2613 43.6187 16.2227 43.6187H15.8176C15.779 43.6187 15.7597 43.5994 15.7597 43.5608V40.0885H15.343C15.3044 40.0885 15.2852 40.0692 15.2852 40.0306V39.6255C15.2852 39.5869 15.3044 39.5676 15.343 39.5676H16.6972Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M18.5593 39.5676C18.5978 39.5676 18.6171 39.5869 18.6171 39.6255V43.5608C18.6171 43.5994 18.5978 43.6187 18.5593 43.6187H18.1542C18.1156 43.6187 18.0963 43.5994 18.0963 43.5608V41.7899H17.6217V43.5608C17.6217 43.5994 17.6024 43.6187 17.5639 43.6187H17.1588C17.1202 43.6187 17.1009 43.5994 17.1009 43.5608V39.6255C17.1009 39.5869 17.1202 39.5676 17.1588 39.5676H17.5639C17.6024 39.5676 17.6217 39.5869 17.6217 39.6255V41.2806H18.0963V39.6255C18.0963 39.5869 18.1156 39.5676 18.1542 39.5676H18.5593Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M20.3544 43.1094C20.393 43.1094 20.4122 43.1287 20.4122 43.1673V43.5608C20.4122 43.5994 20.393 43.6187 20.3544 43.6187H19.1391C19.1005 43.6187 19.0812 43.5994 19.0812 43.5608V39.6255C19.0812 39.5869 19.1005 39.5676 19.1391 39.5676H20.3196C20.3582 39.5676 20.3775 39.5869 20.3775 39.6255V40.019C20.3775 40.0576 20.3582 40.0769 20.3196 40.0769H19.602V41.2806H20.2155C20.2541 41.2806 20.2734 41.2999 20.2734 41.3385V41.732C20.2734 41.7706 20.2541 41.7899 20.2155 41.7899H19.602V43.1094H20.3544Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M22.842 41.3848C22.9461 41.5025 23.0185 41.5845 23.059 41.6308C23.0995 41.6771 23.1448 41.734 23.195 41.8015C23.2471 41.869 23.2789 41.9124 23.2905 41.9317C23.302 41.9491 23.3146 41.9819 23.3281 42.0301C23.3435 42.0764 23.3512 42.1121 23.3512 42.1371C23.3512 42.1603 23.3512 42.2027 23.3512 42.2645V42.9589C23.3512 43.1596 23.2856 43.3293 23.1545 43.4682C23.0233 43.6071 22.8458 43.6765 22.622 43.6765C22.3983 43.6765 22.2208 43.6071 22.0896 43.4682C21.9584 43.3293 21.8929 43.1596 21.8929 42.9589V42.6117C21.8929 42.5731 21.9121 42.5538 21.9507 42.5538H22.3558C22.3944 42.5538 22.4137 42.5731 22.4137 42.6117V42.9589C22.4137 43.0168 22.4311 43.066 22.4658 43.1065C22.5005 43.147 22.5526 43.1673 22.622 43.1673C22.6915 43.1673 22.7436 43.147 22.7783 43.1065C22.813 43.066 22.8304 43.0168 22.8304 42.9589V42.3223C22.8304 42.2606 22.8236 42.2124 22.8101 42.1777C22.7986 42.141 22.7629 42.0841 22.7031 42.0069C22.6433 41.9298 22.5391 41.8111 22.3906 41.651C22.1514 41.3945 22.0086 41.2295 21.9623 41.1562C21.916 41.081 21.8929 40.9681 21.8929 40.8177V40.2274C21.8929 40.0268 21.9565 39.857 22.0838 39.7181C22.2131 39.5792 22.3886 39.5098 22.6105 39.5098C22.8323 39.5098 23.0069 39.5792 23.1342 39.7181C23.2635 39.857 23.3281 40.0268 23.3281 40.2274V40.5746C23.3281 40.6132 23.3088 40.6325 23.2702 40.6325H22.8651C22.8265 40.6325 22.8072 40.6132 22.8072 40.5746V40.2274C22.8072 40.1676 22.7918 40.1184 22.7609 40.0798C22.7301 40.0393 22.6799 40.019 22.6105 40.019C22.541 40.019 22.4909 40.0393 22.46 40.0798C22.4291 40.1184 22.4137 40.1676 22.4137 40.2274V40.7251C22.4137 40.7521 22.4137 40.7714 22.4137 40.7829C22.4156 40.7945 22.4166 40.809 22.4166 40.8264C22.4166 40.8437 22.4195 40.8582 22.4253 40.8698C22.4311 40.8813 22.4359 40.8939 22.4397 40.9074C22.4436 40.9209 22.4523 40.9363 22.4658 40.9537C22.4812 40.9691 22.4938 40.9855 22.5034 41.0029C22.515 41.0183 22.5343 41.0405 22.5613 41.0694C22.5883 41.0983 22.6114 41.1254 22.6307 41.1504C22.6519 41.1736 22.6838 41.2083 22.7262 41.2546C22.7687 41.3009 22.8072 41.3443 22.842 41.3848Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M25.0615 39.5676C25.1001 39.5676 25.1194 39.5869 25.1194 39.6255V40.0306C25.1194 40.0692 25.1001 40.0885 25.0615 40.0885H24.6448V43.5608C24.6448 43.5994 24.6256 43.6187 24.587 43.6187H24.1819C24.1433 43.6187 24.124 43.5994 24.124 43.5608V40.0885H23.7073C23.6687 40.0885 23.6495 40.0692 23.6495 40.0306V39.6255C23.6495 39.5869 23.6687 39.5676 23.7073 39.5676H25.0615Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M27.0277 43.5376C27.0335 43.5608 27.0287 43.5801 27.0133 43.5955C26.9998 43.611 26.9814 43.6187 26.9583 43.6187H26.5647C26.5358 43.6187 26.5165 43.6032 26.5069 43.5724L25.9947 41.7899H25.986V43.5608C25.986 43.5994 25.9667 43.6187 25.9282 43.6187H25.5231C25.4845 43.6187 25.4652 43.5994 25.4652 43.5608V39.6255C25.4652 39.5869 25.4845 39.5676 25.5231 39.5676H26.1944C26.4181 39.5676 26.5956 39.6371 26.7268 39.776C26.858 39.9149 26.9236 40.0846 26.9236 40.2852V41.0723C26.9236 41.217 26.8869 41.3491 26.8136 41.4687C26.7422 41.5864 26.6409 41.6732 26.5098 41.7292L27.0277 43.5376ZM25.986 40.0769V41.2806H26.1944C26.2638 41.2806 26.3159 41.2604 26.3506 41.2199C26.3853 41.1794 26.4027 41.1302 26.4027 41.0723V40.2852C26.4027 40.2274 26.3853 40.1782 26.3506 40.1377C26.3159 40.0972 26.2638 40.0769 26.1944 40.0769H25.986Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M28.8406 43.5492C28.8463 43.5955 28.8271 43.6187 28.7827 43.6187H28.3544C28.3197 43.6187 28.3004 43.5994 28.2966 43.5608L28.2445 43.0168H27.8625L27.8104 43.5608C27.8066 43.5994 27.7873 43.6187 27.7526 43.6187H27.3243C27.2799 43.6187 27.2607 43.5955 27.2664 43.5492L27.7873 39.6139C27.7931 39.5831 27.8124 39.5676 27.8452 39.5676H28.2618C28.2946 39.5676 28.3139 39.5831 28.3197 39.6139L28.8406 43.5492ZM27.9117 42.5075H28.1953L28.0535 41.0202L27.9117 42.5075Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M30.3107 39.5676C30.3493 39.5676 30.3686 39.5869 30.3686 39.6255V40.0306C30.3686 40.0692 30.3493 40.0885 30.3107 40.0885H29.894V43.5608C29.894 43.5994 29.8747 43.6187 29.8361 43.6187H29.431C29.3925 43.6187 29.3732 43.5994 29.3732 43.5608V40.0885H28.9565C28.9179 40.0885 28.8986 40.0692 28.8986 40.0306V39.6255C28.8986 39.5869 28.9179 39.5676 28.9565 39.5676H30.3107Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M31.9875 43.1094C32.0261 43.1094 32.0454 43.1287 32.0454 43.1673V43.5608C32.0454 43.5994 32.0261 43.6187 31.9875 43.6187H30.7722C30.7336 43.6187 30.7143 43.5994 30.7143 43.5608V39.6255C30.7143 39.5869 30.7336 39.5676 30.7722 39.5676H31.9528C31.9914 39.5676 32.0107 39.5869 32.0107 39.6255V40.019C32.0107 40.0576 31.9914 40.0769 31.9528 40.0769H31.2352V41.2806H31.8486C31.8872 41.2806 31.9065 41.2999 31.9065 41.3385V41.732C31.9065 41.7706 31.8872 41.7899 31.8486 41.7899H31.2352V43.1094H31.9875Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M33.364 40.6325C33.3254 40.6325 33.3061 40.6132 33.3061 40.5746V40.2274C33.3061 40.1695 33.2887 40.1203 33.254 40.0798C33.2193 40.0393 33.1672 40.019 33.0978 40.019C33.0283 40.019 32.9762 40.0393 32.9415 40.0798C32.9068 40.1203 32.8894 40.1695 32.8894 40.2274V42.9589C32.8894 43.0168 32.9068 43.066 32.9415 43.1065C32.9762 43.147 33.0283 43.1673 33.0978 43.1673C33.1672 43.1673 33.2193 43.147 33.254 43.1065C33.2887 43.066 33.3061 43.0168 33.3061 42.9589V41.7899H33.1556C33.1171 41.7899 33.0978 41.7706 33.0978 41.732V41.3385C33.0978 41.2999 33.1171 41.2806 33.1556 41.2806H33.7691C33.8077 41.2806 33.8269 41.2999 33.8269 41.3385V42.9589C33.8269 43.1596 33.7614 43.3293 33.6302 43.4682C33.499 43.6071 33.3215 43.6765 33.0978 43.6765C32.874 43.6765 32.6965 43.6071 32.5653 43.4682C32.4342 43.3293 32.3686 43.1596 32.3686 42.9589V40.2274C32.3686 40.0268 32.4342 39.857 32.5653 39.7181C32.6965 39.5792 32.874 39.5098 33.0978 39.5098C33.3215 39.5098 33.499 39.5792 33.6302 39.7181C33.7614 39.857 33.8269 40.0268 33.8269 40.2274V40.5746C33.8269 40.6132 33.8077 40.6325 33.7691 40.6325H33.364Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M35.6761 39.5676C35.6993 39.5676 35.7157 39.5754 35.7253 39.5908C35.7369 39.6062 35.7398 39.6255 35.734 39.6487L35.19 41.9028V43.5608C35.19 43.5994 35.1707 43.6187 35.1321 43.6187H34.727C34.6885 43.6187 34.6692 43.5994 34.6692 43.5608V41.9028L34.1252 39.6487C34.1194 39.6255 34.1213 39.6062 34.131 39.5908C34.1425 39.5754 34.1599 39.5676 34.183 39.5676H34.5881C34.6306 39.5676 34.6537 39.5869 34.6576 39.6255L34.9296 41.0983L35.2016 39.6255C35.2054 39.5869 35.2286 39.5676 35.271 39.5676H35.6761Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M37.4257 39.7181C37.5568 39.5792 37.7343 39.5098 37.9581 39.5098C38.1819 39.5098 38.3593 39.5792 38.4905 39.7181C38.6217 39.857 38.6873 40.0268 38.6873 40.2274V42.9589C38.6873 43.1596 38.6217 43.3293 38.4905 43.4682C38.3593 43.6071 38.1819 43.6765 37.9581 43.6765C37.7343 43.6765 37.5568 43.6071 37.4257 43.4682C37.2945 43.3293 37.2289 43.1596 37.2289 42.9589V40.2274C37.2289 40.0268 37.2945 39.857 37.4257 39.7181ZM37.8018 43.1065C37.8366 43.147 37.8886 43.1673 37.9581 43.1673C38.0275 43.1673 38.0796 43.147 38.1143 43.1065C38.1491 43.066 38.1664 43.0168 38.1664 42.9589V40.2274C38.1664 40.1695 38.1491 40.1203 38.1143 40.0798C38.0796 40.0393 38.0275 40.019 37.9581 40.019C37.8886 40.019 37.8366 40.0393 37.8018 40.0798C37.7671 40.1203 37.7498 40.1695 37.7498 40.2274V42.9589C37.7498 43.0168 37.7671 43.066 37.8018 43.1065Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M40.3668 39.5676C40.4054 39.5676 40.4247 39.5869 40.4247 39.6255V40.019C40.4247 40.0576 40.4054 40.0769 40.3668 40.0769H39.6492V41.2806H40.2627C40.3012 41.2806 40.3205 41.2999 40.3205 41.3385V41.732C40.3205 41.7706 40.3012 41.7899 40.2627 41.7899H39.6492V43.5608C39.6492 43.5994 39.6299 43.6187 39.5913 43.6187H39.1862C39.1477 43.6187 39.1284 43.5994 39.1284 43.5608V39.6255C39.1284 39.5869 39.1477 39.5676 39.1862 39.5676H40.3668Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M42.9038 40.6325C42.8652 40.6325 42.8459 40.6132 42.8459 40.5746V40.2274C42.8459 40.1695 42.8286 40.1203 42.7938 40.0798C42.7591 40.0393 42.707 40.019 42.6376 40.019C42.5681 40.019 42.516 40.0393 42.4813 40.0798C42.4466 40.1203 42.4292 40.1695 42.4292 40.2274V42.9589C42.4292 43.0168 42.4466 43.066 42.4813 43.1065C42.516 43.147 42.5681 43.1673 42.6376 43.1673C42.707 43.1673 42.7591 43.147 42.7938 43.1065C42.8286 43.066 42.8459 43.0168 42.8459 42.9589V42.6117C42.8459 42.5731 42.8652 42.5538 42.9038 42.5538H43.3089C43.3475 42.5538 43.3668 42.5731 43.3668 42.6117V42.9589C43.3668 43.1596 43.3012 43.3293 43.17 43.4682C43.0388 43.6071 42.8613 43.6765 42.6376 43.6765C42.4138 43.6765 42.2363 43.6071 42.1052 43.4682C41.974 43.3293 41.9084 43.1596 41.9084 42.9589V40.2274C41.9084 40.0268 41.974 39.857 42.1052 39.7181C42.2363 39.5792 42.4138 39.5098 42.6376 39.5098C42.8613 39.5098 43.0388 39.5792 43.17 39.7181C43.3012 39.857 43.3668 40.0268 43.3668 40.2274V40.5746C43.3668 40.6132 43.3475 40.6325 43.3089 40.6325H42.9038Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M45.2662 39.5676C45.3048 39.5676 45.3241 39.5869 45.3241 39.6255V43.5608C45.3241 43.5994 45.3048 43.6187 45.2662 43.6187H44.8611C44.8225 43.6187 44.8033 43.5994 44.8033 43.5608V41.7899H44.3287V43.5608C44.3287 43.5994 44.3094 43.6187 44.2708 43.6187H43.8657C43.8271 43.6187 43.8079 43.5994 43.8079 43.5608V39.6255C43.8079 39.5869 43.8271 39.5676 43.8657 39.5676H44.2708C44.3094 39.5676 44.3287 39.5869 44.3287 39.6255V41.2806H44.8033V39.6255C44.8033 39.5869 44.8225 39.5676 44.8611 39.5676H45.2662Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M47.2465 43.5492C47.2523 43.5955 47.233 43.6187 47.1887 43.6187H46.7604C46.7257 43.6187 46.7064 43.5994 46.7025 43.5608L46.6505 43.0168H46.2685L46.2164 43.5608C46.2126 43.5994 46.1933 43.6187 46.1585 43.6187H45.7303C45.6859 43.6187 45.6666 43.5955 45.6724 43.5492L46.1933 39.6139C46.199 39.5831 46.2183 39.5676 46.2511 39.5676H46.6678C46.7006 39.5676 46.7199 39.5831 46.7257 39.6139L47.2465 43.5492ZM46.3177 42.5075H46.6013L46.4595 41.0202L46.3177 42.5075Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M49.0234 39.5676C49.062 39.5676 49.0813 39.5869 49.0813 39.6255V43.5608C49.0813 43.5994 49.062 43.6187 49.0234 43.6187H48.6183C48.5874 43.6187 48.5681 43.6032 48.5604 43.5724L48.0859 41.4224V43.5608C48.0859 43.5994 48.0666 43.6187 48.028 43.6187H47.6229C47.5843 43.6187 47.565 43.5994 47.565 43.5608V39.6255C47.565 39.5869 47.5843 39.5676 47.6229 39.5676H48.0396C48.0646 39.5676 48.0801 39.5792 48.0859 39.6024L48.5604 41.8102V39.6255C48.5604 39.5869 48.5797 39.5676 48.6183 39.5676H49.0234Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M50.5176 40.6325C50.479 40.6325 50.4597 40.6132 50.4597 40.5746V40.2274C50.4597 40.1695 50.4423 40.1203 50.4076 40.0798C50.3729 40.0393 50.3208 40.019 50.2513 40.019C50.1819 40.019 50.1298 40.0393 50.0951 40.0798C50.0604 40.1203 50.043 40.1695 50.043 40.2274V42.9589C50.043 43.0168 50.0604 43.066 50.0951 43.1065C50.1298 43.147 50.1819 43.1673 50.2513 43.1673C50.3208 43.1673 50.3729 43.147 50.4076 43.1065C50.4423 43.066 50.4597 43.0168 50.4597 42.9589V41.7899H50.3092C50.2706 41.7899 50.2513 41.7706 50.2513 41.732V41.3385C50.2513 41.2999 50.2706 41.2806 50.3092 41.2806H50.9227C50.9612 41.2806 50.9805 41.2999 50.9805 41.3385V42.9589C50.9805 43.1596 50.9149 43.3293 50.7838 43.4682C50.6526 43.6071 50.4751 43.6765 50.2513 43.6765C50.0276 43.6765 49.8501 43.6071 49.7189 43.4682C49.5877 43.3293 49.5222 43.1596 49.5222 42.9589V40.2274C49.5222 40.0268 49.5877 39.857 49.7189 39.7181C49.8501 39.5792 50.0276 39.5098 50.2513 39.5098C50.4751 39.5098 50.6526 39.5792 50.7838 39.7181C50.9149 39.857 50.9805 40.0268 50.9805 40.2274V40.5746C50.9805 40.6132 50.9612 40.6325 50.9227 40.6325H50.5176Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                         <path
                           d="M52.6948 43.1094C52.7334 43.1094 52.7527 43.1287 52.7527 43.1673V43.5608C52.7527 43.5994 52.7334 43.6187 52.6948 43.6187H51.4795C51.4409 43.6187 51.4216 43.5994 51.4216 43.5608V39.6255C51.4216 39.5869 51.4409 39.5676 51.4795 39.5676H52.6601C52.6987 39.5676 52.718 39.5869 52.718 39.6255V40.019C52.718 40.0576 52.6987 40.0769 52.6601 40.0769H51.9425V41.2806H52.5559C52.5945 41.2806 52.6138 41.2999 52.6138 41.3385V41.732C52.6138 41.7706 52.5945 41.7899 52.5559 41.7899H51.9425V43.1094H52.6948Z"
                           stroke="#1C1C1C"
-                          stroke-width="0.0282302"
+                          strokeWidth="0.0282302"
                         />
                       </g>
                       <rect
@@ -1394,7 +1366,7 @@ export function Plan() {
                         width="51.7"
                         height="73.0985"
                         stroke="#1D261C"
-                        stroke-width="0.3"
+                        strokeWidth="0.3"
                       />
                     </g>
                     <defs>
@@ -1405,12 +1377,9 @@ export function Plan() {
                         width="62.2839"
                         height="56.1135"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                           mode="normal"
                           in="SourceGraphic"
@@ -1448,12 +1417,9 @@ export function Plan() {
                         width="60"
                         height="81.3984"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feColorMatrix
                           in="SourceAlpha"
                           type="matrix"
@@ -1486,12 +1452,9 @@ export function Plan() {
                         width="52.5806"
                         height="6.44319"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                           mode="normal"
                           in="SourceGraphic"
@@ -1529,12 +1492,9 @@ export function Plan() {
                         width="34.6701"
                         height="2.86842"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                           mode="normal"
                           in="SourceGraphic"
@@ -1572,12 +1532,9 @@ export function Plan() {
                         width="1.82632"
                         height="2.7942"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                           mode="normal"
                           in="SourceGraphic"
@@ -1615,12 +1572,9 @@ export function Plan() {
                         width="1.82632"
                         height="2.7942"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                           mode="normal"
                           in="SourceGraphic"
@@ -1658,12 +1612,9 @@ export function Plan() {
                         width="45.5806"
                         height="14.6854"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                           mode="normal"
                           in="SourceGraphic"
@@ -1702,8 +1653,8 @@ export function Plan() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(45.7908 23.318) rotate(90) scale(66.4782 24.9682)"
                       >
-                        <stop offset="0.474504" stop-color="#425740" />
-                        <stop offset="1" stop-color="#2D3B2B" />
+                        <stop offset="0.474504" stopColor="#425740" />
+                        <stop offset="1" stopColor="#2D3B2B" />
                       </radialGradient>
                       <linearGradient
                         id="paint1_linear_804_134831"
@@ -1713,12 +1664,8 @@ export function Plan() {
                         y2="128.647"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop offset="0.172067" stop-color="#FDFDFD" />
-                        <stop
-                          offset="1"
-                          stop-color="#111111"
-                          stop-opacity="0"
-                        />
+                        <stop offset="0.172067" stopColor="#FDFDFD" />
+                        <stop offset="1" stopColor="#111111" stopOpacity="0" />
                       </linearGradient>
                       <radialGradient
                         id="paint2_radial_804_134831"
@@ -1728,8 +1675,8 @@ export function Plan() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(33.7908 71.867) rotate(90) scale(7.93985 24.9682)"
                       >
-                        <stop offset="0.474504" stop-color="#425740" />
-                        <stop offset="1" stop-color="#2D3B2B" />
+                        <stop offset="0.474504" stopColor="#425740" />
+                        <stop offset="1" stopColor="#2D3B2B" />
                       </radialGradient>
                       <radialGradient
                         id="paint3_radial_804_134831"
@@ -1739,8 +1686,8 @@ export function Plan() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(33.8184 24.1279) rotate(90) scale(18.4782 21.6065)"
                       >
-                        <stop offset="0.474504" stop-color="#425740" />
-                        <stop offset="1" stop-color="#2D3B2B" />
+                        <stop offset="0.474504" stopColor="#425740" />
+                        <stop offset="1" stopColor="#2D3B2B" />
                       </radialGradient>
                       <radialGradient
                         id="paint4_radial_804_134831"
@@ -1750,8 +1697,8 @@ export function Plan() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(33.8184 24.1279) rotate(90) scale(18.4782 21.6065)"
                       >
-                        <stop offset="0.474504" stop-color="#425740" />
-                        <stop offset="1" stop-color="#2D3B2B" />
+                        <stop offset="0.474504" stopColor="#425740" />
+                        <stop offset="1" stopColor="#2D3B2B" />
                       </radialGradient>
                       <radialGradient
                         id="paint5_radial_804_134831"
@@ -1761,8 +1708,8 @@ export function Plan() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(33.8184 24.1279) rotate(90) scale(18.4782 21.6065)"
                       >
-                        <stop offset="0.474504" stop-color="#425740" />
-                        <stop offset="1" stop-color="#2D3B2B" />
+                        <stop offset="0.474504" stopColor="#425740" />
+                        <stop offset="1" stopColor="#2D3B2B" />
                       </radialGradient>
                       <radialGradient
                         id="paint6_radial_804_134831"
@@ -1772,8 +1719,8 @@ export function Plan() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(33.8184 24.1279) rotate(90) scale(18.4782 21.6065)"
                       >
-                        <stop offset="0.474504" stop-color="#425740" />
-                        <stop offset="1" stop-color="#2D3B2B" />
+                        <stop offset="0.474504" stopColor="#425740" />
+                        <stop offset="1" stopColor="#2D3B2B" />
                       </radialGradient>
                       <radialGradient
                         id="paint7_radial_804_134831"
@@ -1783,8 +1730,8 @@ export function Plan() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(33.8184 24.1279) rotate(90) scale(18.4782 21.6065)"
                       >
-                        <stop offset="0.474504" stop-color="#425740" />
-                        <stop offset="1" stop-color="#2D3B2B" />
+                        <stop offset="0.474504" stopColor="#425740" />
+                        <stop offset="1" stopColor="#2D3B2B" />
                       </radialGradient>
                       <radialGradient
                         id="paint8_radial_804_134831"
@@ -1794,8 +1741,8 @@ export function Plan() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(33.8184 24.1279) rotate(90) scale(18.4782 21.6065)"
                       >
-                        <stop offset="0.474504" stop-color="#425740" />
-                        <stop offset="1" stop-color="#2D3B2B" />
+                        <stop offset="0.474504" stopColor="#425740" />
+                        <stop offset="1" stopColor="#2D3B2B" />
                       </radialGradient>
                       <clipPath id="clip0_804_134831">
                         <rect
@@ -1832,7 +1779,7 @@ export function Plan() {
                       <path
                         d="M5.42188 15.4751C5.42188 9.92392 9.92197 5.42383 15.4731 5.42383H63.7191C69.2702 5.42383 73.7703 9.92392 73.7703 15.4751V38.4748C73.7703 39.194 73.4846 39.8838 72.976 40.3923L56.6832 56.6852L40.3904 72.978C39.8818 73.4866 39.192 73.7723 38.4728 73.7723H15.4731C9.92197 73.7723 5.42188 69.2722 5.42188 63.721V15.4751Z"
                         fill="url(#paint1_radial_804_134835)"
-                        fill-opacity="0.7"
+                        fillOpacity="0.7"
                       />
                     </g>
                     <g filter="url(#filter1_b_804_134835)">
@@ -1868,12 +1815,9 @@ export function Plan() {
                         width="109.026"
                         height="109.026"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feGaussianBlur
                           in="BackgroundImageFix"
                           stdDeviation="10.1695"
@@ -1897,12 +1841,9 @@ export function Plan() {
                         width="89.7036"
                         height="89.7036"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feGaussianBlur
                           in="BackgroundImageFix"
                           stdDeviation="5.33898"
@@ -1926,12 +1867,9 @@ export function Plan() {
                         width="31.9267"
                         height="31.9287"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feColorMatrix
                           in="SourceAlpha"
                           type="matrix"
@@ -1967,24 +1905,20 @@ export function Plan() {
                       >
                         <stop
                           offset="0.125"
-                          stop-color="#CB4A22"
-                          stop-opacity="0"
+                          stopColor="#CB4A22"
+                          stopOpacity="0"
                         />
                         <stop
                           offset="0.151042"
-                          stop-color="#425740"
-                          stop-opacity="0.045"
+                          stopColor="#425740"
+                          stopOpacity="0.045"
                         />
                         <stop
                           offset="0.526042"
-                          stop-color="#425740"
-                          stop-opacity="0.7"
+                          stopColor="#425740"
+                          stopOpacity="0.7"
                         />
-                        <stop
-                          offset="1"
-                          stop-color="#425740"
-                          stop-opacity="0"
-                        />
+                        <stop offset="1" stopColor="#425740" stopOpacity="0" />
                       </linearGradient>
                       <radialGradient
                         id="paint1_radial_804_134835"
@@ -1994,8 +1928,8 @@ export function Plan() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(15.6363 71.5347) rotate(-50.9773) scale(53.676 87.7663)"
                       >
-                        <stop stop-color="white" />
-                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                        <stop stopColor="white" />
+                        <stop offset="1" stopColor="white" stopOpacity="0" />
                       </radialGradient>
                       <linearGradient
                         id="paint2_linear_804_134835"
@@ -2007,14 +1941,14 @@ export function Plan() {
                       >
                         <stop
                           offset="0.0136312"
-                          stop-color="#DAE3D9"
-                          stop-opacity="0"
+                          stopColor="#DAE3D9"
+                          stopOpacity="0"
                         />
-                        <stop offset="0.600063" stop-color="#425740" />
+                        <stop offset="0.600063" stopColor="#425740" />
                         <stop
                           offset="1"
-                          stop-color="#DAE3D9"
-                          stop-opacity="0.1"
+                          stopColor="#DAE3D9"
+                          stopOpacity="0.1"
                         />
                       </linearGradient>
                     </defs>
@@ -2056,12 +1990,12 @@ export function Plan() {
                       <path
                         d="M74.5744 37.3826C74.5744 32.8084 70.8663 29.1003 66.2922 29.1003H44.3601C42.5209 29.1003 40.8256 28.1053 39.929 26.4994C39.0324 24.8935 37.3371 23.8984 35.4979 23.8984H13.7041C9.12995 23.8984 5.42188 27.6065 5.42188 32.1807V65.406C5.42188 69.9802 9.12996 73.6883 13.7041 73.6883H66.2922C70.8663 73.6883 74.5744 69.9802 74.5744 65.406V37.3826Z"
                         fill="url(#paint0_radial_804_134838)"
-                        fill-opacity="0.4"
+                        fillOpacity="0.4"
                       />
                       <path
                         d="M74.5744 37.3826C74.5744 32.8084 70.8663 29.1003 66.2922 29.1003H44.3601C42.5209 29.1003 40.8256 28.1053 39.929 26.4994C39.0324 24.8935 37.3371 23.8984 35.4979 23.8984H13.7041C9.12995 23.8984 5.42188 27.6065 5.42188 32.1807V65.406C5.42188 69.9802 9.12996 73.6883 13.7041 73.6883H66.2922C70.8663 73.6883 74.5744 69.9802 74.5744 65.406V37.3826Z"
                         fill="url(#paint1_linear_804_134838)"
-                        fill-opacity="0.6"
+                        fillOpacity="0.6"
                       />
                     </g>
                     <path
@@ -2069,7 +2003,7 @@ export function Plan() {
                       clipRule="evenodd"
                       d="M66.2922 29.266H44.3601C42.4608 29.266 40.7102 28.2384 39.7844 26.5801C38.917 25.0267 37.2771 24.0641 35.4979 24.0641H13.7041C9.22144 24.0641 5.58752 27.698 5.58752 32.1807V65.406C5.58752 69.8887 9.22144 73.5226 13.7041 73.5226H66.2922C70.7749 73.5226 74.4088 69.8887 74.4088 65.406V37.3826C74.4088 32.8999 70.7748 29.266 66.2922 29.266ZM66.2922 29.1003C70.8663 29.1003 74.5744 32.8084 74.5744 37.3826V65.406C74.5744 69.9802 70.8663 73.6883 66.2922 73.6883H13.7041C9.12996 73.6883 5.42188 69.9802 5.42188 65.406V32.1807C5.42188 27.6065 9.12995 23.8984 13.7041 23.8984H35.4979C37.3371 23.8984 39.0324 24.8935 39.929 26.4994C40.8256 28.1053 42.5209 29.1003 44.3601 29.1003H66.2922Z"
                       stroke="#8CA88A"
-                      stroke-width="0.2"
+                      strokeWidth="0.2"
                     />
                     <defs>
                       <filter
@@ -2079,12 +2013,9 @@ export function Plan() {
                         width="93.8497"
                         height="74.4864"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                       >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feGaussianBlur
                           in="BackgroundImageFix"
                           stdDeviation="6.17433"
@@ -2109,8 +2040,8 @@ export function Plan() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(-0.00185621 81.6957) rotate(-33.6229) scale(80.1965 133.105)"
                       >
-                        <stop stop-color="white" />
-                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                        <stop stopColor="white" />
+                        <stop offset="1" stopColor="white" stopOpacity="0" />
                       </radialGradient>
                       <linearGradient
                         id="paint1_linear_804_134838"
@@ -2122,10 +2053,10 @@ export function Plan() {
                       >
                         <stop
                           offset="0.125"
-                          stop-color="#8CA88A"
-                          stop-opacity="0.34"
+                          stopColor="#8CA88A"
+                          stopOpacity="0.34"
                         />
-                        <stop offset="0.641023" stop-color="#425740" />
+                        <stop offset="0.641023" stopColor="#425740" />
                       </linearGradient>
                     </defs>
                   </svg>
@@ -2159,12 +2090,12 @@ export function Plan() {
                   <path
                     d="M16.5 77.6244C16.5 62.008 29.9694 49.7973 45.511 51.3245L145.051 61.1059C158.58 62.4353 168.894 73.8118 168.894 87.4059V136.993C168.894 150.703 158.409 162.136 144.75 163.321L45.2094 171.951C29.7715 173.29 16.5 161.119 16.5 145.624V77.6244Z"
                     fill="url(#paint0_radial_804_133879)"
-                    fill-opacity="0.4"
+                    fillOpacity="0.4"
                   />
                   <path
                     d="M16.5 77.6244C16.5 62.008 29.9694 49.7973 45.511 51.3245L145.051 61.1059C158.58 62.4353 168.894 73.8118 168.894 87.4059V136.993C168.894 150.703 158.409 162.136 144.75 163.321L45.2094 171.951C29.7715 173.29 16.5 161.119 16.5 145.624V77.6244Z"
                     fill="url(#paint1_linear_804_133879)"
-                    fill-opacity="0.6"
+                    fillOpacity="0.6"
                   />
                 </g>
                 <g filter="url(#filter1_b_804_133879)">
@@ -2183,9 +2114,9 @@ export function Plan() {
                     width="177.092"
                     height="145.555"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="6.17433"
@@ -2209,9 +2140,9 @@ export function Plan() {
                     width="220.066"
                     height="188.529"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="16.9179"
@@ -2236,8 +2167,8 @@ export function Plan() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(4.54755 191.489) rotate(-36.2209) scale(182.417 313.02)"
                   >
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0" />
                   </radialGradient>
                   <linearGradient
                     id="paint1_linear_804_133879"
@@ -2249,10 +2180,10 @@ export function Plan() {
                   >
                     <stop
                       offset="0.125"
-                      stop-color="#8CA88A"
-                      stop-opacity="0.34"
+                      stopColor="#8CA88A"
+                      stopOpacity="0.34"
                     />
-                    <stop offset="0.641023" stop-color="#425740" />
+                    <stop offset="0.641023" stopColor="#425740" />
                   </linearGradient>
                   <linearGradient
                     id="paint2_linear_804_133879"
@@ -2262,9 +2193,9 @@ export function Plan() {
                     y2="129.37"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.0136312" stop-color="#8CA88A" />
-                    <stop offset="0.600063" stop-color="#425740" />
-                    <stop offset="1" stop-color="#8CA88A" />
+                    <stop offset="0.0136312" stopColor="#8CA88A" />
+                    <stop offset="0.600063" stopColor="#425740" />
+                    <stop offset="1" stopColor="#8CA88A" />
                   </linearGradient>
                 </defs>
               </svg>

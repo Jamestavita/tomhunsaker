@@ -27,7 +27,16 @@ export const createInnovationUser = async (req, res) => {
       plan,
     });
 
-    // if (plan === "Free") NodeMailer({ name, email, level, plan });
+    if (plan === "Free")
+      NodeMailer({
+        name,
+        email,
+        assessment_info,
+        concept: "Innovation",
+        level,
+        plan,
+      });
+
 
     res.status(201).json(data);
   } catch (error) {

@@ -31,7 +31,7 @@ export default function ExecutionOverview() {
                 r="94.9985"
                 transform="rotate(30 115.999 116)"
                 stroke="#DFBF34"
-                stroke-width="10.5455"
+                strokeWidth="10.5455"
               />
             </g>
             <g filter="url(#filter1_i_739_109247)">
@@ -41,14 +41,14 @@ export default function ExecutionOverview() {
                 r="75.3375"
                 transform="rotate(45 116 116.001)"
                 stroke="#DFBF34"
-                stroke-width="10.5455"
+                strokeWidth="10.5455"
               />
             </g>
             <g filter="url(#filter2_i_739_109247)">
               <path
                 d="M143.834 164.217C117.204 179.592 83.1532 170.468 67.7785 143.838C52.4039 117.208 61.5279 83.1572 88.1575 67.7826C114.787 52.408 148.838 61.532 164.213 88.1616C179.588 114.791 170.464 148.842 143.834 164.217Z"
                 stroke="#DFBF34"
-                stroke-width="10.5455"
+                strokeWidth="10.5455"
               />
             </g>
             <g filter="url(#filter3_i_739_109247)">
@@ -58,7 +58,7 @@ export default function ExecutionOverview() {
                 r="36.0154"
                 transform="rotate(90 116.001 116.001)"
                 stroke="#DFBF34"
-                stroke-width="10.5455"
+                strokeWidth="10.5455"
               />
             </g>
             <g filter="url(#filter4_f_739_109247)">
@@ -107,9 +107,9 @@ export default function ExecutionOverview() {
                 width="200.578"
                 height="204.53"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -147,9 +147,9 @@ export default function ExecutionOverview() {
                 width="161.219"
                 height="165.175"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -187,9 +187,9 @@ export default function ExecutionOverview() {
                 width="121.914"
                 height="125.873"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -227,9 +227,9 @@ export default function ExecutionOverview() {
                 width="82.5781"
                 height="86.5307"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -267,9 +267,9 @@ export default function ExecutionOverview() {
                 width="82.8033"
                 height="82.7999"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -288,9 +288,9 @@ export default function ExecutionOverview() {
                 width="119.503"
                 height="119.37"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -323,9 +323,9 @@ export default function ExecutionOverview() {
                 width="150.878"
                 height="158.698"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -358,9 +358,9 @@ export default function ExecutionOverview() {
                 width="198.128"
                 height="198.026"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -393,9 +393,9 @@ export default function ExecutionOverview() {
                 width="237.487"
                 height="237.349"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -428,9 +428,9 @@ export default function ExecutionOverview() {
                 width="23.5938"
                 height="28.866"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -469,8 +469,8 @@ export default function ExecutionOverview() {
                 y2="150.407"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#F9F2D7" />
-                <stop offset="1" stop-color="#DFBF34" />
+                <stop stopColor="#F9F2D7" />
+                <stop offset="1" stopColor="#DFBF34" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_739_109247"
@@ -480,8 +480,8 @@ export default function ExecutionOverview() {
                 y2="178.11"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#F9F2D7" />
-                <stop offset="1" stop-color="#DFBF34" />
+                <stop stopColor="#F9F2D7" />
+                <stop offset="1" stopColor="#DFBF34" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_739_109247"
@@ -491,8 +491,8 @@ export default function ExecutionOverview() {
                 y2="203.229"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#F9F2D7" />
-                <stop offset="1" stop-color="#DFBF34" />
+                <stop stopColor="#F9F2D7" />
+                <stop offset="1" stopColor="#DFBF34" />
               </linearGradient>
               <linearGradient
                 id="paint3_linear_739_109247"
@@ -502,8 +502,8 @@ export default function ExecutionOverview() {
                 y2="224.525"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#F9F2D7" />
-                <stop offset="1" stop-color="#DFBF34" />
+                <stop stopColor="#F9F2D7" />
+                <stop offset="1" stopColor="#DFBF34" />
               </linearGradient>
             </defs>
           </svg>
@@ -516,7 +516,7 @@ export default function ExecutionOverview() {
             xmlns="http://www.w3.org/2000/svg"
             className="hidden md:grid lg:hidden absolute right-0 md:self-center"
           >
-            <g clip-path="url(#clip0_739_109239)">
+            <g clipPath="url(#clip0_739_109239)">
               <rect width="296" height="296" rx="148" fill="#DFBF34" />
               <g filter="url(#filter0_i_739_109239)">
                 <circle
@@ -525,7 +525,7 @@ export default function ExecutionOverview() {
                   r="121.205"
                   transform="rotate(30 147.998 148)"
                   stroke="#DFBF34"
-                  stroke-width="13.4545"
+                  strokeWidth="13.4545"
                 />
               </g>
               <g filter="url(#filter1_i_739_109239)">
@@ -535,14 +535,14 @@ export default function ExecutionOverview() {
                   r="96.1202"
                   transform="rotate(45 148 148.001)"
                   stroke="#DFBF34"
-                  stroke-width="13.4545"
+                  strokeWidth="13.4545"
                 />
               </g>
               <g filter="url(#filter2_i_739_109239)">
                 <path
                   d="M183.516 209.518C149.54 229.134 106.095 217.493 86.4793 183.517C66.8634 149.542 78.5044 106.097 112.48 86.481C146.456 66.8651 189.9 78.5061 209.516 112.482C229.132 146.458 217.491 189.902 183.516 209.518Z"
                   stroke="#DFBF34"
-                  stroke-width="13.4545"
+                  strokeWidth="13.4545"
                 />
               </g>
               <g filter="url(#filter3_i_739_109239)">
@@ -552,7 +552,7 @@ export default function ExecutionOverview() {
                   r="45.9507"
                   transform="rotate(90 147.994 148)"
                   stroke="#DFBF34"
-                  stroke-width="13.4545"
+                  strokeWidth="13.4545"
                 />
               </g>
               <g filter="url(#filter4_f_739_109239)">
@@ -602,9 +602,9 @@ export default function ExecutionOverview() {
                 width="255.906"
                 height="260.953"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -642,9 +642,9 @@ export default function ExecutionOverview() {
                 width="205.688"
                 height="210.741"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -682,9 +682,9 @@ export default function ExecutionOverview() {
                 width="155.555"
                 height="160.597"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -722,9 +722,9 @@ export default function ExecutionOverview() {
                 width="105.359"
                 height="110.401"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -762,9 +762,9 @@ export default function ExecutionOverview() {
                 width="105.642"
                 height="105.641"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -783,9 +783,9 @@ export default function ExecutionOverview() {
                 width="152.466"
                 height="152.299"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -818,9 +818,9 @@ export default function ExecutionOverview() {
                 width="192.497"
                 height="202.477"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -853,9 +853,9 @@ export default function ExecutionOverview() {
                 width="252.786"
                 height="252.654"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -888,9 +888,9 @@ export default function ExecutionOverview() {
                 width="302.997"
                 height="302.824"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -923,9 +923,9 @@ export default function ExecutionOverview() {
                 width="30.1016"
                 height="36.8288"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -964,8 +964,8 @@ export default function ExecutionOverview() {
                 y2="191.898"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#F9F2D7" />
-                <stop offset="1" stop-color="#DFBF34" />
+                <stop stopColor="#F9F2D7" />
+                <stop offset="1" stopColor="#DFBF34" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_739_109239"
@@ -975,8 +975,8 @@ export default function ExecutionOverview() {
                 y2="227.243"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#F9F2D7" />
-                <stop offset="1" stop-color="#DFBF34" />
+                <stop stopColor="#F9F2D7" />
+                <stop offset="1" stopColor="#DFBF34" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_739_109239"
@@ -986,8 +986,8 @@ export default function ExecutionOverview() {
                 y2="259.292"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#F9F2D7" />
-                <stop offset="1" stop-color="#DFBF34" />
+                <stop stopColor="#F9F2D7" />
+                <stop offset="1" stopColor="#DFBF34" />
               </linearGradient>
               <linearGradient
                 id="paint3_linear_739_109239"
@@ -997,8 +997,8 @@ export default function ExecutionOverview() {
                 y2="286.463"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#F9F2D7" />
-                <stop offset="1" stop-color="#DFBF34" />
+                <stop stopColor="#F9F2D7" />
+                <stop offset="1" stopColor="#DFBF34" />
               </linearGradient>
               <clipPath id="clip0_739_109239">
                 <rect width="296" height="296" rx="148" fill="white" />
@@ -1021,7 +1021,7 @@ export default function ExecutionOverview() {
                 r="190.839"
                 transform="rotate(30 232.993 233)"
                 stroke="#DFBF34"
-                stroke-width="21.1364"
+                strokeWidth="21.1364"
               />
             </g>
             <g filter="url(#filter1_i_739_108803)">
@@ -1031,7 +1031,7 @@ export default function ExecutionOverview() {
                 r="151.347"
                 transform="rotate(45 233.008 233.001)"
                 stroke="#DFBF34"
-                stroke-width="21.1364"
+                strokeWidth="21.1364"
               />
             </g>
             <g filter="url(#filter2_i_739_108803)">
@@ -1041,7 +1041,7 @@ export default function ExecutionOverview() {
                 r="111.856"
                 transform="rotate(60 232.994 232.999)"
                 stroke="#DFBF34"
-                stroke-width="21.1364"
+                strokeWidth="21.1364"
               />
             </g>
             <g filter="url(#filter3_i_739_108803)">
@@ -1051,7 +1051,7 @@ export default function ExecutionOverview() {
                 r="72.364"
                 transform="rotate(90 232.997 233)"
                 stroke="#DFBF34"
-                stroke-width="21.1364"
+                strokeWidth="21.1364"
               />
             </g>
             <g filter="url(#filter4_f_739_108803)">
@@ -1100,9 +1100,9 @@ export default function ExecutionOverview() {
                 width="402.883"
                 height="410.807"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -1140,9 +1140,9 @@ export default function ExecutionOverview() {
                 width="323.828"
                 height="331.757"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -1180,9 +1180,9 @@ export default function ExecutionOverview() {
                 width="244.891"
                 height="252.815"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -1220,9 +1220,9 @@ export default function ExecutionOverview() {
                 width="165.867"
                 height="173.79"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -1260,9 +1260,9 @@ export default function ExecutionOverview() {
                 width="166.144"
                 height="166.143"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -1281,9 +1281,9 @@ export default function ExecutionOverview() {
                 width="239.884"
                 height="239.611"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -1316,9 +1316,9 @@ export default function ExecutionOverview() {
                 width="302.899"
                 height="318.607"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -1351,9 +1351,9 @@ export default function ExecutionOverview() {
                 width="397.805"
                 height="397.602"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -1386,9 +1386,9 @@ export default function ExecutionOverview() {
                 width="476.86"
                 height="476.584"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -1421,9 +1421,9 @@ export default function ExecutionOverview() {
                 width="47.3906"
                 height="57.9578"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -1462,8 +1462,8 @@ export default function ExecutionOverview() {
                 y2="302.11"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#F9F2D7" />
-                <stop offset="1" stop-color="#DFBF34" />
+                <stop stopColor="#F9F2D7" />
+                <stop offset="1" stopColor="#DFBF34" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_739_108803"
@@ -1473,8 +1473,8 @@ export default function ExecutionOverview() {
                 y2="357.756"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#F9F2D7" />
-                <stop offset="1" stop-color="#DFBF34" />
+                <stop stopColor="#F9F2D7" />
+                <stop offset="1" stopColor="#DFBF34" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_739_108803"
@@ -1484,8 +1484,8 @@ export default function ExecutionOverview() {
                 y2="408.209"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#F9F2D7" />
-                <stop offset="1" stop-color="#DFBF34" />
+                <stop stopColor="#F9F2D7" />
+                <stop offset="1" stopColor="#DFBF34" />
               </linearGradient>
               <linearGradient
                 id="paint3_linear_739_108803"
@@ -1495,8 +1495,8 @@ export default function ExecutionOverview() {
                 y2="450.987"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#F9F2D7" />
-                <stop offset="1" stop-color="#DFBF34" />
+                <stop stopColor="#F9F2D7" />
+                <stop offset="1" stopColor="#DFBF34" />
               </linearGradient>
             </defs>
           </svg>

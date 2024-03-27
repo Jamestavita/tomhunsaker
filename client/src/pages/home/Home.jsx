@@ -88,85 +88,85 @@ export default function Home() {
                   <path
                     d="M132.543 61.4445L172.624 32.1102L218.068 52.1536L223.432 101.531L183.352 130.866L137.908 110.822L132.543 61.4445Z"
                     fill="url(#paint0_radial_1361_13863)"
-                    fill-opacity="0.6"
+                    fillOpacity="0.6"
                   />
                   <path
                     d="M132.543 61.4445L172.624 32.1102L218.068 52.1536L223.432 101.531L183.352 130.866L137.908 110.822L132.543 61.4445Z"
                     fill="url(#paint1_linear_1361_13863)"
-                    fill-opacity="0.6"
+                    fillOpacity="0.6"
                   />
                   <path
                     d="M138.094 110.686L132.755 61.5377L172.649 32.3398L217.882 52.2899L223.221 101.438L183.327 130.636L138.094 110.686Z"
                     stroke="url(#paint2_linear_1361_13863)"
-                    stroke-width="0.4"
+                    strokeWidth="0.4"
                   />
                 </g>
                 <g filter="url(#filter2_b_1361_13863)">
                   <path
                     d="M124.207 181.879L157.615 157.428L195.494 174.135L199.965 215.293L166.557 239.744L128.678 223.037L124.207 181.879Z"
                     fill="url(#paint3_radial_1361_13863)"
-                    fill-opacity="0.6"
+                    fillOpacity="0.6"
                   />
                   <path
                     d="M124.207 181.879L157.615 157.428L195.494 174.135L199.965 215.293L166.557 239.744L128.678 223.037L124.207 181.879Z"
                     fill="url(#paint4_linear_1361_13863)"
-                    fill-opacity="0.6"
+                    fillOpacity="0.6"
                   />
                   <path
                     d="M128.864 222.901L124.418 181.972L157.64 157.658L195.308 174.271L199.754 215.2L166.532 239.514L128.864 222.901Z"
                     stroke="url(#paint5_linear_1361_13863)"
-                    stroke-width="0.4"
+                    strokeWidth="0.4"
                   />
                 </g>
                 <g filter="url(#filter3_b_1361_13863)">
                   <path
                     d="M31.6976 172.388L54.0892 156L79.4776 167.198L82.4744 194.784L60.0828 211.172L34.6944 199.974L31.6976 172.388Z"
                     fill="url(#paint6_radial_1361_13863)"
-                    fill-opacity="0.6"
+                    fillOpacity="0.6"
                   />
                   <path
                     d="M31.6976 172.388L54.0892 156L79.4776 167.198L82.4744 194.784L60.0828 211.172L34.6944 199.974L31.6976 172.388Z"
                     fill="url(#paint7_linear_1361_13863)"
-                    fill-opacity="0.6"
+                    fillOpacity="0.6"
                   />
                   <path
                     d="M34.8808 199.838L31.9089 172.482L54.1142 156.23L79.2913 167.334L82.2631 194.69L60.0578 210.942L34.8808 199.838Z"
                     stroke="url(#paint8_linear_1361_13863)"
-                    stroke-width="0.4"
+                    strokeWidth="0.4"
                   />
                 </g>
                 <g filter="url(#filter4_b_1361_13863)">
                   <path
                     d="M61.6814 78.015L74.0421 68.9683L88.0571 75.1497L89.7114 90.3777L77.3507 99.4244L63.3357 93.2431L61.6814 78.015Z"
                     fill="url(#paint9_radial_1361_13863)"
-                    fill-opacity="0.6"
+                    fillOpacity="0.6"
                   />
                   <path
                     d="M61.6814 78.015L74.0421 68.9683L88.0571 75.1497L89.7114 90.3777L77.3507 99.4244L63.3357 93.2431L61.6814 78.015Z"
                     fill="url(#paint10_linear_1361_13863)"
-                    fill-opacity="0.6"
+                    fillOpacity="0.6"
                   />
                   <path
                     d="M63.4385 93.1678L61.798 78.0664L74.0559 69.0951L87.9542 75.225L89.5948 90.3263L77.3369 99.2977L63.4385 93.1678Z"
                     stroke="url(#paint11_linear_1361_13863)"
-                    stroke-width="0.22081"
+                    strokeWidth="0.22081"
                   />
                 </g>
                 <g filter="url(#filter5_b_1361_13863)">
                   <path
                     d="M79.8105 123.377L100.428 108.287L123.805 118.598L126.565 143.998L105.947 159.088L82.5699 148.777L79.8105 123.377Z"
                     fill="url(#paint12_radial_1361_13863)"
-                    fill-opacity="0.6"
+                    fillOpacity="0.6"
                   />
                   <path
                     d="M79.8105 123.377L100.428 108.287L123.805 118.598L126.565 143.998L105.947 159.088L82.5699 148.777L79.8105 123.377Z"
                     fill="url(#paint13_linear_1361_13863)"
-                    fill-opacity="0.6"
+                    fillOpacity="0.6"
                   />
                   <path
                     d="M82.7415 148.652L80.0051 123.463L100.451 108.499L123.634 118.723L126.37 143.912L105.924 158.877L82.7415 148.652Z"
                     stroke="url(#paint14_linear_1361_13863)"
-                    stroke-width="0.368312"
+                    strokeWidth="0.368312"
                   />
                 </g>
                 <defs>
@@ -177,9 +177,9 @@ export default function Home() {
                     width="238.124"
                     height="261.349"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -235,9 +235,9 @@ export default function Home() {
                     width="100.89"
                     height="108.755"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="2.5"
@@ -261,9 +261,9 @@ export default function Home() {
                     width="85.7578"
                     height="92.3157"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="2.5"
@@ -287,9 +287,9 @@ export default function Home() {
                     width="60.7773"
                     height="65.1716"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="2.5"
@@ -313,9 +313,9 @@ export default function Home() {
                     width="33.5495"
                     height="35.9763"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="1.38006"
@@ -339,9 +339,9 @@ export default function Home() {
                     width="55.9617"
                     height="60.0086"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="2.30195"
@@ -366,8 +366,8 @@ export default function Home() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(206.404 132.08) rotate(-117.177) scale(78.0117 127.558)"
                   >
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0" />
                   </radialGradient>
                   <linearGradient
                     id="paint1_linear_1361_13863"
@@ -377,11 +377,11 @@ export default function Home() {
                     y2="29.1227"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.13192" stop-color="#E6886A" />
+                    <stop offset="0.13192" stopColor="#E6886A" />
                     <stop
                       offset="0.9375"
-                      stop-color="#CB4A22"
-                      stop-opacity="0.7"
+                      stopColor="#CB4A22"
+                      stopOpacity="0.7"
                     />
                   </linearGradient>
                   <linearGradient
@@ -392,8 +392,8 @@ export default function Home() {
                     y2="101.531"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#E6886A" />
+                    <stop stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#E6886A" />
                   </linearGradient>
                   <radialGradient
                     id="paint3_radial_1361_13863"
@@ -403,8 +403,8 @@ export default function Home() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(185.772 240.756) rotate(-117.177) scale(65.0251 106.323)"
                   >
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0" />
                   </radialGradient>
                   <linearGradient
                     id="paint4_linear_1361_13863"
@@ -414,11 +414,11 @@ export default function Home() {
                     y2="154.938"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.13192" stop-color="#E6886A" />
+                    <stop offset="0.13192" stopColor="#E6886A" />
                     <stop
                       offset="0.9375"
-                      stop-color="#CB4A22"
-                      stop-opacity="0.7"
+                      stopColor="#CB4A22"
+                      stopOpacity="0.7"
                     />
                   </linearGradient>
                   <linearGradient
@@ -429,8 +429,8 @@ export default function Home() {
                     y2="177"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#E6886A" />
+                    <stop stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#E6886A" />
                   </linearGradient>
                   <radialGradient
                     id="paint6_radial_1361_13863"
@@ -440,8 +440,8 @@ export default function Home() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(72.9613 211.85) rotate(-117.177) scale(43.5827 71.2628)"
                   >
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0" />
                   </radialGradient>
                   <linearGradient
                     id="paint7_linear_1361_13863"
@@ -451,11 +451,11 @@ export default function Home() {
                     y2="154.331"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.13192" stop-color="#E6886A" />
+                    <stop offset="0.13192" stopColor="#E6886A" />
                     <stop
                       offset="0.9375"
-                      stop-color="#CB4A22"
-                      stop-opacity="0.7"
+                      stopColor="#CB4A22"
+                      stopOpacity="0.7"
                     />
                   </linearGradient>
                   <linearGradient
@@ -466,8 +466,8 @@ export default function Home() {
                     y2="194.784"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#E6886A" />
+                    <stop stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#E6886A" />
                   </linearGradient>
                   <radialGradient
                     id="paint9_radial_1361_13863"
@@ -477,8 +477,8 @@ export default function Home() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(84.46 99.799) rotate(-117.177) scale(24.0588 39.3388)"
                   >
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0" />
                   </radialGradient>
                   <linearGradient
                     id="paint10_linear_1361_13863"
@@ -488,11 +488,11 @@ export default function Home() {
                     y2="68.047"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.13192" stop-color="#E6886A" />
+                    <stop offset="0.13192" stopColor="#E6886A" />
                     <stop
                       offset="0.9375"
-                      stop-color="#CB4A22"
-                      stop-opacity="0.7"
+                      stopColor="#CB4A22"
+                      stopOpacity="0.7"
                     />
                   </linearGradient>
                   <linearGradient
@@ -503,8 +503,8 @@ export default function Home() {
                     y2="90.3777"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#E6886A" />
+                    <stop stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#E6886A" />
                   </linearGradient>
                   <radialGradient
                     id="paint12_radial_1361_13863"
@@ -514,8 +514,8 @@ export default function Home() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(117.805 159.713) rotate(-117.177) scale(40.1301 65.6172)"
                   >
-                    <stop stop-color="white" />
-                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0" />
                   </radialGradient>
                   <linearGradient
                     id="paint13_linear_1361_13863"
@@ -525,11 +525,11 @@ export default function Home() {
                     y2="106.75"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.13192" stop-color="#E6886A" />
+                    <stop offset="0.13192" stopColor="#E6886A" />
                     <stop
                       offset="0.9375"
-                      stop-color="#CB4A22"
-                      stop-opacity="0.7"
+                      stopColor="#CB4A22"
+                      stopOpacity="0.7"
                     />
                   </linearGradient>
                   <linearGradient
@@ -540,8 +540,8 @@ export default function Home() {
                     y2="143.998"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#CB4A22" />
-                    <stop offset="1" stop-color="#E6886A" />
+                    <stop stopColor="#CB4A22" />
+                    <stop offset="1" stopColor="#E6886A" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -613,17 +613,17 @@ export default function Home() {
                 <path
                   d="M216.969 93.324C220.977 109.402 221.004 126.193 217.074 142.249C216.549 144.395 214.326 145.621 212.202 145.013L120.219 118.637C118.845 118.243 117.786 117.146 117.44 115.759L94.2904 22.9111C93.756 20.7676 95.0593 18.5885 97.2221 18.1385C113.405 14.7714 130.186 15.3842 146.114 19.9514C163.325 24.8866 178.934 34.2653 191.371 47.1449C203.809 60.0245 212.637 75.9512 216.969 93.324Z"
                   stroke="#425740"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
                 <path
                   d="M47.1436 44.6274C59.0628 33.1171 73.5916 24.6981 89.4613 20.0735C91.5822 19.4554 93.756 20.7676 94.2904 22.9111L117.44 115.759C117.786 117.146 117.365 118.612 116.338 119.604L47.5034 186.077C45.9143 187.611 43.3755 187.572 41.9044 185.924C30.8968 173.592 23.0372 158.754 19.0286 142.676C14.697 125.303 15.0149 107.096 19.9501 89.885C24.8853 72.6739 34.264 57.0651 47.1436 44.6274Z"
                   stroke="#425740"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
                 <path
                   d="M89.8837 216.049C73.956 211.482 59.4004 203.109 47.4606 191.678C45.8649 190.15 45.9143 187.611 47.5035 186.077L116.338 119.604C117.365 118.612 118.845 118.243 120.219 118.637L212.202 145.013C214.326 145.621 215.561 147.84 214.87 149.938C209.694 165.636 200.773 179.862 188.854 191.373C175.974 203.81 160.048 212.639 142.675 216.97C125.302 221.302 107.095 220.984 89.8837 216.049Z"
                   stroke="#425740"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
                 <g filter="url(#filter0_bd_1361_30357)">
                   <path
@@ -646,9 +646,9 @@ export default function Home() {
                     width="90.9729"
                     height="93.1772"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="4.97465"
@@ -690,9 +690,9 @@ export default function Home() {
                     width="36"
                     height="36"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -726,8 +726,8 @@ export default function Home() {
                     y2="29.9999"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#8CA88A" />
-                    <stop offset="0.86366" stop-color="#425740" />
+                    <stop stopColor="#8CA88A" />
+                    <stop offset="0.86366" stopColor="#425740" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_1361_30357"
@@ -737,8 +737,8 @@ export default function Home() {
                     y2="52.9999"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#8CA88A" />
-                    <stop offset="0.86366" stop-color="#425740" />
+                    <stop stopColor="#8CA88A" />
+                    <stop offset="0.86366" stopColor="#425740" />
                   </linearGradient>
                   <linearGradient
                     id="paint2_linear_1361_30357"
@@ -748,8 +748,8 @@ export default function Home() {
                     y2="233"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#8CA88A" />
-                    <stop offset="0.86366" stop-color="#425740" />
+                    <stop stopColor="#8CA88A" />
+                    <stop offset="0.86366" stopColor="#425740" />
                   </linearGradient>
                   <linearGradient
                     id="paint3_linear_1361_30357"
@@ -759,8 +759,8 @@ export default function Home() {
                     y2="193.922"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0.0899857" stop-color="#DAE3D9" />
-                    <stop offset="0.519929" stop-color="#425740" />
+                    <stop offset="0.0899857" stopColor="#DAE3D9" />
+                    <stop offset="0.519929" stopColor="#425740" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -841,7 +841,7 @@ export default function Home() {
                     <path
                       d="M100.919 100.215L73.0968 96.2378C69.4617 95.7181 68.286 91.0519 71.2409 88.8719L129.857 45.6273C132.74 43.5006 136.773 45.8291 136.372 49.389L128.23 121.774C127.819 125.423 123.19 126.738 120.923 123.85L103.567 101.744C102.914 100.912 101.966 100.365 100.919 100.215Z"
                       fill="url(#paint1_linear_1361_22354)"
-                      fill-opacity="0.3"
+                      fillOpacity="0.3"
                     />
                   </g>
                   <g filter="url(#filter4_b_1361_22354)">
@@ -850,7 +850,7 @@ export default function Home() {
                       clipRule="evenodd"
                       d="M71.3038 88.9544C68.4227 91.0799 69.569 95.6295 73.1132 96.1361L100.936 100.114C102.008 100.267 102.98 100.828 103.649 101.68L121.005 123.787C123.216 126.603 127.729 125.321 128.13 121.763L136.272 49.3774C136.663 45.9065 132.731 43.6363 129.92 45.7099L71.3038 88.9544ZM73.0842 96.3393C69.3582 95.8067 68.1532 91.0238 71.1819 88.7893L129.798 45.5447C132.753 43.3648 136.887 45.7515 136.476 49.4004L128.334 121.786C127.913 125.526 123.168 126.874 120.844 123.913L103.488 101.807C102.852 100.996 101.927 100.463 100.907 100.317L73.0842 96.3393Z"
                       fill="url(#paint2_linear_1361_22354)"
-                      fill-opacity="0.3"
+                      fillOpacity="0.3"
                     />
                   </g>
                   <path d="M46 16V220" stroke="#DAE4F1" />
@@ -865,9 +865,9 @@ export default function Home() {
                     width="504"
                     height="504"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur in="BackgroundImageFix" stdDeviation="67" />
                     <feComposite
                       in2="SourceAlpha"
@@ -888,9 +888,9 @@ export default function Home() {
                     width="74.832"
                     height="88.6096"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -923,9 +923,9 @@ export default function Home() {
                     width="224"
                     height="55"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -944,9 +944,9 @@ export default function Home() {
                     width="91.4583"
                     height="105.236"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="6.15656"
@@ -970,9 +970,9 @@ export default function Home() {
                     width="127.036"
                     height="140.815"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur in="BackgroundImageFix" stdDeviation="15" />
                     <feComposite
                       in2="SourceAlpha"
@@ -994,19 +994,19 @@ export default function Home() {
                     y2="157.5"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#315C90" stop-opacity="0" />
-                    <stop offset="0.152634" stop-color="#85A9D5" />
+                    <stop stopColor="#315C90" stopOpacity="0" />
+                    <stop offset="0.152634" stopColor="#85A9D5" />
                     <stop
                       offset="0.525697"
-                      stop-color="#315C90"
-                      stop-opacity="0.09"
+                      stopColor="#315C90"
+                      stopOpacity="0.09"
                     />
                     <stop
                       offset="0.890756"
-                      stop-color="#85A9D5"
-                      stop-opacity="0.782753"
+                      stopColor="#85A9D5"
+                      stopOpacity="0.782753"
                     />
-                    <stop offset="1" stop-color="#315C90" stop-opacity="0.73" />
+                    <stop offset="1" stopColor="#315C90" stopOpacity="0.73" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_1361_22354"
@@ -1016,9 +1016,9 @@ export default function Home() {
                     y2="45.8474"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#85A9D5" />
-                    <stop offset="0.447036" stop-color="#3E75B7" />
-                    <stop offset="1" stop-color="#85A9D5" />
+                    <stop stopColor="#85A9D5" />
+                    <stop offset="0.447036" stopColor="#3E75B7" />
+                    <stop offset="1" stopColor="#85A9D5" />
                   </linearGradient>
                   <linearGradient
                     id="paint2_linear_1361_22354"
@@ -1028,9 +1028,9 @@ export default function Home() {
                     y2="45.7392"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#5F8FC9" stop-opacity="0.9" />
-                    <stop offset="0.447036" stop-color="#85A9D5" />
-                    <stop offset="1" stop-color="#5F8FC9" stop-opacity="0.9" />
+                    <stop stopColor="#5F8FC9" stopOpacity="0.9" />
+                    <stop offset="0.447036" stopColor="#85A9D5" />
+                    <stop offset="1" stopColor="#5F8FC9" stopOpacity="0.9" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -1082,7 +1082,7 @@ export default function Home() {
                     r="98"
                     transform="rotate(30 118 118)"
                     stroke="#DFBF34"
-                    stroke-width="8"
+                    strokeWidth="8"
                   />
                 </g>
                 <g filter="url(#filter1_i_1361_29346)">
@@ -1092,7 +1092,7 @@ export default function Home() {
                     r="78"
                     transform="rotate(45 118 118)"
                     stroke="#DFBF34"
-                    stroke-width="8"
+                    strokeWidth="8"
                   />
                 </g>
                 <g filter="url(#filter2_i_1361_29346)">
@@ -1102,7 +1102,7 @@ export default function Home() {
                     r="58"
                     transform="rotate(60 117.999 118)"
                     stroke="#DFBF34"
-                    stroke-width="8"
+                    strokeWidth="8"
                   />
                 </g>
                 <g filter="url(#filter3_i_1361_29346)">
@@ -1112,7 +1112,7 @@ export default function Home() {
                     r="38"
                     transform="rotate(90 118 118)"
                     stroke="#DFBF34"
-                    stroke-width="8"
+                    strokeWidth="8"
                   />
                 </g>
                 <g filter="url(#filter4_f_1361_29346)">
@@ -1161,9 +1161,9 @@ export default function Home() {
                     width="204.034"
                     height="207.034"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -1201,9 +1201,9 @@ export default function Home() {
                     width="164"
                     height="167"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -1241,9 +1241,9 @@ export default function Home() {
                     width="124.021"
                     height="127.021"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -1281,9 +1281,9 @@ export default function Home() {
                     width="84"
                     height="87"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -1321,9 +1321,9 @@ export default function Home() {
                     width="74"
                     height="74"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -1342,9 +1342,9 @@ export default function Home() {
                     width="112.019"
                     height="111.945"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -1377,9 +1377,9 @@ export default function Home() {
                     width="144.327"
                     height="151.958"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -1412,9 +1412,9 @@ export default function Home() {
                     width="192"
                     height="191.95"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -1447,9 +1447,9 @@ export default function Home() {
                     width="232.034"
                     height="231.955"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -1482,9 +1482,9 @@ export default function Home() {
                     width="24"
                     height="28"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -1523,8 +1523,8 @@ export default function Home() {
                     y2="153"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#F9F2D7" />
-                    <stop offset="1" stop-color="#DFBF34" />
+                    <stop stopColor="#F9F2D7" />
+                    <stop offset="1" stopColor="#DFBF34" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_1361_29346"
@@ -1534,8 +1534,8 @@ export default function Home() {
                     y2="181.353"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#F9F2D7" />
-                    <stop offset="1" stop-color="#DFBF34" />
+                    <stop stopColor="#F9F2D7" />
+                    <stop offset="1" stopColor="#DFBF34" />
                   </linearGradient>
                   <linearGradient
                     id="paint2_linear_1361_29346"
@@ -1545,8 +1545,8 @@ export default function Home() {
                     y2="206.71"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#F9F2D7" />
-                    <stop offset="1" stop-color="#DFBF34" />
+                    <stop stopColor="#F9F2D7" />
+                    <stop offset="1" stopColor="#DFBF34" />
                   </linearGradient>
                   <linearGradient
                     id="paint3_linear_1361_29346"
@@ -1556,8 +1556,8 @@ export default function Home() {
                     y2="228.372"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#F9F2D7" />
-                    <stop offset="1" stop-color="#DFBF34" />
+                    <stop stopColor="#F9F2D7" />
+                    <stop offset="1" stopColor="#DFBF34" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -1814,9 +1814,9 @@ export default function Home() {
                     <path
                       d="M4 6L10.1076 10.6123L10.1097 10.614C10.7878 11.1113 11.1271 11.3601 11.4988 11.4562C11.8272 11.5412 12.1725 11.5412 12.501 11.4562C12.8729 11.36 13.2132 11.1105 13.8926 10.6123C13.8926 10.6123 17.8101 7.60594 20 6M3 15.8002V8.2002C3 7.08009 3 6.51962 3.21799 6.0918C3.40973 5.71547 3.71547 5.40973 4.0918 5.21799C4.51962 5 5.08009 5 6.2002 5H17.8002C18.9203 5 19.4796 5 19.9074 5.21799C20.2837 5.40973 20.5905 5.71547 20.7822 6.0918C21 6.5192 21 7.07899 21 8.19691V15.8036C21 16.9215 21 17.4805 20.7822 17.9079C20.5905 18.2842 20.2837 18.5905 19.9074 18.7822C19.48 19 18.921 19 17.8031 19H6.19691C5.07899 19 4.5192 19 4.0918 18.7822C3.71547 18.5905 3.40973 18.2842 3.21799 17.9079C3 17.4801 3 16.9203 3 15.8002Z"
                       stroke="#1C1C1C"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                   info@tomhunsaker.com
@@ -1888,9 +1888,9 @@ export default function Home() {
                 <path
                   d="M4 6L10.1076 10.6123L10.1097 10.614C10.7878 11.1113 11.1271 11.3601 11.4988 11.4562C11.8272 11.5412 12.1725 11.5412 12.501 11.4562C12.8729 11.36 13.2132 11.1105 13.8926 10.6123C13.8926 10.6123 17.8101 7.60594 20 6M3 15.8002V8.2002C3 7.08009 3 6.51962 3.21799 6.0918C3.40973 5.71547 3.71547 5.40973 4.0918 5.21799C4.51962 5 5.08009 5 6.2002 5H17.8002C18.9203 5 19.4796 5 19.9074 5.21799C20.2837 5.40973 20.5905 5.71547 20.7822 6.0918C21 6.5192 21 7.07899 21 8.19691V15.8036C21 16.9215 21 17.4805 20.7822 17.9079C20.5905 18.2842 20.2837 18.5905 19.9074 18.7822C19.48 19 18.921 19 17.8031 19H6.19691C5.07899 19 4.5192 19 4.0918 18.7822C3.71547 18.5905 3.40973 18.2842 3.21799 17.9079C3 17.4801 3 16.9203 3 15.8002Z"
                   stroke="#1C1C1C"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               info@tomhunsaker.com
@@ -1914,7 +1914,7 @@ export default function Home() {
             </p>
             <p className="text-[18px]">
               Become an affiliate of{" "}
-              <span className="underline">tomhunsaker.com </span> across the
+              <span className="underline">tomhunsaker.com</span> across the
               world, spread the word to your network, and{" "}
               <span className="font-bold">
                 benefit every time someone you refer accesses a bestseller
@@ -2039,9 +2039,9 @@ export default function Home() {
                     <path
                       d="M6.66667 10.5036L16.8461 18.1907L16.8495 18.1935C17.9797 19.0224 18.5452 19.4371 19.1646 19.5973C19.712 19.7389 20.2875 19.7389 20.835 19.5973C21.4549 19.4369 22.022 19.021 23.1543 18.1907C23.1543 18.1907 29.6835 13.1801 33.3333 10.5036M5 26.8372V14.1706C5 12.3037 5 11.3696 5.36331 10.6566C5.68289 10.0294 6.19245 9.5198 6.81966 9.20023C7.5327 8.83691 8.46682 8.83691 10.3337 8.83691H29.667C31.5338 8.83691 32.466 8.83691 33.179 9.20023C33.8062 9.5198 34.3175 10.0294 34.637 10.6566C35 11.3689 35 12.3019 35 14.1651V26.8429C35 28.7061 35 29.6377 34.637 30.3501C34.3175 30.9773 33.8062 31.4877 33.179 31.8073C32.4667 32.1702 31.535 32.1702 29.6718 32.1702H10.3282C8.46499 32.1702 7.532 32.1702 6.81966 31.8073C6.19245 31.4877 5.68289 30.9773 5.36331 30.3501C5 29.637 5 28.7041 5 26.8372Z"
                       stroke="#FDFDFD"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="3"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                   info@tomhunsaker.com

@@ -59,7 +59,7 @@ export default function InnovationOverview() {
                 <path
                   d="M99.2061 98.5163L71.8551 94.6063C68.2816 94.0955 67.1259 89.5083 70.0307 87.3653L127.653 44.8537C130.487 42.7629 134.452 45.052 134.058 48.5515L126.054 119.71C125.65 123.297 121.1 124.59 118.87 121.751L101.809 100.019C101.167 99.2016 100.235 98.6634 99.2061 98.5163Z"
                   fill="url(#paint1_linear_739_109124)"
-                  fill-opacity="0.3"
+                  fillOpacity="0.3"
                 />
               </g>
               <g filter="url(#filter4_b_739_109124)">
@@ -68,23 +68,23 @@ export default function InnovationOverview() {
                   clipRule="evenodd"
                   d="M70.096 87.4465C67.2638 89.536 68.3906 94.0085 71.8747 94.5065L99.2258 98.4166C100.28 98.5673 101.236 99.119 101.893 99.9567L118.955 121.688C121.129 124.457 125.565 123.196 125.959 119.699L133.963 48.5403C134.347 45.1283 130.482 42.8965 127.719 44.9349L70.096 87.4465ZM71.8462 94.7063C68.1834 94.1826 66.9987 89.4808 69.9762 87.2842L127.599 44.7726C130.504 42.6296 134.567 44.9758 134.164 48.5629L126.159 119.721C125.746 123.398 121.081 124.723 118.796 121.813L101.735 100.081C101.109 99.2844 100.2 98.7596 99.1972 98.6163L71.8462 94.7063Z"
                   fill="url(#paint2_linear_739_109124)"
-                  fill-opacity="0.3"
+                  fillOpacity="0.3"
                 />
               </g>
               <path
                 d="M45.2188 15.7288V216.271"
                 stroke="#DAE4F1"
-                stroke-width="1.31818"
+                strokeWidth="1.31818"
               />
               <path
                 d="M187.758 15.7288V216.271"
                 stroke="#DAE4F1"
-                stroke-width="1.31818"
+                strokeWidth="1.31818"
               />
               <path
                 d="M15.7266 192.678L216.269 192.678"
                 stroke="#DAE4F1"
-                stroke-width="1.31818"
+                strokeWidth="1.31818"
               />
             </g>
             <defs>
@@ -95,9 +95,9 @@ export default function InnovationOverview() {
                 width="585.273"
                 height="585.273"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="88.3182"
@@ -121,9 +121,9 @@ export default function InnovationOverview() {
                 width="76.2408"
                 height="89.7889"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -156,9 +156,9 @@ export default function InnovationOverview() {
                 width="226.903"
                 height="60.7704"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -177,9 +177,9 @@ export default function InnovationOverview() {
                 width="98.1572"
                 height="111.705"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="8.11547"
@@ -203,9 +203,9 @@ export default function InnovationOverview() {
                 width="144.997"
                 height="158.536"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="19.7727"
@@ -230,19 +230,19 @@ export default function InnovationOverview() {
                 y2="144.185"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#315C90" stop-opacity="0" />
-                <stop offset="0.152634" stop-color="#85A9D5" />
+                <stop stopColor="#315C90" stopOpacity="0" />
+                <stop offset="0.152634" stopColor="#85A9D5" />
                 <stop
                   offset="0.525697"
-                  stop-color="#315C90"
-                  stop-opacity="0.09"
+                  stopColor="#315C90"
+                  stopOpacity="0.09"
                 />
                 <stop
                   offset="0.890756"
-                  stop-color="#85A9D5"
-                  stop-opacity="0.782753"
+                  stopColor="#85A9D5"
+                  stopOpacity="0.782753"
                 />
-                <stop offset="1" stop-color="#315C90" stop-opacity="0.73" />
+                <stop offset="1" stopColor="#315C90" stopOpacity="0.73" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_739_109124"
@@ -252,9 +252,9 @@ export default function InnovationOverview() {
                 y2="45.07"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#85A9D5" />
-                <stop offset="0.447036" stop-color="#3E75B7" />
-                <stop offset="1" stop-color="#85A9D5" />
+                <stop stopColor="#85A9D5" />
+                <stop offset="0.447036" stopColor="#3E75B7" />
+                <stop offset="1" stopColor="#85A9D5" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_739_109124"
@@ -264,9 +264,9 @@ export default function InnovationOverview() {
                 y2="44.9637"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#5F8FC9" stop-opacity="0.9" />
-                <stop offset="0.447036" stop-color="#85A9D5" />
-                <stop offset="1" stop-color="#5F8FC9" stop-opacity="0.9" />
+                <stop stopColor="#5F8FC9" stopOpacity="0.9" />
+                <stop offset="0.447036" stopColor="#85A9D5" />
+                <stop offset="1" stopColor="#5F8FC9" stopOpacity="0.9" />
               </linearGradient>
             </defs>
           </svg>
@@ -314,7 +314,7 @@ export default function InnovationOverview() {
                 <path
                   d="M126.572 125.693L91.6755 120.704C87.1163 120.052 85.6417 114.2 89.3479 111.466L162.866 57.2267C166.482 54.5593 171.541 57.4797 171.038 61.9447L160.825 152.733C160.31 157.31 154.505 158.959 151.661 155.337L129.892 127.61C129.074 126.567 127.884 125.88 126.572 125.693Z"
                   fill="url(#paint1_linear_739_109116)"
-                  fill-opacity="0.3"
+                  fillOpacity="0.3"
                 />
               </g>
               <g filter="url(#filter4_b_739_109116)">
@@ -323,23 +323,23 @@ export default function InnovationOverview() {
                   clipRule="evenodd"
                   d="M89.4287 111.57C85.8152 114.236 87.2529 119.942 91.6982 120.577L126.594 125.566C127.94 125.758 129.159 126.462 129.998 127.531L151.766 155.258C154.539 158.789 160.2 157.181 160.702 152.719L170.915 61.9307C171.405 57.5774 166.473 54.7299 162.947 57.3307L89.4287 111.57ZM91.6618 120.832C86.9885 120.164 85.4771 114.165 89.2759 111.363L162.795 57.1235C166.501 54.3894 171.685 57.3829 171.171 61.9595L160.958 152.748C160.43 157.439 154.479 159.13 151.564 155.416L129.795 127.69C128.997 126.673 127.838 126.004 126.558 125.821L91.6618 120.832Z"
                   fill="url(#paint2_linear_739_109116)"
-                  fill-opacity="0.3"
+                  fillOpacity="0.3"
                 />
               </g>
               <path
                 d="M57.6953 20.0676V275.932"
                 stroke="#DAE4F1"
-                stroke-width="1.68182"
+                strokeWidth="1.68182"
               />
               <path
                 d="M239.555 20.0676V275.932"
                 stroke="#DAE4F1"
-                stroke-width="1.68182"
+                strokeWidth="1.68182"
               />
               <path
                 d="M20.0625 245.83L275.927 245.83"
                 stroke="#DAE4F1"
-                stroke-width="1.68182"
+                strokeWidth="1.68182"
               />
             </g>
             <defs>
@@ -350,9 +350,9 @@ export default function InnovationOverview() {
                 width="746.727"
                 height="746.727"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="112.682"
@@ -376,9 +376,9 @@ export default function InnovationOverview() {
                 width="91.8203"
                 height="109.104"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -411,9 +411,9 @@ export default function InnovationOverview() {
                 width="289.504"
                 height="77.5346"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -432,9 +432,9 @@ export default function InnovationOverview() {
                 width="125.237"
                 height="142.52"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="10.3542"
@@ -458,9 +458,9 @@ export default function InnovationOverview() {
                 width="144.078"
                 height="161.361"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur in="BackgroundImageFix" stdDeviation="15" />
                 <feComposite
                   in2="SourceAlpha"
@@ -482,19 +482,19 @@ export default function InnovationOverview() {
                 y2="183.96"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#315C90" stop-opacity="0" />
-                <stop offset="0.152634" stop-color="#85A9D5" />
+                <stop stopColor="#315C90" stopOpacity="0" />
+                <stop offset="0.152634" stopColor="#85A9D5" />
                 <stop
                   offset="0.525697"
-                  stop-color="#315C90"
-                  stop-opacity="0.09"
+                  stopColor="#315C90"
+                  stopOpacity="0.09"
                 />
                 <stop
                   offset="0.890756"
-                  stop-color="#85A9D5"
-                  stop-opacity="0.782753"
+                  stopColor="#85A9D5"
+                  stopOpacity="0.782753"
                 />
-                <stop offset="1" stop-color="#315C90" stop-opacity="0.73" />
+                <stop offset="1" stopColor="#315C90" stopOpacity="0.73" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_739_109116"
@@ -504,9 +504,9 @@ export default function InnovationOverview() {
                 y2="57.5027"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#85A9D5" />
-                <stop offset="0.447036" stop-color="#3E75B7" />
-                <stop offset="1" stop-color="#85A9D5" />
+                <stop stopColor="#85A9D5" />
+                <stop offset="0.447036" stopColor="#3E75B7" />
+                <stop offset="1" stopColor="#85A9D5" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_739_109116"
@@ -516,9 +516,9 @@ export default function InnovationOverview() {
                 y2="57.3674"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#5F8FC9" stop-opacity="0.9" />
-                <stop offset="0.447036" stop-color="#85A9D5" />
-                <stop offset="1" stop-color="#5F8FC9" stop-opacity="0.9" />
+                <stop stopColor="#5F8FC9" stopOpacity="0.9" />
+                <stop offset="0.447036" stopColor="#85A9D5" />
+                <stop offset="1" stopColor="#5F8FC9" stopOpacity="0.9" />
               </linearGradient>
             </defs>
           </svg>
@@ -564,7 +564,7 @@ export default function InnovationOverview() {
                 <path
                   d="M199.269 197.883L144.331 190.03C137.153 189.004 134.832 179.79 140.667 175.485L256.409 90.0955C262.101 85.8961 270.064 90.4938 269.274 97.5231L253.195 240.454C252.385 247.659 243.244 250.255 238.767 244.552L204.496 200.902C203.208 199.26 201.335 198.179 199.269 197.883Z"
                   fill="url(#paint1_linear_739_108896)"
-                  fill-opacity="0.3"
+                  fillOpacity="0.3"
                 />
               </g>
               <g filter="url(#filter3_b_739_108896)">
@@ -573,23 +573,23 @@ export default function InnovationOverview() {
                   clipRule="evenodd"
                   d="M140.791 175.647C135.102 179.844 137.366 188.828 144.364 189.828L199.302 197.682C201.419 197.985 203.339 199.093 204.66 200.776L238.93 244.426C243.296 249.987 252.208 247.455 252.998 240.43L269.076 97.4996C269.847 90.6461 262.083 86.1632 256.533 90.2577L140.791 175.647ZM144.306 190.229C136.949 189.178 134.57 179.734 140.55 175.321L256.292 89.9316C262.127 85.6272 270.29 90.3399 269.479 97.5449L253.401 240.475C252.57 247.861 243.201 250.522 238.612 244.677L204.341 201.026C203.085 199.425 201.259 198.371 199.244 198.083L144.306 190.229Z"
                   fill="url(#paint2_linear_739_108896)"
-                  fill-opacity="0.3"
+                  fillOpacity="0.3"
                 />
               </g>
               <path
                 d="M90.8203 31.5935V434.407"
                 stroke="#DAE4F1"
-                stroke-width="2.64205"
+                strokeWidth="2.64205"
               />
               <path
                 d="M377.148 31.5935V434.407"
                 stroke="#DAE4F1"
-                stroke-width="2.64205"
+                strokeWidth="2.64205"
               />
               <path
                 d="M31.6016 387.017L434.415 387.017"
                 stroke="#DAE4F1"
-                stroke-width="2.64205"
+                strokeWidth="2.64205"
               />
             </g>
             <defs>
@@ -600,9 +600,9 @@ export default function InnovationOverview() {
                 width="1174.07"
                 height="1174.07"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="177.017"
@@ -626,9 +626,9 @@ export default function InnovationOverview() {
                 width="139.961"
                 height="167.169"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -661,9 +661,9 @@ export default function InnovationOverview() {
                 width="197.025"
                 height="224.233"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="16.2659"
@@ -687,9 +687,9 @@ export default function InnovationOverview() {
                 width="192.367"
                 height="219.576"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur in="BackgroundImageFix" stdDeviation="15" />
                 <feComposite
                   in2="SourceAlpha"
@@ -711,19 +711,19 @@ export default function InnovationOverview() {
                 y2="289.613"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#315C90" stop-opacity="0" />
-                <stop offset="0.152634" stop-color="#85A9D5" />
+                <stop stopColor="#315C90" stopOpacity="0" />
+                <stop offset="0.152634" stopColor="#85A9D5" />
                 <stop
                   offset="0.525697"
-                  stop-color="#315C90"
-                  stop-opacity="0.09"
+                  stopColor="#315C90"
+                  stopOpacity="0.09"
                 />
                 <stop
                   offset="0.890756"
-                  stop-color="#85A9D5"
-                  stop-opacity="0.782753"
+                  stopColor="#85A9D5"
+                  stopOpacity="0.782753"
                 />
-                <stop offset="1" stop-color="#315C90" stop-opacity="0.73" />
+                <stop offset="1" stopColor="#315C90" stopOpacity="0.73" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_739_108896"
@@ -733,9 +733,9 @@ export default function InnovationOverview() {
                 y2="90.53"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#85A9D5" />
-                <stop offset="0.447036" stop-color="#3E75B7" />
-                <stop offset="1" stop-color="#85A9D5" />
+                <stop stopColor="#85A9D5" />
+                <stop offset="0.447036" stopColor="#3E75B7" />
+                <stop offset="1" stopColor="#85A9D5" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_739_108896"
@@ -745,9 +745,9 @@ export default function InnovationOverview() {
                 y2="90.3156"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#5F8FC9" stop-opacity="0.9" />
-                <stop offset="0.447036" stop-color="#85A9D5" />
-                <stop offset="1" stop-color="#5F8FC9" stop-opacity="0.9" />
+                <stop stopColor="#5F8FC9" stopOpacity="0.9" />
+                <stop offset="0.447036" stopColor="#85A9D5" />
+                <stop offset="1" stopColor="#5F8FC9" stopOpacity="0.9" />
               </linearGradient>
             </defs>
           </svg>

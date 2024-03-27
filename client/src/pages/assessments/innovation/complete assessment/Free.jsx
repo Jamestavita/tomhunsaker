@@ -241,12 +241,12 @@ export function Free() {
               <path
                 d="M16 77.6244C16 62.008 29.4694 49.7973 45.011 51.3245L144.551 61.1059C158.08 62.4353 168.394 73.8118 168.394 87.4059V136.993C168.394 150.703 157.909 162.136 144.25 163.321L44.7094 171.951C29.2715 173.29 16 161.119 16 145.624V77.6244Z"
                 fill="white"
-                fill-opacity="0.1"
+                fillOpacity="0.1"
               />
               <path
                 d="M16 77.6244C16 62.008 29.4694 49.7973 45.011 51.3245L144.551 61.1059C158.08 62.4353 168.394 73.8118 168.394 87.4059V136.993C168.394 150.703 157.909 162.136 144.25 163.321L44.7094 171.951C29.2715 173.29 16 161.119 16 145.624V77.6244Z"
                 fill="url(#paint0_linear_804_137681)"
-                fill-opacity="0.58"
+                fillOpacity="0.58"
               />
             </g>
             <g filter="url(#filter1_b_804_137681)">
@@ -265,9 +265,9 @@ export function Free() {
                 width="176.391"
                 height="144.857"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur in="BackgroundImageFix" stdDeviation="6" />
                 <feComposite
                   in2="SourceAlpha"
@@ -288,9 +288,9 @@ export function Free() {
                 width="220.062"
                 height="188.529"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="16.9179"
@@ -315,8 +315,8 @@ export function Free() {
                 y2="173.866"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#D9E4F1" />
-                <stop offset="0.765625" stop-color="#85A9D5" />
+                <stop stopColor="#D9E4F1" />
+                <stop offset="0.765625" stopColor="#85A9D5" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_804_137681"
@@ -326,13 +326,9 @@ export function Free() {
                 y2="129.37"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  offset="0.0136312"
-                  stop-color="#85A9D5"
-                  stop-opacity="0"
-                />
-                <stop offset="0.600063" stop-color="#315C90" />
-                <stop offset="1" stop-color="#85A9D5" stop-opacity="0.1" />
+                <stop offset="0.0136312" stopColor="#85A9D5" stopOpacity="0" />
+                <stop offset="0.600063" stopColor="#315C90" />
+                <stop offset="1" stopColor="#85A9D5" stopOpacity="0.1" />
               </linearGradient>
             </defs>
           </svg>

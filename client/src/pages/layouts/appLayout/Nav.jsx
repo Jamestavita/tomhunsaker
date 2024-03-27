@@ -194,9 +194,9 @@ export default function Nav() {
               <path
                 d="M3 12H21M3 6H21M3 18H21"
                 stroke="#101828"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           ) : (
@@ -210,9 +210,9 @@ export default function Nav() {
               <path
                 d="M18 6L6 18M6 6L18 18"
                 stroke="#1C1C1C"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           )}

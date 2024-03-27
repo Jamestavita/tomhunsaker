@@ -73,78 +73,78 @@ export default function Execution() {
                   d="M99.8404 128.247L45.8707 159.406C41.904 161.696 41.9293 165.365 45.9272 167.6L100.321 198.013C104.319 200.248 110.776 200.203 114.743 197.913L168.712 166.754C172.679 164.464 172.654 160.795 168.656 158.56L114.262 128.147C110.264 125.912 103.807 125.957 99.8404 128.247ZM45.3537 159.117C41.1036 161.571 41.1307 165.502 45.4142 167.897L99.8083 198.309C104.092 200.704 111.01 200.656 115.26 198.202L169.229 167.043C173.479 164.589 173.452 160.658 169.169 158.263L114.775 127.851C110.491 125.456 103.573 125.504 99.3233 127.958L45.3537 159.117Z"
                   fill="url(#paint0_radial_124_23465)"
                   stroke="url(#paint1_linear_124_23465)"
-                  stroke-opacity="0.8"
-                  stroke-width="0.543191"
+                  strokeOpacity="0.8"
+                  strokeWidth="0.543191"
                 />
                 <g filter="url(#filter1_bd_124_23465)">
                   <path
                     d="M41.0861 148.233C36.8026 145.838 36.7755 141.907 41.0255 139.454L99.5111 105.687C103.761 103.233 110.679 103.185 114.963 105.58L173.908 138.537C178.192 140.932 178.219 144.863 173.969 147.317L115.483 181.083C111.233 183.537 104.315 183.585 100.032 181.19L41.0861 148.233Z"
                     fill="#F4E9B9"
-                    fill-opacity="0.3"
-                    shape-rendering="crispEdges"
+                    fillOpacity="0.3"
+                    shapeRenderingg="crispEdges"
                   />
                 </g>
                 <path
                   d="M41.0861 148.233C36.8026 145.838 36.7755 141.907 41.0255 139.454L99.5111 105.687C103.761 103.233 110.679 103.185 114.963 105.58L173.908 138.537C178.192 140.932 178.219 144.863 173.969 147.317L115.483 181.083C111.233 183.537 104.315 183.585 100.032 181.19L41.0861 148.233Z"
                   stroke="url(#paint2_linear_124_23465)"
-                  stroke-opacity="0.8"
-                  stroke-width="0.543191"
+                  strokeOpacity="0.8"
+                  strokeWidth="0.543191"
                 />
                 <g filter="url(#filter2_bd_124_23465)">
                   <path
                     d="M41.0861 125.962C36.8026 123.567 36.7755 119.636 41.0255 117.183L99.5111 83.4159C103.761 80.9621 110.679 80.9144 114.963 83.3093L173.908 116.266C178.192 118.661 178.219 122.592 173.969 125.046L115.483 158.812C111.233 161.266 104.315 161.314 100.032 158.919L41.0861 125.962Z"
                     fill="#F4E9B9"
-                    fill-opacity="0.3"
-                    shape-rendering="crispEdges"
+                    fillOpacity="0.3"
+                    shapeRenderingg="crispEdges"
                   />
                 </g>
                 <path
                   d="M41.0861 125.962C36.8026 123.567 36.7755 119.636 41.0255 117.183L99.5111 83.4159C103.761 80.9621 110.679 80.9144 114.963 83.3093L173.908 116.266C178.192 118.661 178.219 122.592 173.969 125.046L115.483 158.812C111.233 161.266 104.315 161.314 100.032 158.919L41.0861 125.962Z"
                   stroke="url(#paint3_linear_124_23465)"
-                  stroke-opacity="0.8"
-                  stroke-width="0.543191"
+                  strokeOpacity="0.8"
+                  strokeWidth="0.543191"
                 />
                 <g filter="url(#filter3_bd_124_23465)">
                   <path
                     d="M41.0861 103.691C36.8026 101.296 36.7755 97.3653 41.0255 94.9115L99.5111 61.1449C103.761 58.6911 110.679 58.6434 114.963 61.0383L173.908 93.9954C178.192 96.3904 178.219 100.321 173.969 102.775L115.483 136.541C111.233 138.995 104.315 139.043 100.032 136.648L41.0861 103.691Z"
                     fill="#F4E9B9"
-                    fill-opacity="0.3"
-                    shape-rendering="crispEdges"
+                    fillOpacity="0.3"
+                    shapeRenderingg="crispEdges"
                   />
                 </g>
                 <path
                   d="M41.0861 103.691C36.8026 101.296 36.7755 97.3653 41.0255 94.9115L99.5111 61.1449C103.761 58.6911 110.679 58.6434 114.963 61.0383L173.908 93.9954C178.192 96.3903 178.219 100.321 173.969 102.775L115.483 136.541C111.233 138.995 104.315 139.043 100.032 136.648L41.0861 103.691Z"
                   stroke="url(#paint4_linear_124_23465)"
-                  stroke-opacity="0.8"
-                  stroke-width="0.543191"
+                  strokeOpacity="0.8"
+                  strokeWidth="0.543191"
                 />
                 <g filter="url(#filter4_bd_124_23465)">
                   <path
                     d="M41.0861 81.4195C36.8026 79.0245 36.7755 75.0938 41.0255 72.64L99.5111 38.8734C103.761 36.4196 110.679 36.3719 114.963 38.7669L173.908 71.7239C178.192 74.1189 178.219 78.0495 173.969 80.5033L115.483 114.27C111.233 116.724 104.315 116.771 100.032 114.377L41.0861 81.4195Z"
                     fill="#F4E9B9"
-                    fill-opacity="0.3"
-                    shape-rendering="crispEdges"
+                    fillOpacity="0.3"
+                    shapeRenderingg="crispEdges"
                   />
                 </g>
                 <path
                   d="M41.0861 81.4195C36.8026 79.0245 36.7755 75.0938 41.0255 72.64L99.5111 38.8734C103.761 36.4196 110.679 36.3719 114.963 38.7669L173.908 71.7239C178.192 74.1189 178.219 78.0496 173.969 80.5033L115.483 114.27C111.233 116.724 104.315 116.771 100.032 114.377L41.0861 81.4195Z"
                   stroke="url(#paint5_linear_124_23465)"
-                  stroke-opacity="0.8"
-                  stroke-width="0.543191"
+                  strokeOpacity="0.8"
+                  strokeWidth="0.543191"
                 />
                 <g filter="url(#filter5_bd_124_23465)">
                   <path
                     d="M41.0861 59.1485C36.8026 56.7535 36.7755 52.8228 41.0255 50.369L99.5111 16.6024C103.761 14.1486 110.679 14.1009 114.963 16.4959L173.908 49.4529C178.192 51.8479 178.219 55.7786 173.969 58.2323L115.483 91.999C111.233 94.4528 104.315 94.5005 100.032 92.1055L41.0861 59.1485Z"
                     fill="#F4E9B9"
-                    fill-opacity="0.3"
-                    shape-rendering="crispEdges"
+                    fillOpacity="0.3"
+                    shapeRenderingg="crispEdges"
                   />
                 </g>
                 <path
                   d="M41.0861 59.1485C36.8026 56.7535 36.7755 52.8228 41.0255 50.369L99.5111 16.6024C103.761 14.1486 110.679 14.1009 114.963 16.4959L173.908 49.4529C178.192 51.8479 178.219 55.7786 173.969 58.2323L115.483 91.999C111.233 94.4528 104.315 94.5005 100.032 92.1055L41.0861 59.1485Z"
                   stroke="url(#paint6_linear_124_23465)"
-                  stroke-opacity="0.8"
-                  stroke-width="0.543191"
+                  strokeOpacity="0.8"
+                  strokeWidth="0.543191"
                 />
                 <defs>
                   <filter
@@ -154,9 +154,9 @@ export default function Execution() {
                     width="159.447"
                     height="103.221"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="7.30807"
@@ -180,9 +180,9 @@ export default function Execution() {
                     width="171.283"
                     height="111.141"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur in="BackgroundImageFix" stdDeviation="8" />
                     <feComposite
                       in2="SourceAlpha"
@@ -221,9 +221,9 @@ export default function Execution() {
                     width="171.283"
                     height="111.141"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur in="BackgroundImageFix" stdDeviation="8" />
                     <feComposite
                       in2="SourceAlpha"
@@ -262,9 +262,9 @@ export default function Execution() {
                     width="171.283"
                     height="111.141"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur in="BackgroundImageFix" stdDeviation="8" />
                     <feComposite
                       in2="SourceAlpha"
@@ -303,9 +303,9 @@ export default function Execution() {
                     width="171.283"
                     height="111.141"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur in="BackgroundImageFix" stdDeviation="8" />
                     <feComposite
                       in2="SourceAlpha"
@@ -344,9 +344,9 @@ export default function Execution() {
                     width="171.283"
                     height="111.141"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur in="BackgroundImageFix" stdDeviation="8" />
                     <feComposite
                       in2="SourceAlpha"
@@ -386,12 +386,8 @@ export default function Execution() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(107.487 145.935) rotate(90) scale(34.6534 29.769)"
                   >
-                    <stop stop-color="white" />
-                    <stop
-                      offset="0.712609"
-                      stop-color="white"
-                      stop-opacity="0"
-                    />
+                    <stop stopColor="white" />
+                    <stop offset="0.712609" stopColor="white" stopOpacity="0" />
                   </radialGradient>
                   <linearGradient
                     id="paint1_linear_124_23465"
@@ -403,12 +399,12 @@ export default function Execution() {
                   >
                     <stop
                       offset="0.144224"
-                      stop-color="#DFBF34"
-                      stop-opacity="0.8"
+                      stopColor="#DFBF34"
+                      stopOpacity="0.8"
                     />
-                    <stop offset="0.619485" stop-color="#EDDB8C" />
-                    <stop offset="1" stop-color="#FFF0B6" />
-                    <stop offset="1" stop-color="#F9F2D7" />
+                    <stop offset="0.619485" stopColor="#EDDB8C" />
+                    <stop offset="1" stopColor="#FFF0B6" />
+                    <stop offset="1" stopColor="#F9F2D7" />
                   </linearGradient>
                   <linearGradient
                     id="paint2_linear_124_23465"
@@ -420,12 +416,12 @@ export default function Execution() {
                   >
                     <stop
                       offset="0.144224"
-                      stop-color="#DFBF34"
-                      stop-opacity="0.8"
+                      stopColor="#DFBF34"
+                      stopOpacity="0.8"
                     />
-                    <stop offset="0.619485" stop-color="#EDDB8C" />
-                    <stop offset="1" stop-color="#FFF0B6" />
-                    <stop offset="1" stop-color="#F9F2D7" />
+                    <stop offset="0.619485" stopColor="#EDDB8C" />
+                    <stop offset="1" stopColor="#FFF0B6" />
+                    <stop offset="1" stopColor="#F9F2D7" />
                   </linearGradient>
                   <linearGradient
                     id="paint3_linear_124_23465"
@@ -437,12 +433,12 @@ export default function Execution() {
                   >
                     <stop
                       offset="0.144224"
-                      stop-color="#DFBF34"
-                      stop-opacity="0.8"
+                      stopColor="#DFBF34"
+                      stopOpacity="0.8"
                     />
-                    <stop offset="0.619485" stop-color="#EDDB8C" />
-                    <stop offset="1" stop-color="#FFF0B6" />
-                    <stop offset="1" stop-color="#F9F2D7" />
+                    <stop offset="0.619485" stopColor="#EDDB8C" />
+                    <stop offset="1" stopColor="#FFF0B6" />
+                    <stop offset="1" stopColor="#F9F2D7" />
                   </linearGradient>
                   <linearGradient
                     id="paint4_linear_124_23465"
@@ -454,12 +450,12 @@ export default function Execution() {
                   >
                     <stop
                       offset="0.144224"
-                      stop-color="#DFBF34"
-                      stop-opacity="0.8"
+                      stopColor="#DFBF34"
+                      stopOpacity="0.8"
                     />
-                    <stop offset="0.619485" stop-color="#EDDB8C" />
-                    <stop offset="1" stop-color="#FFF0B6" />
-                    <stop offset="1" stop-color="#F9F2D7" />
+                    <stop offset="0.619485" stopColor="#EDDB8C" />
+                    <stop offset="1" stopColor="#FFF0B6" />
+                    <stop offset="1" stopColor="#F9F2D7" />
                   </linearGradient>
                   <linearGradient
                     id="paint5_linear_124_23465"
@@ -471,12 +467,12 @@ export default function Execution() {
                   >
                     <stop
                       offset="0.144224"
-                      stop-color="#DFBF34"
-                      stop-opacity="0.8"
+                      stopColor="#DFBF34"
+                      stopOpacity="0.8"
                     />
-                    <stop offset="0.619485" stop-color="#EDDB8C" />
-                    <stop offset="1" stop-color="#FFF0B6" />
-                    <stop offset="1" stop-color="#F9F2D7" />
+                    <stop offset="0.619485" stopColor="#EDDB8C" />
+                    <stop offset="1" stopColor="#FFF0B6" />
+                    <stop offset="1" stopColor="#F9F2D7" />
                   </linearGradient>
                   <linearGradient
                     id="paint6_linear_124_23465"
@@ -488,12 +484,12 @@ export default function Execution() {
                   >
                     <stop
                       offset="0.144224"
-                      stop-color="#DFBF34"
-                      stop-opacity="0.8"
+                      stopColor="#DFBF34"
+                      stopOpacity="0.8"
                     />
-                    <stop offset="0.619485" stop-color="#EDDB8C" />
-                    <stop offset="1" stop-color="#FFF0B6" />
-                    <stop offset="1" stop-color="#F9F2D7" />
+                    <stop offset="0.619485" stopColor="#EDDB8C" />
+                    <stop offset="1" stopColor="#FFF0B6" />
+                    <stop offset="1" stopColor="#F9F2D7" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -534,8 +530,8 @@ export default function Execution() {
                   transform="rotate(-10 14.9492 94.4106)"
                   fill="url(#paint0_linear_124_3985)"
                   stroke="url(#paint1_linear_124_3985)"
-                  stroke-opacity="0.8"
-                  stroke-width="0.595372"
+                  strokeOpacity="0.8"
+                  strokeWidth="0.595372"
                 />
                 <g filter="url(#filter1_bd_124_3985)">
                   <rect
@@ -544,8 +540,8 @@ export default function Execution() {
                     rx="3.28819"
                     transform="matrix(0.999974 -0.00726838 -0.00726838 -0.999974 72.1426 159.201)"
                     fill="url(#paint2_linear_124_3985)"
-                    fill-opacity="0.6"
-                    shape-rendering="crispEdges"
+                    fillOpacity="0.6"
+                    shapeRenderingg="crispEdges"
                   />
                 </g>
                 <rect
@@ -554,7 +550,7 @@ export default function Execution() {
                   rx="3.28819"
                   transform="matrix(0.999974 -0.00726838 -0.00726838 -0.999974 72.1426 159.201)"
                   stroke="#EDDB8C"
-                  stroke-width="0.595372"
+                  strokeWidth="0.595372"
                 />
                 <g filter="url(#filter2_bd_124_3985)">
                   <rect
@@ -563,8 +559,8 @@ export default function Execution() {
                     rx="3.28819"
                     transform="matrix(0.981736 0.190248 0.190248 -0.981736 110.736 119.26)"
                     fill="url(#paint3_linear_124_3985)"
-                    fill-opacity="0.6"
-                    shape-rendering="crispEdges"
+                    fillOpacity="0.6"
+                    shapeRenderingg="crispEdges"
                   />
                 </g>
                 <rect
@@ -573,7 +569,7 @@ export default function Execution() {
                   rx="3.28819"
                   transform="matrix(0.981736 0.190248 0.190248 -0.981736 110.736 119.26)"
                   stroke="#EDDB8C"
-                  stroke-width="0.595372"
+                  strokeWidth="0.595372"
                 />
                 <defs>
                   <filter
@@ -583,9 +579,9 @@ export default function Execution() {
                     width="119.076"
                     height="148.263"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="8.01012"
@@ -609,9 +605,9 @@ export default function Execution() {
                     width="88.0298"
                     height="123.75"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="2.12183"
@@ -653,9 +649,9 @@ export default function Execution() {
                     width="105.168"
                     height="133.648"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="2.12183"
@@ -698,11 +694,11 @@ export default function Execution() {
                     y2="116.677"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#FEDA50" stop-opacity="0.51" />
+                    <stop stopColor="#FEDA50" stopOpacity="0.51" />
                     <stop
                       offset="0.470362"
-                      stop-color="#F8C008"
-                      stop-opacity="0.44"
+                      stopColor="#F8C008"
+                      stopOpacity="0.44"
                     />
                   </linearGradient>
                   <linearGradient
@@ -715,11 +711,11 @@ export default function Execution() {
                   >
                     <stop
                       offset="0.144224"
-                      stop-color="#DFBF34"
-                      stop-opacity="0.62"
+                      stopColor="#DFBF34"
+                      stopOpacity="0.62"
                     />
-                    <stop offset="0.619485" stop-color="#DFBF34" />
-                    <stop offset="1" stop-color="#F9F2D7" />
+                    <stop offset="0.619485" stopColor="#DFBF34" />
+                    <stop offset="1" stopColor="#F9F2D7" />
                   </linearGradient>
                   <linearGradient
                     id="paint2_linear_124_3985"
@@ -729,8 +725,8 @@ export default function Execution() {
                     y2="106.617"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#F9F2D7" />
-                    <stop offset="1" stop-color="#ECD57E" />
+                    <stop stopColor="#F9F2D7" />
+                    <stop offset="1" stopColor="#ECD57E" />
                   </linearGradient>
                   <linearGradient
                     id="paint3_linear_124_3985"
@@ -740,8 +736,8 @@ export default function Execution() {
                     y2="106.617"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#F9F2D7" />
-                    <stop offset="1" stop-color="#ECD57E" />
+                    <stop stopColor="#F9F2D7" />
+                    <stop offset="1" stopColor="#ECD57E" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -764,13 +760,13 @@ export default function Execution() {
                   <path
                     d="M19.9551 195.545L105.069 42.9487L176.199 108.608L19.9551 195.545Z"
                     fill="white"
-                    fill-opacity="0.7"
-                    shape-rendering="crispEdges"
+                    fillOpacity="0.7"
+                    shapeRenderingg="crispEdges"
                   />
                   <path
                     d="M19.9551 195.545L105.069 42.9487L176.199 108.608L19.9551 195.545Z"
                     fill="url(#paint0_linear_124_28099)"
-                    shape-rendering="crispEdges"
+                    shapeRenderingg="crispEdges"
                   />
                 </g>
                 <g filter="url(#filter1_f_124_28099)">
@@ -797,9 +793,9 @@ export default function Execution() {
                     width="184.244"
                     height="180.597"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -832,9 +828,9 @@ export default function Execution() {
                     width="138.988"
                     height="138.989"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -853,9 +849,9 @@ export default function Execution() {
                     width="98.4883"
                     height="104.274"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feBlend
                       mode="normal"
                       in="SourceGraphic"
@@ -894,12 +890,12 @@ export default function Execution() {
                     y2="53.8919"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#DFBF34" />
-                    <stop offset="0.525176" stop-color="#EDDB8C" />
+                    <stop stopColor="#DFBF34" />
+                    <stop offset="0.525176" stopColor="#EDDB8C" />
                     <stop
                       offset="0.890625"
-                      stop-color="#EDDB8C"
-                      stop-opacity="0.6"
+                      stopColor="#EDDB8C"
+                      stopOpacity="0.6"
                     />
                   </linearGradient>
                   <linearGradient
@@ -910,9 +906,9 @@ export default function Execution() {
                     y2="118.943"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#DFBF34" />
-                    <stop offset="0.645833" stop-color="#EDDB8C" />
-                    <stop offset="1" stop-color="#EDDB8C" />
+                    <stop stopColor="#DFBF34" />
+                    <stop offset="0.645833" stopColor="#EDDB8C" />
+                    <stop offset="1" stopColor="#EDDB8C" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -940,14 +936,14 @@ export default function Execution() {
                     clipRule="evenodd"
                     d="M185.999 159.669C187.456 160.588 189.391 160.095 190.175 158.56C196.582 146 200.194 131.784 200.194 116.727C200.194 65.6913 158.693 24.3184 107.5 24.3184C77.6778 24.3184 51.1448 38.3586 34.1892 60.1704C33.1262 61.5378 33.5101 63.51 34.9752 64.4339L185.999 159.669Z"
                     fill="#F4E9B9"
-                    fill-opacity="0.3"
-                    shape-rendering="crispEdges"
+                    fillOpacity="0.3"
+                    shapeRenderingg="crispEdges"
                   />
                 </g>
                 <path
                   d="M34.8472 64.8211L34.9911 64.5908L34.8472 64.8211ZM190.103 158.06L189.86 157.938L190.103 158.06ZM185.928 159.195L186.072 158.964L185.928 159.195ZM199.568 116.727C199.568 131.541 196.072 145.538 189.86 157.938L190.346 158.182C196.594 145.708 200.111 131.628 200.111 116.727H199.568ZM107.43 24.59C158.316 24.59 199.568 65.8413 199.568 116.727H200.111C200.111 65.5413 158.616 24.0468 107.43 24.0468V24.59ZM34.2541 60.7322C51.0942 38.7584 77.6075 24.59 107.43 24.59V24.0468C77.4313 24.0468 50.7614 38.2996 33.8229 60.4018L34.2541 60.7322ZM34.7033 65.0515L185.784 159.425L186.072 158.964L34.9911 64.5908L34.7033 65.0515ZM33.8229 60.4018C32.6699 61.9063 33.1064 64.054 34.7033 65.0515L34.9911 64.5908C33.6552 63.7563 33.3036 61.9724 34.2541 60.7322L33.8229 60.4018ZM189.86 157.938C189.161 159.334 187.406 159.798 186.072 158.964L185.784 159.425C187.379 160.421 189.498 159.874 190.346 158.182L189.86 157.938Z"
                   fill="url(#paint0_linear_124_24098)"
-                  fill-opacity="0.8"
+                  fillOpacity="0.8"
                 />
                 <g filter="url(#filter1_bd_124_24098)">
                   <path
@@ -964,9 +960,9 @@ export default function Execution() {
                     width="198.609"
                     height="167.813"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur in="BackgroundImageFix" stdDeviation="8" />
                     <feComposite
                       in2="SourceAlpha"
@@ -1005,9 +1001,9 @@ export default function Execution() {
                     width="79.6195"
                     height="55.6341"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feGaussianBlur
                       in="BackgroundImageFix"
                       stdDeviation="3.2364"
@@ -1052,12 +1048,12 @@ export default function Execution() {
                   >
                     <stop
                       offset="0.144224"
-                      stop-color="#DFBF34"
-                      stop-opacity="0.8"
+                      stopColor="#DFBF34"
+                      stopOpacity="0.8"
                     />
-                    <stop offset="0.619485" stop-color="#EDDB8C" />
-                    <stop offset="1" stop-color="#FFF0B6" />
-                    <stop offset="1" stop-color="#F9F2D7" />
+                    <stop offset="0.619485" stopColor="#EDDB8C" />
+                    <stop offset="1" stopColor="#FFF0B6" />
+                    <stop offset="1" stopColor="#F9F2D7" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -1148,9 +1144,9 @@ export default function Execution() {
                     width="70.9082"
                     height="207.091"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -1206,9 +1202,9 @@ export default function Execution() {
                     width="70.9082"
                     height="207.091"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -1264,9 +1260,9 @@ export default function Execution() {
                     width="70.9082"
                     height="207.091"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -1323,8 +1319,8 @@ export default function Execution() {
                     y2="99.0965"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#DFBF34" />
-                    <stop offset="1" stop-color="#EDDB8C" />
+                    <stop stopColor="#DFBF34" />
+                    <stop offset="1" stopColor="#EDDB8C" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_124_3131"
@@ -1334,8 +1330,8 @@ export default function Execution() {
                     y2="99.0965"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#DFBF34" />
-                    <stop offset="1" stop-color="#EDDB8C" />
+                    <stop stopColor="#DFBF34" />
+                    <stop offset="1" stopColor="#EDDB8C" />
                   </linearGradient>
                   <linearGradient
                     id="paint2_linear_124_3131"
@@ -1345,8 +1341,8 @@ export default function Execution() {
                     y2="99.0965"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#DFBF34" />
-                    <stop offset="1" stop-color="#EDDB8C" />
+                    <stop stopColor="#DFBF34" />
+                    <stop offset="1" stopColor="#EDDB8C" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -1399,9 +1395,9 @@ export default function Execution() {
                     width="218.135"
                     height="82.9419"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -1434,9 +1430,9 @@ export default function Execution() {
                     width="157.176"
                     height="82.9419"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -1469,9 +1465,9 @@ export default function Execution() {
                     width="91.8027"
                     height="79.9673"
                     filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
+                    colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -1505,9 +1501,9 @@ export default function Execution() {
                     y2="189.908"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#DFBF34" />
-                    <stop offset="0.645833" stop-color="#EDDB8C" />
-                    <stop offset="1" stop-color="#F9F2D7" />
+                    <stop stopColor="#DFBF34" />
+                    <stop offset="0.645833" stopColor="#EDDB8C" />
+                    <stop offset="1" stopColor="#F9F2D7" />
                   </linearGradient>
                   <linearGradient
                     id="paint1_linear_124_25903"
@@ -1517,9 +1513,9 @@ export default function Execution() {
                     y2="133.977"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#DFBF34" />
-                    <stop offset="0.645833" stop-color="#EDDB8C" />
-                    <stop offset="1" stop-color="#F9F2D7" />
+                    <stop stopColor="#DFBF34" />
+                    <stop offset="0.645833" stopColor="#EDDB8C" />
+                    <stop offset="1" stopColor="#F9F2D7" />
                   </linearGradient>
                   <linearGradient
                     id="paint2_linear_124_25903"
@@ -1529,9 +1525,9 @@ export default function Execution() {
                     y2="78.0436"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#DFBF34" />
-                    <stop offset="0.645833" stop-color="#EDDB8C" />
-                    <stop offset="1" stop-color="#F9F2D7" />
+                    <stop stopColor="#DFBF34" />
+                    <stop offset="0.645833" stopColor="#EDDB8C" />
+                    <stop offset="1" stopColor="#F9F2D7" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -1555,11 +1551,11 @@ export default function Execution() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clip-path="url(#clip0_674_77103)">
+            <g clipPath="url(#clip0_674_77103)">
               <path
                 d="M203.708 42.8309L203.859 42.9598L204.057 42.9756L265.885 47.9095L270.819 109.738L270.834 109.936L270.963 110.087L311.193 157.295L270.963 204.503L270.834 204.654L270.819 204.853L265.885 266.681L204.057 271.615L203.859 271.631L203.708 271.759L156.5 311.99L109.292 271.759L109.141 271.631L108.943 271.615L47.1152 266.681L42.1814 204.853L42.1655 204.654L42.0366 204.503L1.8066 157.295L42.0366 110.087L42.1655 109.936L42.1814 109.738L47.1152 47.9095L108.943 42.9756L109.141 42.9598L109.292 42.8309L156.5 2.60054L203.708 42.8309Z"
                 stroke="#776413"
-                stroke-width="1.22783"
+                strokeWidth="1.22783"
               />
               <path
                 d="M130.699 141.216C129.775 141.216 128.971 141.048 128.287 140.712C127.603 140.376 127.075 139.908 126.703 139.308C126.331 138.708 126.145 138.012 126.145 137.22H127.729C127.729 137.712 127.843 138.168 128.071 138.588C128.299 138.996 128.629 139.326 129.061 139.578C129.505 139.818 130.051 139.938 130.699 139.938C131.551 139.938 132.211 139.734 132.679 139.326C133.147 138.918 133.381 138.408 133.381 137.796C133.381 137.292 133.273 136.89 133.057 136.59C132.841 136.278 132.547 136.026 132.175 135.834C131.815 135.642 131.395 135.474 130.915 135.33C130.447 135.186 129.955 135.024 129.439 134.844C128.467 134.508 127.747 134.094 127.279 133.602C126.811 133.098 126.577 132.444 126.577 131.64C126.565 130.968 126.721 130.374 127.045 129.858C127.369 129.33 127.825 128.922 128.413 128.634C129.013 128.334 129.721 128.184 130.537 128.184C131.341 128.184 132.037 128.334 132.625 128.634C133.225 128.934 133.687 129.348 134.011 129.876C134.347 130.404 134.521 131.004 134.533 131.676H132.949C132.949 131.328 132.859 130.986 132.679 130.65C132.499 130.302 132.223 130.02 131.851 129.804C131.491 129.588 131.035 129.48 130.483 129.48C129.799 129.468 129.235 129.642 128.791 130.002C128.359 130.362 128.143 130.86 128.143 131.496C128.143 132.036 128.293 132.45 128.593 132.738C128.905 133.026 129.337 133.266 129.889 133.458C130.441 133.638 131.077 133.848 131.797 134.088C132.397 134.304 132.937 134.556 133.417 134.844C133.897 135.132 134.269 135.504 134.533 135.96C134.809 136.416 134.947 136.998 134.947 137.706C134.947 138.306 134.791 138.876 134.479 139.416C134.167 139.944 133.693 140.376 133.057 140.712C132.433 141.048 131.647 141.216 130.699 141.216ZM140.259 141.216C139.203 141.216 138.363 140.898 137.739 140.262C137.115 139.614 136.803 138.624 136.803 137.292V132.072H138.315V137.13C138.315 138.99 139.077 139.92 140.601 139.92C141.381 139.92 142.023 139.644 142.527 139.092C143.043 138.528 143.301 137.73 143.301 136.698V132.072H144.813V141H143.445L143.337 139.398C143.061 139.962 142.647 140.406 142.095 140.73C141.555 141.054 140.943 141.216 140.259 141.216ZM147.302 144.96V132.072H148.67L148.814 133.548C149.102 133.116 149.51 132.726 150.038 132.378C150.578 132.03 151.262 131.856 152.09 131.856C152.978 131.856 153.752 132.06 154.412 132.468C155.072 132.876 155.582 133.434 155.942 134.142C156.314 134.85 156.5 135.654 156.5 136.554C156.5 137.454 156.314 138.258 155.942 138.966C155.582 139.662 155.066 140.214 154.394 140.622C153.734 141.018 152.96 141.216 152.072 141.216C151.34 141.216 150.686 141.066 150.11 140.766C149.546 140.466 149.114 140.046 148.814 139.506V144.96H147.302ZM151.91 139.902C152.51 139.902 153.038 139.764 153.494 139.488C153.95 139.2 154.31 138.804 154.574 138.3C154.838 137.796 154.97 137.208 154.97 136.536C154.97 135.864 154.838 135.276 154.574 134.772C154.31 134.268 153.95 133.878 153.494 133.602C153.038 133.314 152.51 133.17 151.91 133.17C151.31 133.17 150.782 133.314 150.326 133.602C149.87 133.878 149.51 134.268 149.246 134.772C148.982 135.276 148.85 135.864 148.85 136.536C148.85 137.208 148.982 137.796 149.246 138.3C149.51 138.804 149.87 139.2 150.326 139.488C150.782 139.764 151.31 139.902 151.91 139.902ZM162.618 141.216C161.766 141.216 161.01 141.024 160.35 140.64C159.69 140.244 159.168 139.698 158.784 139.002C158.412 138.306 158.226 137.484 158.226 136.536C158.226 135.6 158.412 134.784 158.784 134.088C159.156 133.38 159.672 132.834 160.332 132.45C161.004 132.054 161.778 131.856 162.654 131.856C163.518 131.856 164.262 132.054 164.886 132.45C165.522 132.834 166.008 133.344 166.344 133.98C166.68 134.616 166.848 135.3 166.848 136.032C166.848 136.164 166.842 136.296 166.83 136.428C166.83 136.56 166.83 136.71 166.83 136.878H159.72C159.756 137.562 159.912 138.132 160.188 138.588C160.476 139.032 160.83 139.368 161.25 139.596C161.682 139.824 162.138 139.938 162.618 139.938C163.242 139.938 163.764 139.794 164.184 139.506C164.604 139.218 164.91 138.828 165.102 138.336H166.596C166.356 139.164 165.894 139.854 165.21 140.406C164.538 140.946 163.674 141.216 162.618 141.216ZM162.618 133.134C161.898 133.134 161.256 133.356 160.692 133.8C160.14 134.232 159.822 134.868 159.738 135.708H165.354C165.318 134.904 165.042 134.274 164.526 133.818C164.01 133.362 163.374 133.134 162.618 133.134ZM168.852 141V132.072H170.22L170.346 133.782C170.622 133.194 171.042 132.726 171.606 132.378C172.17 132.03 172.866 131.856 173.694 131.856V133.44H173.28C172.752 133.44 172.266 133.536 171.822 133.728C171.378 133.908 171.024 134.22 170.76 134.664C170.496 135.108 170.364 135.72 170.364 136.5V141H168.852ZM176.309 130.092C176.009 130.092 175.757 129.996 175.553 129.804C175.361 129.6 175.265 129.348 175.265 129.048C175.265 128.76 175.361 128.52 175.553 128.328C175.757 128.136 176.009 128.04 176.309 128.04C176.597 128.04 176.843 128.136 177.047 128.328C177.251 128.52 177.353 128.76 177.353 129.048C177.353 129.348 177.251 129.6 177.047 129.804C176.843 129.996 176.597 130.092 176.309 130.092ZM175.553 141V132.072H177.065V141H175.553ZM183.766 141.216C182.926 141.216 182.17 141.024 181.498 140.64C180.826 140.256 180.292 139.716 179.896 139.02C179.512 138.312 179.32 137.484 179.32 136.536C179.32 135.588 179.518 134.766 179.914 134.07C180.31 133.362 180.844 132.816 181.516 132.432C182.2 132.048 182.962 131.856 183.802 131.856C184.642 131.856 185.398 132.048 186.07 132.432C186.742 132.816 187.27 133.362 187.654 134.07C188.05 134.766 188.248 135.588 188.248 136.536C188.248 137.484 188.05 138.312 187.654 139.02C187.258 139.716 186.718 140.256 186.034 140.64C185.362 141.024 184.606 141.216 183.766 141.216ZM183.766 139.92C184.282 139.92 184.762 139.794 185.206 139.542C185.65 139.29 186.01 138.912 186.286 138.408C186.562 137.904 186.7 137.28 186.7 136.536C186.7 135.792 186.562 135.168 186.286 134.664C186.022 134.16 185.668 133.782 185.224 133.53C184.78 133.278 184.306 133.152 183.802 133.152C183.286 133.152 182.806 133.278 182.362 133.53C181.918 133.782 181.558 134.16 181.282 134.664C181.006 135.168 180.868 135.792 180.868 136.536C180.868 137.28 181.006 137.904 181.282 138.408C181.558 138.912 181.912 139.29 182.344 139.542C182.788 139.794 183.262 139.92 183.766 139.92ZM190.35 141V132.072H191.718L191.844 133.782C192.12 133.194 192.54 132.726 193.104 132.378C193.668 132.03 194.364 131.856 195.192 131.856V133.44H194.778C194.25 133.44 193.764 133.536 193.32 133.728C192.876 133.908 192.522 134.22 192.258 134.664C191.994 135.108 191.862 135.72 191.862 136.5V141H190.35ZM46.1728 181V160H53.8828C55.5628 160 56.9428 160.29 58.0228 160.87C59.1228 161.43 59.9428 162.2 60.4828 163.18C61.0228 164.14 61.2928 165.21 61.2928 166.39C61.2928 167.67 60.9528 168.84 60.2728 169.9C59.6128 170.96 58.5728 171.73 57.1528 172.21L61.5028 181H57.0928L53.1928 172.72H50.0128V181H46.1728ZM50.0128 169.9H53.6428C54.9228 169.9 55.8628 169.59 56.4628 168.97C57.0628 168.35 57.3628 167.53 57.3628 166.51C57.3628 165.51 57.0628 164.71 56.4628 164.11C55.8828 163.51 54.9328 163.21 53.6128 163.21H50.0128V169.9ZM71.096 181.36C69.596 181.36 68.266 181.04 67.106 180.4C65.946 179.76 65.036 178.86 64.376 177.7C63.716 176.54 63.386 175.2 63.386 173.68C63.386 172.14 63.706 170.77 64.346 169.57C65.006 168.37 65.906 167.44 67.046 166.78C68.206 166.1 69.566 165.76 71.126 165.76C72.586 165.76 73.876 166.08 74.996 166.72C76.116 167.36 76.986 168.24 77.606 169.36C78.246 170.46 78.566 171.69 78.566 173.05C78.566 173.27 78.556 173.5 78.536 173.74C78.536 173.98 78.526 174.23 78.506 174.49H67.196C67.276 175.65 67.676 176.56 68.396 177.22C69.136 177.88 70.026 178.21 71.066 178.21C71.846 178.21 72.496 178.04 73.016 177.7C73.556 177.34 73.956 176.88 74.216 176.32H78.116C77.836 177.26 77.366 178.12 76.706 178.9C76.066 179.66 75.266 180.26 74.306 180.7C73.366 181.14 72.296 181.36 71.096 181.36ZM71.126 168.88C70.186 168.88 69.356 169.15 68.636 169.69C67.916 170.21 67.456 171.01 67.256 172.09H74.666C74.606 171.11 74.246 170.33 73.586 169.75C72.926 169.17 72.106 168.88 71.126 168.88ZM87.9457 181.36C86.6257 181.36 85.4657 181.15 84.4657 180.73C83.4657 180.29 82.6657 179.69 82.0657 178.93C81.4657 178.17 81.1057 177.29 80.9857 176.29H84.8557C84.9757 176.87 85.2957 177.37 85.8157 177.79C86.3557 178.19 87.0457 178.39 87.8857 178.39C88.7257 178.39 89.3357 178.22 89.7157 177.88C90.1157 177.54 90.3157 177.15 90.3157 176.71C90.3157 176.07 90.0357 175.64 89.4757 175.42C88.9157 175.18 88.1357 174.95 87.1357 174.73C86.4957 174.59 85.8457 174.42 85.1857 174.22C84.5257 174.02 83.9157 173.77 83.3557 173.47C82.8157 173.15 82.3757 172.75 82.0357 172.27C81.6957 171.77 81.5257 171.16 81.5257 170.44C81.5257 169.12 82.0457 168.01 83.0857 167.11C84.1457 166.21 85.6257 165.76 87.5257 165.76C89.2857 165.76 90.6857 166.17 91.7257 166.99C92.7857 167.81 93.4157 168.94 93.6157 170.38H89.9857C89.7657 169.28 88.9357 168.73 87.4957 168.73C86.7757 168.73 86.2157 168.87 85.8157 169.15C85.4357 169.43 85.2457 169.78 85.2457 170.2C85.2457 170.64 85.5357 170.99 86.1157 171.25C86.6957 171.51 87.4657 171.75 88.4257 171.97C89.4657 172.21 90.4157 172.48 91.2757 172.78C92.1557 173.06 92.8557 173.49 93.3757 174.07C93.8957 174.63 94.1557 175.44 94.1557 176.5C94.1757 177.42 93.9357 178.25 93.4357 178.99C92.9357 179.73 92.2157 180.31 91.2757 180.73C90.3357 181.15 89.2257 181.36 87.9457 181.36ZM97.5574 187.6V166.12H100.977L101.397 168.25C101.877 167.59 102.507 167.01 103.287 166.51C104.087 166.01 105.117 165.76 106.377 165.76C107.777 165.76 109.027 166.1 110.127 166.78C111.227 167.46 112.097 168.39 112.737 169.57C113.377 170.75 113.697 172.09 113.697 173.59C113.697 175.09 113.377 176.43 112.737 177.61C112.097 178.77 111.227 179.69 110.127 180.37C109.027 181.03 107.777 181.36 106.377 181.36C105.257 181.36 104.277 181.15 103.437 180.73C102.597 180.31 101.917 179.72 101.397 178.96V187.6H97.5574ZM105.567 178C106.787 178 107.797 177.59 108.597 176.77C109.397 175.95 109.797 174.89 109.797 173.59C109.797 172.29 109.397 171.22 108.597 170.38C107.797 169.54 106.787 169.12 105.567 169.12C104.327 169.12 103.307 169.54 102.507 170.38C101.727 171.2 101.337 172.26 101.337 173.56C101.337 174.86 101.727 175.93 102.507 176.77C103.307 177.59 104.327 178 105.567 178ZM124.268 181.36C122.828 181.36 121.528 181.03 120.368 180.37C119.228 179.71 118.318 178.8 117.638 177.64C116.978 176.46 116.648 175.1 116.648 173.56C116.648 172.02 116.988 170.67 117.668 169.51C118.348 168.33 119.258 167.41 120.398 166.75C121.558 166.09 122.858 165.76 124.298 165.76C125.718 165.76 126.998 166.09 128.138 166.75C129.298 167.41 130.208 168.33 130.868 169.51C131.548 170.67 131.888 172.02 131.888 173.56C131.888 175.1 131.548 176.46 130.868 177.64C130.208 178.8 129.298 179.71 128.138 180.37C126.978 181.03 125.688 181.36 124.268 181.36ZM124.268 178.03C125.268 178.03 126.138 177.66 126.878 176.92C127.618 176.16 127.988 175.04 127.988 173.56C127.988 172.08 127.618 170.97 126.878 170.23C126.138 169.47 125.278 169.09 124.298 169.09C123.278 169.09 122.398 169.47 121.658 170.23C120.938 170.97 120.578 172.08 120.578 173.56C120.578 175.04 120.938 176.16 121.658 176.92C122.398 177.66 123.268 178.03 124.268 178.03ZM135.321 181V166.12H138.711L139.011 168.64C139.471 167.76 140.131 167.06 140.991 166.54C141.871 166.02 142.901 165.76 144.081 165.76C145.921 165.76 147.351 166.34 148.371 167.5C149.391 168.66 149.901 170.36 149.901 172.6V181H146.061V172.96C146.061 171.68 145.801 170.7 145.281 170.02C144.761 169.34 143.951 169 142.851 169C141.771 169 140.881 169.38 140.181 170.14C139.501 170.9 139.161 171.96 139.161 173.32V181H135.321ZM159.723 181.36C158.403 181.36 157.243 181.15 156.243 180.73C155.243 180.29 154.443 179.69 153.843 178.93C153.243 178.17 152.883 177.29 152.763 176.29H156.633C156.753 176.87 157.073 177.37 157.593 177.79C158.133 178.19 158.823 178.39 159.663 178.39C160.503 178.39 161.113 178.22 161.493 177.88C161.893 177.54 162.093 177.15 162.093 176.71C162.093 176.07 161.813 175.64 161.253 175.42C160.693 175.18 159.913 174.95 158.913 174.73C158.273 174.59 157.623 174.42 156.963 174.22C156.303 174.02 155.693 173.77 155.133 173.47C154.593 173.15 154.153 172.75 153.813 172.27C153.473 171.77 153.303 171.16 153.303 170.44C153.303 169.12 153.823 168.01 154.863 167.11C155.923 166.21 157.403 165.76 159.303 165.76C161.063 165.76 162.463 166.17 163.503 166.99C164.563 167.81 165.193 168.94 165.393 170.38H161.763C161.543 169.28 160.713 168.73 159.273 168.73C158.553 168.73 157.993 168.87 157.593 169.15C157.213 169.43 157.023 169.78 157.023 170.2C157.023 170.64 157.313 170.99 157.893 171.25C158.473 171.51 159.243 171.75 160.203 171.97C161.243 172.21 162.193 172.48 163.053 172.78C163.933 173.06 164.633 173.49 165.153 174.07C165.673 174.63 165.933 175.44 165.933 176.5C165.953 177.42 165.713 178.25 165.213 178.99C164.713 179.73 163.993 180.31 163.053 180.73C162.113 181.15 161.003 181.36 159.723 181.36ZM171.405 163.81C170.705 163.81 170.125 163.6 169.665 163.18C169.225 162.76 169.005 162.23 169.005 161.59C169.005 160.95 169.225 160.43 169.665 160.03C170.125 159.61 170.705 159.4 171.405 159.4C172.105 159.4 172.675 159.61 173.115 160.03C173.575 160.43 173.805 160.95 173.805 161.59C173.805 162.23 173.575 162.76 173.115 163.18C172.675 163.6 172.105 163.81 171.405 163.81ZM169.485 181V166.12H173.325V181H169.485ZM181.353 181L175.893 166.12H179.913L183.693 177.37L187.473 166.12H191.493L186.003 181H181.353ZM200.412 181.36C198.912 181.36 197.582 181.04 196.422 180.4C195.262 179.76 194.352 178.86 193.692 177.7C193.032 176.54 192.702 175.2 192.702 173.68C192.702 172.14 193.022 170.77 193.662 169.57C194.322 168.37 195.222 167.44 196.362 166.78C197.522 166.1 198.882 165.76 200.442 165.76C201.902 165.76 203.192 166.08 204.312 166.72C205.432 167.36 206.302 168.24 206.922 169.36C207.562 170.46 207.882 171.69 207.882 173.05C207.882 173.27 207.872 173.5 207.852 173.74C207.852 173.98 207.842 174.23 207.822 174.49H196.512C196.592 175.65 196.992 176.56 197.712 177.22C198.452 177.88 199.342 178.21 200.382 178.21C201.162 178.21 201.812 178.04 202.332 177.7C202.872 177.34 203.272 176.88 203.532 176.32H207.432C207.152 177.26 206.682 178.12 206.022 178.9C205.382 179.66 204.582 180.26 203.622 180.7C202.682 181.14 201.612 181.36 200.412 181.36ZM200.442 168.88C199.502 168.88 198.672 169.15 197.952 169.69C197.232 170.21 196.772 171.01 196.572 172.09H203.982C203.922 171.11 203.562 170.33 202.902 169.75C202.242 169.17 201.422 168.88 200.442 168.88ZM211.112 181V166.12H214.502L214.802 168.64C215.262 167.76 215.922 167.06 216.782 166.54C217.662 166.02 218.692 165.76 219.872 165.76C221.712 165.76 223.142 166.34 224.162 167.5C225.182 168.66 225.692 170.36 225.692 172.6V181H221.852V172.96C221.852 171.68 221.592 170.7 221.072 170.02C220.552 169.34 219.742 169 218.642 169C217.562 169 216.672 169.38 215.972 170.14C215.292 170.9 214.952 171.96 214.952 173.32V181H211.112ZM236.594 181.36C235.094 181.36 233.764 181.04 232.604 180.4C231.444 179.76 230.534 178.86 229.874 177.7C229.214 176.54 228.884 175.2 228.884 173.68C228.884 172.14 229.204 170.77 229.844 169.57C230.504 168.37 231.404 167.44 232.544 166.78C233.704 166.1 235.064 165.76 236.624 165.76C238.084 165.76 239.374 166.08 240.494 166.72C241.614 167.36 242.484 168.24 243.104 169.36C243.744 170.46 244.064 171.69 244.064 173.05C244.064 173.27 244.054 173.5 244.034 173.74C244.034 173.98 244.024 174.23 244.004 174.49H232.694C232.774 175.65 233.174 176.56 233.894 177.22C234.634 177.88 235.524 178.21 236.564 178.21C237.344 178.21 237.994 178.04 238.514 177.7C239.054 177.34 239.454 176.88 239.714 176.32H243.614C243.334 177.26 242.864 178.12 242.204 178.9C241.564 179.66 240.764 180.26 239.804 180.7C238.864 181.14 237.794 181.36 236.594 181.36ZM236.624 168.88C235.684 168.88 234.854 169.15 234.134 169.69C233.414 170.21 232.954 171.01 232.754 172.09H240.164C240.104 171.11 239.744 170.33 239.084 169.75C238.424 169.17 237.604 168.88 236.624 168.88ZM253.444 181.36C252.124 181.36 250.964 181.15 249.964 180.73C248.964 180.29 248.164 179.69 247.564 178.93C246.964 178.17 246.604 177.29 246.484 176.29H250.354C250.474 176.87 250.794 177.37 251.314 177.79C251.854 178.19 252.544 178.39 253.384 178.39C254.224 178.39 254.834 178.22 255.214 177.88C255.614 177.54 255.814 177.15 255.814 176.71C255.814 176.07 255.534 175.64 254.974 175.42C254.414 175.18 253.634 174.95 252.634 174.73C251.994 174.59 251.344 174.42 250.684 174.22C250.024 174.02 249.414 173.77 248.854 173.47C248.314 173.15 247.874 172.75 247.534 172.27C247.194 171.77 247.024 171.16 247.024 170.44C247.024 169.12 247.544 168.01 248.584 167.11C249.644 166.21 251.124 165.76 253.024 165.76C254.784 165.76 256.184 166.17 257.224 166.99C258.284 167.81 258.914 168.94 259.114 170.38H255.484C255.264 169.28 254.434 168.73 252.994 168.73C252.274 168.73 251.714 168.87 251.314 169.15C250.934 169.43 250.744 169.78 250.744 170.2C250.744 170.64 251.034 170.99 251.614 171.25C252.194 171.51 252.964 171.75 253.924 171.97C254.964 172.21 255.914 172.48 256.774 172.78C257.654 173.06 258.354 173.49 258.874 174.07C259.394 174.63 259.654 175.44 259.654 176.5C259.674 177.42 259.434 178.25 258.934 178.99C258.434 179.73 257.714 180.31 256.774 180.73C255.834 181.15 254.724 181.36 253.444 181.36ZM269.205 181.36C267.885 181.36 266.725 181.15 265.725 180.73C264.725 180.29 263.925 179.69 263.325 178.93C262.725 178.17 262.365 177.29 262.245 176.29H266.115C266.235 176.87 266.555 177.37 267.075 177.79C267.615 178.19 268.305 178.39 269.145 178.39C269.985 178.39 270.595 178.22 270.975 177.88C271.375 177.54 271.575 177.15 271.575 176.71C271.575 176.07 271.295 175.64 270.735 175.42C270.175 175.18 269.395 174.95 268.395 174.73C267.755 174.59 267.105 174.42 266.445 174.22C265.785 174.02 265.175 173.77 264.615 173.47C264.075 173.15 263.635 172.75 263.295 172.27C262.955 171.77 262.785 171.16 262.785 170.44C262.785 169.12 263.305 168.01 264.345 167.11C265.405 166.21 266.885 165.76 268.785 165.76C270.545 165.76 271.945 166.17 272.985 166.99C274.045 167.81 274.675 168.94 274.875 170.38H271.245C271.025 169.28 270.195 168.73 268.755 168.73C268.035 168.73 267.475 168.87 267.075 169.15C266.695 169.43 266.505 169.78 266.505 170.2C266.505 170.64 266.795 170.99 267.375 171.25C267.955 171.51 268.725 171.75 269.685 171.97C270.725 172.21 271.675 172.48 272.535 172.78C273.415 173.06 274.115 173.49 274.635 174.07C275.155 174.63 275.415 175.44 275.415 176.5C275.435 177.42 275.195 178.25 274.695 178.99C274.195 179.73 273.475 180.31 272.535 180.73C271.595 181.15 270.485 181.36 269.205 181.36Z"
@@ -1594,7 +1590,7 @@ export default function Execution() {
             <path
               d="M280.4 140.501C280.4 217.766 217.765 280.402 140.5 280.402C63.2352 280.402 0.599744 217.766 0.599744 140.501C0.599744 63.2357 63.2352 0.599744 140.5 0.599744C217.765 0.599744 280.4 63.2357 280.4 140.501Z"
               stroke="#776413"
-              stroke-width="1.19949"
+              strokeWidth="1.19949"
             />
           </svg>
           <svg
@@ -1615,7 +1611,7 @@ export default function Execution() {
               height="220.995"
               transform="matrix(0.707104 -0.70711 0.707104 0.70711 0.763898 157.819)"
               stroke="#776413"
-              stroke-width="1.24591"
+              strokeWidth="1.24591"
             />
           </svg>
         </div>

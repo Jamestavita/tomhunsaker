@@ -117,6 +117,8 @@ stripeRouter_mindset.post(
         NodeMailer({
           name: mindsetUser.name,
           email: mindsetUser.email,
+          assessment_info: mindsetUser.assessment_info,
+          concept: "Mindset",
           level: mindsetUser.level,
           plan: "Premium",
         });
@@ -227,12 +229,14 @@ stripeRouter_strategy.post(
         };
 
         await strategyUser.save();
-      // NodeMailer({
-      //   name: strategyUser.name,
-      //   email: strategyUser.email,
-      //   level: strategyUser.level,
-      //   plan: "Premium",
-      // });
+        NodeMailer({
+          name: strategyUser.name,
+          email: strategyUser.email,
+          assessment_info: strategyUser.assessment_info,
+          concept: "Strategy",
+          level: strategyUser.level,
+          plan: "Premium",
+        });
 
       default:
         console.log(`Unhandled event type ${event.type}`);
@@ -340,12 +344,14 @@ stripeRouter_innovation.post(
         };
 
         await innovationUser.save();
-      // NodeMailer({
-      //   name: innovationUser.name,
-      //   email: innovationUser.email,
-      //   level: innovationUser.level,
-      //   plan: "Premium",
-      // });
+        NodeMailer({
+          name: innovationUser.name,
+          email: innovationUser.email,
+          assessment_info: innovationUser.assessment_info,
+          concept: "Innovation",
+          level: innovationUser.level,
+          plan: "Premium",
+        });
 
       default:
         console.log(`Unhandled event type ${event.type}`);
@@ -453,12 +459,14 @@ stripeRouter_execution.post(
         };
 
         await executionUser.save();
-      // NodeMailer({
-      //   name: executionUser.name,
-      //   email: executionUser.email,
-      //   level: executionUser.level,
-      //   plan: "Premium",
-      // });
+        NodeMailer({
+          name: executionUser.name,
+          email: executionUser.email,
+          assessment_info: executionUser.assessment_info,
+          concept: "Execution",
+          level: executionUser.level,
+          plan: "Premium",
+        });
 
       default:
         console.log(`Unhandled event type ${event.type}`);

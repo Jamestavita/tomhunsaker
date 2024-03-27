@@ -1,20 +1,25 @@
 import nodemailer from "nodemailer";
 import {
-  fifthFree,
-  fifthPrem,
-  fourthFree,
-  fourthPrem,
-  oneFree,
-  onePrem,
-  thirdFree,
-  thirdPrem,
-  twoFree,
-  twoPrem,
+  mindsetFree,
+  mindsetPrem,
+  strategyFree,
+  strategyPrem,
+  innovationFree,
+  innovationPrem,
+  executionFree,
+  executionPrem,
 } from "../utils/emails/email.js";
 import dotenv from "dotenv";
 dotenv.config();
 
-const NodeMailer = async ({ name, email, level, plan }) => {
+const NodeMailer = async ({
+  name,
+  email,
+  assessment_info,
+  concept,
+  level,
+  plan,
+}) => {
   const transporter = nodemailer.createTransport({
     host: process.env.MAILER_HOST,
     secureConnection: true,
@@ -25,37 +30,34 @@ const NodeMailer = async ({ name, email, level, plan }) => {
     },
   });
 
-  let mail;
+  let mail = {};
   switch (true) {
-    case level === 1 && plan === "Free":
-      mail = oneFree;
+    case plan === "Free" && concept === "Mindset":
+      mail = { conceptMail: mindsetFree, subject: "Mindset & Culture" };
       break;
-    case level === 1 && plan === "Premium":
-      mail = onePrem;
+    case plan === "Premium" && concept === "Mindset":
+      mail = { conceptMail: mindsetPrem, subject: "Mindset & Culture" };
       break;
-    case level === 2 && plan === "Free":
-      mail = twoFree;
+    case plan === "Free" && concept === "Strategy":
+      mail = { conceptMail: strategyFree, subject: "Strategy & Change" };
       break;
-    case level === 2 && plan === "Premium":
-      mail = twoPrem;
+    case plan === "Premium" && concept === "Strategy":
+      mail = { conceptMail: strategyPrem, subject: "Strategy & Change" };
       break;
-    case level === 3 && plan === "Free":
-      mail = thirdFree;
+    case plan === "Free" && concept === "Innovation":
+      mail = { conceptMail: innovationFree, subject: "Innovation & Analytics" };
       break;
-    case level === 3 && plan === "Premium":
-      mail = thirdPrem;
+    case plan === "Premium" && concept === "Innovation":
+      mail = { conceptMail: innovationPrem, subject: "Innovation & Analytics" };
       break;
-    case level === 4 && plan === "Free":
-      mail = fourthFree;
+    case plan === "Free" && concept === "Execution":
+      mail = { conceptMail: executionFree, subject: "Execution & Agility" };
       break;
-    case level === 4 && plan === "Premium":
-      mail = fourthPrem;
-      break;
-    case level === 5 && plan === "Free":
-      mail = fifthFree;
-      break;
-    case level === 5 && plan === "Premium":
-      mail = fifthPrem;
+    case plan === "Premium" && concept === "Execution":
+      mail = {
+        conceptMail: executionPrem,
+        subject: "Execution & Agility",
+      };
       break;
     default:
       mail = "";
@@ -65,8 +67,8 @@ const NodeMailer = async ({ name, email, level, plan }) => {
   const info = await transporter.sendMail({
     from: `Tom Hunsaker <${process.env.EMAIL_USERNAME}>`,
     to: email,
-    subject: "Tom Hunsaker Assessment",
-    html: mail({ name }),
+    subject: `${mail?.subject} Assessment`,
+    html: mail.conceptMail({ name, level, assessment_info }),
   });
 
   console.log(`Message sent: ${info.messageId}`);

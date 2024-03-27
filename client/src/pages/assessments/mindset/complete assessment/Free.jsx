@@ -204,7 +204,7 @@ export default function Free() {
     })
       .unwrap()
       .then((result) => {
-        // navigate("../assessment/mindset/free_success");
+        navigate("../assessment/mindset/free_success");
         setLoading(false);
       })
       .catch((err) => {
@@ -246,7 +246,7 @@ export default function Free() {
               <path
                 d="M16.5 77.6244C16.5 62.008 29.9694 49.7973 45.511 51.3245L145.051 61.1059C158.58 62.4353 168.894 73.8118 168.894 87.4059V136.993C168.894 150.703 158.409 162.136 144.75 163.321L45.2094 171.951C29.7715 173.29 16.5 161.119 16.5 145.624V77.6244Z"
                 fill="url(#paint1_radial_804_133560)"
-                fill-opacity="0.7"
+                fillOpacity="0.7"
               />
             </g>
             <g filter="url(#filter1_b_804_133560)">
@@ -265,9 +265,9 @@ export default function Free() {
                 width="176.395"
                 height="144.857"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur in="BackgroundImageFix" stdDeviation="6" />
                 <feComposite
                   in2="SourceAlpha"
@@ -288,9 +288,9 @@ export default function Free() {
                 width="220.066"
                 height="188.529"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="16.9179"
@@ -315,16 +315,8 @@ export default function Free() {
                 y2="56.5507"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  offset="0.0197282"
-                  stop-color="#CB4A22"
-                  stop-opacity="0"
-                />
-                <stop
-                  offset="0.816755"
-                  stop-color="#CB4A22"
-                  stop-opacity="0.7"
-                />
+                <stop offset="0.0197282" stopColor="#CB4A22" stopOpacity="0" />
+                <stop offset="0.816755" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <radialGradient
                 id="paint1_radial_804_133560"
@@ -334,8 +326,8 @@ export default function Free() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(39.2747 168.096) rotate(-44.3789) scale(105.429 176.169)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint2_linear_804_133560"
@@ -345,13 +337,9 @@ export default function Free() {
                 y2="129.37"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  offset="0.0136312"
-                  stop-color="#EDAB96"
-                  stop-opacity="0"
-                />
-                <stop offset="0.600063" stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#EDAB96" stop-opacity="0.1" />
+                <stop offset="0.0136312" stopColor="#EDAB96" stopOpacity="0" />
+                <stop offset="0.600063" stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#EDAB96" stopOpacity="0.1" />
               </linearGradient>
             </defs>
           </svg>

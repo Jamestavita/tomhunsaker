@@ -33,85 +33,85 @@ export default function MindsetOverview() {
               <path
                 d="M125.876 71.674L165.276 42.8368L209.951 62.5405L215.224 111.081L175.823 139.918L131.149 120.215L125.876 71.674Z"
                 fill="url(#paint0_radial_739_108953)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M125.876 71.674L165.276 42.8368L209.951 62.5405L215.224 111.081L175.823 139.918L131.149 120.215L125.876 71.674Z"
                 fill="url(#paint1_linear_739_108953)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M131.394 120.035L126.154 71.7968L165.309 43.1395L209.705 62.7203L214.945 110.958L175.79 139.616L131.394 120.035Z"
                 stroke="url(#paint2_linear_739_108953)"
-                stroke-width="0.527273"
+                strokeWidth="0.527273"
               />
             </g>
             <g filter="url(#filter2_b_739_108953)">
               <path
                 d="M117.677 190.068L150.519 166.031L187.757 182.455L192.152 222.915L159.31 246.952L122.073 230.528L117.677 190.068Z"
                 fill="url(#paint3_radial_739_108953)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M117.677 190.068L150.519 166.031L187.757 182.455L192.152 222.915L159.31 246.952L122.073 230.528L117.677 190.068Z"
                 fill="url(#paint4_linear_739_108953)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M122.319 230.348L117.956 190.191L150.552 166.334L187.511 182.635L191.873 222.792L159.277 246.649L122.319 230.348Z"
                 stroke="url(#paint5_linear_739_108953)"
-                stroke-width="0.527273"
+                strokeWidth="0.527273"
               />
             </g>
             <g filter="url(#filter3_b_739_108953)">
               <path
                 d="M26.7383 180.738L48.7504 164.628L73.7085 175.635L76.6545 202.754L54.6424 218.864L29.6843 207.856L26.7383 180.738Z"
                 fill="url(#paint6_radial_739_108953)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M26.7383 180.738L48.7504 164.628L73.7085 175.635L76.6545 202.754L54.6424 218.864L29.6843 207.856L26.7383 180.738Z"
                 fill="url(#paint7_linear_739_108953)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M29.9299 207.676L27.0168 180.861L48.7833 164.93L73.4628 175.815L76.3759 202.631L54.6095 218.561L29.9299 207.676Z"
                 stroke="url(#paint8_linear_739_108953)"
-                stroke-width="0.527273"
+                strokeWidth="0.527273"
               />
             </g>
             <g filter="url(#filter4_b_739_108953)">
               <path
                 d="M56.2133 87.9637L68.3645 79.0704L82.142 85.147L83.7683 100.117L71.6171 109.01L57.8396 102.934L56.2133 87.9637Z"
                 fill="url(#paint9_radial_739_108953)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M56.2133 87.9637L68.3645 79.0704L82.142 85.147L83.7683 100.117L71.6171 109.01L57.8396 102.934L56.2133 87.9637Z"
                 fill="url(#paint10_linear_739_108953)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M57.9752 102.834L56.3671 88.0315L68.3827 79.2374L82.0064 85.2462L83.6145 100.049L71.5989 108.843L57.9752 102.834Z"
                 stroke="url(#paint11_linear_739_108953)"
-                stroke-width="0.291068"
+                strokeWidth="0.291068"
               />
             </g>
             <g filter="url(#filter5_b_739_108953)">
               <path
                 d="M74.0303 132.557L94.2986 117.723L117.279 127.859L119.992 152.829L99.7238 167.663L76.7429 157.527L74.0303 132.557Z"
                 fill="url(#paint12_radial_739_108953)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M74.0303 132.557L94.2986 117.723L117.279 127.859L119.992 152.829L99.7238 167.663L76.7429 157.527L74.0303 132.557Z"
                 fill="url(#paint13_linear_739_108953)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M76.9691 157.362L74.2868 132.67L94.3289 118.002L117.053 128.024L119.736 152.716L99.6935 167.384L76.9691 157.362Z"
                 stroke="url(#paint14_linear_739_108953)"
-                stroke-width="0.485502"
+                strokeWidth="0.485502"
               />
             </g>
             <defs>
@@ -122,9 +122,9 @@ export default function MindsetOverview() {
                 width="263.582"
                 height="286.411"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -180,9 +180,9 @@ export default function MindsetOverview() {
                 width="102.529"
                 height="110.263"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="3.29546"
@@ -206,9 +206,9 @@ export default function MindsetOverview() {
                 width="87.6584"
                 height="94.1022"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="3.29546"
@@ -232,9 +232,9 @@ export default function MindsetOverview() {
                 width="63.0998"
                 height="67.4184"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="3.29546"
@@ -258,9 +258,9 @@ export default function MindsetOverview() {
                 width="34.8314"
                 height="37.2166"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="1.81917"
@@ -284,9 +284,9 @@ export default function MindsetOverview() {
                 width="58.0985"
                 height="62.0772"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="3.03439"
@@ -311,8 +311,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(198.484 141.113) rotate(-117.177) scale(76.6895 125.396)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint1_linear_739_108953"
@@ -322,8 +322,8 @@ export default function MindsetOverview() {
                 y2="39.9"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_739_108953"
@@ -333,8 +333,8 @@ export default function MindsetOverview() {
                 y2="111.081"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
               <radialGradient
                 id="paint3_radial_739_108953"
@@ -344,8 +344,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(178.199 247.947) rotate(-117.177) scale(63.923 104.521)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint4_linear_739_108953"
@@ -355,8 +355,8 @@ export default function MindsetOverview() {
                 y2="163.583"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint5_linear_739_108953"
@@ -366,8 +366,8 @@ export default function MindsetOverview() {
                 y2="185.271"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
               <radialGradient
                 id="paint6_radial_739_108953"
@@ -377,8 +377,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(67.3026 219.531) rotate(-117.177) scale(42.8441 70.0549)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint7_linear_739_108953"
@@ -388,8 +388,8 @@ export default function MindsetOverview() {
                 y2="162.987"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint8_linear_739_108953"
@@ -399,8 +399,8 @@ export default function MindsetOverview() {
                 y2="202.754"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
               <radialGradient
                 id="paint9_radial_739_108953"
@@ -410,8 +410,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(78.6058 109.379) rotate(-117.177) scale(23.651 38.6721)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint10_linear_739_108953"
@@ -421,8 +421,8 @@ export default function MindsetOverview() {
                 y2="78.1647"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint11_linear_739_108953"
@@ -432,8 +432,8 @@ export default function MindsetOverview() {
                 y2="100.117"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
               <radialGradient
                 id="paint12_radial_739_108953"
@@ -443,8 +443,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(111.381 168.277) rotate(-117.177) scale(39.4499 64.5051)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint13_linear_739_108953"
@@ -454,8 +454,8 @@ export default function MindsetOverview() {
                 y2="116.212"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint14_linear_739_108953"
@@ -465,8 +465,8 @@ export default function MindsetOverview() {
                 y2="152.829"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
             </defs>
           </svg>
@@ -488,85 +488,85 @@ export default function MindsetOverview() {
               <path
                 d="M180.596 90.9978L230.866 54.2056L287.864 79.3447L294.592 141.276L244.322 178.068L187.324 152.929L180.596 90.9978Z"
                 fill="url(#paint0_radial_739_108993)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M180.596 90.9978L230.866 54.2056L287.864 79.3447L294.592 141.276L244.322 178.068L187.324 152.929L180.596 90.9978Z"
                 fill="url(#paint1_linear_739_108993)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M187.637 152.7L180.952 91.1545L230.908 54.5917L287.551 79.5741L294.237 141.119L244.28 177.682L187.637 152.7Z"
                 stroke="url(#paint2_linear_739_108993)"
-                stroke-width="0.672727"
+                strokeWidth="0.672727"
               />
             </g>
             <g filter="url(#filter2_b_739_108993)">
               <path
                 d="M170.138 242.052L212.04 211.385L259.549 232.339L265.157 283.96L223.255 314.628L175.746 293.674L170.138 242.052Z"
                 fill="url(#paint3_radial_739_108993)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M170.138 242.052L212.04 211.385L259.549 232.339L265.157 283.96L223.255 314.628L175.746 293.674L170.138 242.052Z"
                 fill="url(#paint4_linear_739_108993)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M176.059 293.444L170.493 242.209L212.081 211.771L259.236 232.568L264.802 283.804L223.213 314.242L176.059 293.444Z"
                 stroke="url(#paint5_linear_739_108993)"
-                stroke-width="0.672727"
+                strokeWidth="0.672727"
               />
             </g>
             <g filter="url(#filter3_b_739_108993)">
               <path
                 d="M54.1148 230.148L82.1992 209.594L114.042 223.638L117.801 258.237L89.7165 278.792L57.8734 264.748L54.1148 230.148Z"
                 fill="url(#paint6_radial_739_108993)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M54.1148 230.148L82.1992 209.594L114.042 223.638L117.801 258.237L89.7165 278.792L57.8734 264.748L54.1148 230.148Z"
                 fill="url(#paint7_linear_739_108993)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M58.1869 264.518L54.4701 230.305L82.2411 209.98L113.729 223.868L117.446 258.081L89.6746 278.406L58.1869 264.518Z"
                 stroke="url(#paint8_linear_739_108993)"
-                stroke-width="0.672727"
+                strokeWidth="0.672727"
               />
             </g>
             <g filter="url(#filter4_b_739_108993)">
               <path
                 d="M91.7216 111.781L107.225 100.435L124.803 108.187L126.878 127.287L111.375 138.634L93.7965 130.881L91.7216 111.781Z"
                 fill="url(#paint9_radial_739_108993)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M91.7216 111.781L107.225 100.435L124.803 108.187L126.878 127.287L111.375 138.634L93.7965 130.881L91.7216 111.781Z"
                 fill="url(#paint10_linear_739_108993)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M93.9695 130.754L91.9178 111.868L107.248 100.648L124.63 108.314L126.682 127.2L111.352 138.421L93.9695 130.754Z"
                 stroke="url(#paint11_linear_739_108993)"
-                stroke-width="0.371362"
+                strokeWidth="0.371362"
               />
             </g>
             <g filter="url(#filter5_b_739_108993)">
               <path
                 d="M114.455 168.677L140.315 149.75L169.635 162.682L173.096 194.54L147.237 213.467L117.916 200.535L114.455 168.677Z"
                 fill="url(#paint12_radial_739_108993)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M114.455 168.677L140.315 149.75L169.635 162.682L173.096 194.54L147.237 213.467L117.916 200.535L114.455 168.677Z"
                 fill="url(#paint13_linear_739_108993)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M118.205 200.324L114.783 168.821L140.353 150.106L169.347 162.893L172.769 194.396L147.198 213.111L118.205 200.324Z"
                 stroke="url(#paint14_linear_739_108993)"
-                stroke-width="0.619433"
+                strokeWidth="0.619433"
               />
             </g>
             <defs>
@@ -577,9 +577,9 @@ export default function MindsetOverview() {
                 width="336.293"
                 height="365.421"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -635,9 +635,9 @@ export default function MindsetOverview() {
                 width="130.814"
                 height="140.681"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="4.20455"
@@ -661,9 +661,9 @@ export default function MindsetOverview() {
                 width="111.838"
                 height="120.061"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="4.20455"
@@ -687,9 +687,9 @@ export default function MindsetOverview() {
                 width="80.5057"
                 height="86.0164"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="4.20455"
@@ -713,9 +713,9 @@ export default function MindsetOverview() {
                 width="44.4403"
                 height="47.4833"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="2.32101"
@@ -739,9 +739,9 @@ export default function MindsetOverview() {
                 width="74.1265"
                 height="79.2021"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="3.87146"
@@ -766,8 +766,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(273.235 179.592) rotate(-117.177) scale(97.8452 159.988)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint1_linear_739_108993"
@@ -777,8 +777,8 @@ export default function MindsetOverview() {
                 y2="50.4586"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_739_108993"
@@ -788,8 +788,8 @@ export default function MindsetOverview() {
                 y2="141.276"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
               <radialGradient
                 id="paint3_radial_739_108993"
@@ -799,8 +799,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(247.355 315.898) rotate(-117.177) scale(81.5569 133.355)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint4_linear_739_108993"
@@ -810,8 +810,8 @@ export default function MindsetOverview() {
                 y2="208.261"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint5_linear_739_108993"
@@ -821,8 +821,8 @@ export default function MindsetOverview() {
                 y2="235.932"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
               <radialGradient
                 id="paint6_radial_739_108993"
@@ -832,8 +832,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(105.869 279.643) rotate(-117.177) scale(54.6631 89.3804)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint7_linear_739_108993"
@@ -843,8 +843,8 @@ export default function MindsetOverview() {
                 y2="207.5"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint8_linear_739_108993"
@@ -854,8 +854,8 @@ export default function MindsetOverview() {
                 y2="258.237"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
               <radialGradient
                 id="paint9_radial_739_108993"
@@ -865,8 +865,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(120.291 139.104) rotate(-117.177) scale(30.1754 49.3402)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint10_linear_739_108993"
@@ -876,8 +876,8 @@ export default function MindsetOverview() {
                 y2="99.279"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint11_linear_739_108993"
@@ -887,8 +887,8 @@ export default function MindsetOverview() {
                 y2="127.287"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
               <radialGradient
                 id="paint12_radial_739_108993"
@@ -898,8 +898,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(162.11 214.25) rotate(-117.177) scale(50.3326 82.2996)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint13_linear_739_108993"
@@ -909,8 +909,8 @@ export default function MindsetOverview() {
                 y2="147.823"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint14_linear_739_108993"
@@ -920,8 +920,8 @@ export default function MindsetOverview() {
                 y2="194.54"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
             </defs>
           </svg>
@@ -943,85 +943,85 @@ export default function MindsetOverview() {
               <path
                 d="M283.281 143.541L362.253 85.7423L451.794 125.235L462.363 222.525L383.391 280.324L293.85 240.832L283.281 143.541Z"
                 fill="url(#paint0_radial_578_41740)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M283.281 143.541L362.253 85.7423L451.794 125.235L462.363 222.525L383.391 280.324L293.85 240.832L283.281 143.541Z"
                 fill="url(#paint1_linear_578_41740)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M294.343 240.471L283.84 143.787L362.319 86.3489L451.302 125.595L461.805 222.279L383.325 279.717L294.343 240.471Z"
                 stroke="url(#paint2_linear_578_41740)"
-                stroke-width="1.05682"
+                strokeWidth="1.05682"
               />
             </g>
             <g filter="url(#filter2_b_578_41740)">
               <path
                 d="M266.859 380.839L332.685 332.662L407.32 365.58L416.129 446.675L350.304 494.851L275.669 461.933L266.859 380.839Z"
                 fill="url(#paint3_radial_578_41740)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M266.859 380.839L332.685 332.662L407.32 365.58L416.129 446.675L350.304 494.851L275.669 461.933L266.859 380.839Z"
                 fill="url(#paint4_linear_578_41740)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M276.161 461.573L267.418 381.085L332.751 333.268L406.827 365.94L415.571 446.428L350.238 494.245L276.161 461.573Z"
                 stroke="url(#paint5_linear_578_41740)"
-                stroke-width="1.05682"
+                strokeWidth="1.05682"
               />
             </g>
             <g filter="url(#filter3_b_578_41740)">
               <path
                 d="M84.5826 362.138L128.702 329.848L178.725 351.911L184.63 406.264L140.511 438.554L90.4873 416.491L84.5826 362.138Z"
                 fill="url(#paint6_radial_578_41740)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M84.5826 362.138L128.702 329.848L178.725 351.911L184.63 406.264L140.511 438.554L90.4873 416.491L84.5826 362.138Z"
                 fill="url(#paint7_linear_578_41740)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M90.9797 416.131L85.1409 362.384L128.768 330.454L178.233 352.271L184.072 406.018L140.445 437.948L90.9797 416.131Z"
                 stroke="url(#paint8_linear_578_41740)"
-                stroke-width="1.05682"
+                strokeWidth="1.05682"
               />
             </g>
             <g filter="url(#filter4_b_578_41740)">
               <path
                 d="M143.66 176.191L168.015 158.366L195.629 170.545L198.889 200.55L174.534 218.375L146.919 206.195L143.66 176.191Z"
                 fill="url(#paint9_radial_578_41740)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M143.66 176.191L168.015 158.366L195.629 170.545L198.889 200.55L174.534 218.375L146.919 206.195L143.66 176.191Z"
                 fill="url(#paint10_linear_578_41740)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M147.191 205.996L143.968 176.327L168.051 158.701L195.357 170.744L198.58 200.414L174.497 218.04L147.191 205.996Z"
                 stroke="url(#paint11_linear_578_41740)"
-                stroke-width="0.58339"
+                strokeWidth="0.58339"
               />
             </g>
             <g filter="url(#filter5_b_578_41740)">
               <path
                 d="M179.393 265.57L220.017 235.837L266.078 256.153L271.515 306.2L230.891 335.932L184.83 315.617L179.393 265.57Z"
                 fill="url(#paint12_radial_578_41740)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M179.393 265.57L220.017 235.837L266.078 256.153L271.515 306.2L230.891 335.932L184.83 315.617L179.393 265.57Z"
                 fill="url(#paint13_linear_578_41740)"
-                fill-opacity="0.6"
+                fillOpacity="0.6"
               />
               <path
                 d="M185.284 315.285L179.907 265.796L220.078 236.396L265.625 256.484L271.001 305.973L230.83 335.374L185.284 315.285Z"
                 stroke="url(#paint14_linear_578_41740)"
-                stroke-width="0.973096"
+                strokeWidth="0.973096"
               />
             </g>
             <defs>
@@ -1032,9 +1032,9 @@ export default function MindsetOverview() {
                 width="528.297"
                 height="574.056"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -1090,9 +1090,9 @@ export default function MindsetOverview() {
                 width="205.502"
                 height="221.002"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="6.60511"
@@ -1116,9 +1116,9 @@ export default function MindsetOverview() {
                 width="175.69"
                 height="188.61"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="6.60511"
@@ -1142,9 +1142,9 @@ export default function MindsetOverview() {
                 width="126.467"
                 height="135.127"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="6.60511"
@@ -1168,9 +1168,9 @@ export default function MindsetOverview() {
                 width="69.8113"
                 height="74.5935"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="3.64619"
@@ -1194,9 +1194,9 @@ export default function MindsetOverview() {
                 width="116.448"
                 height="124.422"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feGaussianBlur
                   in="BackgroundImageFix"
                   stdDeviation="6.08185"
@@ -1221,8 +1221,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(428.812 282.717) rotate(-117.177) scale(153.71 251.333)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint1_linear_578_41740"
@@ -1232,8 +1232,8 @@ export default function MindsetOverview() {
                 y2="79.856"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_578_41740"
@@ -1243,8 +1243,8 @@ export default function MindsetOverview() {
                 y2="222.525"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
               <radialGradient
                 id="paint3_radial_578_41740"
@@ -1254,8 +1254,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(388.164 496.846) rotate(-117.177) scale(128.121 209.493)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint4_linear_578_41740"
@@ -1265,8 +1265,8 @@ export default function MindsetOverview() {
                 y2="327.755"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint5_linear_578_41740"
@@ -1276,8 +1276,8 @@ export default function MindsetOverview() {
                 y2="371.225"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
               <radialGradient
                 id="paint6_radial_578_41740"
@@ -1287,8 +1287,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(165.886 439.891) rotate(-117.177) scale(85.8728 140.412)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint7_linear_578_41740"
@@ -1298,8 +1298,8 @@ export default function MindsetOverview() {
                 y2="326.559"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint8_linear_578_41740"
@@ -1309,8 +1309,8 @@ export default function MindsetOverview() {
                 y2="406.264"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
               <radialGradient
                 id="paint9_radial_578_41740"
@@ -1320,8 +1320,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(188.541 219.113) rotate(-117.177) scale(47.4039 77.5108)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint10_linear_578_41740"
@@ -1331,8 +1331,8 @@ export default function MindsetOverview() {
                 y2="156.55"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint11_linear_578_41740"
@@ -1342,8 +1342,8 @@ export default function MindsetOverview() {
                 y2="200.55"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
               <radialGradient
                 id="paint12_radial_578_41740"
@@ -1353,8 +1353,8 @@ export default function MindsetOverview() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(254.256 337.163) rotate(-117.177) scale(79.0699 129.288)"
               >
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop stopColor="white" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
               <linearGradient
                 id="paint13_linear_578_41740"
@@ -1364,8 +1364,8 @@ export default function MindsetOverview() {
                 y2="232.809"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.13192" stop-color="#E6886A" />
-                <stop offset="0.9375" stop-color="#CB4A22" stop-opacity="0.7" />
+                <stop offset="0.13192" stopColor="#E6886A" />
+                <stop offset="0.9375" stopColor="#CB4A22" stopOpacity="0.7" />
               </linearGradient>
               <linearGradient
                 id="paint14_linear_578_41740"
@@ -1375,8 +1375,8 @@ export default function MindsetOverview() {
                 y2="306.2"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#CB4A22" />
-                <stop offset="1" stop-color="#E6886A" />
+                <stop stopColor="#CB4A22" />
+                <stop offset="1" stopColor="#E6886A" />
               </linearGradient>
             </defs>
           </svg>
