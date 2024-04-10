@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 import AppButton100, {
   AppButton900,
 } from "../../../../components/reuseable/AppButtons";
@@ -20,6 +20,7 @@ export function Paid() {
     (state) => state.app
   );
   const { category_points, section_points } = useContext(appContext);
+  const [searchParams] = useSearchParams();
 
   //Input handlers
   const marketSectorOptions = [
@@ -162,53 +163,54 @@ export function Paid() {
         ? 2
         : 1;
 
-    createUserApi({
-      concept: "innovation",
-      body: {
-        name: paidFormVal.Name,
-        last_name: paidFormVal.Last_Name,
-        email: paidFormVal.Email,
-        user_info: paidFormVal,
-        assessment_info: assessmentInfo,
-        points: {
-          //Personal
-          Personal_points: category_points(assessmentInfo, "Personal"),
-          Personal_score: +(
-            category_points(assessmentInfo, "Personal") / 70
-          ).toFixed(2),
+    if (!searchParams.get("change_plan"))
+      createUserApi({
+        concept: "innovation",
+        body: {
+          name: paidFormVal.Name,
+          last_name: paidFormVal.Last_Name,
+          email: paidFormVal.Email,
+          user_info: paidFormVal,
+          assessment_info: assessmentInfo,
+          points: {
+            //Personal
+            Personal_points: category_points(assessmentInfo, "Personal"),
+            Personal_score: +(
+              category_points(assessmentInfo, "Personal") / 70
+            ).toFixed(2),
 
-          //Interpersonal
-          Interpersonal_points: category_points(
-            assessmentInfo,
-            "Interpersonal"
-          ),
-          Interpersonal_score: +(
-            category_points(assessmentInfo, "Interpersonal") / 50
-          ).toFixed(2),
+            //Interpersonal
+            Interpersonal_points: category_points(
+              assessmentInfo,
+              "Interpersonal"
+            ),
+            Interpersonal_score: +(
+              category_points(assessmentInfo, "Interpersonal") / 50
+            ).toFixed(2),
 
-          //Team
-          Team_points:
-            category_points(assessmentInfo, "Team") +
-            section_points(assessmentInfo, "Ideation") +
-            section_points(assessmentInfo, "Validation") +
-            section_points(assessmentInfo, "Adoption") +
-            section_points(assessmentInfo, "System"),
-          Team_score: +(
-            (category_points(assessmentInfo, "Team") +
+            //Team
+            Team_points:
+              category_points(assessmentInfo, "Team") +
               section_points(assessmentInfo, "Ideation") +
               section_points(assessmentInfo, "Validation") +
               section_points(assessmentInfo, "Adoption") +
-              section_points(assessmentInfo, "System")) /
-            65
-          ).toFixed(2),
+              section_points(assessmentInfo, "System"),
+            Team_score: +(
+              (category_points(assessmentInfo, "Team") +
+                section_points(assessmentInfo, "Ideation") +
+                section_points(assessmentInfo, "Validation") +
+                section_points(assessmentInfo, "Adoption") +
+                section_points(assessmentInfo, "System")) /
+              65
+            ).toFixed(2),
+          },
+          total_score,
+          level,
         },
-        total_score,
-        level,
-      },
-    });
+      });
 
     checkoutUserApi({
-      concept: "strategy",
+      concept: "innovation",
       body: {
         name: paidFormVal.Name,
         email: paidFormVal.Email,
@@ -452,15 +454,15 @@ export function Paid() {
                 />
                 <g filter="url(#filter0_b_804_137657)">
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M67.5746 66.811C72.1806 60.789 71.7298 52.1395 66.2221 46.6318C60.2235 40.6331 50.4977 40.6331 44.499 46.6318C38.5003 52.6305 38.5003 62.3563 44.499 68.3549C50.0067 73.8626 58.6562 74.3134 64.6782 69.7075L69.3207 74.35C69.7423 74.7715 70.4258 74.7715 70.8473 74.35L72.2171 72.9801C72.6387 72.5586 72.6387 71.8751 72.2171 71.4535L67.5746 66.811Z"
                     fill="white"
                     fillOpacity="0.1"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M67.5746 66.811C72.1806 60.789 71.7298 52.1395 66.2221 46.6318C60.2235 40.6331 50.4977 40.6331 44.499 46.6318C38.5003 52.6305 38.5003 62.3563 44.499 68.3549C50.0067 73.8626 58.6562 74.3134 64.6782 69.7075L69.3207 74.35C69.7423 74.7715 70.4258 74.7715 70.8473 74.35L72.2171 72.9801C72.6387 72.5586 72.6387 71.8751 72.2171 71.4535L67.5746 66.811Z"
                     fill="url(#paint3_linear_804_137657)"
                     fillOpacity="0.58"
@@ -468,8 +470,8 @@ export function Paid() {
                 </g>
                 <g filter="url(#filter1_b_804_137657)">
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M67.4315 66.8205L67.4889 66.7455C72.0624 60.7658 71.6147 52.177 66.1458 46.7081C60.1893 40.7516 50.5319 40.7516 44.5753 46.7081C38.6188 52.6647 38.6188 62.3221 44.5753 68.2786C50.0442 73.7475 58.633 74.1953 64.6126 69.6217L64.6877 69.5643L69.397 74.2736C69.7764 74.653 70.3916 74.653 70.771 74.2736L72.1408 72.9038C72.5202 72.5244 72.5202 71.9093 72.1408 71.5299L67.4315 66.8205ZM64.6782 69.7075C58.6562 74.3134 50.0067 73.8626 44.499 68.3549C38.5003 62.3563 38.5003 52.6305 44.499 46.6318C50.4977 40.6331 60.2235 40.6331 66.2221 46.6318C71.7298 52.1395 72.1806 60.789 67.5746 66.811L72.2171 71.4535C72.6387 71.8751 72.6387 72.5586 72.2171 72.9801L70.8473 74.35C70.4258 74.7715 69.7423 74.7715 69.3207 74.35L64.6782 69.7075Z"
                     fill="#85A9D5"
                   />
@@ -2930,8 +2932,8 @@ export function Paid() {
                 </g>
                 <g filter="url(#filter1_b_804_137671)">
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M39.5961 73.7723L73.7703 39.598V15.4751C73.7703 9.92392 69.2702 5.42383 63.7191 5.42383H15.4731C9.92197 5.42383 5.42188 9.92392 5.42188 15.4751V63.721C5.42188 69.2722 9.92197 73.7723 15.4731 73.7723H39.5961ZM73.5693 39.4975V15.4751C73.5693 10.0349 69.1592 5.62485 63.7191 5.62485H15.4731C10.033 5.62485 5.6229 10.0349 5.6229 15.4751V63.721C5.6229 69.1612 10.033 73.5712 15.4731 73.5712H39.4956V49.6493C39.4956 44.0426 44.0407 39.4975 49.6473 39.4975H73.5693ZM73.3855 39.6986H49.6473C44.1517 39.6986 39.6966 44.1537 39.6966 49.6493V73.3875L73.3855 39.6986Z"
                     fill="url(#paint2_linear_804_137671)"
                   />
@@ -3136,8 +3138,8 @@ export function Paid() {
                   />
                 </g>
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M66.2922 29.266H44.3601C42.4609 29.266 40.7102 28.2384 39.7844 26.5801C38.917 25.0267 37.2771 24.0641 35.4979 24.0641H13.7041C9.22144 24.0641 5.58752 27.698 5.58752 32.1807V65.406C5.58752 69.8887 9.22144 73.5226 13.7041 73.5226H66.2922C70.7749 73.5226 74.4088 69.8887 74.4088 65.406V37.3826C74.4088 32.8999 70.7748 29.266 66.2922 29.266ZM66.2922 29.1003C70.8663 29.1003 74.5744 32.8084 74.5744 37.3826V65.406C74.5744 69.9802 70.8663 73.6883 66.2922 73.6883H13.7041C9.12996 73.6883 5.42188 69.9802 5.42188 65.406V32.1807C5.42188 27.6065 9.12995 23.8984 13.7041 23.8984H35.4979C37.3371 23.8984 39.0324 24.8935 39.929 26.4994C40.8256 28.1053 42.5209 29.1003 44.3601 29.1003H66.2922Z"
                   stroke="url(#paint1_linear_804_137674)"
                   strokeWidth="0.2"

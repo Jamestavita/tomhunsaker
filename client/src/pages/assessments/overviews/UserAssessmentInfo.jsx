@@ -1,19 +1,29 @@
 import React from "react";
-import AppButton100 from "../../../components/reuseable/AppButtons";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
+import { useGetUserAssessmentInfoQuery } from "../../../services/appApi";
 
-export default function ExecutionOverview() {
+export default function UserAssessmentInfo() {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const { data, isError } = useGetUserAssessmentInfoQuery({
+    concept: searchParams.get("concept"),
+    name: searchParams.get("name"),
+    id: searchParams.get("id"),
+  });
+
+  console.log(data);
+
+  if (isError) navigate("/*");
   return (
     <div className="">
-      <section className="bg-Greyscale200">
+      {/* <section className="bg-Greyscale200">
         <div className="w-[min(90rem,100%)] mx-auto px-4 md:px-12 lg:px-32 pt-12 pb-28 md:pb-12 grid gap-12">
           <p className="text-[56px] md:text-[74px] font-medium leading-tight md:w-[670px] lg:w-2/3">
             Execution & Analytics Assessment
           </p>
         </div>
-      </section>
-      <section className="[background:linear-gradient(93deg,#DFBF34_48.12%,#7B6A1F_116.32%),#DFBF34;]">
+      </section> */}
+      {/* <section className="[background:linear-gradient(93deg,#DFBF34_48.12%,#7B6A1F_116.32%),#DFBF34;]">
         <div className="w-[min(90rem,100%)] mx-auto px-4 md:px-12 lg:px-32 pt-28 md:pt-8 pb-8 grid gap-12 relative">
           <svg
             width="241"
@@ -1528,7 +1538,7 @@ export default function ExecutionOverview() {
             onClick={() => navigate("../../assessment/execution/personal/01")}
           />
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

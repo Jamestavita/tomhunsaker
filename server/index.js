@@ -11,7 +11,7 @@ import {
   stripeRouter_execution,
 } from "./config/stripe.js";
 import subscriberRoute from "./routes/subscriberRoute.js";
-import mindsetUsersRoute from "./routes/mindsetUsersRoute.js";
+import mindsetUsersRoute, { usersRoute } from "./routes/mindsetUsersRoute.js";
 import strategyUsersRoute from "./routes/strategyUsersRoute.js";
 import innovationUsersRoute from "./routes/innovationUsersRoute.js";
 import executionUsersRoute from "./routes/executionUsersRoute.js";
@@ -49,6 +49,7 @@ app.use("/api/strategy/stripe", stripeRouter_strategy);
 app.use("/api/innovation/stripe", stripeRouter_innovation);
 app.use("/api/execution/stripe", stripeRouter_execution);
 app.use("/api/subscribe", subscriberRoute);
+app.use("/api/user/get_assessment_info", usersRoute);
 
 const PORT = process.env.PORT;
 server.listen(PORT || 5000, console.log(`Server is running on ${PORT}`));

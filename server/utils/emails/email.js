@@ -1,5 +1,5 @@
 // Mindset emails
-export const mindsetFree = ({ name, level, assessment_info }) => {
+export const mindsetFree = ({ id, concept, name, level }) => {
   return `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="EN">
   <head>
@@ -384,12 +384,12 @@ export const mindsetFree = ({ name, level, assessment_info }) => {
                                                    
                          
                                                   <tr>
-                                                     <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/8f34a728-5581-383a-e743-7103ec3f7982.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;" border="0" /> </td>
+                                                     <td class="em_hide" > <img src=${level.desktop} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                     <!--[if !mso]><!-- -->
                                                   <tr>
-                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/ebe6af9e-ea72-f430-15c0-b86596ae1f69.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;" border="0" /> </td>
+                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src=${level.mobile} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                       <!--<![endif]-->
@@ -645,7 +645,7 @@ export const mindsetFree = ({ name, level, assessment_info }) => {
                                                                              <td><table width="288" border="0" cellspacing="0" cellpadding="0" align="center">
                                                                                  <tr>
                                                                                    <td  valign="middle" bgcolor="#CB4A22" height="48" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:center;border-radius:40px;color:#ffffff;  font-weight:700;">
-                                                                                       <a href="https://example.com/" target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 48px;"> 
+                                                                                       <a href='https://tomhunsaker.netlify.app/assessment/${concept}/paid?change_plan=true' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 48px;"> 
                                                                                     Get complete bundle for $49
                                                                                        </a>
                                                                                    </td>
@@ -786,7 +786,7 @@ export const mindsetFree = ({ name, level, assessment_info }) => {
   </html>`;
 };
 
-export const mindsetPrem = ({ name, level, assessment_info }) => {
+export const mindsetPrem = ({ id, concept, name, level }) => {
   return `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="EN">
   <head>
@@ -1175,7 +1175,7 @@ export const mindsetPrem = ({ name, level, assessment_info }) => {
                                                                      </tr>
                                                                      <tr>
                                                                          <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:44px;text-align:center; color:#333333;line-height:56px;font-weight:700;">
-                                                                           ${name} 
+                                                                         ${name} 
                                                                          </td>
                                                                      </tr>
                                                                      
@@ -1221,12 +1221,12 @@ export const mindsetPrem = ({ name, level, assessment_info }) => {
                                                    
                          
                                                   <tr>
-                                                     <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/8f34a728-5581-383a-e743-7103ec3f7982.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;border-radius: 40px;" border="0" /> </td>
+                                                     <td class="em_hide" > <img src=${level.desktop} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;border-radius: 40px;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                     <!--[if !mso]><!-- -->
                                                   <tr>
-                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/ebe6af9e-ea72-f430-15c0-b86596ae1f69.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;border-radius: 20px;" border="0" /> </td>
+                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src=${level.mobile} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;border-radius: 20px;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                       <!--<![endif]-->
@@ -1944,41 +1944,256 @@ export const mindsetPrem = ({ name, level, assessment_info }) => {
             </td>
         </tr>
          
-      <tr>
-            <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
-                <tr>
-                  <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/3ff008fc-c1b7-0fd9-350b-dbb75ddf06cf.jpg" alt="Image" aria-hidden="true" width="770"  height="5605" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
-                </tr> 
-                
-                   <tr>
-                  <td  class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/9c21211f-bde6-afb5-e4c4-22fefe92a7fb.jpg" alt="Image" aria-hidden="true" width="770"  height="3994" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
-                </tr> 
-                
-                
-                   <tr>
-                  <td  class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/10163767-2fb1-bd67-9476-5382d70f087e.jpg" alt="Image" aria-hidden="true" width="770"  height="5622" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
-                </tr> 
-                
-                
-                
-                   <tr>
-                  <td  class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/6f9a6c00-80ae-71c3-a19a-fd29b66cf762.jpg" alt="Image" aria-hidden="true" width="770"  height="3069" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
-                </tr> 
-                
-                
-                
+      
+      
+      
+      
+        
+        <tr>
+            <td>
+                <table width="100%" bgcolor="#F3F3ED" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="65" class="em_hide">&nbsp;</td>
+                        <td valign="top" class="em_side_space">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        
+                                <tr>
+                                    <td height="64" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                     <tr>
+                                     <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:56px;text-align:center;color:#1C1C1C;font-weight:500;line-height: 64px;">
+                                       Personalized Insights
+                                     </td>
+                                 </tr>
+        
+        
+                                <tr>
+                                    <td height="12" class="em_hide"  style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+                                
+                                
+        
+                                <tr>
+                                    <td height="12" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+                                
+                                
+                                
+                                 <tr>
+                                     <td class="txt18" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:18px;text-align:center;color:#1C1C1C;font-weight:400;line-height: 26px;">
+                                    In this section you'll find your score for each dimension, how it compares to all respondents globally, your responses and a description of why each question matters, and suggested actions for next-level advancement
+                                     </td>
+                                 </tr>
+                                 
+                                 
+                                 
+        
+                                <tr>
+                                    <td height="40" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                 <tr>
+                                     <td class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                         <tr>
+                                           <td  valign="middle" bgcolor="#CB4A22" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
+                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                             Section Breakdown
+                                               </a>
+                                           </td>
+                                         </tr>
+                                       </table></td>
+                                    </tr>
+                                 
+        
+                                <tr>
+                                    <td height="30" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                            </table>
+                        </td>
+                        <td width="65" class="em_hide">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        
+            <tr>
+                  <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                       <tr>
+                      <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/092f0b76-0081-00e6-a60b-39a8f0ac8c72.jpg" alt="Image" aria-hidden="true" width="770"  height="2969" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
+                    </tr> 
+                     
+                          
                    <!--[if !mso]><!-- -->
                   <tr>
-                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/08f404bf-e73e-5961-316f-a13c3ae89b5b.png" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
+                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/7fe02e2a-3de0-046a-da8a-3cf08ac93cae.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
                    </tr> 
   
                    <!--<![endif]-->
-                                
-                
-                
-                
-              </table></td>
-          </tr>
+                      
+                      
+                    </table></td>
+                </tr>
+        
+        
+         <tr>
+            <td>
+                <table width="100%" bgcolor="#F3F3ED" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                        <td valign="top" class="em_side_space">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        
+                           
+        
+                                     <tr>
+                                     <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:44px;text-align:center;color:#1C1C1C;font-weight:500;line-height: 56px;">
+                                     Interpersonal Dimension
+                                     </td>
+                                 </tr>
+        
+         
+        
+                                <tr>
+                                    <td height="40" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                 <tr>
+                                     <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                         <tr>
+                                           <td  valign="middle" bgcolor="#CB4A22" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
+                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                             Section Breakdown
+                                               </a>
+                                           </td>
+                                         </tr>
+                                       </table></td>
+                                    </tr>
+                                 
+        
+                                <tr>
+                                    <td height="30" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                            </table>
+                        </td>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+         
+         
+         
+            <tr>
+                  <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                       <tr>
+                      <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/05f63976-570f-a527-5e61-bf30839e5edc.jpg" alt="Image" aria-hidden="true" width="770"  height="1807" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
+                    </tr> 
+                      
+                      
+                          <!--[if !mso]><!-- -->
+                  <tr>
+                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/d85fd1d1-fa8e-7fff-3b90-aa97a7383d5c.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
+                   </tr> 
+  
+                   <!--<![endif]-->
+                      
+                      
+                    </table></td>
+                </tr>
+         
+         
+         
+         
+         
+         <tr>
+            <td>
+                <table width="100%" bgcolor="#F3F3ED" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                        <td valign="top" class="em_side_space">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        
+                           
+        
+                                     <tr>
+                                     <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:44px;text-align:center;color:#1C1C1C;font-weight:500;line-height: 56px;">
+                                     Team Dimension
+                                     </td>
+                                 </tr>
+        
+         
+        
+                                <tr>
+                                    <td height="40" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                 <tr>
+                                     <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                         <tr>
+                                           <td  valign="middle" bgcolor="#CB4A22" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
+                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                             Section Breakdown
+                                               </a>
+                                           </td>
+                                         </tr>
+                                       </table></td>
+                                    </tr>
+                                 
+        
+                                <tr>
+                                    <td height="10" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+                                <tr>
+                                    <td height="30" class="em_hide"  style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                            </table>
+                        </td>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+         
+         
+         
+            <tr>
+                  <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                       <tr>
+                      <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/544c5062-8e99-042d-6b35-fffa222b7ef4.jpg" alt="Image" aria-hidden="true" width="770"  height="3061" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
+                    </tr> 
+                      
+                           
+                          <!--[if !mso]><!-- -->
+                  <tr>
+                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/652ed5ca-a330-eda6-9f6d-429dec2cfadd.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
+                   </tr> 
+  
+                   <!--<![endif]-->
+                    </table></td>
+                </tr>
+         
+         
+         
+      
+      
+      
+      
   
    <tr>
             <td>
@@ -2278,7 +2493,7 @@ export const mindsetPrem = ({ name, level, assessment_info }) => {
 };
 
 // Strategy emails
-export const strategyFree = ({ name, level, assessment_info }) => {
+export const strategyFree = ({ id, concept, name, level }) => {
   return `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="EN">
   <head>
@@ -2662,12 +2877,12 @@ export const strategyFree = ({ name, level, assessment_info }) => {
                                                    
                          
                                                   <tr>
-                                                     <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/f4a38eba-3a12-4a38-8a7a-509b2817d147.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;" border="0" /> </td>
+                                                     <td class="em_hide" > <img src=${level.desktop} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                     <!--[if !mso]><!-- -->
                                                   <tr>
-                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/3d9f9f4b-407e-a294-24d1-8ccb87aee001.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;" border="0" /> </td>
+                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src=${level.mobile} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                       <!--<![endif]-->
@@ -2927,7 +3142,7 @@ export const strategyFree = ({ name, level, assessment_info }) => {
                                                                              <td><table width="288" border="0" cellspacing="0" cellpadding="0" align="center">
                                                                                  <tr>
                                                                                    <td  valign="middle" bgcolor="#425740" height="48" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:center;border-radius:40px;color:#ffffff;  font-weight:700;">
-                                                                                       <a href="https://example.com/" target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 48px;"> 
+                                                                                       <a href='https://tomhunsaker.netlify.app/assessment/${concept}/paid?change_plan=true' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 48px;"> 
                                                                                     Get complete bundle for $49
                                                                                        </a>
                                                                                    </td>
@@ -3068,7 +3283,7 @@ export const strategyFree = ({ name, level, assessment_info }) => {
   </html>`;
 };
 
-export const strategyPrem = ({ name, level, assessment_info }) => {
+export const strategyPrem = ({ id, concept, name, level }) => {
   return `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="EN">
   <head>
@@ -3457,7 +3672,7 @@ export const strategyPrem = ({ name, level, assessment_info }) => {
                                                                      </tr>
                                                                      <tr>
                                                                          <td class="txt44" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:44px;text-align:center; color:#333333;line-height:56px;font-weight:700;">
-                                                                           ${name} 
+                                                                         ${name}  
                                                                          </td>
                                                                      </tr>
                                                                      
@@ -3503,12 +3718,12 @@ export const strategyPrem = ({ name, level, assessment_info }) => {
                                                    
                          
                                                   <tr>
-                                                     <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/c250365b-dd8d-e1d3-dce2-97dd52b7e344.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;border-radius: 40px;" border="0" /> </td>
+                                                     <td class="em_hide" > <img src=${level.desktop} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;border-radius: 40px;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                     <!--[if !mso]><!-- -->
                                                   <tr>
-                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/7cf089a2-114c-f4cc-449f-d192258d14ad.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;border-radius: 20px;" border="0" /> </td>
+                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src=${level.mobile} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;border-radius: 20px;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                       <!--<![endif]-->
@@ -4225,37 +4440,256 @@ export const strategyPrem = ({ name, level, assessment_info }) => {
                 </table>
             </td>
         </tr>
-         
-      <tr>
-            <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
-                <tr>
-                  <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/dd31056d-aa21-f83f-80c3-e69c8e227c5b.jpg" alt="Image" aria-hidden="true" width="770"  height="4804" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
-                </tr> 
-                
-                   <tr>
-                  <td  class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/da4dfc72-98d2-7a9c-769a-da0d1c1b3ac1.jpg" alt="Image" aria-hidden="true" width="770"  height="4353" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
-                </tr> 
-                
-            
-                   <tr>
-                  <td  class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/a5df2155-5340-6727-ed9c-96c67b429b07.jpg" alt="Image" aria-hidden="true" width="770"  height="7142" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
-                </tr> 
-                
-            
-                
-                
+      
+      
+      
+      
+        
+        
+        
+        <tr>
+            <td>
+                <table width="100%" bgcolor="#F3F3ED" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="65" class="em_hide">&nbsp;</td>
+                        <td valign="top" class="em_side_space">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        
+                                <tr>
+                                    <td height="64" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                     <tr>
+                                     <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:56px;text-align:center;color:#1C1C1C;font-weight:500;line-height: 64px;">
+                                       Personalized Insights
+                                     </td>
+                                 </tr>
+        
+        
+                                <tr>
+                                    <td height="12" class="em_hide"  style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+                                
+                                
+        
+                                <tr>
+                                    <td height="12" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+                                
+                                
+                                
+                                 <tr>
+                                     <td class="txt18" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:18px;text-align:center;color:#1C1C1C;font-weight:400;line-height: 26px;">
+                                    In this section you'll find your score for each dimension, how it compares to all respondents globally, your responses and a description of why each question matters, and suggested actions for next-level advancement
+                                     </td>
+                                 </tr>
+                                 
+                                 
+                                 
+        
+                                <tr>
+                                    <td height="40" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                 <tr>
+                                     <td class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                         <tr>
+                                           <td  valign="middle" bgcolor="#353d30" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
+                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                             Section Breakdown
+                                               </a>
+                                           </td>
+                                         </tr>
+                                       </table></td>
+                                    </tr>
+                                 
+        
+                                <tr>
+                                    <td height="30" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                            </table>
+                        </td>
+                        <td width="65" class="em_hide">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        
+            <tr>
+                  <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                       <tr>
+                      <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/e465aa86-2d64-f220-af11-ca40bb994ae1.jpg" alt="Image" aria-hidden="true" width="770"  height="2166" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
+                    </tr> 
+                     
+                          
                    <!--[if !mso]><!-- -->
                   <tr>
-                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/d2d1da09-fe8a-eb71-4856-a29dbac15554.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
+                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/506b514f-d2d8-39b3-7fd3-e271125b5c49.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
                    </tr> 
   
                    <!--<![endif]-->
-                                
-                
-                
-                
-              </table></td>
-          </tr>
+                      
+                      
+                    </table></td>
+                </tr>
+        
+        
+         <tr>
+            <td>
+                <table width="100%" bgcolor="#F3F3ED" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                        <td valign="top" class="em_side_space">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        
+                           
+        
+                                     <tr>
+                                     <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:44px;text-align:center;color:#1C1C1C;font-weight:500;line-height: 56px;">
+                                     Team Dimension
+                                     </td>
+                                 </tr>
+        
+         
+        
+                                <tr>
+                                    <td height="40" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                 <tr>
+                                     <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                         <tr>
+                                           <td  valign="middle" bgcolor="#353d30" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
+                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                             Section Breakdown
+                                               </a>
+                                           </td>
+                                         </tr>
+                                       </table></td>
+                                    </tr>
+                                 
+        
+                                <tr>
+                                    <td height="30" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                            </table>
+                        </td>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+         
+         
+         
+            <tr>
+                  <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                       <tr>
+                      <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/6959c30e-fe8a-1305-a9e6-0560af6bd880.jpg" alt="Image" aria-hidden="true" width="770"  height="1276" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
+                    </tr> 
+                      
+                      
+                          <!--[if !mso]><!-- -->
+                  <tr>
+                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/d6d5b370-ae94-a13b-910c-b9c78e972c6e.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
+                   </tr> 
+  
+                   <!--<![endif]-->
+                      
+                      
+                    </table></td>
+                </tr>
+         
+         
+         
+         
+         
+         <tr>
+            <td>
+                <table width="100%" bgcolor="#F3F3ED" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                        <td valign="top" class="em_side_space">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        
+                           
+        
+                                     <tr>
+                                     <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:44px;text-align:center;color:#1C1C1C;font-weight:500;line-height: 56px;">
+                                     Organization Dimension
+                                     </td>
+                                 </tr>
+        
+         
+        
+                                <tr>
+                                    <td height="40" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                 <tr>
+                                     <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                         <tr>
+                                           <td  valign="middle" bgcolor="#353d30" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
+                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                             Section Breakdown
+                                               </a>
+                                           </td>
+                                         </tr>
+                                       </table></td>
+                                    </tr>
+                                 
+        
+                                <tr>
+                                    <td height="10" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+                                <tr>
+                                    <td height="30" class="em_hide"  style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                            </table>
+                        </td>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+         
+         
+         
+            <tr>
+                  <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                       <tr>
+                      <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/532160c4-d8de-7ca9-c32d-5f0045e8b566.jpg" alt="Image" aria-hidden="true" width="770"  height="2055" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
+                    </tr> 
+                      
+                           
+                          <!--[if !mso]><!-- -->
+                  <tr>
+                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/e4c847b9-f964-0830-b4fe-c71d8715a63a.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
+                   </tr> 
+  
+                   <!--<![endif]-->
+                    </table></td>
+                </tr>
+         
+         
+         
+      
+      
   
    <tr>
             <td>
@@ -4555,7 +4989,7 @@ export const strategyPrem = ({ name, level, assessment_info }) => {
 };
 
 // Innovation emails
-export const innovationFree = ({ name, level, assessment_info }) => {
+export const innovationFree = ({ id, concept, name, level }) => {
   return `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="EN">
   <head>
@@ -4939,12 +5373,12 @@ export const innovationFree = ({ name, level, assessment_info }) => {
                                                    
                          
                                                   <tr>
-                                                     <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/1cde9ed2-cbb6-883d-e3a4-793c215a1ffe.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;" border="0" /> </td>
+                                                     <td class="em_hide" > <img src=${level.desktop} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                     <!--[if !mso]><!-- -->
                                                   <tr>
-                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/96967033-e2d8-871d-0dd0-19fcfcc35050.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;" border="0" /> </td>
+                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src=${level.mobile} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                       <!--<![endif]-->
@@ -5203,7 +5637,7 @@ export const innovationFree = ({ name, level, assessment_info }) => {
                                                                              <td><table width="288" border="0" cellspacing="0" cellpadding="0" align="center">
                                                                                  <tr>
                                                                                    <td  valign="middle" bgcolor="#315C90" height="48" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:center;border-radius:40px;color:#ffffff;  font-weight:700;">
-                                                                                       <a href="https://example.com/" target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 48px;"> 
+                                                                                       <a href='https://tomhunsaker.netlify.app/assessment/${concept}/paid?change_plan=true' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 48px;"> 
                                                                                     Get complete bundle for $49
                                                                                        </a>
                                                                                    </td>
@@ -5344,7 +5778,7 @@ export const innovationFree = ({ name, level, assessment_info }) => {
   </html>`;
 };
 
-export const innovationPrem = ({ name, level, assessment_info }) => {
+export const innovationPrem = ({ id, concept, name, level }) => {
   return `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="EN">
   <head>
@@ -5733,7 +6167,7 @@ export const innovationPrem = ({ name, level, assessment_info }) => {
                                                                      </tr>
                                                                      <tr>
                                                                          <td class="txt44" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:44px;text-align:center; color:#333333;line-height:56px;font-weight:700;">
-                                                                           ${name} 
+                                                                           ${name}
                                                                          </td>
                                                                      </tr>
                                                                      
@@ -5779,12 +6213,12 @@ export const innovationPrem = ({ name, level, assessment_info }) => {
                                                    
                          
                                                   <tr>
-                                                     <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/a3f9b842-b2fa-4b05-29cc-b0e34c98815b.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;border-radius: 40px;" border="0" /> </td>
+                                                     <td class="em_hide" > <img src=${level.desktop} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;border-radius: 40px;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                     <!--[if !mso]><!-- -->
                                                   <tr>
-                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/9d32e2cf-b089-3428-0771-53773005da29.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;border-radius: 20px;" border="0" /> </td>
+                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src=${level.mobile} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;border-radius: 20px;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                       <!--<![endif]-->
@@ -6501,36 +6935,259 @@ export const innovationPrem = ({ name, level, assessment_info }) => {
                 </table>
             </td>
         </tr>
-         
-      <tr>
-            <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
-                <tr>
-                  <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/3d0e384e-16d3-772e-90bd-eb5872755933.jpg" alt="Image" aria-hidden="true" width="770"  height="5643" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
-                </tr> 
-                
-                   <tr>
-                  <td  class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/8e12d047-6e8d-1e11-4972-a07bfe3f7350.jpg" alt="Image" aria-hidden="true" width="770"  height="6107" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
-                </tr> 
-                
-                   <tr>
-                  <td  class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/cae8bc3c-8a3d-68b5-9c47-94ecdddeed9b.jpg" alt="Image" aria-hidden="true" width="770"  height="5222" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
-                </tr> 
-                
-            
-                
-                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <tr>
+            <td>
+                <table width="100%" bgcolor="#F3F3ED" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="65" class="em_hide">&nbsp;</td>
+                        <td valign="top" class="em_side_space">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        
+                                <tr>
+                                    <td height="64" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                     <tr>
+                                     <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:56px;text-align:center;color:#1C1C1C;font-weight:500;line-height: 64px;">
+                                       Personalized Insights
+                                     </td>
+                                 </tr>
+        
+        
+                                <tr>
+                                    <td height="12" class="em_hide"  style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+                                
+                                
+        
+                                <tr>
+                                    <td height="12" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+                                
+                                
+                                
+                                 <tr>
+                                     <td class="txt18" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:18px;text-align:center;color:#1C1C1C;font-weight:400;line-height: 26px;">
+                                    In this section you'll find your score for each dimension, how it compares to all respondents globally, your responses and a description of why each question matters, and suggested actions for next-level advancement
+                                     </td>
+                                 </tr>
+                                 
+                                 
+                                 
+        
+                                <tr>
+                                    <td height="40" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                 <tr>
+                                     <td class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                         <tr>
+                                           <td  valign="middle" bgcolor="#315C90" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
+                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                             Section Breakdown
+                                               </a>
+                                           </td>
+                                         </tr>
+                                       </table></td>
+                                    </tr>
+                                 
+        
+                                <tr>
+                                    <td height="30" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                            </table>
+                        </td>
+                        <td width="65" class="em_hide">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        
+            <tr>
+                  <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                       <tr>
+                      <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/3ba46548-8694-67a5-528c-26729ab7a58b.jpg" alt="Image" aria-hidden="true" width="770"  height="2169" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
+                    </tr> 
+                     
+                          
                    <!--[if !mso]><!-- -->
                   <tr>
-                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/711dff3b-ce8e-4045-273e-76497eee3aa1.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
+                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/0800b401-0af2-977a-28fb-2a353665cd09.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
                    </tr> 
   
                    <!--<![endif]-->
-                                
-                
-                
-                
-              </table></td>
-          </tr>
+                      
+                      
+                    </table></td>
+                </tr>
+        
+        
+         <tr>
+            <td>
+                <table width="100%" bgcolor="#F3F3ED" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                        <td valign="top" class="em_side_space">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        
+                           
+        
+                                     <tr>
+                                     <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:44px;text-align:center;color:#1C1C1C;font-weight:500;line-height: 56px;">
+                                     Interpersonal Dimension
+                                     </td>
+                                 </tr>
+        
+         
+        
+                                <tr>
+                                    <td height="40" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                 <tr>
+                                     <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                         <tr>
+                                           <td  valign="middle" bgcolor="#315C90" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
+                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                             Section Breakdown
+                                               </a>
+                                           </td>
+                                         </tr>
+                                       </table></td>
+                                    </tr>
+                                 
+        
+                                <tr>
+                                    <td height="30" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                            </table>
+                        </td>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+         
+         
+         
+            <tr>
+                  <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                       <tr>
+                      <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/c6b537a0-8710-1e79-11ee-b6a2341159af.jpg" alt="Image" aria-hidden="true" width="770"  height="1867" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
+                    </tr> 
+                      
+                      
+                          <!--[if !mso]><!-- -->
+                  <tr>
+                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/6f7c78d6-56f7-c586-b6ca-58cfca0a7e37.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
+                   </tr> 
+  
+                   <!--<![endif]-->
+                      
+                      
+                    </table></td>
+                </tr>
+         
+         
+         
+         
+         
+         <tr>
+            <td>
+                <table width="100%" bgcolor="#F3F3ED" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                        <td valign="top" class="em_side_space">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        
+                           
+        
+                                     <tr>
+                                     <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:44px;text-align:center;color:#1C1C1C;font-weight:500;line-height: 56px;">
+                                     Team Dimension
+                                     </td>
+                                 </tr>
+        
+         
+        
+                                <tr>
+                                    <td height="40" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                 <tr>
+                                     <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                         <tr>
+                                           <td  valign="middle" bgcolor="#315C90" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
+                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                             Section Breakdown
+                                               </a>
+                                           </td>
+                                         </tr>
+                                       </table></td>
+                                    </tr>
+                                 
+        
+                                <tr>
+                                    <td height="10" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+                                <tr>
+                                    <td height="30" class="em_hide"  style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                            </table>
+                        </td>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+         
+         
+         
+            <tr>
+                  <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                       <tr>
+                      <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/dd3d29d5-313e-668a-4115-81c7f8d53698.jpg" alt="Image" aria-hidden="true" width="770"  height="2427" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
+                    </tr> 
+                      
+                           
+                          <!--[if !mso]><!-- -->
+                  <tr>
+                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/7ba16083-6cec-f374-d266-c63a3bdfea76.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
+                   </tr> 
+  
+                   <!--<![endif]-->
+                    </table></td>
+                </tr>
+         
+         
+         
+   
+          
   
    <tr>
             <td>
@@ -6830,7 +7487,7 @@ export const innovationPrem = ({ name, level, assessment_info }) => {
 };
 
 // Execution emails
-export const executionFree = ({ name, level, assessment_info }) => {
+export const executionFree = ({ id, concept, name, level }) => {
   return `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="EN">
   <head>
@@ -7214,12 +7871,12 @@ export const executionFree = ({ name, level, assessment_info }) => {
                                                    
                          
                                                   <tr>
-                                                     <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/a010281b-f4a8-a661-a28d-cf0addce4af7.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;" border="0" /> </td>
+                                                     <td class="em_hide" > <img src=${level.desktop} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                     <!--[if !mso]><!-- -->
                                                   <tr>
-                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/c1ede20d-2f9d-b81f-2f5d-cf36e1f0351e.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;" border="0" /> </td>
+                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src=${level.mobile} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                       <!--<![endif]-->
@@ -7475,7 +8132,7 @@ export const executionFree = ({ name, level, assessment_info }) => {
                                                                              <td><table width="288" border="0" cellspacing="0" cellpadding="0" align="center">
                                                                                  <tr>
                                                                                    <td  valign="middle" bgcolor="#DFBF34" height="48" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:center;border-radius:40px;color:#1C1C1C;  font-weight:700;">
-                                                                                       <a href="https://example.com/" target="_blank" style="text-decoration:none;color:#1C1C1C;display:block;line-height: 48px;"> 
+                                                                                       <a href='https://tomhunsaker.netlify.app/assessment/${concept}/paid?change_plan=true' target="_blank" style="text-decoration:none;color:#1C1C1C;display:block;line-height: 48px;"> 
                                                                                     Get complete bundle for $49
                                                                                        </a>
                                                                                    </td>
@@ -7616,7 +8273,7 @@ export const executionFree = ({ name, level, assessment_info }) => {
   </html>`;
 };
 
-export const executionPrem = ({ name, level, assessment_info }) => {
+export const executionPrem = ({ id, concept, name, level }) => {
   return `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="EN">
   <head>
@@ -8005,7 +8662,7 @@ export const executionPrem = ({ name, level, assessment_info }) => {
                                                                      </tr>
                                                                      <tr>
                                                                          <td class="txt44" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:44px;text-align:center; color:#333333;line-height:56px;font-weight:700;">
-                                                                           ${name} 
+                                                                           ${name}
                                                                          </td>
                                                                      </tr>
                                                                      
@@ -8051,12 +8708,12 @@ export const executionPrem = ({ name, level, assessment_info }) => {
                                                    
                          
                                                   <tr>
-                                                     <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/cc37913f-7536-0a30-d577-79429cb33629.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;border-radius: 40px;" border="0" /> </td>
+                                                     <td class="em_hide" > <img src=${level.desktop} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display:block;max-width:674px;width:100%;height:auto;border-radius: 40px;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                     <!--[if !mso]><!-- -->
                                                   <tr>
-                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/14f2b43d-b71a-6891-9ccd-5c3d5e0ab225.png" alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;border-radius: 20px;" border="0" /> </td>
+                                                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src=${level.mobile} alt="Image" aria-hidden="true" width="674"  height="313" class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto;border-radius: 20px;" border="0" /> </td>
                                                    </tr> 
                                                    
                                                       <!--<![endif]-->
@@ -8773,34 +9430,183 @@ export const executionPrem = ({ name, level, assessment_info }) => {
                 </table>
             </td>
         </tr>
-         
-      <tr>
-            <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
-                <tr>
-                  <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/e2f8a86d-e3bd-7def-393f-f49c33d8bfff.jpg" alt="Image" aria-hidden="true" width="770"  height="5685" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
-                </tr> 
-                
-                   <tr>
-                  <td  class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/2cf8f8fd-c0f2-91f4-67ec-da1e9eb15af8.jpg" alt="Image" aria-hidden="true" width="770"  height="6475" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
-                </tr> 
-                
-            
-                
-                
+        
+        
+        
+        
+        <tr>
+            <td>
+                <table width="100%" bgcolor="#F3F3ED" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="65" class="em_hide">&nbsp;</td>
+                        <td valign="top" class="em_side_space">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        
+                                <tr>
+                                    <td height="64" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                     <tr>
+                                     <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:56px;text-align:center;color:#1C1C1C;font-weight:500;line-height: 64px;">
+                                       Personalized Insights
+                                     </td>
+                                 </tr>
+        
+        
+                                <tr>
+                                    <td height="12" class="em_hide"  style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+                                
+                                
+        
+                                <tr>
+                                    <td height="12" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+                                
+                                
+                                
+                                 <tr>
+                                     <td class="txt18" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:18px;text-align:center;color:#1C1C1C;font-weight:400;line-height: 26px;">
+                                    In this section you'll find your score for each dimension, how it compares to all respondents globally, your responses and a description of why each question matters, and suggested actions for next-level advancement
+                                     </td>
+                                 </tr>
+                                 
+                                 
+                                 
+        
+                                <tr>
+                                    <td height="40" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                 <tr>
+                                     <td class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                         <tr>
+                                           <td  valign="middle" bgcolor="#DFBF34" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#111111; text-transform:uppercase;font-weight:700;">
+                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#111111;display:block;line-height: 60px;"> 
+                                             Section Breakdown
+                                               </a>
+                                           </td>
+                                         </tr>
+                                       </table></td>
+                                    </tr>
+                                 
+        
+                                <tr>
+                                    <td height="30" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                            </table>
+                        </td>
+                        <td width="65" class="em_hide">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        
+            <tr>
+                  <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                       <tr>
+                      <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/0870da9d-1f05-b3a6-c98c-0aa89dd1a8f8.jpg" alt="Image" aria-hidden="true" width="770"  height="2166" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
+                    </tr> 
+                     
+                          
                    <!--[if !mso]><!-- -->
                   <tr>
-                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/8c2993a1-4c31-3b52-3bfe-86ea328e2f0b.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
+                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/464ab7e9-baa7-625a-2d4d-56a480bb538c.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
                    </tr> 
   
                    <!--<![endif]-->
-                                
-                
-                
-                
-              </table></td>
-          </tr>
+                      
+                      
+                    </table></td>
+                </tr>
+         
+         
+         
+         <tr>
+            <td>
+                <table width="100%" bgcolor="#F3F3ED" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                        <td valign="top" class="em_side_space">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        
+                           
+        
+                                     <tr>
+                                     <td class="txt56" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:44px;text-align:center;color:#1C1C1C;font-weight:500;line-height: 56px;">
+                                     Team Dimension
+                                     </td>
+                                 </tr>
+        
+         
+        
+                                <tr>
+                                    <td height="40" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                                 <tr>
+                                     <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                         <tr>
+                                           <td  valign="middle" bgcolor="#DFBF34" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#111111; text-transform:uppercase;font-weight:700;">
+                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#111111;display:block;line-height: 60px;"> 
+                                             Section Breakdown
+                                               </a>
+                                           </td>
+                                         </tr>
+                                       </table></td>
+                                    </tr>
+                                 
+        
+                                <tr>
+                                    <td height="10" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+                                <tr>
+                                    <td height="30" class="em_hide"  style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+        
+        
+                            </table>
+                        </td>
+                        <td width="55" class="em_hide">&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+         
+         
+         
+            <tr>
+                  <td><table  bgcolor="#F3F3ED" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                       <tr>
+                      <td class="em_hide" > <img src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/eeab4a02-48e3-8b90-1909-e0534e7bd01a.jpg" alt="Image" aria-hidden="true" width="770"  height="2055" class="em_full_width" style="display:block;max-width:770px;width:100%;height:auto;" border="0" /> </td>
+                    </tr> 
+                      
+                           
+                          <!--[if !mso]><!-- -->
+                  <tr>
+                     <td style="display: none;mso-hide:all;" id="showphone"> <img   id="showphone" src="https://mcusercontent.com/91d753cf1db5228f650c8546a/images/0bfd22af-4911-cfd3-41ea-230131abe2df.jpg" alt="Image" aria-hidden="true" width="674"   class="em_full_width" style="display: none;mso-hide:all;max-width:674px;width:100%;height:auto; " border="0" /> </td>
+                   </tr> 
   
-   <tr>
+                   <!--<![endif]-->
+                    </table></td>
+                </tr>
+         
+         
+         
+          
+          
+          
+  
+       <tr>
             <td>
                 <table width="100%" bgcolor="#F3F3ED" border="0" cellspacing="0" cellpadding="0">
                     <tr>

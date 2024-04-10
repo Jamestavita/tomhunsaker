@@ -92,8 +92,11 @@ export default function About() {
                 <p className="text-[16px] leading-tight">5 continents</p>
               </div>
               <div className="flex gap-[8.11px] lg:gap-4">
-                {[...Array(5)].map((val) => (
-                  <div className="w-[62px] md:w-[127] h-[62px] md:h-[127] lg:w-[144px] lg:h-[144px] bg-Red700 rounded-full"></div>
+                {[...Array(5)].map((val, index) => (
+                  <div
+                    key={index}
+                    className="w-[62px] md:w-[127] h-[62px] md:h-[127] lg:w-[144px] lg:h-[144px] bg-Red700 rounded-full"
+                  ></div>
                 ))}
               </div>
             </div>
@@ -106,8 +109,11 @@ export default function About() {
                 </p>
               </div>
               <div className="grid gap-[8.11px] md:gap-[4.046px] lg:gap-[8px] grid-cols-5 md:grid-cols-10 ">
-                {[...Array(10).keys()].map((val) => (
-                  <div className="w-[62px] md:w-[63px] lg:w-[71px] h-[62px] md:h-[63px] lg:h-[71px] bg-Yellow700 rounded-full"></div>
+                {[...Array(10).keys()].map((val, index) => (
+                  <div
+                    key={index}
+                    className="w-[62px] md:w-[63px] lg:w-[71px] h-[62px] md:h-[63px] lg:h-[71px] bg-Yellow700 rounded-full"
+                  ></div>
                 ))}
               </div>
             </div>
@@ -120,8 +126,11 @@ export default function About() {
                 </p>
               </div>
               <div className="grid gap-[1.2px] md:gap-[1.011px] lg:gap-[2px] [grid-template-columns:repeat(13,minmax(0,1fr))] md:[grid-template-columns:repeat(26,minmax(0,1fr))]">
-                {[...Array(100).keys()].map((val) => (
-                  <div className="w-[25px] md:w-[24px] lg:w-[28px] h-[25px] md:h-[24px] lg:h-[28px] bg-Green500 rounded-full"></div>
+                {[...Array(100).keys()].map((val, index) => (
+                  <div
+                    key={index}
+                    className="w-[25px] md:w-[24px] lg:w-[28px] h-[25px] md:h-[24px] lg:h-[28px] bg-Green500 rounded-full"
+                  ></div>
                 ))}
               </div>
             </div>
@@ -134,8 +143,11 @@ export default function About() {
                 </p>
               </div>
               <div className="grid gap-[1.1px] lg:gap-[2px] [grid-template-columns:repeat(48,minmax(0,1fr))] md:[grid-template-columns:repeat(95,minmax(0,1fr))] lg:[grid-template-columns:repeat(77,minmax(0,1fr))]">
-                {[...Array(1000).keys()].map((val) => (
-                  <div className="w-[6px] lg:w-[8px] h-[6px] lg:h-[8px] bg-Blue500 rounded-full"></div>
+                {[...Array(1000).keys()].map((val, index) => (
+                  <div
+                    key={index}
+                    className="w-[6px] lg:w-[8px] h-[6px] lg:h-[8px] bg-Blue500 rounded-full"
+                  ></div>
                 ))}
               </div>
             </div>
@@ -146,8 +158,11 @@ export default function About() {
                 <p className="text-[16px] leading-tight">10,000s of managers</p>
               </div>
               <div className="grid gap-[1px] [grid-template-columns:repeat(114,minmax(0,1fr))] md:[grid-template-columns:repeat(224,minmax(0,1fr))] lg:[grid-template-columns:repeat(258,minmax(0,1fr))]">
-                {[...Array(10000).keys()].map((val) => (
-                  <div className="w-[2px] h-[2px] bg-Greyscale400 rounded-full"></div>
+                {[...Array(10000).keys()].map((val, index) => (
+                  <div
+                    key={index}
+                    className="w-[2px] h-[2px] bg-Greyscale400 rounded-full"
+                  ></div>
                 ))}
               </div>
             </div>

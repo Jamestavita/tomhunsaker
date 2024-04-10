@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 import AppButton100, {
   AppButton900,
 } from "../../../../components/reuseable/AppButtons";
@@ -20,6 +20,8 @@ export function Paid() {
     (state) => state.app
   );
   const { category_points, section_points } = useContext(appContext);
+  const [searchParams] = useSearchParams();
+  console.log(searchParams.get("change_plan"));
 
   //Input handlers
   const marketSectorOptions = [
@@ -160,43 +162,44 @@ export function Paid() {
         ? 2
         : 1;
 
-    createUserApi({
-      concept: "strategy",
-      body: {
-        name: paidFormVal.Name,
-        last_name: paidFormVal.Last_Name,
-        email: paidFormVal.Email,
-        user_info: paidFormVal,
-        assessment_info: assessmentInfo,
-        points: {
-          //Personal
-          Personal_points: category_points(assessmentInfo, "Personal"),
-          Personal_score: +(
-            category_points(assessmentInfo, "Personal") / 45
-          ).toFixed(2),
+    if (!searchParams.get("change_plan"))
+      createUserApi({
+        concept: "strategy",
+        body: {
+          name: paidFormVal.Name,
+          last_name: paidFormVal.Last_Name,
+          email: paidFormVal.Email,
+          user_info: paidFormVal,
+          assessment_info: assessmentInfo,
+          points: {
+            //Personal
+            Personal_points: category_points(assessmentInfo, "Personal"),
+            Personal_score: +(
+              category_points(assessmentInfo, "Personal") / 45
+            ).toFixed(2),
 
-          //Team
-          Team_points: category_points(assessmentInfo, "Team"),
-          Team_score: +(category_points(assessmentInfo, "Team") / 40).toFixed(
-            2
-          ),
+            //Team
+            Team_points: category_points(assessmentInfo, "Team"),
+            Team_score: +(category_points(assessmentInfo, "Team") / 40).toFixed(
+              2
+            ),
 
-          //Organization
-          Organization_points:
-            category_points(assessmentInfo, "Organization") +
-            section_points(assessmentInfo, "Fit_to_Purpose") +
-            section_points(assessmentInfo, "Relative_Advantage"),
-          Organization_score: +(
-            (category_points(assessmentInfo, "Organization") +
+            //Organization
+            Organization_points:
+              category_points(assessmentInfo, "Organization") +
               section_points(assessmentInfo, "Fit_to_Purpose") +
-              section_points(assessmentInfo, "Relative_Advantage")) /
-            110
-          ).toFixed(2),
+              section_points(assessmentInfo, "Relative_Advantage"),
+            Organization_score: +(
+              (category_points(assessmentInfo, "Organization") +
+                section_points(assessmentInfo, "Fit_to_Purpose") +
+                section_points(assessmentInfo, "Relative_Advantage")) /
+              110
+            ).toFixed(2),
+          },
+          total_score,
+          level,
         },
-        total_score,
-        level,
-      },
-    });
+      });
 
     checkoutApi({
       concept: "strategy",

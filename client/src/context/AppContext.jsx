@@ -224,13 +224,13 @@ export const AppContextProvider = ({ children }) => {
       },
       total_score_strategy,
       level:
-        total_score_strategy > 170 && total_score_strategy < 196
+        total_score_strategy > 159 && total_score_strategy < 196
           ? 5
-          : total_score_strategy > 139 && total_score_strategy < 171
+          : total_score_strategy > 119 && total_score_strategy < 160
           ? 4
-          : total_score_strategy > 89 && total_score_strategy < 140
+          : total_score_strategy > 80 && total_score_strategy < 120
           ? 3
-          : total_score_strategy > 39 && total_score_strategy < 90
+          : total_score_strategy > 39 && total_score_strategy < 81
           ? 2
           : 1,
     },

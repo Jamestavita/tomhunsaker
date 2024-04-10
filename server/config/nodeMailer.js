@@ -12,14 +12,7 @@ import {
 import dotenv from "dotenv";
 dotenv.config();
 
-const NodeMailer = async ({
-  name,
-  email,
-  assessment_info,
-  concept,
-  level,
-  plan,
-}) => {
+const NodeMailer = async ({ id, name, email, concept, level, plan }) => {
   const transporter = nodemailer.createTransport({
     host: process.env.MAILER_HOST,
     secureConnection: true,
@@ -68,7 +61,7 @@ const NodeMailer = async ({
     from: `Tom Hunsaker <${process.env.EMAIL_USERNAME}>`,
     to: email,
     subject: `${mail?.subject} Assessment`,
-    html: mail.conceptMail({ name, level, assessment_info }),
+    html: mail.conceptMail({ id, concept, name, level }),
   });
 
   console.log(`Message sent: ${info.messageId}`);

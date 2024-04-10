@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
+import { useSearchParams } from "react-router-dom";
 import AppButton100 from "../../../../components/reuseable/AppButtons";
 import InputField from "../../../../components/reuseable/InputField";
 import SelectField from "../../../../components/reuseable/SelectField";
@@ -17,6 +18,7 @@ export default function Paid() {
     (state) => state.app
   );
   const { category_points, section_points } = useContext(appContext);
+  const [searchParams] = useSearchParams();
 
   //Input handlers
   const marketSectorOptions = [
@@ -159,50 +161,51 @@ export default function Paid() {
         ? 2
         : 1;
 
-    createUserApi({
-      concept: "mindset",
-      body: {
-        name: paidFormVal.Name,
-        last_name: paidFormVal.Last_Name,
-        email: paidFormVal.Email,
-        user_info: paidFormVal,
-        assessment_info: assessmentInfo,
-        points: {
-          //Personal
-          Personal_points: category_points(assessmentInfo, "Personal"),
-          Personal_score: +(
-            category_points(assessmentInfo, "Personal") / 50
-          ).toFixed(2),
+    if (!searchParams.get("change_plan"))
+      createUserApi({
+        concept: "mindset",
+        body: {
+          name: paidFormVal.Name,
+          last_name: paidFormVal.Last_Name,
+          email: paidFormVal.Email,
+          user_info: paidFormVal,
+          assessment_info: assessmentInfo,
+          points: {
+            //Personal
+            Personal_points: category_points(assessmentInfo, "Personal"),
+            Personal_score: +(
+              category_points(assessmentInfo, "Personal") / 50
+            ).toFixed(2),
 
-          //Interpersonal
-          Interpersonal_points: category_points(
-            assessmentInfo,
-            "Interpersonal"
-          ),
-          Interpersonal_score: +(
-            category_points(assessmentInfo, "Interpersonal") / 50
-          ).toFixed(2),
+            //Interpersonal
+            Interpersonal_points: category_points(
+              assessmentInfo,
+              "Interpersonal"
+            ),
+            Interpersonal_score: +(
+              category_points(assessmentInfo, "Interpersonal") / 50
+            ).toFixed(2),
 
-          //Team
-          Team_points:
-            category_points(assessmentInfo, "Team") +
-            section_points(assessmentInfo, "Purpose") +
-            section_points(assessmentInfo, "People") +
-            section_points(assessmentInfo, "Positions") +
-            section_points(assessmentInfo, "Process"),
-          Team_score: +(
-            (category_points(assessmentInfo, "Team") +
+            //Team
+            Team_points:
+              category_points(assessmentInfo, "Team") +
               section_points(assessmentInfo, "Purpose") +
               section_points(assessmentInfo, "People") +
               section_points(assessmentInfo, "Positions") +
-              section_points(assessmentInfo, "Process")) /
-            95
-          ).toFixed(2),
+              section_points(assessmentInfo, "Process"),
+            Team_score: +(
+              (category_points(assessmentInfo, "Team") +
+                section_points(assessmentInfo, "Purpose") +
+                section_points(assessmentInfo, "People") +
+                section_points(assessmentInfo, "Positions") +
+                section_points(assessmentInfo, "Process")) /
+              95
+            ).toFixed(2),
+          },
+          total_score,
+          level,
         },
-        total_score,
-        level,
-      },
-    });
+      });
 
     checkoutApi({
       concept: "mindset",
