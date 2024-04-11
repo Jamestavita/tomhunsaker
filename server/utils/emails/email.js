@@ -645,7 +645,7 @@ export const mindsetFree = ({ id, concept, name, level }) => {
                                                                              <td><table width="288" border="0" cellspacing="0" cellpadding="0" align="center">
                                                                                  <tr>
                                                                                    <td  valign="middle" bgcolor="#CB4A22" height="48" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:center;border-radius:40px;color:#ffffff;  font-weight:700;">
-                                                                                       <a href='https://tomhunsaker.netlify.app/assessment/${concept}/paid?change_plan=true' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 48px;"> 
+                                                                                       <a href='https://tomhunsaker.com/assessment/${concept}/paid?change_plan=true' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 48px;"> 
                                                                                     Get complete bundle for $49
                                                                                        </a>
                                                                                    </td>
@@ -1999,7 +1999,7 @@ export const mindsetPrem = ({ id, concept, name, level }) => {
                                      <td class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
                                          <tr>
                                            <td  valign="middle" bgcolor="#CB4A22" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
-                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                               <a href='https://tomhunsaker.com/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
                                              Section Breakdown
                                                </a>
                                            </td>
@@ -2069,7 +2069,7 @@ export const mindsetPrem = ({ id, concept, name, level }) => {
                                      <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
                                          <tr>
                                            <td  valign="middle" bgcolor="#CB4A22" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
-                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                               <a href='https://tomhunsaker.com/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
                                              Section Breakdown
                                                </a>
                                            </td>
@@ -2143,7 +2143,7 @@ export const mindsetPrem = ({ id, concept, name, level }) => {
                                      <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
                                          <tr>
                                            <td  valign="middle" bgcolor="#CB4A22" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
-                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                               <a href='https://tomhunsaker.com/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
                                              Section Breakdown
                                                </a>
                                            </td>
@@ -3142,7 +3142,7 @@ export const strategyFree = ({ id, concept, name, level }) => {
                                                                              <td><table width="288" border="0" cellspacing="0" cellpadding="0" align="center">
                                                                                  <tr>
                                                                                    <td  valign="middle" bgcolor="#425740" height="48" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:center;border-radius:40px;color:#ffffff;  font-weight:700;">
-                                                                                       <a href='https://tomhunsaker.netlify.app/assessment/${concept}/paid?change_plan=true' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 48px;"> 
+                                                                                       <a href='https://tomhunsaker.com/assessment/${concept}/paid?change_plan=true' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 48px;"> 
                                                                                     Get complete bundle for $49
                                                                                        </a>
                                                                                    </td>
@@ -4497,7 +4497,7 @@ export const strategyPrem = ({ id, concept, name, level }) => {
                                      <td class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
                                          <tr>
                                            <td  valign="middle" bgcolor="#353d30" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
-                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                               <a href='https://tomhunsaker.com/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
                                              Section Breakdown
                                                </a>
                                            </td>
@@ -4567,7 +4567,7 @@ export const strategyPrem = ({ id, concept, name, level }) => {
                                      <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
                                          <tr>
                                            <td  valign="middle" bgcolor="#353d30" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
-                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                               <a href='https://tomhunsaker.com/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
                                              Section Breakdown
                                                </a>
                                            </td>
@@ -4641,7 +4641,7 @@ export const strategyPrem = ({ id, concept, name, level }) => {
                                      <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
                                          <tr>
                                            <td  valign="middle" bgcolor="#353d30" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
-                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                               <a href='https://tomhunsaker.com/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
                                              Section Breakdown
                                                </a>
                                            </td>
@@ -5637,7 +5637,7 @@ export const innovationFree = ({ id, concept, name, level }) => {
                                                                              <td><table width="288" border="0" cellspacing="0" cellpadding="0" align="center">
                                                                                  <tr>
                                                                                    <td  valign="middle" bgcolor="#315C90" height="48" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:center;border-radius:40px;color:#ffffff;  font-weight:700;">
-                                                                                       <a href='https://tomhunsaker.netlify.app/assessment/${concept}/paid?change_plan=true' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 48px;"> 
+                                                                                       <a href='https://tomhunsaker.com/assessment/${concept}/paid?change_plan=true' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 48px;"> 
                                                                                     Get complete bundle for $49
                                                                                        </a>
                                                                                    </td>
@@ -6995,7 +6995,7 @@ export const innovationPrem = ({ id, concept, name, level }) => {
                                      <td class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
                                          <tr>
                                            <td  valign="middle" bgcolor="#315C90" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
-                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                               <a href='https://tomhunsaker.com/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
                                              Section Breakdown
                                                </a>
                                            </td>
@@ -7065,7 +7065,7 @@ export const innovationPrem = ({ id, concept, name, level }) => {
                                      <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
                                          <tr>
                                            <td  valign="middle" bgcolor="#315C90" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
-                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                               <a href='https://tomhunsaker.com/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
                                              Section Breakdown
                                                </a>
                                            </td>
@@ -7139,7 +7139,7 @@ export const innovationPrem = ({ id, concept, name, level }) => {
                                      <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
                                          <tr>
                                            <td  valign="middle" bgcolor="#315C90" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#ffffff; text-transform:uppercase;font-weight:700;">
-                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
+                                               <a href='https://tomhunsaker.com/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#ffffff;display:block;line-height: 60px;"> 
                                              Section Breakdown
                                                </a>
                                            </td>
@@ -8132,7 +8132,7 @@ export const executionFree = ({ id, concept, name, level }) => {
                                                                              <td><table width="288" border="0" cellspacing="0" cellpadding="0" align="center">
                                                                                  <tr>
                                                                                    <td  valign="middle" bgcolor="#DFBF34" height="48" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:16px;text-align:center;border-radius:40px;color:#1C1C1C;  font-weight:700;">
-                                                                                       <a href='https://tomhunsaker.netlify.app/assessment/${concept}/paid?change_plan=true' target="_blank" style="text-decoration:none;color:#1C1C1C;display:block;line-height: 48px;"> 
+                                                                                       <a href='https://tomhunsaker.com/assessment/${concept}/paid?change_plan=true' target="_blank" style="text-decoration:none;color:#1C1C1C;display:block;line-height: 48px;"> 
                                                                                     Get complete bundle for $49
                                                                                        </a>
                                                                                    </td>
@@ -9484,7 +9484,7 @@ export const executionPrem = ({ id, concept, name, level }) => {
                                      <td class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
                                          <tr>
                                            <td  valign="middle" bgcolor="#DFBF34" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#111111; text-transform:uppercase;font-weight:700;">
-                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#111111;display:block;line-height: 60px;"> 
+                                               <a href='https://tomhunsaker.com/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#111111;display:block;line-height: 60px;"> 
                                              Section Breakdown
                                                </a>
                                            </td>
@@ -9555,7 +9555,7 @@ export const executionPrem = ({ id, concept, name, level }) => {
                                      <td  class="em_side_space"><table width="380" class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
                                          <tr>
                                            <td  valign="middle" bgcolor="#DFBF34" height="60" style="padding-left: 10px;padding-right: 10px;font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:17px;text-align:center;border-radius:40px;color:#111111; text-transform:uppercase;font-weight:700;">
-                                               <a href='https://tomhunsaker.netlify.app/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#111111;display:block;line-height: 60px;"> 
+                                               <a href='https://tomhunsaker.com/overview/user_assessment_info?concept=${concept}&name=${name}&id=${id}' target="_blank" style="text-decoration:none;color:#111111;display:block;line-height: 60px;"> 
                                              Section Breakdown
                                                </a>
                                            </td>
