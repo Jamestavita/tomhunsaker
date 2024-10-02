@@ -43,8 +43,8 @@ stripeRouter_mindset.post("/create-checkout-session", async (req, res) => {
     ],
     mode: "payment",
     customer: customer.id,
-    success_url: `${process.env.SUCCESS_URL}/mindset/paid_success`,
-    cancel_url: `${process.env.CANCEL_URL}/mindset/paid`,
+    success_url: `${process.env.CLIENT_URL}/assessment/mindset/paid_success`,
+    cancel_url: `${process.env.CLIENT_URL}/assessment/mindset/paid`,
   });
 
   res.json({ url: session.url });
@@ -210,8 +210,8 @@ stripeRouter_strategy.post("/create-checkout-session", async (req, res) => {
     ],
     mode: "payment",
     customer: customer.id,
-    success_url: `${process.env.SUCCESS_URL}/strategy/paid_success`,
-    cancel_url: `${process.env.CANCEL_URL}/strategy/paid`,
+    success_url: `${process.env.CLIENT_URL}/assessment/strategy/paid_success`,
+    cancel_url: `${process.env.CLIENT_URL}/assessment/strategy/paid`,
   });
 
   res.json({ url: session.url });
@@ -377,8 +377,8 @@ stripeRouter_innovation.post("/create-checkout-session", async (req, res) => {
     ],
     mode: "payment",
     customer: customer.id,
-    success_url: `${process.env.SUCCESS_URL}/innovation/paid_success`,
-    cancel_url: `${process.env.CANCEL_URL}/innovation/paid`,
+    success_url: `${process.env.CLIENT_URL}/assessment/innovation/paid_success`,
+    cancel_url: `${process.env.CLIENT_URL}/assessment/innovation/paid`,
   });
 
   res.json({ url: session.url });
@@ -544,8 +544,8 @@ stripeRouter_execution.post("/create-checkout-session", async (req, res) => {
     ],
     mode: "payment",
     customer: customer.id,
-    success_url: `${process.env.SUCCESS_URL}/execution/paid_success`,
-    cancel_url: `${process.env.CANCEL_URL}/execution/paid`,
+    success_url: `${process.env.CLIENT_URL}/assessment/execution/paid_success`,
+    cancel_url: `${process.env.CLIENT_URL}/assessment/execution/paid`,
   });
 
   res.json({ url: session.url });

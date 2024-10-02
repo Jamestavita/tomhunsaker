@@ -3,11 +3,12 @@ import { appApi } from "../services/appApi.js";
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import storage from "redux-persist/lib/storage";
 import { persistReducer } from "redux-persist";
+import sessionStorage from "redux-persist/lib/storage/session";
 
 const persistConfig = {
   key: "root",
   version: 1,
-  storage,
+  storage: sessionStorage,
 };
 
 const reducer = combineReducers({

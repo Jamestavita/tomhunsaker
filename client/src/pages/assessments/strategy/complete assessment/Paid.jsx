@@ -21,7 +21,6 @@ export function Paid() {
   );
   const { category_points, section_points } = useContext(appContext);
   const [searchParams] = useSearchParams();
-  console.log(searchParams.get("change_plan"));
 
   //Input handlers
   const marketSectorOptions = [

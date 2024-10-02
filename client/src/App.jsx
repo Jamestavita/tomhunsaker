@@ -78,6 +78,7 @@ export default function App() {
   const ExecutionLayout = lazy(() =>
     import("./pages/layouts/executionLayout/ExecutionLayout")
   );
+
   return (
     <div className="h-full">
       <Suspense fallback={<Loading />}>

@@ -731,14 +731,14 @@ const initialState = {
     //Personal
     {
       number: "01",
-      qstn: "I genuinely believe I can change my circumstances",
+      qstn: "I focus on what is most meaningful to me",
       category: "Personal",
       options: [
-        "Almost always",
-        "Often",
-        "Sometimes",
-        "Rarely",
-        "Almost never",
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
         "Don't know",
       ],
       significance:
@@ -746,14 +746,14 @@ const initialState = {
     },
     {
       number: "02",
-      qstn: "I focus on doing things better rather than doing more things",
+      qstn: "My current skillset is highly valuable",
       category: "Personal",
       options: [
-        "Almost always",
-        "Often",
-        "Sometimes",
-        "Rarely",
-        "Almost never",
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
         "Don't know",
       ],
       significance:
@@ -761,28 +761,28 @@ const initialState = {
     },
     {
       number: "03",
-      qstn: "I can clearly describe how my thoughts influence my level of engagement",
+      qstn: "My current skillset is highly uniquet",
       category: "Personal",
       options: [
-        "Almost always",
-        "Often",
-        "Sometimes",
-        "Rarely",
-        "Almost never",
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
         "Don't know",
       ],
       significance: "Patterns of thought directly influence engagement level",
     },
     {
       number: "04",
-      qstn: "I approach each situation as an opportunity to learn",
+      qstn: "I know exactly what I want to achieve over the next 3 years",
       category: "Personal",
       options: [
-        "Almost always",
-        "Often",
-        "Sometimes",
-        "Rarely",
-        "Almost never",
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
         "Don't know",
       ],
       significance:
@@ -790,7 +790,7 @@ const initialState = {
     },
     {
       number: "05",
-      qstn: "I quickly change even strong opinions when presented with better evidence",
+      qstn: "I effectively diagnose which type of change is best for a given context",
       category: "Personal",
       options: [
         "Almost always",
@@ -805,7 +805,7 @@ const initialState = {
     },
     {
       number: "06",
-      qstn: "I excel at nurturing and expressing gratitude",
+      qstn: "I change quickly when presented with a better way",
       category: "Personal",
       options: [
         "Almost always",
@@ -820,7 +820,7 @@ const initialState = {
     },
     {
       number: "07",
-      qstn: "I am quick to ask good questions",
+      qstn: "I treat all forms of change equally",
       category: "Personal",
       options: [
         "Almost always",
@@ -835,7 +835,7 @@ const initialState = {
     },
     {
       number: "08",
-      qstn: "My thoughts, beliefs, and actions align",
+      qstn: "I help others to change for the better",
       category: "Personal",
       options: [
         "Almost always",
@@ -850,7 +850,7 @@ const initialState = {
     },
     {
       number: "09",
-      qstn: "I seek new challenges",
+      qstn: "I feel defensive when presented with options that differ from my own ideas",
       category: "Personal",
       options: [
         "Almost always",
@@ -867,14 +867,14 @@ const initialState = {
     //Team
     {
       number: "10",
-      qstn: "I seek to understand what others find meaningful",
+      qstn: "We are often surprised by external forces that impact us",
       category: "Team",
       options: [
-        "Almost always",
-        "Often",
-        "Sometimes",
-        "Rarely",
-        "Almost never",
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
         "Don't know",
       ],
       significance:
@@ -882,14 +882,14 @@ const initialState = {
     },
     {
       number: "11",
-      qstn: "I am trustworthy",
+      qstn: "Ideas that differ from the norm are encouraged ",
       category: "Team",
       options: [
-        "Almost always",
-        "Often",
-        "Sometimes",
-        "Rarely",
-        "Almost never",
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
         "Don't know",
       ],
       significance:
@@ -897,14 +897,14 @@ const initialState = {
     },
     {
       number: "12",
-      qstn: "I am candid but not contentious",
+      qstn: "We communicate about change in a way that doesn't disparage the past",
       category: "Team",
       options: [
-        "Almost always",
-        "Often",
-        "Sometimes",
-        "Rarely",
-        "Almost never",
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
         "Don't know",
       ],
       significance:
@@ -912,14 +912,14 @@ const initialState = {
     },
     {
       number: "13",
-      qstn: "I see the good in others",
+      qstn: "We make a clear distinction between change for difference and change for better",
       category: "Team",
       options: [
-        "Almost always",
-        "Often",
-        "Sometimes",
-        "Rarely",
-        "Almost never",
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
         "Don't know",
       ],
       significance:
@@ -927,14 +927,14 @@ const initialState = {
     },
     {
       number: "14",
-      qstn: "I am collaborative",
+      qstn: "We provide our people with the appropriate time to process chanage",
       category: "Team",
       options: [
-        "Almost always",
-        "Often",
-        "Sometimes",
-        "Rarely",
-        "Almost never",
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
         "Don't know",
       ],
       significance:
@@ -942,14 +942,14 @@ const initialState = {
     },
     {
       number: "15",
-      qstn: "I make it easier for others to get things done",
+      qstn: "We are clear about the advantages to be gained when a change is proposed",
       category: "Team",
       options: [
-        "Almost always",
-        "Often",
-        "Sometimes",
-        "Rarely",
-        "Almost never",
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
         "Don't know",
       ],
       significance:
@@ -957,14 +957,14 @@ const initialState = {
     },
     {
       number: "16",
-      qstn: "I actively find ways to help others maximize their potential",
+      qstn: "We excel at developing a clear, prioritized vision for our future",
       category: "Team",
       options: [
-        "Almost always",
-        "Often",
-        "Sometimes",
-        "Rarely",
-        "Almost never",
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
         "Don't know",
       ],
       significance:
@@ -972,14 +972,14 @@ const initialState = {
     },
     {
       number: "17",
-      qstn: "I make others feel that they can share openly with me",
+      qstn: "Our strategy can be clearly articulated by everyone on the team",
       category: "Team",
       options: [
-        "Almost always",
-        "Often",
-        "Sometimes",
-        "Rarely",
-        "Almost never",
+        "Totally describes us",
+        "Mostly describes us",
+        "Somewhat describes us",
+        "Not much like us",
+        "Not at all like us",
         "Don't know",
       ],
       significance:
@@ -989,7 +989,7 @@ const initialState = {
     //Organization
     {
       number: "18",
-      qstn: "Our purpose is authentic, actionable, and widely understood",
+      qstn: "Over 90% of our customer reviews are positive and over 60% of customers actively recommend us to others",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1004,7 +1004,7 @@ const initialState = {
     },
     {
       number: "19",
-      qstn: "Over 80% of our people highly recommend being on this team",
+      qstn: "We possess valuable intangibles in the form of strong customer relationships, recognized brand names and market intelligence",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1019,22 +1019,21 @@ const initialState = {
     },
     {
       number: "20",
-      qstn: "We are exceptional at developing our people when and how it is needed",
+      qstn: "The statement that our customers are most likely to say about us is (choose one):",
       category: "Organization",
       options: [
-        "Totally describes us",
-        "Mostly describes us",
-        "Somewhat describes us",
-        "Not much like us",
-        "Not at all like us",
-        "Don't know",
+        `They fit my needs better than anyone and I’m confident they’ll continue to do so in the future`,
+        `They are a great fit for my needs and I hope they can continue to be so in the future`,
+        `They are a good fit for my needs, and I’m willing to stay with them in the future if they continue to be so`,
+        `They fit my needs for now, but I’m open to a better alternative`,
+        `I use them because I’ve yet to find an alternative, but I’ll switch when I do`,
       ],
       significance:
         "Teams whose people believe they have access to exceptional development resources outperform their peers by nearly 20%",
     },
     {
       number: "21",
-      qstn: "We have lower than industry average turnover among our best people",
+      qstn: "Our level of employee engagement is in the top quartile of our industry",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1049,7 +1048,7 @@ const initialState = {
     },
     {
       number: "22",
-      qstn: "We attract all of the talent we need",
+      qstn: "We find it easy to attract the talent that we need",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1064,7 +1063,7 @@ const initialState = {
     },
     {
       number: "23",
-      qstn: "People here are consistently put in the right position to maximize their potential",
+      qstn: "The financial return on additional investments in our core business is high",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1079,7 +1078,7 @@ const initialState = {
     },
     {
       number: "24",
-      qstn: "We adjust our management approach based on the type of change we need to achieve",
+      qstn: "The companies that supply to us and/or distribute our products and services would say that we treat them as valued business partners",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1094,7 +1093,7 @@ const initialState = {
     },
     {
       number: "25",
-      qstn: "It is easy to get things done here",
+      qstn: "The communities in which we operate would say that we are a positive influence",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1109,7 +1108,7 @@ const initialState = {
     },
     {
       number: "26",
-      qstn: "It is easy to get things done here",
+      qstn: "We are viewed as a more ethical and socially responsible company than direct alternatives",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1124,22 +1123,15 @@ const initialState = {
     },
     {
       number: "27",
-      qstn: "It is easy to get things done here",
+      qstn: "We actively consider the following stakeholders when developing strategy (select all that apply)",
       category: "Organization",
-      options: [
-        "Totally describes us",
-        "Mostly describes us",
-        "Somewhat describes us",
-        "Not much like us",
-        "Not at all like us",
-        "Don't know",
-      ],
+      options: ["Customers", "Investors", "Employees", "Partners", "Community"],
       significance:
         "Positive accountability nearly doubles when people believe that they have the freedom to take decisions are responsible for their results",
     },
     {
       number: "28",
-      qstn: "It is easy to get things done here",
+      qstn: "Few competitors can match what we offer",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1154,7 +1146,7 @@ const initialState = {
     },
     {
       number: "29",
-      qstn: "It is easy to get things done here",
+      qstn: "Our market share has been increasing over the past three years",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1169,21 +1161,20 @@ const initialState = {
     },
     {
       number: "30",
-      qstn: "It is easy to get things done here",
+      qstn: "This best describes the next 3 years for our primary service market(s)",
       category: "Organization",
       options: [
-        "Totally describes us",
-        "Mostly describes us",
-        "Somewhat describes us",
-        "Not much like us",
-        "Not at all like us",
-        "Don't know",
+        "Rapidly growing and global",
+        "Moderately growing and global",
+        "Rapidly growing and regional",
+        "Moderately growing and regional",
+        "Market is still forming",
       ],
       significance: "Teams whose people feel respected report 38% less burnout",
     },
     {
       number: "31",
-      qstn: "It is easy to get things done here",
+      qstn: "We have a high level of perceived uniqueness relative to competitors; and/or our NPS (Net Promoter Score) is in the top quartile for our industry",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1198,7 +1189,7 @@ const initialState = {
     },
     {
       number: "32",
-      qstn: "It is easy to get things done here",
+      qstn: "We enjoy a price premium, higher growth rates and/or higher margins than our competitors",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1213,7 +1204,7 @@ const initialState = {
     },
     {
       number: "33",
-      qstn: "It is easy to get things done here",
+      qstn: "We have significant intangibles in the form of our loyal workforce, effective processes and a strong corporate culture",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1228,7 +1219,7 @@ const initialState = {
     },
     {
       number: "34",
-      qstn: "It is easy to get things done here",
+      qstn: "We increasingly need to invest more to produce similar results",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1243,7 +1234,7 @@ const initialState = {
     },
     {
       number: "35",
-      qstn: "It is easy to get things done here",
+      qstn: "The purchase frequency and/or growth rate within our core customers is decreasing",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1258,7 +1249,7 @@ const initialState = {
     },
     {
       number: "36",
-      qstn: "It is easy to get things done here",
+      qstn: "Our core customers increasingly want more for less",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1273,7 +1264,7 @@ const initialState = {
     },
     {
       number: "37",
-      qstn: "It is easy to get things done here",
+      qstn: "We excel at predicting the forces that will impact our market(s)",
       category: "Organization",
       options: [
         "Totally describes us",
@@ -1295,28 +1286,41 @@ const initialState = {
         {
           qstn: "Continue",
           options: [
-            "Our purpose statement — it's clear and motivating",
-            "Different agendas, functions and incentives around purpose are considered",
-            "We regularly discuss purpose",
-            "Our actions reinforce our purpose",
+            "Our offering is highly valued and demanded by an attractive, expanding, and accessible audience",
+            "Our actions align with our messages",
+            "Our returns on incremental investment are strong and growing",
+            "Our business model is desired by customers, feasible to operate efficiently, and built sustainably",
+            "We are exceptional at training employees on customer success",
+            "We have a robust and diversified partner ecosystem",
+            "We enjoy significant economies of scale benefits",
+            "The communities where we operate welcome our presence",
           ],
         },
         {
           qstn: "Stop",
           options: [
-            "Our purpose statement - it's unclear or doesn't fit us",
-            "Overlooking different functions when considering purpose",
-            "The way we approach purpose seems inauthentic",
-            "What we say and what we do often don't match",
+            "Our core audience increasingly wants more for less",
+            "More resources are needed to produce similar or diminishing results",
+            "Our words and our actions don't align",
+            "Our returns on incremental investment are limited and declining",
+            "Our business model is becoming less desired by customers, less feasible to operate efficiently, and increasingly requires more to yield less",
+            "We are not exceptional at training employees on customer success",
+            "We have a narrow and volatile partner ecosystem",
+            "We don't enjoy significant economies of scale benefits",
+            "The communities where we operate are ambivalent to or distrustful of our presence",
+            "We don't have reliable data in one or more of these areas",
           ],
         },
         {
           qstn: "Start",
           options: [
-            "Develop a meaningful purpose statement",
-            "Bring different functions together to create purpose alignment",
-            "Be authentic about how we project our purpose",
-            "Take concrete actions that show our commitment to purpose",
+            "Seek to improve the perceived value of our offering by an attractive, expanding, and accessible audience",
+            "Better aligning our actions with our messages",
+            "Ensure our business model is desirable, feasible, and sustainable",
+            "Improve how we train employees on customer success",
+            "Deepen and broaden our partner ecosystem",
+            "Seek opportunities for improved economies of scale benefits",
+            "Become a welcomed member of all communities where we operate",
           ],
         },
       ],
@@ -1329,44 +1333,38 @@ const initialState = {
         {
           qstn: "Continue",
           options: [
-            "We focus on developing people",
-            "Respectful candor is encouraged and practiced",
-            "The caliber of performance incentives provided",
-            " Freedom to act, learn, and grow",
-            "Giving proper credit for contributions",
-            "Genuine collaboration within and across teams",
-            "People can be their best self here",
-            "We excel at delivering on the 4 universal desires (earn, contribute, learn, belong)",
-            "We effectively adapt our culture for our context",
+            "We have a deeply loyal and growing base of customers who identify with our purpose",
+            "Few alternatives can match and sustain what we offer",
+            "Customers view us as highly differentiated",
+            "Our partner ecosystem is distinct from competitors",
+            "We're able to attract and retain top quality talent",
+            "The communities where we operate prefer us to our peers",
+            "We provide more attractive investment returns to our peers",
           ],
         },
         {
           qstn: "Stop",
           options: [
-            "Underinvesting in people development",
-            "Saying that respectful candor is encouraged but not practicing it",
-            "Ineffective performance incentives",
-            "Lack of freedom to act, learn, and grow",
-            "Withholding proper credit for contributions",
-            "Providing too few collaboration resources",
-            "Asking for ideas but not embracing them",
-            "Underdelivering on the 4 universal desires (earn, contribute, learn, belong)",
-            "Not effectively adapt our culture for our context",
+            "Customers are increasingly skeptical of our purpose",
+            "Others can replicate and exceed what we offer",
+            "Switching costs from our service to a substitute are decreasing",
+            "Our partner ecosystem is common for our market",
+            "We find it difficult to attract and retain top quality talent",
+            "The communities where we operate prefer our peers to us",
+            "We provide less attractive investment returns to our peers",
+            "We don't have reliable data in one or more of these ares",
           ],
         },
         {
           qstn: "Start",
           options: [
-            "Invest in impactful learning opportunities",
-            "Encourage effective candor",
-            "Provide more appealing performance incentives",
-            "Improve trust",
-            "Ensure that rewards and promotion are merit-driven",
-            "Give proper credit for contributions",
-            "Improve cross-training",
-            "Genuinely support developing valuable ideas",
-            "More effectively delivering on the 4 universal desires (earn, contribute, learn, belong)",
-            "More effectively adapting our culture for our context",
+            "Seek ways to deepen customer loyalty",
+            "Seek ways to become more distinct from alternatives",
+            "Ensure that a valuable and growing customer base views us as highly differentiated",
+            "Adopt ways to make our partner ecosystem distinct from competitors",
+            "Outline why or why (or why not) you're able to attract and retain top quality talent",
+            "Articulate why (or why not) the communities where we operate prefer us to our peers",
+            "Codify why (or why not) we provide more attractive investment returns to our peers",
           ],
         },
       ],

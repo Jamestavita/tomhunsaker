@@ -11,8 +11,6 @@ export default function UserAssessmentInfo() {
     id: searchParams.get("id"),
   });
 
-  console.log(data);
-
   if (isError.data === "Could not find this user") navigate("/");
 
   if (searchParams.get("concept") === "Mindset")
@@ -709,7 +707,7 @@ export default function UserAssessmentInfo() {
         )}
       </>
     );
-    
+
   if (searchParams.get("concept") === "Innovation")
     return (
       <>

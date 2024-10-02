@@ -33,7 +33,6 @@ export default function SubscriberForm({ className }) {
     })
       .unwrap()
       .then((result) => {
-        console.log(result);
         setLoading(false);
         setIsSubscribed(true);
       })
@@ -52,7 +51,9 @@ export default function SubscriberForm({ className }) {
       </p>
       {isSubscribed ? (
         <div className="py-[150px] text-center">
-          <p className="text-4xl text-Greyscale700 mb-2">Thanks for signing up</p>
+          <p className="text-4xl text-Greyscale700 mb-2">
+            Thanks for signing up
+          </p>
           <p className="text-Greyscale700">We'll keep you updated.</p>
         </div>
       ) : (

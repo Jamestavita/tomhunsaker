@@ -42,15 +42,6 @@ export default function OneToTen() {
     );
   }
 
-  // console.log(
-  //   getResponse(
-  //     mindset_assessment_evaluation,
-  //     assessment.category,
-  //     number_personal
-  //   )
-  // );
-  // console.log(mindset_assessment_evaluation);
-
   return (
     <div className="">
       <div className="grid lg:flex gap-2 items-center w-[min(90rem,100%)] mx-auto p-4 md:px-12 lg:px-32 lg:justify-between">
