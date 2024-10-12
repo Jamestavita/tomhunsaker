@@ -34,6 +34,8 @@ app.use(
     origin: [
       "http://localhost:5173",
       "https://tomhunsaker.netlify.app",
+      "https://tomhunsaker.com",
+      "http://tomhunsaker.com",
       process.env.CLIENT_URL,
     ],
     methods: ["GET", "POST", "DELETE", "UPDATE", "PUT", "PATCH"],
