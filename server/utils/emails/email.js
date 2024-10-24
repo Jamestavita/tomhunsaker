@@ -2718,7 +2718,7 @@ export const strategyFree = ({ id, concept, name, level }) => {
                                             <tr>
                                             <td class="em_align_center" style="font-family:'Nunito', Avenir, Arial, sans-serif;font-size:14px;text-align:right; color:#656558;line-height:20px;font-weight:700;text-transform: uppercase;letter-spacing:1px;">
   
-                                               Mindset & Culture Assessment
+                                               Strategy & Change Assessment
   
   
                                             </td>
@@ -2841,7 +2841,7 @@ export const strategyFree = ({ id, concept, name, level }) => {
                                                                      
                                                                              <tr>
                                                                          <td class="txt30" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:30px;text-align:center; color:#333333;line-height:40px;font-weight:700;">
-                                                                           on completing the Mindset & Culture Assessment!
+                                                                           on completing the Strategy & Change Assessment!
                                                                          </td>
                                                                      </tr>
                          
@@ -3509,7 +3509,7 @@ export const strategyPrem = ({ id, concept, name, level }) => {
                                             <tr>
                                             <td class="em_align_center" style="font-family:'Nunito', Avenir, Arial, sans-serif;font-size:14px;text-align:right; color:#656558;line-height:15px;font-weight:700;text-transform: uppercase;letter-spacing:1px;">
   
-                                               Mindset & Culture Assessment
+                                               Strategy & Change Assessment
   
   
                                             </td>
@@ -5214,7 +5214,7 @@ export const innovationFree = ({ id, concept, name, level }) => {
                                             <tr>
                                             <td class="em_align_center" style="font-family:'Nunito', Avenir, Arial, sans-serif;font-size:14px;text-align:right; color:#656558;line-height:20px;font-weight:700;text-transform: uppercase;letter-spacing:1px;">
   
-                                               Mindset & Culture Assessment
+                                               Innovation & Analytics Assessment
   
   
                                             </td>
@@ -5337,7 +5337,7 @@ export const innovationFree = ({ id, concept, name, level }) => {
                                                                      
                                                                              <tr>
                                                                          <td class="txt30" style="font-family:'DM Sans', Avenir, Arial, sans-serif;font-size:30px;text-align:center; color:#333333;line-height:40px;font-weight:700;">
-                                                                           on completing the Mindset & Culture Assessment!
+                                                                           on completing the Innovation & Analytics Assessment!
                                                                          </td>
                                                                      </tr>
                          
@@ -6004,7 +6004,7 @@ export const innovationPrem = ({ id, concept, name, level }) => {
                                             <tr>
                                             <td class="em_align_center" style="font-family:'Nunito', Avenir, Arial, sans-serif;font-size:14px;text-align:right; color:#656558;line-height:15px;font-weight:700;text-transform: uppercase;letter-spacing:1px;">
   
-                                               Mindset & Culture Assessment
+                                               Innovation & Analytics Assessment
   
   
                                             </td>
@@ -7712,7 +7712,7 @@ export const executionFree = ({ id, concept, name, level }) => {
                                             <tr>
                                             <td class="em_align_center" style="font-family:'Nunito', Avenir, Arial, sans-serif;font-size:14px;text-align:right; color:#656558;line-height:20px;font-weight:700;text-transform: uppercase;letter-spacing:1px;">
   
-                                               Mindset & Culture Assessment
+                                               Execution & Agility Assessment
   
   
                                             </td>
@@ -8499,7 +8499,7 @@ export const executionPrem = ({ id, concept, name, level }) => {
                                             <tr>
                                             <td class="em_align_center" style="font-family:'Nunito', Avenir, Arial, sans-serif;font-size:14px;text-align:right; color:#656558;line-height:15px;font-weight:700;text-transform: uppercase;letter-spacing:1px;">
   
-                                               Mindset & Culture Assessment
+                                               Execution & Agility Assessment
   
   
                                             </td>
